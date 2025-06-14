@@ -19,6 +19,15 @@ body:
       value: "A bug happened!"
     validations:
       required: true
+  - type: textarea
+    id: acceptance_criteria
+    attributes:
+      label: Relevant acceptance criteria
+      description: Please specify or link relevant acceptance criteria so that developers can check after fixing this bug that their fixes didn't break anything.
+      placeholder: Listen to your heart.
+      value: "Listen to your heart."
+    validations:
+      required: true
   - type: dropdown
     id: version
     attributes:
