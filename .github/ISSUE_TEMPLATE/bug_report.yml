@@ -56,7 +56,7 @@ body:
       description: |
         Example:
         
-        **OS**: Ubuntu 20.04
+        **OS**: Ubuntu 24.04
       value: |
         **OS**:
       render: markdown
