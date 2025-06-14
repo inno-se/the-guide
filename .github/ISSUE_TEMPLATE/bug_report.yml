@@ -56,9 +56,9 @@ body:
       description: |
         Example:
         
-        **OS**: Ubuntu 24.04
+        OS: Ubuntu 24.04
       value: |
-        **OS**:
+        OS:
       render: markdown
     validations:
       required: true
