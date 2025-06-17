@@ -1,0 +1,109 @@
+name: "Technical Task"
+description: "Create a technical task that implements a part of a user story."
+title: "[Task]: "
+labels: ["task"]
+projects: ["inno-swp-2025/1"]
+body:
+  - type: textarea
+    id: crutch-1
+    attributes:
+      label: "<h2> Task Description & Context </h2>"
+      description: |
+        Don't change the default text!
+        This is a crutch for inserting Markdown
+        so that the instructions remain after the issue is created.
+
+        Follow these instructions.
+      value: |
+        <!--
+        This form is for creating a specific, actionable technical task.
+        Tasks should be small enough to be completed by one person in a short amount of time.
+        Each task must be linked to a parent User Story issue as a sub-issue.
+        
+        Briefly describe what this task is for.
+        Explain its role in the parent user story and what specific part of the functionality it covers.
+        -->
+    validations:
+      required: false
+
+  - type: textarea
+    id: task-description
+    attributes:
+      label: " "
+      placeholder: |
+        Create the backend API endpoint for liking a video.
+        The endpoint will handle authentication, database updates, and return the correct response codes.
+    validations:
+      required: true
+
+  - type: textarea
+    id: crutch-2
+    attributes:
+      label: "<h2> Completion Criteria </h2>"
+      description: |
+        Don't change the default text!
+        This is a crutch for inserting Markdown
+        so that the instructions remain after the issue is created.
+
+        Follow these instructions.
+      value: |
+        <!--
+        This is the technical "Definition of Done" for this task.
+        List specific, verifiable, and technical outcomes.
+        This is what will be checked during code review.
+        -->
+    validations:
+      required: false
+
+  - type: textarea
+    id: completion-criteria
+    attributes:
+      label: " "
+      placeholder: |
+        - [ ] A `POST` route is created at `/api/v1/video/{id}/like`.
+        - [ ] The route is protected and requires a valid JWT.
+        - [ ] A successful request returns a `200 OK` status.
+        - [ ] A request for a video the user has already liked returns a `409 Conflict`.
+        - [ ] A request with a non-existent `video_id` returns a `404 Not Found`.
+        - [ ] Unit tests for the `LikeService` are written and pass with >90% coverage.
+        - [ ] The new endpoint is documented in the OpenAPI/Swagger spec.
+    validations:
+      required: true
+
+  - type: textarea
+    id: crutch-3
+    attributes:
+      label: "<h2> Task Description & Context </h2>"
+      description: |
+        Don't change the default text!
+        This is a crutch for inserting Markdown
+        so that the instructions remain after the issue is created.
+
+        Follow these instructions.
+      value: |
+        <!--
+        Add any thoughts on the technical approach, files to be modified, potential libraries to use, or identified risks.
+        -->
+    validations:
+      required: false
+  
+  - type: textarea
+    id: implementation-notes
+    attributes:
+      label: " "
+      placeholder: |
+        - Will modify `video.controller.ts` and `video.service.ts`.
+        - Need to add a new `video_likes` table to the database schema.
+        - Consider potential race conditions if a user spams the like button.
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Blockers
+
+        Sub-issues are blockers of this task.
+
+        If you want to add sub-issues that are sub-tasks of this task, 
+        you should convert this task issue into a user story issue and add tasks there.
