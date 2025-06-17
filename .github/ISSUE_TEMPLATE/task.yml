@@ -1,65 +1,65 @@
-name: "Technical Task"
-description: "Create a technical task that implements a part of a user story."
-title: "[Task]: "
-labels: ["task"]
+name: "Development Task"
+description: "Create a development task that implements a part of a user story."
+title: "[Development Task]: "
+labels: ["Tasks: development"]
 projects: ["inno-swp-2025/1"]
 body:
   - type: textarea
-    id: crutch-1
+    id: about-tasks
     attributes:
-      label: "<h2> Task Description & Context </h2>"
+      label: "<!-- About development tasks -->"
       description: |
-        Don't change the default text!
-        This is a crutch for inserting Markdown
-        so that the instructions remain after the issue is created.
-
-        Follow these instructions.
+        Don't change the text in this field!
+        Follow the instructions in the comment.
       value: |
         <!--
-        This form is for creating a specific, actionable technical task.
+        This form is for creating a specific, actionable development task.
         Tasks should be small enough to be completed by one person in a short amount of time.
         Each task must be linked to a parent User Story issue as a sub-issue.
-        
-        Briefly describe what this task is for.
-        Explain its role in the parent user story and what specific part of the functionality it covers.
+
+        If you want to add sub-issues that are sub-tasks of this task, 
+        you should create a user story issue and add those tasks there as sub-issues.
         -->
     validations:
       required: false
 
   - type: textarea
-    id: task-description
+    id: task-description-and-context
     attributes:
-      label: " "
-      placeholder: |
+      label: "<h2> Task Description & Context </h2>"
+      description: |
+        Keep the comment.
+        Follow the instructions in the comment.
+        Write your text after the comment.
+      value: |
+        <!--
+        Briefly describe what this task is for.
+        Explain its role in the parent user story and what specific part of the functionality it covers.
+
+        Example:
+
         Create the backend API endpoint for liking a video.
         The endpoint will handle authentication, database updates, and return the correct response codes.
+        -->
     validations:
       required: true
 
   - type: textarea
-    id: crutch-2
+    id: completion-criteria
     attributes:
       label: "<h2> Completion Criteria </h2>"
       description: |
-        Don't change the default text!
-        This is a crutch for inserting Markdown
-        so that the instructions remain after the issue is created.
-
-        Follow these instructions.
+        Keep the comment.
+        Follow the instructions in the comment.
+        Write your text after the comment.
       value: |
         <!--
         This is the technical "Definition of Done" for this task.
         List specific, verifiable, and technical outcomes.
         This is what will be checked during code review.
-        -->
-    validations:
-      required: false
 
-  - type: textarea
-    id: completion-criteria
-    attributes:
-      label: " "
-      placeholder: |
+        Example:
+
         - [ ] A `POST` route is created at `/api/v1/video/{id}/like`.
         - [ ] The route is protected and requires a valid JWT.
         - [ ] A successful request returns a `200 OK` status.
@@ -67,43 +67,38 @@ body:
         - [ ] A request with a non-existent `video_id` returns a `404 Not Found`.
         - [ ] Unit tests for the `LikeService` are written and pass with >90% coverage.
         - [ ] The new endpoint is documented in the OpenAPI/Swagger spec.
+        -->
     validations:
       required: true
 
   - type: textarea
-    id: crutch-3
+    id: implementation-notes
     attributes:
-      label: "<h2> Task Description & Context </h2>"
+      label: "<h2> Implementation Notes </h2>"
       description: |
-        Don't change the default text!
-        This is a crutch for inserting Markdown
-        so that the instructions remain after the issue is created.
-
-        Follow these instructions.
+        Keep the comment.
+        Follow the instructions in the comment.
+        Write your text after the comment.
       value: |
         <!--
         Add any thoughts on the technical approach, files to be modified, potential libraries to use, or identified risks.
-        -->
-    validations:
-      required: false
-  
-  - type: textarea
-    id: implementation-notes
-    attributes:
-      label: " "
-      placeholder: |
+
+        Example:
+
         - Will modify `video.controller.ts` and `video.service.ts`.
         - Need to add a new `video_likes` table to the database schema.
         - Consider potential race conditions if a user spams the like button.
+        -->
     validations:
       required: false
 
-  - type: markdown
+  - type: textarea
+    id: tasks
     attributes:
+      label: "<h2> Blockers </h2>"
+      description: |
+        Don't change the text in this field!
       value: |
-        ## Blockers
-
-        Sub-issues are blockers of this task.
-
-        If you want to add sub-issues that are sub-tasks of this task, 
-        you should convert this task issue into a user story issue and add tasks there.
+        Sub-issues are blockers for this task.
+    validations:
+      required: false
