@@ -47,7 +47,7 @@ body:
   - type: textarea
     id: completion-criteria
     attributes:
-      label: "<h2> Completion Criteria </h2>"
+      label: "<h2> Technical checklist </h2>"
       description: |
         Keep the comment.
         Follow the instructions in the comment.
