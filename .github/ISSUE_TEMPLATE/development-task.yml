@@ -2,7 +2,7 @@ name: "Development Task"
 description: "Create a development task that implements a part of a user story."
 title: "[Development Task]: "
 labels: ["Tasks: development"]
-projects: ["inno-swp-2025/1"]
+projects: ["inno-swp-2025/2"]
 body:
   - type: textarea
     id: about-tasks
