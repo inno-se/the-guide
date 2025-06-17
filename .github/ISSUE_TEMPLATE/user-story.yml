@@ -9,34 +9,40 @@ body:
     attributes:
       label: <h2> User Story </h2>
       description: |
+        Keep the comment.
+        Follow the instructions in the comment.
+        Write your text after the comment.
+      value: |
+        <!--
         Write the full user story in a single sentence following the format:
 
-        As a [persona],<br>
-        I want to [action]<br>
+        As a [persona],
+        I want to [action]
         so that [outcome].
-      placeholder: |
+
+        Example:
+
         As a content creator,
         I want to apply visual effects and filters
         so that I can make my content more creative and stand out.
+        -->
     validations:
       required: true
 
   - type: textarea
-    id: crutch-1
+    id: acceptance-criteria
     attributes:
       label: "<h2> Acceptance criteria (AC) </h2>"
       description: |
-        Don't change the default text!
-        This is a crutch for inserting Markdown
-        so that the instructions remain after the issue is created.
-        
-        Follow these instructions.
+        Keep the comment.
+        Follow the instructions in the comment.
+        Write your text after the comment.
       value: |
         <!--
         Define the specific, testable (pass-fail) scenarios that must be met for this story to be complete.
         Each criterion should be in its own section below.
         Use the GIVEN/WHEN/THEN/AND/BUT format for clarity.
-        
+
         Add or remove "AC" sections as necessary.
         -->
     validations:
@@ -78,12 +84,11 @@ body:
       required: false
 
   - type: textarea
-    id: crutch-2
+    id: tasks
     attributes:
       label: "<h2> Tasks </h2>"
       description: |
-        Don't change the default text!
-        This is a crutch for inserting Markdown.
+        Don't change the text in this field!
       value: |
         Sub-issues are tasks that implement this user story.
     validations:
