@@ -1,24 +1,21 @@
-name: "Development Task"
-description: "Create a development task that implements a part of a user story."
-title: "[Development Task]: "
-labels: ["Tasks: development"]
+name: "Task"
+description: "Create a task."
+title: "[Task]: "
+labels: ["Task: development"]
 projects: ["inno-swp-2025/2"]
 body:
   - type: textarea
     id: about-tasks
     attributes:
-      label: "<!-- About development tasks -->"
+      label: "<!-- About tasks -->"
       description: |
         Don't change the text in this field!
         Follow the instructions in the comment.
       value: |
         <!--
-        This form is for creating a specific, actionable development task.
+        This form is for creating a specific, actionable task.
         Tasks should be small enough to be completed by one person in a short amount of time.
-        Each task must be linked to a parent User Story issue as a sub-issue.
-
-        If you want to add sub-issues that are sub-tasks of this task, 
-        you should create a user story issue and add those tasks there as sub-issues.
+        Each task must be a sub-issue of a Product Backlog Item issue.
         -->
     validations:
       required: false
@@ -45,16 +42,39 @@ body:
       required: true
 
   - type: textarea
-    id: completion-criteria
+    id: implementation-steps
     attributes:
-      label: "<h2> Technical checklist </h2>"
+      label: "<h2> Implementation Steps </h2>"
       description: |
         Keep the comment.
         Follow the instructions in the comment.
         Write your text after the comment.
       value: |
         <!--
-        This is the technical "Definition of Done" for this task.
+        Break down the task into a checklist of specific, technical steps.
+        This is your "how-to" guide for meeting the Task Acceptance Criteria.
+        Think about files to modify, functions to create, tests to write, configurations to change, and corner cases to handle.
+
+        Example:
+
+        - [ ] Create the POST /api/v1/video/{id}/like route and its controller function.
+        - [ ] Implement the LikeService logic to handle successful like/unlike operations, 404 (video not found), and 409 (already liked) responses.
+        - [ ] Apply JWT authentication middleware to the new like route to ensure it's protected.
+        - [ ] Write unit tests for LikeService covering all scenarios and document the new endpoint in the OpenAPI/Swagger spec.
+        -->
+    validations:
+      required: false
+
+  - type: textarea
+    id: task-acceptance-criteria
+    attributes:
+      label: "<h2> Task Acceptance Criteria </h2>"
+      description: |
+        Keep the comment.
+        Follow the instructions in the comment.
+        Write your text after the comment.
+      value: |
+        <!--
         List specific, verifiable, and technical outcomes.
         This is what will be checked during code review.
 
@@ -70,27 +90,6 @@ body:
         -->
     validations:
       required: true
-
-  - type: textarea
-    id: implementation-notes
-    attributes:
-      label: "<h2> Implementation Notes </h2>"
-      description: |
-        Keep the comment.
-        Follow the instructions in the comment.
-        Write your text after the comment.
-      value: |
-        <!--
-        Add any thoughts on the technical approach, files to be modified, potential libraries to use, or identified risks.
-
-        Example:
-
-        - Will modify `video.controller.ts` and `video.service.ts`.
-        - Need to add a new `video_likes` table to the database schema.
-        - Consider potential race conditions if a user spams the like button.
-        -->
-    validations:
-      required: false
 
   - type: textarea
     id: tasks
