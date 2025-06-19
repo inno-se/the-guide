@@ -13,6 +13,12 @@ The GitHub Organization [inno-swp-2025](https://github.com/inno-swp-2025) was cr
 
 We store [default community health files](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file) in the [inno-swp-2025/.github](https://github.com/inno-swp-2025/.github) repository,
 
+## Issues
+
+We created several [issues](https://github.com/inno-swp-2025/we-have-tiktok-at-home/issues) related to development of a TikTok-like product.
+
+Issues have meaningful [labels](https://github.com/inno-swp-2025/we-have-tiktok-at-home/labels).
+
 ## Issue types
 
 Each issue has a [type](https://docs.github.com/en/issues/tracking-your-work-with-issues/configuring-issues/managing-issue-types-in-an-organization).
