@@ -39,6 +39,13 @@ Additionally, issues have meaningful [labels](https://github.com/inno-swp-2025/w
 | `Scope: *`     |   ❌   |    ❌     |   ✅   |
 | `Component: *` |   ❌   |    ❌     |   ✅   |
 
+Legend:
+
+- Columns - issue types.
+- Rows - issue labels.
+- ✅ - compatible
+- ❌ - incompatible
+
 ### Tips
 
 - If you specify the `Scope: *`, specify the `Component: *`.
