@@ -253,7 +253,7 @@ This project shows connections between type `Task` issues, their parent type `Ba
 - Layout: `Board`.
 
 - Configuration:
-  - Enabled fields: `Assignees`, `Status`, `Ideal Hours`, `Iteration`, `Priority`, `Linked pull requests`.
+  - Enabled fields: `Assignees`, `Status`, `Iteration`, `Ideal Hours`, `Priority`, `Linked pull requests`.
   - Column by: `Status`.
   - Group by: `Iteration`.
   - Sort by: `Iteration` (ascending), `Priority` (ascending).
