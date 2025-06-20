@@ -2,6 +2,8 @@
 
 This repository and accompanying GitHub projects serve as a blueprint for organizing and tracking the development of a TikTok-like product.
 
+See our [Product Backlog](https://github.com/orgs/inno-swp-2025/projects/1).
+
 ## GitHub Organization
 
 The GitHub Organization [inno-swp-2025](https://github.com/inno-swp-2025) was created to use organization-specific features.
