@@ -4,10 +4,7 @@ This repository and accompanying GitHub Projects demonstrate an approach to work
 
 ## GitHub Organization
 
-The GitHub Organization [inno-swp-2025](https://github.com/inno-swp-2025) was created to:
-
-- group multiple related repos under a single organization name.
-- use organization-specific features.
+The GitHub Organization [inno-swp-2025](https://github.com/inno-swp-2025) was created to use organization-specific features.
 
 ## Issues
 
