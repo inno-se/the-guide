@@ -198,7 +198,7 @@ This project shows the product backlog consisting of type `Backlog` issues.
 - Layout: `Board`.
 
 - Configuration:
-  - Fields: `Assignees`, `Status`, `Story Points`, `Iteration`, `Sub-issues progress`, `Priority`.
+  - Fields: `Assignees`, `Status`, `Iteration`, `Story Points`, `Priority`, `Sub-issues progress`.
   - Column by: `Status`.
   - Group by: `Iteration`.
   - Sort by: `Iteration` (ascending).
@@ -252,7 +252,7 @@ This project shows connections between type `Task` issues, their parent type `Ba
 - Layout: `Board`.
 
 - Configuration:
-  - Enabled fields: `Assignees`, `Status`, `Iteration`, `Ideal Hours`, `Priority`, `Linked pull requests`.
+  - Fields: `Assignees`, `Status`, `Iteration`, `Ideal Hours`, `Priority`, `Linked pull requests`.
   - Column by: `Status`.
   - Group by: `Iteration`.
   - Sort by: `Iteration` (ascending), `Priority` (ascending).
@@ -270,7 +270,7 @@ This project shows connections between type `Task` issues, their parent type `Ba
 - Layout: `Table`.
 
 - View options:
-  - Enabled fields: `Iteration`, `Priority`, `Ideal Hours`, `Status`, `Assignees`, `Parent issue`.
+  - Fields: `Iteration`, `Priority`, `Ideal Hours`, `Status`, `Assignees`, `Parent issue`.
   - Group by: `Iteration`.
   - Sort by: `Priority` (ascending), `Ideal Hours` (ascending).
   - Fields sum: `Count`, `Ideal Hours`.
