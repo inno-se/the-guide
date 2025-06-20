@@ -128,13 +128,19 @@ The following templates are available:
 
 ## The GitHub Projects
 
-The [Projects](https://github.com/orgs/inno-swp-2025/projects) let one organize issues, estimate them, and plan work on them.
+[GitHub projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects) let one organize issues, estimate them, and plan work on them.
 
-These Projects can be copied as templates.
+Projects can be [copied](https://docs.github.com/en/issues/planning-and-tracking-with-projects/creating-projects/copying-an-existing-project) and used as templates.
 
+We provide [own projects](https://github.com/orgs/inno-swp-2025/projects) for each issue type:
 
+- [Roadmap](#project-roadmap)
+- [Product Backlog](#project-product-backlog)
+- [Tasks](#project-tasks)
 
 ## Project `Roadmap`
+
+[Link](https://github.com/orgs/inno-swp-2025/projects/5)
 
 This project shows when the team plans to work on type `Epic` issues and by which milestone they will be completed.
 
@@ -164,6 +170,8 @@ This project shows when the team plans to work on type `Epic` issues and by whic
   - [x] Show date fields.
   
 ## Project `Product Backlog`
+
+[Link](https://github.com/orgs/inno-swp-2025/projects/1)
 
 This project shows the product backlog consisting of type `Backlog` issues.
 
@@ -214,6 +222,8 @@ Shows planned schedule of working on type `Backlog` issues.
   - Slice by: `Parent issue`.
 
 ## Project `Tasks`
+
+[Link](https://github.com/orgs/inno-swp-2025/projects/2)
 
 This project shows connections between type `Task` issues, their parent type `Backlog` issues, and `Iterations`.
 
