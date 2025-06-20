@@ -121,7 +121,9 @@ The following templates are available:
 
 ## The GitHub Projects
 
-The [Projects](https://github.com/orgs/inno-swp-2025/projects) in this organization let one organize issues, estimate them, and plan work on them.
+The [Projects](https://github.com/orgs/inno-swp-2025/projects) let one organize issues, estimate them, and plan work on them.
+
+These Projects can be copied as templates.
 
 ## Project `Product Backlog`
 
