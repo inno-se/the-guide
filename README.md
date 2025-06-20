@@ -6,7 +6,9 @@ See our [Product Backlog](https://github.com/orgs/inno-swp-2025/projects/1).
 
 ## GitHub Organization
 
-The GitHub Organization [inno-swp-2025](https://github.com/inno-swp-2025) was created to use organization-specific features.
+We created the GitHub Organization called [inno-swp-2025](https://github.com/inno-swp-2025) to use organization-specific features.
+
+You can [create](https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/creating-a-new-organization-from-scratch) an organization and [transfer](https://docs.github.com/en/repositories/creating-and-managing-repositories/transferring-a-repository) your repositories there.
 
 ## Issues
 
