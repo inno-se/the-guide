@@ -189,9 +189,9 @@ This project shows the product backlog consisting of type `Backlog` issues.
 - `Iteration` of type `Iteration` - iteration that the issue belongs to.
 - `Priority` of type `Number` - numeric priority of an issue that equals to the `<number>` in the `Priority: <number>` label of that issue.
 
-### View `Definition of Done`
+### View `Status`
 
-- Provides `Definition of Done` in Kanban board column descriptions.
+- Provides `Entrance Criteria` in Kanban board column descriptions.
 - Shows total `Story Points` per iteration.
 
 #### View options
@@ -243,9 +243,9 @@ This project shows connections between type `Task` issues, their parent type `Ba
 - `Start` of type `Date` - (planned) date of starting the work on an issue.
 - `Finish` of type `Date` - (planned) date of finishing the work on an issue.
 
-### View `Definition of Done`
+### View `Status`
 
-- Provides `Definition of Done` in Kanban board column descriptions.
+- Provides `Entrance Criteria` in Kanban board column descriptions.
 - Shows total `Ideal Hours` per iteration.
 
 #### Settings
