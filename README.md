@@ -134,9 +134,9 @@ The following templates are available:
 
 [GitHub Projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects) let one organize issues, estimate them, and plan work on them.
 
-Projects can be [copied](https://docs.github.com/en/issues/planning-and-tracking-with-projects/creating-projects/copying-an-existing-project) and used as templates.
+You can [copy](https://docs.github.com/en/issues/planning-and-tracking-with-projects/creating-projects/copying-an-existing-project) projects and use them as templates.
 
-We provide [own projects](https://github.com/orgs/inno-swp-2025/projects) for each issue type:
+We [provide](https://github.com/orgs/inno-swp-2025/projects) projects for each issue type:
 
 - [Roadmap](#project-roadmap)
 - [Product Backlog](#project-product-backlog)
