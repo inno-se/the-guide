@@ -197,12 +197,12 @@ This project shows the product backlog consisting of type `Backlog` issues.
 - Layout: `Board`.
 
 - Configuration:
-  - Fields: `Assignees`, `Status`, `Story Points`, `Iteration`, `Sub-issues progress`.
+  - Fields: `Assignees`, `Status`, `Story Points`, `Iteration`, `Sub-issues progress`, `Priority`.
   - Column by: `Status`.
   - Group by: `Iteration`.
   - Sort by: `Iteration` (ascending).
   - Field sum: `Count`, `Story Points`.
-  - Slice by: `none`.
+  - Slice by: `Priority`.
 
 ### View `Timeline`
 
