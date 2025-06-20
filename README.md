@@ -156,7 +156,7 @@ This project shows the product backlog consisting of type `Backlog` issues.
   - Field sum: `Count`, `Story Points`.
   - Slice by: `none`.
 
-### View `Roadmap`
+### View `Timeline`
 
 Shows planned schedule of working on type `Backlog` issues.
 
@@ -225,7 +225,7 @@ This project shows connections between type `Task` issues, their parent type `Ba
   - Fields sum: `Count`, `Ideal Hours`.
   - Slice by: `Parent issue`.
 
-### View `Roadmap`
+### View `Timeline`
 
 - Shows type `Task` issues distributed by `Iteration`s on a timeline.
 - `Date fields` are set to `Iteration start` and `Iteration end`.
