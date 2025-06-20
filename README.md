@@ -193,7 +193,7 @@ This project shows the product backlog consisting of type `Backlog` issues.
 
 ### View `Status`
 
-- Provides `Entrance Criteria` in Kanban board column descriptions.
+- Provides `Entry Criteria` in Kanban board column descriptions.
 - Shows total `Story Points` per iteration.
 
 #### View options
@@ -225,6 +225,47 @@ Shows planned schedule of working on type `Backlog` issues.
   - Field sum: `Count`, `Story Points`.
   - Slice by: `Parent issue`.
 
+#### Columns
+
+There are entry criteria for each column.
+An issue is done when it reaches the `Done` column.
+
+##### To Do
+
+```text
+[Entry Criteria]
+* The issue isn't large enough for an Epic.
+* The issue was updated (e.g., via an LLM) to conform a relevant issue form template.
+* Relevant labels were assigned to the issue.
+* Issues with type "Task" were added as sub-issues of the issue.
+* The issue field "Story Points" was filled.
+* The issue was added to a milestone and to a sprint.
+```
+
+##### In Progress
+
+```text
+[Entry Criteria]
+* The issue description was revised to provide missing details.
+* The issue was added to the current sprint.
+```
+
+##### Ready To Deploy
+
+```text
+[Entry Criteria]
+* All sub-issues were completed.
+* For a user story issue, all acceptance criteria for the issue were met in the staging environment.
+```
+
+##### Done
+
+```text
+[Entry Criteria]
+* A new version of the product with changes introduced by the issue was deployed.
+* Usability session tasks were completed successfully on that product version.
+```
+
 ## Project `Tasks`
 
 [Link](https://github.com/orgs/inno-swp-2025/projects/2)
@@ -247,7 +288,7 @@ This project shows connections between type `Task` issues, their parent type `Ba
 
 ### View `Status`
 
-- Provides `Entrance Criteria` in Kanban board column descriptions.
+- Provides `Entry Criteria` in Kanban board column descriptions.
 - Shows total `Ideal Hours` per iteration.
 
 #### Settings
@@ -261,6 +302,60 @@ This project shows connections between type `Task` issues, their parent type `Ba
   - Sort by: `Iteration` (ascending), `Priority` (ascending).
   - Field sum: `Count`, `Ideal Hours`.
   - Slice by: `none`.
+
+#### Columns
+
+There are entry criteria for each column.
+An issue is done when it reaches the `Done` column.
+
+##### To Do
+
+```text
+[Entry Criteria]
+* The issue was updated (e.g., via an LLM) to conform to the "Task" issue form template.
+* The type "Task" was assigned to the issue.
+* Relevant labels were assigned to the issue.
+* The issue was made a sub-issue of a type "Backlog" issue.
+```
+
+##### In Progress
+
+```text
+[Entry Criteria]
+* The issue description was revised to provide missing details.
+* The issue field "Ideal Hours" was filled.
+* The issue was added to the current sprint.
+* The issue was assigned to a developer.
+* A branch for the issue was created via the "create a branch" button on the issue page.
+```
+
+##### Ready For Review
+
+```text
+[Entry Criteria]
+* A pull request for the issue was created using a relevant template.
+* The pull request was linked to the issue.
+* Implementation in the pull request was completed.
+* The "main" branch was merged into the pull request branch.
+* CI pipeline with automated tests succeeded on the pull request branch.
+* Subtasks in the pull request description were updated.
+* A review of the pull request was requested.
+```
+
+##### Ready to Merge
+
+```text
+[Entry Criteria]
+* All issue Acceptance Criteria were met on the pull request branch.
+* The pull request was approved.
+```
+
+##### Done
+
+```text
+[Entry Criteria]
+* The pull request that closes the issue was merged.
+```
 
 ### View `With Parents`
 
