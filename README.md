@@ -1,6 +1,6 @@
 # we-have-tiktok-at-home
 
-We swipe issues to the right.
+This repository and accompanying GitHub Projects demonstrate an approach to working with epics, backlog, and tasks for a TikTok-like product.
 
 ## GitHub Organization
 
@@ -9,29 +9,119 @@ The GitHub Organization [inno-swp-2025](https://github.com/inno-swp-2025) was cr
 - group multiple related repos under a single organization name.
 - use organization-specific features.
 
-## Default community health files
-
-We store [default community health files](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file) in the [inno-swp-2025/.github](https://github.com/inno-swp-2025/.github) repository,
-
 ## Issues
 
-We created several [issues](https://github.com/inno-swp-2025/we-have-tiktok-at-home/issues) related to development of a TikTok-like product.
+We created several sample [issues](https://github.com/inno-swp-2025/we-have-tiktok-at-home/issues) in the [inno-swp-2025/we-have-tiktok-at-home](https://github.com/inno-swp-2025) repository.
 
-Issues have meaningful [labels](https://github.com/inno-swp-2025/we-have-tiktok-at-home/labels).
-
-## Issue types
+### Issue types
 
 Each issue has a [type](https://docs.github.com/en/issues/tracking-your-work-with-issues/configuring-issues/managing-issue-types-in-an-organization).
 
-<!-- TODO improve wording -->
-A type allows to inspect all issues of that type across the organization.
+Types:
 
-The `Backlog` type is for issues representing Product Backlog Items (PBIs).
-The `Task` type is for issues representing tasks related to PBIs.
+- `Epic` - a large user story.
+- `Backlog` - a Product Backlog Item (PBI).
+- `Task` - a task related to a PBI.
+
+### Issue labels
+
+Additionally, issues have meaningful [labels](https://github.com/inno-swp-2025/we-have-tiktok-at-home/labels).
+
+### Compatibility of issue types and labels
+
+|                | `Epic` | `Backlog` | `Task` |
+| -------------- | :----: | :-------: | :----: |
+| `Priority: *`  |   ✅   |    ✅     |   ✅   |
+| `Meta: *`      |   ✅   |    ✅     |   ✅   |
+| `Platform: *`  |   ✅   |    ✅     |   ✅   |
+| `Backlog: *`   |   ❌   |    ✅     |   ❌   |
+| `Severity: *`  |   ❌   |    ✅     |   ❌   |
+| `Scope: *`     |   ❌   |    ❌     |   ✅   |
+| `Component: *` |   ❌   |    ❌     |   ✅   |
+
+### Tips
+
+- If you specify the `Scope: *`, specify the `Component: *`.
+
+### Issue hierarchy
+
+The following diagram shows connections between issues types and certain labels.
+
+```mermaid
+graph LR
+    %% --- Style Definitions ---
+    
+    classDef styleEpicType #211a18,stroke:#db6d28,color:#db6d28,font-size:15pt
+    classDef styleBacklogType fill:#242138,stroke:#ab7df8,color:#ab7df8,font-size:15pt
+    classDef styleTaskType #272114,stroke:#c08d20,color:#c08d20,font-size:15pt
+    
+    classDef styleUserStoryLabel #193b27,stroke:#4ff66b,color:#4ff66b,font-size:15pt
+    classDef styleBugReportLabel #371a1d,stroke:#f8988e,color:#f8988e,font-size:15pt
+    classDef styleTechDebtLabel #153437,stroke:#2bd0cb,color:#2bd0cb,font-size:15pt
+    classDef styleEnablerLabel #2c2222,stroke:#c9907c,color:#c9907c,font-size:15pt
+    classDef styleInvestigationLabel #2a1b35,stroke:#ce94d4,color:#ce94d4,font-size:15pt
+
+    %% --- Main Hierarchy ---
+
+    subgraph Issues ["`**GitHub Issues**`"]
+        direction LR
+
+        subgraph Roadmap ["`**Roadmap**`"]
+            direction LR
+
+            subgraph EpicIssueType ["`**Issue type**`"]
+                EpicTypeLabel([Epic]):::styleEpicType
+            end
+        end
+
+        subgraph ProductBacklog ["`**Product Backlog**`"]
+            direction TB
+            
+            subgraph BacklogIssueType ["`**Issue type**`"]
+                BacklogType([Backlog]):::styleBacklogType
+            end
+
+            subgraph BacklogIssueLabels ["`**Issue labels**`"]
+                direction LR
+
+                UserStoryLabel([Backlog: User Story]):::styleUserStoryLabel
+                BugReportLabel([Backlog: Bug Report]):::styleBugReportLabel
+                TechDebtLabel([Backlog: Tech Debt]):::styleTechDebtLabel
+                EnablerLabel([Backlog: Enabler]):::styleEnablerLabel
+                InvestigationLabel([Backlog: Investigation]):::styleInvestigationLabel
+            end
+
+            BacklogIssueType -. "`**is detailed by**`" .-> BacklogIssueLabels
+        end
+
+        subgraph Tasks ["`**Tasks**`"]
+            subgraph TaskIssueType ["`**Issue type**`"]
+                TaskType([Task]):::styleTaskType
+            end
+        end
+
+        Roadmap -. "`**breaks down into**`" .-> ProductBacklog
+        ProductBacklog -. "`**is realized by**`" .-> Tasks
+
+    end
+```
+
+## Default community health files
+
+We store [default community health files](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file) in the [inno-swp-2025/.github](https://github.com/inno-swp-2025/.github) repository.
+
+These files include [Issue Form](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/syntax-for-issue-forms) templates.
+These templates can be used for creating new issues in all organization repositories.
+
+The following templates are available:
+
+- [Bug report](https://github.com/inno-swp-2025/.github/blob/main/.github/ISSUE_TEMPLATE/bug-report.yml)
+- [Task](https://github.com/inno-swp-2025/.github/blob/main/.github/ISSUE_TEMPLATE/task.yml)
+- [User Story](https://github.com/inno-swp-2025/.github/blob/main/.github/ISSUE_TEMPLATE/user-story.yml)
 
 ## The GitHub Projects
 
-The [Projects](https://github.com/orgs/inno-swp-2025/projects) in this organization connect type `Task` issues and type `Backlog` issues.
+The [Projects](https://github.com/orgs/inno-swp-2025/projects) in this organization let one organize issues, estimate them, and plan work on them.
 
 ## Project `Product Backlog`
 
