@@ -13,7 +13,7 @@ The GitHub Organization [inno-swp-2025](https://github.com/inno-swp-2025) was cr
 
 We created several sample [issues](https://github.com/inno-swp-2025/we-have-tiktok-at-home/issues) in the [inno-swp-2025/we-have-tiktok-at-home](https://github.com/inno-swp-2025) repository.
 
-If you have several projects in your organization, you can [create default issue labels](https://docs.github.com/en/organizations/managing-organization-settings/managing-default-labels-for-repositories-in-your-organization).
+If you plan to have several repositories in your organization, you can [create default issue labels](https://docs.github.com/en/organizations/managing-organization-settings/managing-default-labels-for-repositories-in-your-organization).
 
 ### Issue types
 
@@ -130,7 +130,7 @@ The following templates are available:
 
 ## The GitHub Projects
 
-[GitHub projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects) let one organize issues, estimate them, and plan work on them.
+[GitHub Projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects) let one organize issues, estimate them, and plan work on them.
 
 Projects can be [copied](https://docs.github.com/en/issues/planning-and-tracking-with-projects/creating-projects/copying-an-existing-project) and used as templates.
 
