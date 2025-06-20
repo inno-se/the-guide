@@ -125,6 +125,37 @@ The [Projects](https://github.com/orgs/inno-swp-2025/projects) let one organize 
 
 These Projects can be copied as templates.
 
+
+
+## Project `Roadmap`
+
+This project shows when the team plans to work on type `Epic` issues and by which milestone they will be completed.
+
+### Limitations
+
+- The `Start` and `Finish` fields must be (manually) synchronized with start and finish dates of related type `Backlog` issues.
+
+### Project settings
+
+#### Custom fields (additional)
+
+- `Start` of type `Date` - (planned) date of starting the work on an issue.
+- `Finish` of type `Date` - (planned) date of finishing the work on an issue.
+
+### View `Timeline`
+
+- Layout: `Roadmap`.
+- Configuration:
+  - Group by: `Milestone`.
+  - Markers: `none`.
+  - Sort by: `manual`.
+  - Dates: `Start and Finish`.
+  - Zoom level: `Month`.
+  - Field sum: `Count`.
+  - Slice by: `none`.
+- User settings:
+  - [x] Show date fields.
+  
 ## Project `Product Backlog`
 
 This project shows the product backlog consisting of type `Backlog` issues.
