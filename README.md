@@ -114,7 +114,7 @@ graph LR
     end
 ```
 
-## Default community health files
+### Issue Form templates
 
 We store [default community health files](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file) in the [inno-swp-2025/.github](https://github.com/inno-swp-2025/.github) repository.
 
@@ -123,6 +123,7 @@ These templates can be used for creating new issues in all organization reposito
 
 The following templates are available:
 
+- [Epic](https://github.com/inno-swp-2025/.github/blob/main/.github/ISSUE_TEMPLATE/epic.yml)
 - [Bug report](https://github.com/inno-swp-2025/.github/blob/main/.github/ISSUE_TEMPLATE/bug-report.yml)
 - [Task](https://github.com/inno-swp-2025/.github/blob/main/.github/ISSUE_TEMPLATE/task.yml)
 - [User Story](https://github.com/inno-swp-2025/.github/blob/main/.github/ISSUE_TEMPLATE/user-story.yml)
