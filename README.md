@@ -1,6 +1,6 @@
 # we-have-tiktok-at-home
 
-This repository and accompanying GitHub Projects demonstrate an approach to working with epics, backlog, and tasks for a TikTok-like product.
+This repository and accompanying GitHub projects serve as a blueprint for organizing and tracking the development of a TikTok-like product.
 
 ## GitHub Organization
 
