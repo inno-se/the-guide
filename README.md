@@ -194,7 +194,18 @@ This project allows for planning and tracking the progress of type `Epic` issues
   - Slice by: `none`.
 - User settings:
   - [x] Show date fields.
-  
+
+### View `Status`
+
+- Layout: `Board`.
+- Configuration:
+  - Fields: `Assignees`, `Status`, `Sub-issues progress`, `Start`, `Finish`, `Priority`.
+  - Column by: `Status`.
+  - Group by: `Milestone`.
+  - Sort by: `Priority` (ascending).
+  - Field sum: `Count`
+  - Slice by: `Priority`.
+
 ## Project `Product Backlog`
 
 [Link](https://github.com/orgs/inno-swp-2025/projects/1)
