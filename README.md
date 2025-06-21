@@ -118,6 +118,16 @@ Legend:
 - ✅ - compatible
 - ❌ - incompatible
 
+### Epics and Product Backlog Items
+
+Epics break down into Product Backlog Items (see [Work items hierarchy](#work-items-hierarchy)).
+
+Each sub-issue of a type `Epic` issue must have one of these labels:
+
+- `Backlog: User Story`
+- `Backlog: Enabler`
+- `Backlog: Investigation`
+
 ### Tips
 
 - If you specify the `Scope: *`, specify the `Component: *`.
