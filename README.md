@@ -176,7 +176,7 @@ We [provide](https://github.com/orgs/inno-swp-2025/projects) projects for each i
 
 [Link](https://github.com/orgs/inno-swp-2025/projects/5)
 
-This project shows when the team plans to work on type `Epic` issues and by which milestone they will be completed.
+This project allows for planning and tracking the progress of type `Epic` issues.
 
 ### Limitations
 
@@ -207,7 +207,9 @@ This project shows when the team plans to work on type `Epic` issues and by whic
 
 [Link](https://github.com/orgs/inno-swp-2025/projects/1)
 
-This project shows the product backlog consisting of type `Backlog` issues.
+This project allows for estimation, planning, and tracking the progress of type `Backlog` issues.
+
+Additionally, it visualizes connections between type `Backlog` issues and their parent type `Epic` issues.
 
 ### Limitations
 
@@ -300,7 +302,9 @@ An issue is done when it reaches the `Done` column.
 
 [Link](https://github.com/orgs/inno-swp-2025/projects/2)
 
-This project shows connections between type `Task` issues, their parent type `Backlog` issues, and `Iterations`.
+This project allows for estimation, planning, and tracking the progress of type `Task` issues.
+
+Additionally, it visualizes connections between type `Task` issues and their parent type `Backlog` issues.
 
 ### Limitations
 
