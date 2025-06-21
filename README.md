@@ -160,16 +160,16 @@ The following templates are available:
 - [For type `Task` issues](https://github.com/inno-swp-2025/.github/blob/main/.github/PULL_REQUEST_TEMPLATE/task.md)
 - [For last-minute changes](https://github.com/inno-swp-2025/.github/blob/main/.github/PULL_REQUEST_TEMPLATE/last-minute-change.md)
 
-## The GitHub Projects
+## Projects
 
-[GitHub Projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects) let one organize issues, estimate them, and plan work on them.
+[GitHub Projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects) are a tool for project management on GitHub.
 
-You can [copy](https://docs.github.com/en/issues/planning-and-tracking-with-projects/creating-projects/copying-an-existing-project) projects and use them as templates.
+You can [copy](https://docs.github.com/en/issues/planning-and-tracking-with-projects/creating-projects/copying-an-existing-project) our projects and use them as templates.
 
-We [provide](https://github.com/orgs/inno-swp-2025/projects) projects for each issue type:
+We [provide](https://github.com/orgs/inno-swp-2025/projects) projects for:
 
-- [Roadmap](#project-roadmap)
-- [Product Backlog](#project-product-backlog)
+- [Roadmap Items](#project-roadmap)
+- [Product Backlog Items](#project-product-backlog)
 - [Tasks](#project-tasks)
 
 ## Project `Roadmap`
