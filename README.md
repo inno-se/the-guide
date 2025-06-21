@@ -23,14 +23,6 @@ See our [Roadmap](github.com/orgs/inno-swp-2025/projects/5/views/4), [Product Ba
 1. Set matching `Sprint` in your type `Backlog` issues and their type `Task` sub-issues.
 1. Adjust the entry criteria specified in Kanban boards in the `Roadmap` and `Product Backlog` projects. Criteria for a column specify when an issue can be moved to that column.
 
-See our [Product Backlog](https://github.com/orgs/inno-swp-2025/projects/1).
-
-## GitHub Organization
-
-We created the GitHub Organization called [inno-swp-2025](https://github.com/inno-swp-2025) to use organization-specific features.
-
-You can [create](https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/creating-a-new-organization-from-scratch) an organization and [transfer](https://docs.github.com/en/repositories/creating-and-managing-repositories/transferring-a-repository) your repositories there.
-
 ## Work items hierarchy
 
 We use the following hierarchy of work items represented via different types of issues and pull requests.
