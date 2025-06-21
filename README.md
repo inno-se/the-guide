@@ -1,6 +1,10 @@
 # we-have-tiktok-at-home
 
-This repository and accompanying GitHub projects serve as a blueprint for organizing and tracking the development of a TikTok-like product.
+This repository and accompanying GitHub projects serve as a blueprint for managing the development of a software product.
+
+In our case, it's a TikTok-like application.
+
+See our [Roadmap](github.com/orgs/inno-swp-2025/projects/5/views/4), [Product Backlog](https://github.com/orgs/inno-swp-2025/projects/1), and [Tasks](https://github.com/orgs/inno-swp-2025/projects/2).
 
 ## Set up your project
 
