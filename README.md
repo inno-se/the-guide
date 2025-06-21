@@ -216,14 +216,14 @@ Additionally, it visualizes connections between type `Backlog` issues and their 
 
 ### Limitations
 
-- The `Iteration` field of a type `Backlog` issue and its type `Task` sub-issue must be (manually) synchronized.
+- The `Sprint` field of a type `Backlog` issue and its type `Task` sub-issue must be (manually) synchronized.
 
 ### Project settings
 
 #### Custom fields (additional)
 
 - `Story Points` of type `Number` - estimate of a `Backlog` issue in Story Points.
-- `Iteration` of type `Iteration` - iteration that the issue belongs to.
+- `Sprint` of type `Iteration` - a sprint that the issue belongs to.
 - `Priority` of type `Number` - numeric priority of an issue that equals to the `<number>` in the `Priority: <number>` label of that issue.
 
 ### View `Status`
@@ -236,10 +236,10 @@ Additionally, it visualizes connections between type `Backlog` issues and their 
 - Layout: `Board`.
 
 - Configuration:
-  - Fields: `Assignees`, `Status`, `Iteration`, `Story Points`, `Priority`, `Sub-issues progress`.
+  - Fields: `Assignees`, `Status`, `Sprint`, `Story Points`, `Priority`, `Sub-issues progress`.
   - Column by: `Status`.
-  - Group by: `Iteration`.
-  - Sort by: `Iteration` (ascending).
+  - Group by: `Sprint`.
+  - Sort by: `Sprint` (ascending).
   - Field sum: `Count`, `Story Points`.
   - Slice by: `Priority`.
 
@@ -252,10 +252,10 @@ Shows planned schedule of working on type `Backlog` issues.
 - Layout: `Roadmap`.
 
 - Configuration:
-  - Group by: `Iteration`.
-  - Markers: `Iteration`.
-  - Sort by: `Iteration` (ascending), `Priority` (ascending).
-  - Dates: `Iteration`.
+  - Group by: `Sprint`.
+  - Markers: `Sprint`.
+  - Sort by: `Sprint` (ascending), `Priority` (ascending).
+  - Dates: `Sprint`.
   - Zoom level: `Month`.
   - Field sum: `Count`, `Story Points`.
   - Slice by: `Parent issue`.
@@ -311,14 +311,14 @@ Additionally, it visualizes connections between type `Task` issues and their par
 
 ### Limitations
 
-- The `Iteration` field of a type `Task` issue and its parent type `Backlog` issue must be (manually) synchronized.
+- The `Sprint` field of a type `Task` issue and its parent type `Backlog` issue must be (manually) synchronized.
 
 ### Project settings
 
 #### Custom fields (additional)
 
 - `Ideal Hours` of type `Number` - estimated number of ideal hours required to complete the issue.
-- `Iteration` of type `Iteration` - iteration that the issue belongs to.
+- `Sprint` of type `Iteration` - a sprint that the issue belongs to.
 - `Priority` of type `Number` - numeric priority of an issue that equals to the `<number>` in the `Priority: <number>` label of that issue.
 - `Start` of type `Date` - (planned) date of starting the work on an issue.
 - `Finish` of type `Date` - (planned) date of finishing the work on an issue.
@@ -333,10 +333,10 @@ Additionally, it visualizes connections between type `Task` issues and their par
 - Layout: `Board`.
 
 - Configuration:
-  - Fields: `Assignees`, `Status`, `Iteration`, `Ideal Hours`, `Priority`, `Linked pull requests`.
+  - Fields: `Assignees`, `Status`, `Sprint`, `Ideal Hours`, `Priority`, `Linked pull requests`.
   - Column by: `Status`.
-  - Group by: `Iteration`.
-  - Sort by: `Iteration` (ascending), `Priority` (ascending).
+  - Group by: `Sprint`.
+  - Sort by: `Sprint` (ascending), `Priority` (ascending).
   - Field sum: `Count`, `Ideal Hours`.
   - Slice by: `none`.
 
@@ -397,24 +397,24 @@ An issue is done when it reaches the `Done` column.
 ### View `With Parents`
 
 - For each type `Backlog` issue, shows to which sprint its type `Task` sub-issues were assigned.
-- Shows total `Ideal Hours` for an `Iteration`.
-- Shows type `Task` issues sorted by priority within each `Iteration`.
+- Shows total `Ideal Hours` for a `Sprint`.
+- Shows type `Task` issues sorted by priority within each `Sprint`.
 
 #### Settings
 
 - Layout: `Table`.
 
 - View options:
-  - Fields: `Iteration`, `Priority`, `Ideal Hours`, `Status`, `Assignees`, `Parent issue`.
-  - Group by: `Iteration`.
+  - Fields: `Sprint`, `Priority`, `Ideal Hours`, `Status`, `Assignees`, `Parent issue`.
+  - Group by: `Sprint`.
   - Sort by: `Priority` (ascending), `Ideal Hours` (ascending).
   - Fields sum: `Count`, `Ideal Hours`.
   - Slice by: `Parent issue`.
 
 ### View `Timeline`
 
-- Shows type `Task` issues distributed by `Iteration`s on a timeline.
-- `Date fields` are set to `Iteration start` and `Iteration end`.
+- Shows type `Task` issues distributed by sprints on a timeline.
+- `Date fields` are set to `Sprint start` and `Sprint end`.
 - One can set the `Date fields` to `Start` and `Finish` and adjust them by clicking on the left or on the right side of an issue box on the timeline and dragging it.
 
 #### Settings
@@ -422,10 +422,10 @@ An issue is done when it reaches the `Done` column.
 - Layout: `Roadmap`
 
 - Configuration:
-  - Group by: `Iteration`.
-  - Markers: `Iteration`.
-  - Sort by: `Iteration` (ascending), `Priority` (ascending).
-  - Dates: `Iteration`.
+  - Group by: `Sprint`.
+  - Markers: `Sprint`.
+  - Sort by: `Sprint` (ascending), `Priority` (ascending).
+  - Dates: `Sprint`.
   - Zoom level: `Month`.
   - Field sum: `Count`, `Ideal Hours`.
   - Slice by: `Parent issue`.
