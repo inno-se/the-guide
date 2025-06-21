@@ -31,6 +31,54 @@ We created the GitHub Organization called [inno-swp-2025](https://github.com/inn
 
 You can [create](https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/creating-a-new-organization-from-scratch) an organization and [transfer](https://docs.github.com/en/repositories/creating-and-managing-repositories/transferring-a-repository) your repositories there.
 
+## Work items hierarchy
+
+We use the following hierarchy of work items represented via different types of issues and pull requests.
+
+```mermaid
+graph LR
+    %% --- Style Definitions ---
+    
+    classDef styleEpicType fill:#211a18,stroke:#db6d28,color:#db6d28,font-size:15pt
+    classDef styleBacklogType fill:#242138,stroke:#ab7df8,color:#ab7df8,font-size:15pt
+    classDef styleTaskType fill:#272114,stroke:#c08d20,color:#c08d20,font-size:15pt
+    classDef stylePullRequestLabel fill:#238636,stroke:#238636,color:#cccccc,font-size:15pt
+
+    %% --- Main Hierarchy ---
+
+    subgraph Issues ["`**Work items**`"]
+        direction LR
+        
+        subgraph RoadmapItems ["`**Roadmap Items**`"]
+            subgraph EpicIssueType ["`**Issue type**`"]
+                EpicTypeLabel([Epic]):::styleEpicType
+            end
+        end
+
+        subgraph ProductBacklogItems ["`**Product Backlog Items**`"]
+            subgraph BacklogIssueType ["`**Issue type**`"]
+                BacklogType([Backlog]):::styleBacklogType
+            end
+        end
+
+        subgraph Tasks ["`**Tasks**`"]
+            subgraph TaskIssueType ["`**Issue type**`"]
+                TaskType([Task]):::styleTaskType
+            end
+        end
+
+        subgraph PullRequests ["`**Pull Requests**`"]
+            PullRequestLabel([fa:fa-code-pull-request Pull Request]):::stylePullRequestLabel
+        end
+
+        RoadmapItems -. "`**break down into**`" .-> ProductBacklogItems
+        ProductBacklogItems -. "`**break down into**`" .-> Tasks
+
+        Tasks -. "`**are completed by**`" .-> PullRequests
+        
+    end
+```
+
 ## Issues
 
 We created several sample [issues](https://github.com/inno-swp-2025/we-have-tiktok-at-home/issues) in the [inno-swp-2025/we-have-tiktok-at-home](https://github.com/inno-swp-2025) repository.
@@ -74,70 +122,7 @@ Legend:
 
 - If you specify the `Scope: *`, specify the `Component: *`.
 
-### Issue hierarchy
-
-The following diagram shows connections between issues types and certain labels.
-
-```mermaid
-graph LR
-    %% --- Style Definitions ---
-    
-    classDef styleEpicType #211a18,stroke:#db6d28,color:#db6d28,font-size:15pt
-    classDef styleBacklogType fill:#242138,stroke:#ab7df8,color:#ab7df8,font-size:15pt
-    classDef styleTaskType #272114,stroke:#c08d20,color:#c08d20,font-size:15pt
-    
-    classDef styleUserStoryLabel #193b27,stroke:#4ff66b,color:#4ff66b,font-size:15pt
-    classDef styleBugReportLabel #371a1d,stroke:#f8988e,color:#f8988e,font-size:15pt
-    classDef styleTechDebtLabel #153437,stroke:#2bd0cb,color:#2bd0cb,font-size:15pt
-    classDef styleEnablerLabel #2c2222,stroke:#c9907c,color:#c9907c,font-size:15pt
-    classDef styleInvestigationLabel #2a1b35,stroke:#ce94d4,color:#ce94d4,font-size:15pt
-
-    %% --- Main Hierarchy ---
-
-    subgraph Issues ["`**GitHub Issues**`"]
-        direction LR
-
-        subgraph Roadmap ["`**Roadmap**`"]
-            direction LR
-
-            subgraph EpicIssueType ["`**Issue type**`"]
-                EpicTypeLabel([Epic]):::styleEpicType
-            end
-        end
-
-        subgraph ProductBacklog ["`**Product Backlog**`"]
-            direction TB
-            
-            subgraph BacklogIssueType ["`**Issue type**`"]
-                BacklogType([Backlog]):::styleBacklogType
-            end
-
-            subgraph BacklogIssueLabels ["`**Issue labels**`"]
-                direction LR
-
-                UserStoryLabel([Backlog: User Story]):::styleUserStoryLabel
-                BugReportLabel([Backlog: Bug Report]):::styleBugReportLabel
-                TechDebtLabel([Backlog: Tech Debt]):::styleTechDebtLabel
-                EnablerLabel([Backlog: Enabler]):::styleEnablerLabel
-                InvestigationLabel([Backlog: Investigation]):::styleInvestigationLabel
-            end
-
-            BacklogIssueType -. "`**is detailed by**`" .-> BacklogIssueLabels
-        end
-
-        subgraph Tasks ["`**Tasks**`"]
-            subgraph TaskIssueType ["`**Issue type**`"]
-                TaskType([Task]):::styleTaskType
-            end
-        end
-
-        Roadmap -. "`**breaks down into**`" .-> ProductBacklog
-        ProductBacklog -. "`**is realized by**`" .-> Tasks
-
-    end
-```
-
-### Issue Form templates
+## Templates
 
 We store [default community health files](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file) in the [inno-swp-2025/.github](https://github.com/inno-swp-2025/.github) repository.
 
