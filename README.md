@@ -2,6 +2,23 @@
 
 This repository and accompanying GitHub projects serve as a blueprint for organizing and tracking the development of a TikTok-like product.
 
+## Set up your project
+
+1. [Create](https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/creating-a-new-organization-from-scratch) a GitHub organization.
+1. [Import](https://docs.github.com/en/migrations/importing-source-code/using-github-importer/importing-a-repository-with-github-importer) or [transfer](https://docs.github.com/en/repositories/creating-and-managing-repositories/transferring-a-repository) your repositories into your organization.
+1. Import the [.github](https://github.com/inno-swp-2025/.github) repository into your organization.
+1. Create issue types (see [Issue types](#issue-types)).
+1. Create issue labels (see [Issue labels](#issue-labels)).
+1. Copy our projects (see [Projects](#projects)).
+1. Create issues following the [work items hierarchy](#work-items-hierarchy) and using [issue form templates](#issue-form-templates).
+1. Set `Priority` and `Story Points` in your type `Backlog` issues (see [Project `Product Backlog`](#project-product-backlog)).
+1. If some type `Backlog` issues with label `Backlog: User Story` are too large, convert them into type `Epic` issues and add there smaller type `Backlog` sub-issues.
+1. Set `Start` and `Finish` in your type `Epic` issues (see [Project `Roadmap`](#project-roadmap)).
+1. Create milestones in the project `Roadmap` and add type `Epic` issues to these milestones.
+1. Set `Ideal Hours` and `Priority` in your type `Task` issues (see [Project `Tasks`](#project-tasks)).
+1. Set matching `Sprint` in your type `Backlog` issues and their type `Task` sub-issues.
+1. Adjust the entry criteria specified in Kanban boards in the `Roadmap` and `Product Backlog` projects. Criteria for a column specify when an issue can be moved to that column.
+
 See our [Product Backlog](https://github.com/orgs/inno-swp-2025/projects/1).
 
 ## GitHub Organization
