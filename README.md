@@ -230,7 +230,7 @@ Additionally, it visualizes connections between type `Backlog` issues and their 
 ### View `Status`
 
 - Provides `Entry Criteria` in Kanban board column descriptions.
-- Shows total `Story Points` per iteration.
+- Shows total `Story Points` per sprint.
 
 #### View options
 
@@ -344,7 +344,7 @@ Additionally, it visualizes connections between type `Task` issues and their par
 ### View `Status`
 
 - Provides `Entry Criteria` in Kanban board column descriptions.
-- Shows total `Ideal Hours` per iteration.
+- Shows total `Ideal Hours` per sprint.
 
 #### Settings
 
