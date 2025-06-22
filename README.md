@@ -14,7 +14,7 @@ See our [Roadmap](github.com/orgs/inno-swp-2025/projects/5/views/4), [Product Ba
 1. Create issue types (see [Issue types](#issue-types)).
 1. Create issue labels (see [Issue labels](#issue-labels)).
 1. Copy our projects (see [Projects](#projects)).
-1. Create issues following the [work items hierarchy](#work-items-hierarchy) and using [issue form templates](#issue-form-templates).
+1. Create issues following the [work item hierarchy](#work-item-hierarchy) and using [issue form templates](#issue-form-templates).
 1. Set `Priority` and `Story Points` in your type `Backlog` issues (see [Project `Product Backlog`](#project-product-backlog)).
 1. If some type `Backlog` issues with label `Backlog: User Story` are too large, convert them into type `Epic` issues and add there smaller type `Backlog` sub-issues.
 1. Set `Start` and `Finish` in your type `Epic` issues (see [Project `Roadmap`](#project-roadmap)).
@@ -23,9 +23,9 @@ See our [Roadmap](github.com/orgs/inno-swp-2025/projects/5/views/4), [Product Ba
 1. Set matching `Sprint` in your type `Backlog` issues and their type `Task` sub-issues.
 1. Adjust the entry criteria specified in Kanban boards in the `Roadmap` and `Product Backlog` projects. Criteria for a column specify when an issue can be moved to that column.
 
-## Work items hierarchy
+## Work item hierarchy
 
-We use the following hierarchy of work items represented via different types of issues and pull requests.
+We use the following hierarchy of work items that are represented via issues of different types and pull requests.
 
 ```mermaid
 graph LR
