@@ -4,7 +4,7 @@ This repository and accompanying GitHub projects serve as a blueprint for managi
 
 In our case, it's a TikTok-like application.
 
-See our [Roadmap](github.com/orgs/inno-swp-2025/projects/5/views/4), [Product Backlog](https://github.com/orgs/inno-swp-2025/projects/1), and [Tasks](https://github.com/orgs/inno-swp-2025/projects/2).
+See our [Roadmap](https://github.com/orgs/inno-swp-2025/projects/5/views/4), [Product Backlog](https://github.com/orgs/inno-swp-2025/projects/1), and [Tasks](https://github.com/orgs/inno-swp-2025/projects/2).
 
 ## Set up your project
 
