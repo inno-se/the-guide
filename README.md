@@ -263,7 +263,7 @@ Shows planned schedule of working on type `Backlog` issues.
 #### Columns
 
 There are entry criteria for each column.
-An issue is done when it reaches the `Done` column.
+An issue can be closed when it reaches the `Done` column.
 
 ##### To Do
 
@@ -343,7 +343,7 @@ Additionally, it visualizes connections between type `Task` issues and their par
 #### Columns
 
 There are entry criteria for each column.
-An issue is done when it reaches the `Done` column.
+An issue can be closed when it reaches the `Done` column.
 
 ##### To Do
 
