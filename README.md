@@ -73,6 +73,8 @@ graph LR
 
 ## Issues
 
+### Sample issues
+
 We created several sample [issues](https://github.com/inno-swp-2025/we-have-tiktok-at-home/issues) in the [inno-swp-2025/we-have-tiktok-at-home](https://github.com/inno-swp-2025) repository.
 
 ### Issue types
@@ -87,7 +89,7 @@ Types:
 
 ### Issue labels
 
-Additionally, issues have meaningful [labels](https://github.com/inno-swp-2025/we-have-tiktok-at-home/labels).
+Issues have meaningful [labels](https://github.com/inno-swp-2025/we-have-tiktok-at-home/labels).
 
 If you plan to have several repositories in your organization, you can [create default issue labels](https://docs.github.com/en/organizations/managing-organization-settings/managing-default-labels-for-repositories-in-your-organization).
 
@@ -95,34 +97,40 @@ If you plan to have several repositories in your organization, you can [create d
 
 |                | `Epic` | `Backlog` | `Task` |
 | -------------- | :----: | :-------: | :----: |
-| `Priority: *`  |   ✅   |    ✅     |   ✅   |
 | `Meta: *`      |   ✅   |    ✅     |   ✅   |
 | `Platform: *`  |   ✅   |    ✅     |   ✅   |
+| `Scope: *`     |   ✅   |    ✅     |   ✅   |
+| `Component: *` |   ✅   |    ✅     |   ✅   |
+| `Severity: *`  |   ✅   |    ✅     |   ❌   |
+| `Epic: *`      |   ✅   |    ❌     |   ❌   |
 | `Backlog: *`   |   ❌   |    ✅     |   ❌   |
-| `Severity: *`  |   ❌   |    ✅     |   ❌   |
-| `Scope: *`     |   ❌   |    ❌     |   ✅   |
-| `Component: *` |   ❌   |    ❌     |   ✅   |
 
 Legend:
 
 - Columns - issue types.
 - Rows - issue labels.
-- ✅ - compatible
-- ❌ - incompatible
+- ✅ - compatible.
+- ❌ - incompatible.
+- `*` in issue labels is a placeholder for actual text.
 
-### Epics and Product Backlog Items
+### Issue priority
 
-Epics break down into Product Backlog Items (see [Work items hierarchy](#work-items-hierarchy)).
+In our [projects](#projects), we use a custom `Priority` field of type `Number` for setting issue priority and sorting/slicing issues by priority.
 
-Each sub-issue of a type `Epic` issue must have one of these labels:
+`Priority` can have the following values:
 
-- `Backlog: User Story`
-- `Backlog: Enabler`
-- `Backlog: Investigation`
+- `0` - Highest priority. Requires immediate attention.
+- `1` - High priority. Essential to achieving a primary goal for the current sprint or project phase.
+- `2` - Medium priority. Important work that provides significant value but is not time-critical.
+- `3` - Low priority. Valuable, but non-essential.
 
-### Tips
+## Pull requests
 
-- If you specify the `Scope: *`, specify the `Component: *`.
+Each pull request should address a particular type `Task` issue.
+
+You should avoid creating pull requests that don't address a particular type `Task` issue (aka "last-minute changes").
+
+The `PR: *` labels are automatically assigned to pull requests when you create pull requests from [templates](#pull-request-templates).
 
 ## Templates
 
