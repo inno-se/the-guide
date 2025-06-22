@@ -215,6 +215,46 @@ This project allows for planning and tracking the progress of type `Epic` issues
   - Field sum: `Count`
   - Slice by: `Priority`.
 
+#### Columns
+
+There are entry criteria for each column.
+An issue can be closed when it reaches the `Done` column.
+
+##### To Do
+
+```text
+[Entry Criteria]
+* The issue field "Priority" was filled in.
+* The issue fields "Start" and "Finish" were filled in.
+* The issue was added to a milestone. * Type "Backlog" issues were added as sub-issues of the issue.
+```
+
+##### In Progress
+
+```text
+[Entry Criteria]
+* Some sub-issues were completed.
+* A person who would monitor the issue progress was assigned to the issue.
+```
+
+##### In Review
+
+```text
+[Entry Criteria]
+* All sub-issues were completed.
+* All changes introduced for this issue were deployed to the staging environment.
+* A person who would verify the acceptance criteria was assigned to the issue.
+```
+
+##### Done
+
+```text
+[Entry Criteria]
+* All acceptance criteria were met on the staging version.
+* A production version with changes introduced for this issue was deployed.
+* All acceptance criteria specified in the issue were met on that version.
+```
+
 ## Project `Product Backlog`
 
 [Link](https://github.com/orgs/inno-swp-2025/projects/1)
