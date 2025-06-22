@@ -291,24 +291,7 @@ Additionally, it visualizes connections between type `Backlog` issues and their 
   - Sort by: `Sprint` (ascending).
   - Field sum: `Count`, `Story Points`.
   - Slice by: `Priority`.
-
-### View `Timeline`
-
-Shows planned schedule of working on type `Backlog` issues.
-
-#### View options
-
-- Layout: `Roadmap`.
-
-- Configuration:
-  - Group by: `Sprint`.
-  - Markers: `Sprint and Milestone`.
-  - Sort by: `Sprint` (ascending), `Priority` (ascending).
-  - Dates: `Sprint`.
-  - Zoom level: `Month`.
-  - Field sum: `Count`, `Story Points`.
-  - Slice by: `Parent issue`.
-
+  
 #### Columns
 
 There are entry criteria for each column.
@@ -318,12 +301,12 @@ An issue can be closed when it reaches the `Done` column.
 
 ```text
 [Entry Criteria]
-* The issue isn't large enough for an Epic.
 * The issue was updated (e.g., via an LLM) to conform a relevant issue form template.
 * Relevant labels were assigned to the issue.
-* Issues with type "Task" were added as sub-issues of the issue.
-* The issue field "Story Points" was filled.
-* The issue was added to a milestone and to a sprint.
+* Type "Task" issues were added as sub-issues of the issue.
+* The issue field "Story Points" was filled in.
+* The issue was added to a sprint.
+* Sub-issues of the issue were added to a matching sprint in the "Tasks" project.
 ```
 
 ##### In Progress
@@ -338,16 +321,17 @@ An issue can be closed when it reaches the `Done` column.
 
 ```text
 [Entry Criteria]
-* All sub-issues were completed.
-* For a user story issue, all acceptance criteria for the issue were met in the staging environment.
+* All sub-issues of the issue were completed.
+* All changes introduced to complete the issue were deployed to the staging environment.
+* All acceptance criteria specified in the issue were met in the staging environment.
 ```
 
 ##### Done
 
 ```text
 [Entry Criteria]
-* A new version of the product with changes introduced by the issue was deployed.
-* Usability session tasks were completed successfully on that product version.
+* All changes introduced to complete the issue were deployed to the production environment.
+* All acceptance criteria specified in the issue were met in the production environment.
 ```
 
 ### View `Timeline`
@@ -360,7 +344,7 @@ Shows planned schedule of working on type `Backlog` issues.
 
 - Configuration:
   - Group by: `Sprint`.
-  - Markers: `Sprint`.
+  - Markers: `Sprint and Milestone`.
   - Sort by: `Sprint` (ascending), `Priority` (ascending).
   - Dates: `Sprint`.
   - Zoom level: `Month`.
