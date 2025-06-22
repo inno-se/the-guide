@@ -166,6 +166,14 @@ The following templates are available:
 - [For type `Task` issues](https://github.com/inno-swp-2025/.github/blob/main/.github/PULL_REQUEST_TEMPLATE/task.md)
 - [For last-minute changes](https://github.com/inno-swp-2025/.github/blob/main/.github/PULL_REQUEST_TEMPLATE/last-minute-changes.md) that don't resolve any particular type `Task` issue.
 
+## Milestones
+
+Milestones are specific, key points within a project that mark progress and completion of significant phases or tasks[^2].
+
+Milestones are not sprints [^3].
+
+We defined two [milestones](https://github.com/inno-swp-2025/we-have-tiktok-at-home/milestones) and provided their goals in descriptions.
+
 ## Projects
 
 [GitHub Projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects) are a tool for project management on GitHub.
