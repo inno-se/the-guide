@@ -180,6 +180,7 @@ This project allows for planning and tracking the progress of type `Epic` issues
 
 - `Start` of type `Date` - (planned) date of starting the work on an issue.
 - `Finish` of type `Date` - (planned) date of finishing the work on an issue.
+- `Priority` of type `Number` - numeric priority of an issue (see [Issue priority](#issue-priority)).
 
 ### View `Timeline`
 
@@ -224,7 +225,7 @@ Additionally, it visualizes connections between type `Backlog` issues and their 
 
 - `Story Points` of type `Number` - estimate of a `Backlog` issue in Story Points.
 - `Sprint` of type `Iteration` - a sprint that the issue belongs to.
-- `Priority` of type `Number` - numeric priority of an issue that equals to the `<number>` in the `Priority: <number>` label of that issue.
+- `Priority` of type `Number` - numeric priority of an issue (see [Issue priority](#issue-priority)).
 
 ### View `Status`
 
@@ -319,7 +320,7 @@ Additionally, it visualizes connections between type `Task` issues and their par
 
 - `Ideal Hours` of type `Number` - estimated number of ideal hours required to complete the issue.
 - `Sprint` of type `Iteration` - a sprint that the issue belongs to.
-- `Priority` of type `Number` - numeric priority of an issue that equals to the `<number>` in the `Priority: <number>` label of that issue.
+- `Priority` of type `Number` - numeric priority of an issue (see [Issue priority](#issue-priority)).
 - `Start` of type `Date` - (planned) date of starting the work on an issue.
 - `Finish` of type `Date` - (planned) date of finishing the work on an issue.
 
