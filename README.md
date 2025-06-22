@@ -81,9 +81,9 @@ Each issue has a [type](https://docs.github.com/en/issues/tracking-your-work-wit
 
 Types:
 
-- `Epic` - a large user story.
-- `Backlog` - a Product Backlog Item (PBI).
-- `Task` - a task related to a PBI.
+- `Epic` - An Epic is a container for a major initiative that is too large and complex to be completed in a single sprint. It groups together related Product Backlog Items to achieve a larger goal. This initiative can be a customer-facing feature, a large-scale bug fix, a technical debt reduction plan, or a significant architectural improvement.
+- `Backlog` - A Product Backlog Item (PBI) is a unit of work that is small enough to be completed by the team within a single sprint. It represents a concrete step toward completing an Epic. A PBI must deliver a demonstrable increment of value, though that value may be for the end-user (a feature), for the system (stability/performance), or for the development team (enabling future work).
+- `Task` - A Task is a specific action required to complete a Product Backlog Item (PBI). It breaks down a PBI into the smallest, most granular steps needed for implementation or completion.
 
 ### Issue labels
 
