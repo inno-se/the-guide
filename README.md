@@ -262,7 +262,7 @@ Shows planned schedule of working on type `Backlog` issues.
 
 - Configuration:
   - Group by: `Sprint`.
-  - Markers: `Sprint`.
+  - Markers: `Sprint and Milestone`.
   - Sort by: `Sprint` (ascending), `Priority` (ascending).
   - Dates: `Sprint`.
   - Zoom level: `Month`.
