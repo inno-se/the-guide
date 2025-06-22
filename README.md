@@ -302,6 +302,23 @@ An issue can be closed when it reaches the `Done` column.
 * Usability session tasks were completed successfully on that product version.
 ```
 
+### View `Timeline`
+
+Shows planned schedule of working on type `Backlog` issues.
+
+#### View options
+
+- Layout: `Roadmap`.
+
+- Configuration:
+  - Group by: `Sprint`.
+  - Markers: `Sprint`.
+  - Sort by: `Sprint` (ascending), `Priority` (ascending).
+  - Dates: `Sprint`.
+  - Zoom level: `Month`.
+  - Field sum: `Count`, `Story Points`.
+  - Slice by: `Parent issue`.
+
 ## Project `Tasks`
 
 [Link](https://github.com/orgs/inno-swp-2025/projects/2)
