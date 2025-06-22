@@ -25,7 +25,7 @@ See our [Roadmap](https://github.com/orgs/inno-swp-2025/projects/5/views/4), [Pr
 
 ## Work item hierarchy
 
-We use the following hierarchy of work items that are represented via issues of different types and pull requests.
+We use the following hierarchy of work items that are represented via issues of different types and pull requests [^1].
 
 ```mermaid
 graph LR
@@ -496,3 +496,7 @@ An issue can be closed when it reaches the `Done` column.
 
 - User settings:
   - `Show date fields`
+
+[^1]: Adapted from <https://learn.microsoft.com/en-us/azure/devops/boards/backlogs/define-features-epics?view=azure-devops&tabs=scrum-process#portfolio-backlogs>
+[^2]: <https://www.atlassian.com/blog/project-management/project-milestones>
+[^3]: <https://pm.stackexchange.com/questions/22510/sprint-vs-milestone-vs-release>
