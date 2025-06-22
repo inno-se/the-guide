@@ -349,7 +349,7 @@ An issue is done when it reaches the `Done` column.
 
 ```text
 [Entry Criteria]
-* The issue was updated (e.g., via an LLM) to conform to the "Task" issue form template.
+* The issue was updated (e.g., via an LLM) to conform to the type "Task" issue form template.
 * The type "Task" was assigned to the issue.
 * Relevant labels were assigned to the issue.
 * The issue was made a sub-issue of a type "Backlog" issue.
@@ -360,10 +360,10 @@ An issue is done when it reaches the `Done` column.
 ```text
 [Entry Criteria]
 * The issue description was revised to provide missing details.
-* The issue field "Ideal Hours" was filled.
+* The issue field "Ideal Hours" was filled in.
 * The issue was added to the current sprint.
-* The issue was assigned to a developer.
-* A branch for the issue was created via the "create a branch" button on the issue page.
+* The issue was assigned.
+* If necessary, a branch for the issue was created via the "create a branch" button on the issue page.
 ```
 
 ##### Ready For Review
@@ -371,11 +371,10 @@ An issue is done when it reaches the `Done` column.
 ```text
 [Entry Criteria]
 * A pull request for the issue was created using a relevant template.
-* The pull request was linked to the issue.
 * Implementation in the pull request was completed.
 * The "main" branch was merged into the pull request branch.
 * CI pipeline with automated tests succeeded on the pull request branch.
-* Subtasks in the pull request description were updated.
+* All sections in the pull request description were updated to match implementation.
 * A review of the pull request was requested.
 ```
 
@@ -383,7 +382,7 @@ An issue is done when it reaches the `Done` column.
 
 ```text
 [Entry Criteria]
-* All issue Acceptance Criteria were met on the pull request branch.
+* All acceptance criteria specified in the issue were met on the pull request branch.
 * The pull request was approved.
 ```
 
@@ -391,7 +390,8 @@ An issue is done when it reaches the `Done` column.
 
 ```text
 [Entry Criteria]
-* The pull request that closes the issue was merged.
+* The pull request was merged into the main branch.
+* If no pull request was required to complete the issue: All acceptance criteria specified in the issue were met.
 ```
 
 ### View `With Parents`
