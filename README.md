@@ -8,20 +8,83 @@ See our [Roadmap](https://github.com/orgs/inno-swp-2025/projects/5/views/4), [Pr
 
 ## Set up your project
 
+### Use templates
+
 1. [Create](https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/creating-a-new-organization-from-scratch) a GitHub organization.
 1. [Import](https://docs.github.com/en/migrations/importing-source-code/using-github-importer/importing-a-repository-with-github-importer) or [transfer](https://docs.github.com/en/repositories/creating-and-managing-repositories/transferring-a-repository) your repositories into your organization.
-1. Import the [.github](https://github.com/inno-swp-2025/.github) repository into your organization.
-1. Create issue types (see [Issue types](#issue-types)).
-1. Create issue labels (see [Issue labels](#issue-labels)).
+1. Create issue types similar to ours (see [Issue types](#issue-types)).
+1. Create issue labels similar to ours (see [Issue labels](#issue-labels)).
 1. Copy our projects (see [Projects](#projects)).
-1. Create issues following the [work item hierarchy](#work-item-hierarchy) and using [issue form templates](#issue-form-templates).
-1. Set `Priority` and `Story Points` in your type `Backlog` issues (see [Project `Product Backlog`](#project-product-backlog)).
-1. If some type `Backlog` issues with label `Backlog: User Story` are too large, convert them into type `Epic` issues and add there smaller type `Backlog` sub-issues.
-1. Set `Start` and `Finish` in your type `Epic` issues (see [Project `Roadmap`](#project-roadmap)).
-1. Create milestones in the project `Roadmap` and add type `Epic` issues to these milestones.
+1. Import the [.github](https://github.com/inno-swp-2025/.github) repository into your organization.
+1. Update templates in the `.github` repo.
+    - In [issue form templates](#issue-form-templates), update:
+      - `projects:` - to automatically add issues to your projects;
+      - `labels:` - to automatically create issues with your labels.
+1. Copy this `README` somewhere into your repo and modify it as necessary.
+1. Update all links (e.g., in `Project details` in your projects) to this `README` to point to your version.
+1. Adjust the entry criteria specified in Kanban boards (see view `Status` in [Projects](#projects)). Criteria for a column specify conditions that must all be satisfied before an issue can be moved to that column.
+
+### Analyze requirements
+
+1. Gather all non-video and non-audio materials that provide relevant information about your project. E.g.:
+    - Initial project description;
+    - Actual technical stack.
+    - Assignments;
+    - Diagrams;
+    - Transcripts (preferably with timestamps) of interviews, usability sessions, and team meeting recordings;
+    - Discussions with the customer on Telegram etc;
+1. Put them all into a single `Requirements` document.
+1. Find all video and audio materials that provide relevant information about your project.
+1. Open a chat in a service that provides a multi-modal LLM (e.g., Google AI Studio or ChatGPT).
+1. Load the `Requirements` file, video and audio materials into the chat.
+1. Extract epics and product backlog items. Sample prompt:
+
+    ```text
+    Extract all requirements, features, technical details.
+    
+    Create product backlog items (PBIs) with titles and acceptance criteria.
+    Group PBIs by epics with their own titles and acceptance criteria.
+    
+    Epics and PBIs have types "user story", "enabler", "investigation".
+    For both Epics and PBIs, write an index and type before the title.
+    
+    For epics and PBIs of the "user story" type, provide a user story and at least two acceptance criteria in the GIVEN/WHEN/THEN format.  
+    If necessary, you may use AND and BUT after any of GIVEN, WHEN, or THEN.
+    Write each clause on a separate line.
+    Only the last clause ends with a full stop.
+    
+    For other types of epics and PBIs, provide a brief description, a checklist of subtasks, and a checklist of corresponding acceptance criteria.
+    ```
+
+1. Check the output against the input materials; identify hallucinations; re-generate dubious parts.
+1. (Optional) Ask LLM to generate:
+    - A new use case diagram using PlantUML.
+    - Project architecture using mermaid (see [Architecture Diagrams Documentation](https://mermaid.js.org/syntax/architecture.html)).
+    - Tasks for each product backlog item. Each task must have a brief description, a checklist of sub-tasks, and a checklist of corresponding task acceptance criteria.
+1. (Optional) Save the chat, e.g., into a Google Doc or a Markdown doc in the repo (so that you can version it).
+
+### Plan the project
+
+1. In the chat with all materials and analysis, ask the LLM to plan the work as a [Gantt chart](https://mermaid.js.org/syntax/gantt.html) and open the obtained diagram in the [editor](https://mermaid.live/edit). Sample prompt:
+
+    ```text
+    Assume the work must be done in two months, in 1-week sprints.
+    Epic can span several sprints.
+    PBI must fit into a single sprint.
+    Provide a Gantt chart for epics and corresponding PBIs as a mermaid diagram.
+    ```
+
+1. Don't trust this plan and build your own instead.
+1. Create issues following the [work item hierarchy](#work-item-hierarchy) (see [Issues](#issues)) and using the analysis text that you can copy as Markdown (see [Analyze requirements](#analyze-requirements)).
+1. Set `Priority`,  `Start` and `Finish` fields in your type `Epic` issues (see [Project `Roadmap`](#project-roadmap)).
+1. Set `Priority` and `Story Points` fields in your type `Backlog` issues (see [Project `Product Backlog`](#project-product-backlog)).
+1. If some type `Backlog` issues with label `Backlog: User Story` are too large to be completed during a single sprint, create new type `Epic` issues with the content of those large type `Backlog` issues and add there smaller type `Backlog` sub-issues.
+1. For type `Epic` issues that must be worked on in the nearest sprints, set relevant `Sprint` field in their type `Backlog` sub-issues.
+1. Create milestones for `MVP v2`, `MVP v3`, `Demo` in your repository.
+1. Add type `Epic` and type `Backlog` issues to these milestones.
+1. For type `Backlog` issues scheduled for the nearest sprints, create type `Task` sub-issues and set corresponding `Sprint` field there.
+1. For each type `Backlog` issue, `Sprint` in that issue and in its type `Task` sub-issues must be the same.
 1. Set `Ideal Hours` and `Priority` in your type `Task` issues (see [Project `Tasks`](#project-tasks)).
-1. Set matching `Sprint` in your type `Backlog` issues and their type `Task` sub-issues.
-1. Adjust the entry criteria specified in Kanban boards in the `Roadmap` and `Product Backlog` projects. Criteria for a column specify when an issue can be moved to that column.
 
 ## Work item hierarchy
 
