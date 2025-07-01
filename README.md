@@ -178,14 +178,14 @@ Legend:
 
 ### Issue priority
 
-In our [projects](#projects), we use a custom `Priority` field of type `Number` for setting issue priority and sorting/slicing issues by priority.
+In our [projects](#projects), we use the custom `Priority` field of type `Single select` for setting issue priority and sorting/slicing issues by priority.
 
 `Priority` can have the following values:
 
-- `0` - Highest priority. Requires immediate attention.
-- `1` - High priority. Essential to achieving a primary goal for the current sprint or project phase.
-- `2` - Medium priority. Important work that provides significant value but is not time-critical.
-- `3` - Low priority. Valuable, but non-essential.
+- `Highest` - Requires immediate attention.
+- `High` - Essential to achieving a primary goal for the current sprint or project phase.
+- `Medium` - Important work that provides significant value but is not time-critical.
+- `Low` - Valuable, but non-essential.
 
 ## Pull requests
 
@@ -265,7 +265,7 @@ This project allows for planning and tracking the progress of type `Epic` issues
 
 - `Start` of type `Date` - (planned) date of starting the work on an issue.
 - `Finish` of type `Date` - (planned) date of finishing the work on an issue.
-- `Priority` of type `Number` - numeric priority of an issue (see [Issue priority](#issue-priority)).
+- `Priority` of type `Single select` - priority of an issue (see [Issue priority](#issue-priority)).
 
 ### View `Timeline`
 
@@ -350,7 +350,7 @@ Additionally, it visualizes connections between type `Backlog` issues and their 
 
 - `Story Points` of type `Number` - estimate of a `Backlog` issue in Story Points.
 - `Sprint` of type `Iteration` - a sprint that the issue belongs to.
-- `Priority` of type `Number` - numeric priority of an issue (see [Issue priority](#issue-priority)).
+- `Priority` of type `Single select` - priority of an issue (see [Issue priority](#issue-priority)).
 
 ### View `Status`
 
@@ -365,7 +365,7 @@ Additionally, it visualizes connections between type `Backlog` issues and their 
   - Fields: `Assignees`, `Status`, `Sprint`, `Story Points`, `Priority`, `Sub-issues progress`.
   - Column by: `Status`.
   - Group by: `Sprint`.
-  - Sort by: `Sprint` (ascending).
+  - Sort by: `Priority` (ascending).
   - Field sum: `Count`, `Story Points`.
   - Slice by: `Priority`.
   
@@ -446,7 +446,7 @@ Additionally, it visualizes connections between type `Task` issues and their par
 
 - `Ideal Hours` of type `Number` - estimated number of ideal hours required to complete the issue.
 - `Sprint` of type `Iteration` - a sprint that the issue belongs to.
-- `Priority` of type `Number` - numeric priority of an issue (see [Issue priority](#issue-priority)).
+- `Priority` of type `Single select` - priority of an issue (see [Issue priority](#issue-priority)).
 - `Start` of type `Date` - (planned) date of starting the work on an issue.
 - `Finish` of type `Date` - (planned) date of finishing the work on an issue.
 
@@ -534,7 +534,7 @@ An issue can be closed when it reaches the `Done` column.
 - View options:
   - Fields: `Sprint`, `Priority`, `Ideal Hours`, `Status`, `Assignees`, `Parent issue`.
   - Group by: `Sprint`.
-  - Sort by: `Priority` (ascending), `Ideal Hours` (ascending).
+  - Sort by: `Priority` (ascending), `Ideal Hours` (descending).
   - Fields sum: `Count`, `Ideal Hours`.
   - Slice by: `Parent issue`.
 
