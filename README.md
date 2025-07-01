@@ -310,8 +310,8 @@ An issue can be closed when it reaches the `Done` column.
 
 ```text
 [Entry Criteria]
-* Some sub-issues were completed.
 * A person who would monitor the issue progress was assigned to the issue.
+* Some sub-issues were completed.
 ```
 
 ##### In Review
