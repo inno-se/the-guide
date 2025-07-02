@@ -182,10 +182,10 @@ In our [projects](#projects), we use the custom `Priority` field of type `Single
 
 `Priority` can have the following values:
 
-- `Highest` - Requires immediate attention.
-- `High` - Essential to achieving a primary goal for the current sprint or project phase.
-- `Medium` - Important work that provides significant value but is not time-critical.
-- `Low` - Valuable, but non-essential.
+- `P0` - Highest priority. Requires immediate attention.
+- `P1` - High priority. Essential to achieving a primary goal for the current sprint or project phase.
+- `P2` - Medium priority. Important work that provides significant value but is not time-critical.
+- `P3` - Low priority. Valuable, but non-essential.
 
 ## Pull requests
 
