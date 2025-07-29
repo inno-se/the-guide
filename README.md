@@ -12,6 +12,7 @@ See our [Roadmap](https://github.com/orgs/inno-swp-2025/projects/5/views/4), [Pr
 
 1. [Create](https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/creating-a-new-organization-from-scratch) a GitHub organization.
 1. [Import](https://docs.github.com/en/migrations/importing-source-code/using-github-importer/importing-a-repository-with-github-importer) or [transfer](https://docs.github.com/en/repositories/creating-and-managing-repositories/transferring-a-repository) your repositories into your organization.
+1. Consider switching to a [monorepo](https://graphite.dev/guides/polyrepo-to-monorepo-migrations-guide).
 1. Create issue types similar to ours (see [Issue types](#issue-types)).
 1. Create issue labels similar to ours (see [Issue labels](#issue-labels)).
 1. Copy our projects (see [Projects](#projects)).
@@ -20,50 +21,82 @@ See our [Roadmap](https://github.com/orgs/inno-swp-2025/projects/5/views/4), [Pr
     - In [issue form templates](#issue-form-templates), update:
       - `projects:` - to automatically add issues to your projects;
       - `labels:` - to automatically create issues with your labels.
-1. Copy this `README` somewhere into your repo and modify it as necessary.
+1. Copy this `README` (that you read now) somewhere into your repo and modify it as necessary.
 1. Update all links (e.g., in `Project details` in your projects) to this `README` to point to your version.
-1. Adjust the entry criteria specified in Kanban boards (see view `Status` in [Projects](#projects)). Criteria for a column specify conditions that must all be satisfied before an issue can be moved to that column.
+1. Adjust entry criteria specified in Kanban boards (see [Kanban boards](#kanban-boards)).
 
-### Analyze requirements
+### Prepare the knowledge base
 
-1. Gather all non-video and non-audio materials that provide relevant information about your project. E.g.:
-    - Initial project description;
-    - Actual technical stack.
-    - Assignments;
-    - Diagrams;
-    - Transcripts (preferably with timestamps) of interviews, usability sessions, and team meeting recordings;
-    - Discussions with the customer on Telegram etc;
-1. Put them all into a single `Requirements` document.
-1. Find all video and audio materials that provide relevant information about your project.
-1. Open a chat in a service that provides a multi-modal LLM (e.g., Google AI Studio or ChatGPT).
-1. Load the `Requirements` file, video and audio materials into the chat.
-1. Extract epics and product backlog items. Sample prompt:
+1. Identify textual materials and images that provide relevant information about your project, e.g.:
+    - Description of stakeholders;
+    - Project description and documentation;
+    - Diagrams (as code);
+    - User stories;
+    - Discussions with the customer on Telegram etc.;
+    - GitHub issues.
+1. Gather all video and audio materials relevant to the project, e.g., recordings of:
+    - Interviews with the customer;
+    - Usability sessions;
+    - Sprint planning and sprint review meetings.
+1. Get their transcripts, preferably with speakers and timestamps.
+1. Choose a multi-modal LLM service (e.g., Google AI Studio or ChatGPT).
+1. Discuss with the LLM:
+    - How to optimally structure the materials for loading into a chat with the LLM;
+    - Which parts of the knowledge base are necessary for chats on specific topics, e.g., processing a usability session recording.
+1. Ask LLM to provide scripts that can help optimally structure the knowledge base.
+1. Structure the knowledge base.
+1. You may want to:
+    - create a separate repository for the knowledge base.
+    - ask LLM to provide scripts for automatically updating materials in that repository, e.g. after changes to the documentation in the main repository.
+1. Commit and push the knowledge base to GitHub so that it can be versioned.
+
+### Define Architecturally Significant Requirements
+
+- Stakeholders in your project may have functional and non-functional (quality) requirements to the project. These requirements must be prioritized and accounted for when designing the project architecture. You may not be able to change the architecture later due to high cost of change.
+- Check the [ISO 25010 quality model](https://iso25000.com/index.php/en/iso-25000-standards/iso-25010) for generic definitions of quality characteristics (aka quality attributes).
+- Read [this article](https://www.pisakov.com/posts/utility-tree-in-software-architecture/) and the *[Chapter 19](./assets/BckCh19.pdf) - Architecturally Significant Requirements* of the book *Software Architecture in Practice. L. Bass, P. Clements, and R. Kazman* [^Bck].
+- Capture your Architecturally Significant Requirements (ASR) in a Utility Tree (p. 285 of the book) in the tabular form [^UtilityTreeTabular]. Example:
+  ![Utility Tree](./assets/BckUtilityTree.png)
+- You may use the quality attribute scenario format [^Bck], [^QASofSoftwareArchitecture], [^QualityScenarios].
+- For each scenario, explain step by step how you're going to manually or automatically test it.
+
+### Design architecture
+
+<!-- TODO write here -->
+![Design Concepts](./assets/BckDesignConcepts.png)
+
+### Break down the work
+
+1. Load necessary context into a chat with an LLM.
+1. Load relevant [issue form templates](#issue-form-templates).
+1. Extract epics and Product Backlog Items. Sample prompt:
 
     ```text
-    Extract all requirements, features, technical details.
+    Extract all requirements, features, technical details, investigations from the context.
     
-    Create product backlog items (PBIs) with titles and acceptance criteria.
-    Group PBIs by epics with their own titles and acceptance criteria.
-    
-    Epics and PBIs have types "user story", "enabler", "investigation".
+    I use the following structure of issues:
+    Epic -> Product Backlog Item (PBI) -> Task
+    - An Epic is a container for a major initiative that is too large and complex to be completed in a single sprint.
+    - A PBI is a unit of work that is small enough to be completed by the team within a single sprint.
+    - A Task is a specific action required to complete a PBI.
+        
+    Write text for Epics and related Product Backlog Items (PBIs).
     For both Epics and PBIs, write an index and type before the title.
+    Don't generate Tasks for now.
     
-    For epics and PBIs of the "user story" type, provide a user story and at least two acceptance criteria in the GIVEN/WHEN/THEN format.  
-    If necessary, you may use AND and BUT after any of GIVEN, WHEN, or THEN.
-    Write each clause on a separate line.
-    Only the last clause ends with a full stop.
+    Epics and PBIs have types "User Story", "Enabler", "Investigation".
     
-    For other types of epics and PBIs, provide a brief description, a checklist of subtasks, and a checklist of corresponding acceptance criteria.
+    Check issue form templates and write texts in corresponding format.
+    You may skip comments and other unnecessary sections.
     ```
 
-1. Check the output against the input materials; identify hallucinations; re-generate dubious parts.
+1. Check the output against the loaded materials; identify hallucinations; re-generate dubious parts.
+
 1. (Optional) Ask LLM to generate:
     - A new use case diagram using PlantUML.
     - Project architecture using mermaid (see [Architecture Diagrams Documentation](https://mermaid.js.org/syntax/architecture.html)).
     - Tasks for each product backlog item. Each task must have a brief description, a checklist of sub-tasks, and a checklist of corresponding task acceptance criteria.
-1. (Optional) Save the chat, e.g., into a Google Doc or a Markdown doc in the repo (so that you can version it).
-
-### Plan the project
+1. (Optional) Save the chat into a Markdown doc in the repo so that you can use it in subsequent chats.
 
 1. In the chat with all materials and analysis, ask the LLM to plan the work as a [Gantt chart](https://mermaid.js.org/syntax/gantt.html) and open the obtained diagram in the [editor](https://mermaid.live/edit). Sample prompt:
 
@@ -75,7 +108,7 @@ See our [Roadmap](https://github.com/orgs/inno-swp-2025/projects/5/views/4), [Pr
     ```
 
 1. Don't trust this plan and build your own instead.
-1. Create issues following the [work item hierarchy](#work-item-hierarchy) (see [Issues](#issues)) and using the analysis text that you can copy as Markdown (see [Analyze requirements](#analyze-requirements)).
+1. Create issues following the [work item hierarchy](#work-item-hierarchy) (see [Issues](#issues)).
 1. Set `Priority`,  `Start` and `Finish` fields in your type `Epic` issues (see [Project `Roadmap`](#project-roadmap)).
 1. Set `Priority` and `Story Points` fields in your type `Backlog` issues (see [Project `Product Backlog`](#project-product-backlog)).
 1. If some type `Backlog` issues with label `Backlog: User Story` are too large to be completed during a single sprint, create new type `Epic` issues with the content of those large type `Backlog` issues and add there smaller type `Backlog` sub-issues.
@@ -88,7 +121,7 @@ See our [Roadmap](https://github.com/orgs/inno-swp-2025/projects/5/views/4), [Pr
 
 ## Work item hierarchy
 
-We use the following hierarchy of work items that are represented via issues of different types and pull requests [^1].
+We use the following hierarchy of work items that are represented via issues of different types and pull requests [^WorkItemHierarchy].
 
 ```mermaid
 graph LR
@@ -231,9 +264,9 @@ The following templates are available:
 
 ## Milestones
 
-Milestones are specific, key points within a project that mark progress and completion of significant phases or tasks[^2].
+Milestones are specific, key points within a project that mark progress and completion of significant phases or tasks[^Milestones].
 
-Milestones are not sprints [^3].
+Milestones are not sprints [^MilestonesVsSprints].
 
 We defined two [milestones](https://github.com/inno-swp-2025/we-have-tiktok-at-home/milestones) and provided their goals in descriptions.
 
@@ -281,7 +314,7 @@ This project allows for planning and tracking the progress of type `Epic` issues
 - User settings:
   - [x] Show date fields.
 
-### View `Status`
+### View `Kanban`
 
 - Layout: `Board`.
 - Configuration:
@@ -352,7 +385,7 @@ Additionally, it visualizes connections between type `Backlog` issues and their 
 - `Sprint` of type `Iteration` - a sprint that the issue belongs to.
 - `Priority` of type `Single select` - priority of an issue (see [Issue priority](#issue-priority)).
 
-### View `Status`
+### View `Kanban`
 
 - Provides `Entry Criteria` in Kanban board column descriptions.
 - Shows total `Story Points` per sprint.
@@ -450,7 +483,7 @@ Additionally, it visualizes connections between type `Task` issues and their par
 - `Start` of type `Date` - (planned) date of starting the work on an issue.
 - `Finish` of type `Date` - (planned) date of finishing the work on an issue.
 
-### View `Status`
+### View `Kanban`
 
 - Provides `Entry Criteria` in Kanban board column descriptions.
 - Shows total `Ideal Hours` per sprint.
