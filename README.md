@@ -593,6 +593,10 @@ An issue can be closed when it reaches the `Done` column.
 - User settings:
   - `Show date fields`
 
-[^1]: Adapted from <https://learn.microsoft.com/en-us/azure/devops/boards/backlogs/define-features-epics?view=azure-devops&tabs=scrum-process#portfolio-backlogs>
-[^2]: <https://www.atlassian.com/blog/project-management/project-milestones>
-[^3]: <https://pm.stackexchange.com/questions/22510/sprint-vs-milestone-vs-release>
+[^WorkItemHierarchy]: Adapted from <https://learn.microsoft.com/en-us/azure/devops/boards/backlogs/define-features-epics?view=azure-devops&tabs=scrum-process#portfolio-backlogs>
+[^Milestones]: <https://www.atlassian.com/blog/project-management/project-milestones>
+[^MilestonesVsSprints]: <https://pm.stackexchange.com/questions/22510/sprint-vs-milestone-vs-release>
+[^UtilityTreeTabular]: Tabular form is recommended at <https://docs.arc42.org/tips/10-2/>
+[^Bck]: <https://github.com/gmoral/Books/blob/d5594cea78b9af2768550bba70cebe67e7c1fcda/software-architecture-in-practice-4.pdf>
+[^QASofSoftwareArchitecture]: <https://www.cs.unibo.it/cianca/wwwpages/as/5.pdf#page=26>
+[^QualityScenarios]: <https://greg4cr.github.io/courses/spring21dit635/Lectures/Spring21-Lecture3-QualityScenarios.pdf>
