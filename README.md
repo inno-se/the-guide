@@ -53,16 +53,55 @@ Having a well-structured knowledge base for your project will help you share the
     - create a separate repository for the knowledge base.
     - ask the LLM to provide scripts for automatically updating materials in that repository, e.g., after changes to the documentation in the main repository.
 1. Commit and push the knowledge base to GitHub so that it can be versioned.
+1. (Optional) Set up a [GitHub Action](https://docs.github.com/actions) to publish the knowledge base to [GitHub Pages](https://pages.github.com/).
 
-### Define Architecturally Significant Requirements
+### Use the knowledge base
 
-- Stakeholders in your project may have functional and non-functional (quality) requirements to the project. These requirements must be prioritized and accounted for when designing the project architecture. You may not be able to change the architecture later due to high cost of change.
-- Check the [ISO 25010 quality model](https://iso25000.com/index.php/en/iso-25000-standards/iso-25010) for generic definitions of quality characteristics (aka quality attributes).
-- Read [this article](https://www.pisakov.com/posts/utility-tree-in-software-architecture/) and the *[Chapter 19](./assets/BckCh19.pdf) - Architecturally Significant Requirements* of the book *Software Architecture in Practice. L. Bass, P. Clements, and R. Kazman* [^Bck].
-- Capture your Architecturally Significant Requirements (ASR) in a Utility Tree (p. 285 of the book) in the tabular form [^UtilityTreeTabular]. Example:
-  ![Utility Tree](./assets/BckUtilityTree.png)
-- You may use the quality attribute scenario format [^Bck], [^QASofSoftwareArchitecture], [^QualityScenarios].
-- For each scenario, explain step by step how you're going to manually or automatically test it.
+- Come up with good questions about a particular topic, e.g., requirements engineering.
+- Load relevant parts of the knowledge base to a chat with an LLM.
+- Ask the LLM to come up with more questions on that topic.
+- Choose useful questions and try to find answers to them.
+- Add questions and verified answers to your knowledge base.
+
+### Capture Architecturally Significant Requirements (ASRs)
+
+***Architecturally Significant Requirements*** (ASRs) are any requirements that may affect the architecture of a software system [^Bck] [^Swebok]. They are derived from:
+
+- Functional requirements;
+- Quality attribute requirements (aka nonfunctional requirements);
+- Business goals;
+- Constraints (what you can't change and can only mitigate);
+
+ASRs must be prioritized and accounted for when designing the system architecture, i.e., near the start of the project. You may not be able to change the architecture later due to high cost of change.
+
+If your architecture doesn't allow satisfying the most significant ASRs, stakeholders for whom these ASRs are important will probably consider your project a failure.
+
+Thus, you should take your ASRs seriously.
+
+- Identify project stakeholders.
+- Identify relevant quality attributes.
+  - Check the ***ISO 25010*** quality model [^Iso25010] for generic definitions of quality attributes (aka ***quality characteristics*** and ***quality sub-characteristics***).
+  - Check the ***Q42*** quality model [^Q42] for a wider range of quality attributes (aka *qualities*) and quality requirement examples.
+- Identify primary functional requirements, business goal, and constraints.
+- Read the ***Chapter 19 - Architecturally Significant Requirements*** [^BckCh19] of the book ***Software Architecture in Practice, 4th Edition by L. Bass, P. Clements, and R. Kazman*** [^Bck] to learn about the Utility Tree concept, eliciting ASRs, and refining them to unambiguous, testable, relevant ASR scenarios.
+- Create a Utility Tree and add it to your knowledge base.
+  - Write ASR scenarios in the quality attribute scenario format (source - stimulus - artifact - environment - response - response measure) [^Bck] [^QASofSoftwareArchitecture] [^QualityScenarios].
+  - For each ASR, measure its:
+    - business value - how important the ASR is for the business;
+    - technical risk - how hard it'll be to achieve that ASR.
+  - You may use the `H` (High) - `M` (Medium) - `L` (Low) scale for these metrics.
+    - The most significant ASRs (with (H,H)) must be addressed first. When there are many such ASRs, it's necessary to negotiate simplifying the system to make it achievable.
+  - ASR scenarios should be linkable or at least have unique identifiers so that these scenarios can be referenced elsewhere.
+  - Tabular form is recommended [^UtilityTreeTabular].
+  - Here's an example of a Utility Tree in the tabular form (p. 285 of the book [^Bck]).
+    - "Quality Attribute" denotes quality sub-characteristics [^Iso25010] or qualities [^Q42];
+    - ASR Scenarios:
+      - contain (business value, technical risk) tuples;
+      - are partially in the quality attribute scenario format.
+
+    ![Utility Tree](./assets/BckUtilityTree.png)
+- Merge similar scenarios (see The Quality Attribute Workshop [^BckCh19]).
+- For each ASR scenario, explain how exactly you're going to test it.
 
 ### Design architecture
 
