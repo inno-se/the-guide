@@ -27,6 +27,8 @@ See our [Roadmap](https://github.com/orgs/inno-swp-2025/projects/5/views/4), [Pr
 
 ### Prepare the knowledge base
 
+Having a well-structured knowledge base for your project will help you share the information about the project with stakeholders and LLMs.
+
 1. Identify textual materials and images that provide relevant information about your project, e.g.:
     - Description of stakeholders;
     - Project description and documentation;
@@ -41,13 +43,15 @@ See our [Roadmap](https://github.com/orgs/inno-swp-2025/projects/5/views/4), [Pr
 1. Get their transcripts, preferably with speakers and timestamps.
 1. Choose a multi-modal LLM service (e.g., Google AI Studio or ChatGPT).
 1. Discuss with the LLM:
-    - How to optimally structure the materials for loading into a chat with the LLM;
-    - Which parts of the knowledge base are necessary for chats on specific topics, e.g., processing a usability session recording.
-1. Ask LLM to provide scripts that can help optimally structure the knowledge base.
-1. Structure the knowledge base.
-1. You may want to:
+    - How to optimally structure materials for loading into a chat with the LLM;
+    - Which parts of the knowledge base are necessary for chats on specific topics, e.g., processing a usability testing session recording.
+    - Which prompts should be used for chats on specific topics.
+    - Where to store the knowledge base (e.g., in a directory in the main repo or in a separate repo).
+1. Add obtained information to the knowledge base.
+1. Structure the knowledge base. You may want to:
+    - ask the LLM to provide scripts that can help optimally structure the knowledge base.
     - create a separate repository for the knowledge base.
-    - ask LLM to provide scripts for automatically updating materials in that repository, e.g. after changes to the documentation in the main repository.
+    - ask the LLM to provide scripts for automatically updating materials in that repository, e.g., after changes to the documentation in the main repository.
 1. Commit and push the knowledge base to GitHub so that it can be versioned.
 
 ### Define Architecturally Significant Requirements
