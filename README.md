@@ -6,6 +6,10 @@ In our case, it's a TikTok-like application.
 
 See our [Roadmap](https://github.com/orgs/inno-swp-2025/projects/5/views/4), [Product Backlog](https://github.com/orgs/inno-swp-2025/projects/1), and [Tasks](https://github.com/orgs/inno-swp-2025/projects/2).
 
+## Glossary
+
+- ***repo*** - [repository](https://github.com/resources/articles/software-development/what-are-code-repositories)
+
 ## Set up your project
 
 ### Use templates
@@ -16,7 +20,7 @@ See our [Roadmap](https://github.com/orgs/inno-swp-2025/projects/5/views/4), [Pr
 1. Create issue types similar to ours (see [Issue types](#issue-types)).
 1. Create issue labels similar to ours (see [Issue labels](#issue-labels)).
 1. Copy our projects (see [Projects](#projects)).
-1. Import the [.github](https://github.com/inno-swp-2025/.github) repository into your organization.
+1. Import the [.github](https://github.com/inno-swp-2025/.github) repo into your organization.
 1. Update templates in the `.github` repo.
     - In [issue form templates](#issue-form-templates), update:
       - `projects:` - to automatically add issues to your projects;
@@ -162,7 +166,7 @@ Thus, you should take your ASRs seriously.
 1. Set `Priority` and `Story Points` fields in your type `Backlog` issues (see [Project `Product Backlog`](#project-product-backlog)).
 1. If some type `Backlog` issues with label `Backlog: User Story` are too large to be completed during a single sprint, create new type `Epic` issues with the content of those large type `Backlog` issues and add there smaller type `Backlog` sub-issues.
 1. For type `Epic` issues that must be worked on in the nearest sprints, set relevant `Sprint` field in their type `Backlog` sub-issues.
-1. Create milestones for `MVP v2`, `MVP v3`, `Demo` in your repository.
+1. Create milestones for `MVP v2`, `MVP v3`, `Demo` in your repo.
 1. Add type `Epic` and type `Backlog` issues to these milestones.
 1. For type `Backlog` issues scheduled for the nearest sprints, create type `Task` sub-issues and set corresponding `Sprint` field there.
 1. For each type `Backlog` issue, `Sprint` in that issue and in its type `Task` sub-issues must be the same.
@@ -220,7 +224,7 @@ graph LR
 
 ### Sample issues
 
-We created several sample [issues](https://github.com/inno-swp-2025/we-have-tiktok-at-home/issues) in the [inno-swp-2025/we-have-tiktok-at-home](https://github.com/inno-swp-2025/we-have-tiktok-at-home) repository.
+We created several sample [issues](https://github.com/inno-swp-2025/we-have-tiktok-at-home/issues) in the [inno-swp-2025/we-have-tiktok-at-home](https://github.com/inno-swp-2025/we-have-tiktok-at-home) repo.
 
 ### Issue types
 
@@ -279,7 +283,7 @@ The `PR: *` labels are automatically assigned to pull requests when you create p
 
 ## Templates
 
-We store [default community health files](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file) in the [inno-swp-2025/.github](https://github.com/inno-swp-2025/.github) repository.
+We store [default community health files](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file) in the [inno-swp-2025/.github](https://github.com/inno-swp-2025/.github) repo.
 
 Our files include issue form templates and pull request templates (see [docs](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/syntax-for-issue-forms)).
 
