@@ -40,20 +40,26 @@ Having a well-structured knowledge base for your project will help you share the
     - Interviews with the customer;
     - Usability sessions;
     - Sprint planning and sprint review meetings.
-1. Get their transcripts, preferably with speakers and timestamps.
+1. Get their transcripts, preferably with speaker labels and timestamps.
 1. Choose a multi-modal LLM service (e.g., Google AI Studio or ChatGPT).
-1. Discuss with the LLM:
-    - How to optimally structure materials for loading into a chat with the LLM;
-    - Which parts of the knowledge base are necessary for chats on specific topics, e.g., processing a usability testing session recording.
-    - Which prompts should be used for chats on specific topics.
-    - Where to store the knowledge base (e.g., in a directory in the main repo or in a separate repo).
-1. Add obtained information to the knowledge base.
+1. Discuss these questions with the LLM in the context of a small software project:
+    - How to optimally structure materials for loading into a chat with the LLM?
+    - How to prevent LLM hallucinations after loading materials?
+    - Do you need embeddings?
+    - How to optimally load videos and audios?
+    - What should be the format of transcripts for videos and audios?
+    - How to present the structure of the knowledge base to the LLM so that the LLM can select relevant parts for chats on particular topics?
+    - Where to store the knowledge base?
+      - Most probably, a single `docs` directory in your repo will be enough to store textual materials and images.
+    - What should be the file structure in the knowledge base directory?
+    - How to store PlantUML, Mermaid, Draw.io diagrams so that they can be loaded into a chat with an LLM and provide useful information?
+    - (Optional) Which VS Code extensions can help you work with the knowledge base?
 1. Structure the knowledge base. You may want to:
-    - ask the LLM to provide scripts that can help optimally structure the knowledge base.
-    - create a separate repository for the knowledge base.
-    - ask the LLM to provide scripts for automatically updating materials in that repository, e.g., after changes to the documentation in the main repository.
+    - ask the LLM to provide scripts that:
+      - check that the knowledge base conforms to a particular structure;
+      - automatically update materials in the knowledge base, e.g., after changes to the documentation in the main repo.
 1. Commit and push the knowledge base to GitHub so that it can be versioned.
-1. (Optional) Set up a [GitHub Action](https://docs.github.com/actions) to publish the knowledge base to [GitHub Pages](https://pages.github.com/).
+1. (Optional) Publish the knowledge base to [GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages). You may want to automate the publishing process via [GitHub Actions](https://docs.github.com/actions) (see [Marketplace](https://github.com/marketplace?type=actions)).
 
 ### Use the knowledge base
 
