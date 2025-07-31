@@ -1,6 +1,6 @@
 # we-have-tiktok-at-home
 
-This repository and accompanying GitHub projects serve as a blueprint for managing the development of a software product.
+This repository and accompanying [GitHub Projects](#projects) serve as a blueprint for managing the development of a software product.
 
 In our case, it's a TikTok-like application.
 
