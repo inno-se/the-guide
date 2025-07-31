@@ -1,10 +1,17 @@
 # we-have-tiktok-at-home
 
-This repository and accompanying [GitHub Projects](#projects) serve as a blueprint for managing the development of a software product.
+This repository provides a guide for managing the development of a software project using GitHub and LLMs.
 
-In our case, it's a TikTok-like application.
+The project goal is to develop a TikTok-like application.
 
-See our [Roadmap](https://github.com/orgs/inno-swp-2025/projects/5/views/4), [Product Backlog](https://github.com/orgs/inno-swp-2025/projects/1), and [Tasks](https://github.com/orgs/inno-swp-2025/projects/2).
+Nothing will be developed, but we have neat [GitHub Projects](#projects) for [Roadmap Items](https://github.com/orgs/inno-swp-2025/projects/5/views/4), [Product Backlog Items](https://github.com/orgs/inno-swp-2025/projects/1), and [Tasks](https://github.com/orgs/inno-swp-2025/projects/2).
+
+## Relation to courses
+
+- The intended auditory of this guide are BS and MS students of the Innopolis University atteding the courses SWP, ITPD, Industrial project.
+- This guide explains how to create a working environment that can help you complete your project successfully.
+- However, to pass the courses, you need to meet requirements and expectations of the key course stakeholders - course instructors, customer, etc., not just complete the project.
+- You should learn about stakeholders' requirements and expectations as soon as possible so that you have enough time to manage them and meet them.
 
 ## Glossary
 
