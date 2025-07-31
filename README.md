@@ -53,7 +53,7 @@ Having a well-structured knowledge base for your project will help you share the
     - How to optimally load videos and audios?
     - What should be the format of transcripts for videos and audios?
     - How to present the structure of the knowledge base to the LLM so that the LLM can select relevant parts for chats on particular topics?
-    - Where to store the knowledge base?
+    - Where to store the knowledge base so that it can be versioned and viewed locally?
       - Most probably, a single `docs` directory in your repo will be enough to store textual materials and images.
     - What should be the file structure in the knowledge base directory?
     - How to store PlantUML, Mermaid, Draw.io diagrams so that they can be loaded into a chat with an LLM and provide useful information?
@@ -62,8 +62,7 @@ Having a well-structured knowledge base for your project will help you share the
     - ask the LLM to provide scripts that:
       - check that the knowledge base conforms to a particular structure;
       - automatically update materials in the knowledge base, e.g., after changes to the documentation in the main repo.
-1. Commit and push the knowledge base to GitHub so that it can be versioned.
-1. (Optional) Publish the knowledge base to [GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages). You may want to automate the publishing process via [GitHub Actions](https://docs.github.com/actions) (see [Marketplace](https://github.com/marketplace?type=actions)).
+1. (Optional) Publish the knowledge base to [GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages) as a site generated via a ***static site generator*** such as [mdBook](https://rust-lang.github.io/mdBook/), [MkDocs](https://www.mkdocs.org/), [Docusaurus](https://docusaurus.io/), etc. You may want to automate the publishing process via [GitHub Actions](https://docs.github.com/actions) (see [Marketplace](https://github.com/marketplace?type=actions)).
 
 ### Use the knowledge base
 
