@@ -369,6 +369,10 @@ This project allows for planning and tracking the progress of type `Epic` issues
 
 ### View `Timeline`
 
+Shows planned schedule of working on type `Epic` issues.
+
+#### View options
+
 - Layout: `Roadmap`.
 - Configuration:
   - Group by: `Milestone`.
@@ -382,6 +386,11 @@ This project allows for planning and tracking the progress of type `Epic` issues
   - [x] Show date fields.
 
 ### View `Kanban`
+
+- Provides `Entry Criteria` in Kanban board column descriptions.
+- Shows status of type Epic issues.
+
+#### View options
 
 - Layout: `Board`.
 - Configuration:
