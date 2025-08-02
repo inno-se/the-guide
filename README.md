@@ -255,13 +255,14 @@ Having a well-structured knowledge base for your project will help you share the
       - automatically update materials in the knowledge base, e.g., after changes to the documentation in the main repo.
 1. (Optional) Publish the knowledge base to [GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages) as a site generated via a ***static site generator*** such as [mdBook](https://rust-lang.github.io/mdBook/), [MkDocs](https://www.mkdocs.org/), [Docusaurus](https://docusaurus.io/), etc. You may want to automate the publishing process via [GitHub Actions](https://docs.github.com/actions) (see [Marketplace](https://github.com/marketplace?type=actions)).
 
-### Use the knowledge base
+### Extend the knowledge base
 
-- Come up with good questions about a particular topic, e.g., requirements engineering.
+- Skim the ***SWEBOK*** [^Swebok] - a comprehensive guide for "generally accepted knowledge" in software engineering.
+- Come up with good questions about a particular topic, e.g., Software Requirements (Chapter 1 of [^Swebok]).
 - Load relevant parts of the knowledge base to a chat with an LLM.
-- Ask the LLM to come up with more questions on that topic.
-- Choose useful questions and try to find answers to them.
-- Add questions and verified answers to your knowledge base.
+- Ask the LLM to come up with more questions and prompts for a chat on that topic.
+- Discuss the topic.
+- Add new relevant verified no-fluff information to your knowledge base.
 
 ### Capture Architecturally Significant Requirements (ASRs)
 
