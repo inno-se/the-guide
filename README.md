@@ -1,25 +1,209 @@
-# we-have-tiktok-at-home
+<!-- TOC ignore:true -->
+# The Guide
 
-This repository provides a guide for managing the development of a software project using GitHub and LLMs.
+This repository provides a guide for managing the development of a software project using existing software engineering knowledge and tools to pass team software project-based Innopolis University courses.
 
-The project goal is to develop a TikTok-like application.
+<!-- TOC ignore:true -->
+## Table of contents
 
-Nothing will be developed, but we have neat [GitHub Projects](#projects) for [Roadmap Items](https://github.com/orgs/inno-swp-2025/projects/5/views/4), [Product Backlog Items](https://github.com/orgs/inno-swp-2025/projects/1), and [Tasks](https://github.com/orgs/inno-swp-2025/projects/2).
+<!-- TODO re-generate with huntertran.auto-markdown-toc -->
 
-## Relation to courses
+<details><summary>Click to view</summary>
 
-- The intended auditory of this guide are BS and MS students of the Innopolis University atteding the courses SWP, ITPD, Industrial project.
-- This guide explains how to create a working environment that can help you complete your project successfully.
-- However, to pass the courses, you need to meet requirements and expectations of the key course stakeholders - course instructors, customer, etc., not just complete the project.
-- You should learn about stakeholders' requirements and expectations as soon as possible so that you have enough time to manage them and meet them.
+<!-- TOC -->
+
+- [Courses](#courses)
+  - [Target auditory](#target-auditory)
+  - [Passing the course vs completing the project](#passing-the-course-vs-completing-the-project)
+  - [Grading](#grading)
+  - [Industrial project](#industrial-project)
+- [Setup](#setup)
+  - [Glossary](#glossary)
+    - [Our project](#our-project)
+    - [Set up repositories](#set-up-repositories)
+    - [Prepare the knowledge base](#prepare-the-knowledge-base)
+    - [Extend the knowledge base](#extend-the-knowledge-base)
+    - [Add a Project Charter](#add-a-project-charter)
+    - [Collect initial requirements from stakeholders](#collect-initial-requirements-from-stakeholders)
+    - [Capture Architecturally Significant Requirements ASRs](#capture-architecturally-significant-requirements-asrs)
+    - [Design architecture](#design-architecture)
+    - [Automation](#automation)
+    - [Break down the work](#break-down-the-work)
+  - [Scrum](#scrum)
+    - [Theory](#theory)
+    - [Sprints](#sprints)
+    - [Meetings](#meetings)
+    - [Recordings](#recordings)
+    - [Tasks](#tasks)
+    - [Free riders](#free-riders)
+  - [Work item hierarchy](#work-item-hierarchy)
+  - [Issues](#issues)
+    - [Sample issues](#sample-issues)
+    - [Issue types](#issue-types)
+      - [Epic](#epic)
+      - [Backlog](#backlog)
+      - [Task](#task)
+    - [Issue labels](#issue-labels)
+    - [Compatibility of issue types and labels](#compatibility-of-issue-types-and-labels)
+    - [Issue priority](#issue-priority)
+  - [Pull requests](#pull-requests)
+  - [Templates](#templates)
+    - [Issue form templates](#issue-form-templates)
+    - [Pull request templates](#pull-request-templates)
+  - [Milestones](#milestones)
+  - [Projects](#projects)
+    - [Kanban boards](#kanban-boards)
+  - [Project Roadmap](#project-roadmap)
+    - [Limitations](#limitations)
+    - [Project settings](#project-settings)
+      - [Custom fields additional](#custom-fields-additional)
+    - [View Timeline](#view-timeline)
+      - [View options](#view-options)
+    - [View Kanban](#view-kanban)
+      - [View options](#view-options)
+      - [Columns](#columns)
+        - [To Do](#to-do)
+        - [In Progress](#in-progress)
+        - [In Review](#in-review)
+        - [Done](#done)
+  - [Project Product Backlog](#project-product-backlog)
+    - [Limitations](#limitations)
+    - [Project settings](#project-settings)
+      - [Custom fields additional](#custom-fields-additional)
+    - [View Kanban](#view-kanban)
+      - [View options](#view-options)
+      - [Columns](#columns)
+        - [To Do](#to-do)
+        - [In Progress](#in-progress)
+        - [Ready To Deploy](#ready-to-deploy)
+        - [Done](#done)
+    - [View Timeline](#view-timeline)
+      - [View options](#view-options)
+  - [Project Tasks](#project-tasks)
+    - [Limitations](#limitations)
+    - [Project settings](#project-settings)
+      - [Custom fields additional](#custom-fields-additional)
+    - [View Kanban](#view-kanban)
+      - [Settings](#settings)
+      - [Columns](#columns)
+        - [To Do](#to-do)
+        - [In Progress](#in-progress)
+        - [Ready For Review](#ready-for-review)
+        - [Ready to Merge](#ready-to-merge)
+        - [Done](#done)
+    - [View With Parents](#view-with-parents)
+      - [Settings](#settings)
+    - [View Timeline](#view-timeline)
+      - [Settings](#settings)
+
+<!-- /TOC -->
+</details>
+
+# Courses
+
+This chapter explains what you should know about this this guide and University courses.
+
+## Glossary
+
+- ***record*** - used in the following meanings:
+  1. write down;
+  1. make an audio or a video recording.
+
+## Target auditory
+
+The target auditory of this guide are BS and MS students of the Innopolis University atteding the courses:
+
+- ***SWP*** (Software Project) - BS, 1st year, Summer semester;
+- ***ITPD*** (IT Product Development) - MS, 1st year, Fall semester;
+- ***Industrial Project*** - MS, 1st year, Spring and Summer semesters.
+
+You may skip points that don't apply to your course, e.g., if there are no labs.
+
+## Passing the course vs completing the project
+
+- The [Setup](#setup) chapter of this guide explains how to create a working environment that can help you complete your project successfully.
+- However, to pass the course, you need to meet requirements and expectations of the key course stakeholders, not just complete the project. Key stakeholders are usually course instructors, your customer, your mentor.
+- You should identify key stakeholders and learn about stakeholders' requirements and expectations as soon as possible so that you have enough time to manage their requirements and expectations and meet them.
+- You should communicate to the stakeholders how you met their requirements and expectations in a way that the stakeholders expect and explicitly explain all discrepancies.
+
+## Grading
+
+- You won't know clear grading rules because:
+  - knowing the grading scheme may:
+    - make your work less creative (see [Goodhart's law](https://en.wikipedia.org/wiki/Goodhart's_law));
+    - make you pay less attention to nevertheless important parts of assignments that happen to have less weight in the grade.
+  - there may be no concrete scheme.
+  - grading is subjective.
+- Ask in advance whether individual grading in team activities is possible and what are preconditions for it. If your request is due to [team work problems](#team-work-problems), better ask course instructors to help normalize the team work.
+
+## Feedback
+
+Ask stakeholders periodically and preferably before important deadlines whether you meet their requirements and expectations.
+
+You should:
+
+- show the current state (of your product, presentation, demo, etc.)
+- ask for feedback on concrete parts
+- record the feedback
+- target it
+- record how you targeted it
+- show updated state
+- explain how you targed the feedback
+- ask for new feedback.
+
+Additionally, you can:
+
+- Ask for office hours.
+- Attend labs to get quick feedback from TAs.
+- Talk to your mentor and other mentors.
+
+## Questions about the course
+
+- Only the course instructors give official answers.
+- Check the official course chat history and course materials before asking a question.
+- Ask questions on the official course chat so that both the question and the answer are visible to everyone.
+- Ask one question per message. Then, it'll be always clear which question is answered.
+- Ask clarifying questions if necessary.
+- Continue asking until you get clear answers.
+
+
+### Telegram
+
+Create a group with topics to have focused streams of messages.
+
+Suggested topics:
+
+- `Important` - for important information such as:
+  - team member names, Telegram and GitHub usernames, roles.
+  - links to the repository, GitHub Projects, CONTRIBUTING.md, docs, deployed product, Google Drive, etc.
+- `Recordings` - for recordings.
+  - You may want to create a backup of recordings in another group because they're evidence against free riders (see [Free riders](#free-riders)).
+- `Pull requests` - for pinging about pull requests, e.g., asking for a review.
+- `Tasks` - for pinging about tasks, assignments, etc.
+- `General` - for all other discussions.
+
+### Assignments
+
+- Make a copy of the assignment and save it on Google Drive.
+- Write in comments to the file who will do which part of the assignment.
+- Agree when everything must be done.
+- Leave buffer time.
+  - If the course deadline is on Sunday, 23:59, you may want to set a soft deadline on Saturday morning and a hard deadline on Saturday evening. Then, you'll have a calm Sunday or at least a day of buffer time to finish remaining parts of the assignment.
+
+
+# Setup
 
 ## Glossary
 
 - ***repo*** - [repository](https://github.com/resources/articles/software-development/what-are-code-repositories)
 
-## Set up your project
+### Example project
 
-### Use templates
+The goal of the software project in this repository is to develop a TikTok-like application.
+
+Nothing will be developed, but we have neat [GitHub Projects](#projects) for [Roadmap Items](https://github.com/orgs/inno-swp-2025/projects/5/views/4), [Product Backlog Items](https://github.com/orgs/inno-swp-2025/projects/1), and [Tasks](https://github.com/orgs/inno-swp-2025/projects/2).
+
+### Set up repositories
 
 1. [Create](https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/creating-a-new-organization-from-scratch) a GitHub organization.
 1. [Import](https://docs.github.com/en/migrations/importing-source-code/using-github-importer/importing-a-repository-with-github-importer) or [transfer](https://docs.github.com/en/repositories/creating-and-managing-repositories/transferring-a-repository) your repositories into your organization.
