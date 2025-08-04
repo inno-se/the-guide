@@ -363,6 +363,188 @@ Thus, you should take your ASRs seriously.
 1. For each type `Backlog` issue, `Sprint` in that issue and in its type `Task` sub-issues must be the same.
 1. Set `Ideal Hours` and `Priority` in your type `Task` issues (see [Project `Tasks`](#project-tasks)).
 
+## VS Code
+
+VS Code is a code editor that features numerous extensions and integrates well with GitHub and LLMs.
+
+### Settings
+
+```json
+{
+  "editor.formatOnSave": true,
+  "files.autoSave": "afterDelay",
+  "workbench.sideBar.location": "right"
+}
+```
+
+### Agents
+
+- Set up [Copilot](https://code.visualstudio.com/docs/copilot/overview).
+
+### Extensions and tools
+
+> [!NOTE]
+> Extensions are given in the `<publisher>.<extension name>` format.
+>
+> Browse and install them from the [Extension Marketplace](https://code.visualstudio.com/docs/configure/extensions/extension-marketplace).
+
+#### General extensions
+
+- Errors:
+  - `usernamehw.errorlens`
+- git and GitHub:
+  - `eamodio.gitlens`
+  - `github.vscode-pull-request-github`
+  - `github.vscode-github-actions`
+- Drawing:
+  - excalidraw:
+    - `pomdtr.excalidraw-editor`
+  - draw.io:
+    - `hediet.vscode-drawio`
+  - tldraw:
+    - `tldraw-org.tldraw-vscode`
+
+#### Extensions and tools for languages
+
+- Markdown:
+  - Extensions:
+    - `bierner.github-markdown-preview`
+    - `yahyabatulu.vscode-markdown-alert`
+    - `davidanson.vscode-markdownlint`
+- Mermaid:
+  - Extensions:
+    - `bierner.markdown-mermaid`
+- PlantUML:
+  - Extensions:
+    - `jebbs.plantuml`
+- LaTeX:
+  - Extensions:
+    - `james-yu.latex-workshop`
+- Python:
+  - Extensions:
+    - `ms-python.python`
+    - `ms-python.black-formatter`
+    - `matangover.mypy`
+    - `ms-python.pylint`
+  - Formatters:
+    - [`black`](https://black.readthedocs.io/en/stable/)
+  - Type checkers:
+    - [`mypy`](https://mypy.readthedocs.io/en/stable/)
+      - Try to [disallow dynamic typing](https://mypy.readthedocs.io/en/stable/config_file.html#disallow-dynamic-typing).
+  - Linters:
+    - [`pylint`](https://pylint.readthedocs.io/en/stable/)
+- Bash:
+  - Extensions:
+    - `mads-hartmann.bash-ide-vscode`
+    - `timonwong.shellcheck`
+- Nix:
+  - Extensions:
+    - `jnoortheen.nix-ide`
+  - Formatters:
+    - [`nixfmt`](https://github.com/NixOS/nixfmt)
+    - [`alejandra`](https://github.com/kamadorueda/alejandra)
+  - Language servers:
+    - [`nil`](https://github.com/oxalica/nil)
+    - [`nixd`](https://github.com/nix-community/nixd)
+
+## Development environment
+
+### Development environment as code (DEaC)
+
+- Describe development environment configuration using code.
+- Make the environment reproducible to let all developers have the same tools and project-related environment variables in their shell.
+- Commit configuration and lock files to the repo so that the environment can be versioned and shared between developers.
+
+### Tools for DEaC
+
+#### Direnv
+
+See [Direnv docs](https://direnv.net/).
+
+When you enter a directory (e.g., on a terminal), `direnv` loads and executes the `.envrc` file if it's present in the directory.
+
+You can use `direnv` with `Nix` (see [nix-direnv](https://github.com/nix-community/nix-direnv)).
+
+#### Nix
+
+See [Nix docs](https://nix.dev/index.html).
+
+Chat about Nix and NixOS on Telegram:
+
+- <https://t.me/nix_org>
+- <https://t.me/nixos_en>
+- <https://t.me/ru_nixos>
+
+##### Nix flakes
+
+It's strongly recommended to [enable flakes](https://nixos.wiki/wiki/Flakes#Other_Distros.2C_without_Home-Manager) so that you can get a `flake.lock` file that pins all inputs of your flake.
+
+You must commit both `flake.nix` and `flake.lock` to your repo.
+
+See [NixOS & Flakes Book](https://nixos-and-flakes.thiscute.world).
+
+#### Nix-based devshells
+
+- [Devenv](https://devenv.sh/) - Fast, Declarative, Reproducible and Composable Developer Environments using Nix.
+- [devshell](https://github.com/numtide/devshell) -  Per project developer environments.
+- [nixos-shell](https://github.com/Mic92/nixos-shell) -  Spawns lightweight NixOS VMs in a shell.
+- [Xome](https://github.com/jeff-hykin/xome) - Xome ("Zome") brings the power of Nix's home-manager to projects -- meaning fancy customized team-shared reproducible shell enviornments.
+
+#### Nix alternatives
+
+- [Lix](https://lix.systems/)
+- [Nickel](https://github.com/tweag/nickel)
+
+#### Linux distributions
+
+- [Distrobox](https://github.com/89luca89/distrobox) - Use any Linux distribution inside your terminal. Enable both backward and forward compatibility with software and freedom to use whatever distribution you’re more comfortable with.
+- [Trilby](https://github.com/ners/trilby) - 👒 Trilby is a NixOS-based operating system that is modeled after Fedora Linux. It provides new users with sensible defaults and a great out-of-the-box experience.
+
+#### Python projects
+
+Configuration and lock files:
+
+- [pyproject.toml](https://packaging.python.org/en/latest/guides/writing-pyproject-toml/)
+- When using:
+  - [`Poetry`](https://python-poetry.org/):
+    - [pyproject.toml](https://python-poetry.org/docs/pyproject/)
+    - [`poetry.toml`](https://python-poetry.org/docs/configuration/#local-configuration) with [in-project = true](https://python-poetry.org/docs/configuration/#virtualenvsin-project)
+    - [poetry.lock](https://python-poetry.org/docs/libraries#lock-file)
+  - [`Uv`](https://docs.astral.sh/uv/):
+    - [pyproject.toml](https://docs.astral.sh/uv/concepts/configuration-files/)
+    - [`uv.lock`](https://docs.astral.sh/uv/concepts/projects/layout/#the-lockfile)
+  - [`pip`](https://pip.pypa.io/en/stable/):
+    - [requirements.txt](https://pip.pypa.io/en/stable/reference/requirements-file-format/)
+  
+#### TypeScript projects
+
+Configuration and lock files:
+
+- When using
+  - `tsc`:
+    - [tsconfig.json](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html);
+  - `NodeJS` (`npm`):
+    - [package.json](https://docs.npmjs.com/cli/v11/configuring-npm/package-json)
+    - [package-lock.json](https://docs.npmjs.com/cli/v11/configuring-npm/package-lock-json);
+  - `bun`:
+    - [bun.lock](https://bun.com/docs/install/lockfile);
+
+## Secrets
+
+- [SOPS](https://getsops.io/) - "Simple And Flexible Tool For Managing Secrets"
+- [agenix](https://github.com/ryantm/agenix) - age-encrypted secrets for NixOS and Home manager.
+- [sops-nix](https://github.com/Mic92/sops-nix) - Atomic secret provisioning for NixOS based on SOPS.
+
+## Containers
+
+Tools:
+
+- [`Docker Compose`](https://docs.docker.com/compose/) - Docker Compose is a tool for defining and running multi-container applications.
+- [`Kubernetes`](https://kubernetes.io/) - Kubernetes, also known as K8s, is an open source system for automating deployment, scaling, and management of containerized applications.
+- [`Pulumi`](https://www.pulumi.com/) - Infrastructure as Code in any programming language 🚀.
+  - See [State & backends](https://www.pulumi.com/docs/iac/concepts/state-and-backends/).
+
+
 ## Work item hierarchy
 
 We use the following hierarchy of work items that are represented via issues of different types and pull requests [^WorkItemHierarchy].
