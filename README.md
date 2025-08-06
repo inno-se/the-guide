@@ -105,9 +105,21 @@ This chapter explains what you should know about University courses covered by t
 
 ## Glossary
 
-- ***record*** - used in the following meanings:
-  1. write down;
-  1. make an audio or a video recording.
+- **assumption** (noun) - Something that you accept as true without question or proof.
+  - [[Cambridge Dictionary](https://dictionary.cambridge.org/dictionary/english/assumption)]
+
+- **fact** (noun) - Something that is known to have happened or to exist, especially something for which proof exists, or about which there is information.
+  - [[Cambridge Dictionary](https://dictionary.cambridge.org/dictionary/english/fact)]
+
+- **record** (verb) - To keep information for the future, by writing it down or storing it on a computer.
+  - [[Cambridge Dictionary](https://dictionary.cambridge.org/dictionary/english/record)]
+
+- **record** (noun) - A piece of information or a description of an event that is written on paper or stored on a computer.
+  - [[Cambridge Dictionary](https://dictionary.cambridge.org/dictionary/english/record)]
+
+- **repo** (noun) - A Git repository.
+  - [[What are code repositories?](https://github.com/resources/articles/software-development/what-are-code-repositories)]
+  - [[About repositories](https://docs.github.com/en/repositories/creating-and-managing-repositories/about-repositories)]
 
 ## Target auditory
 
