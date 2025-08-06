@@ -157,46 +157,62 @@ Most points in this guide apply to all courses.
 
 Ask stakeholders periodically and preferably before important deadlines whether you meet their requirements and expectations.
 
-You should:
+### General loop
 
-- show the current state (of your product, presentation, demo, etc.)
-- ask for feedback on concrete parts
-- record the feedback
-- target it
-- record how you targeted it
-- show updated state
-- explain how you targed the feedback
-- ask for new feedback.
+- decide what you want to achieve (e.g., validate a new feature);
+- show the current state (of your product, presentation, demo, etc.);
+- explain how you targeted past feedback if there was any;
+  - show major fixes;
+  - mention or skip minor fixes.
+- ask for new feedback;
+- record the feedback;
 
-Additionally, you can:
+### Feedback from the course instructors
 
-- Ask for office hours.
-- Attend labs to get quick feedback from TAs.
-- Talk to your mentor and other mentors.
+- Attend a lab to get quick feedback from the TA.
+  - Try to process feedback during the lab to receive follow-up feedback.
+- Ask course instructors for office hours/meetings.
 
-## Questions about the course
+## Questions and answers about the course
 
-- Only the course instructors give official answers.
-- Check the official course chat history and course materials before asking a question.
-- Ask questions on the official course chat so that both the question and the answer are visible to everyone.
-- Ask one question per message. Then, it'll be always clear which question is answered.
-- Ask clarifying questions if necessary.
-- Continue asking until you get clear answers.
+### Official answers
 
+Only the course instructors give official answers to questions about the course.
 
-### Telegram
+### Asking questions
 
-Create a group with topics to have focused streams of messages.
+- Before asking a question, search fo an answer in the official course chat history and course materials.
+- Ask questions in the official course chat so that both the question and the answer are visible to everyone.
+- Ask one question per message. A reply to that message will clearly be related to that question.
+  - Adapted from [this advice](https://www.kadansky.com/files/newsletters/2024/2024_04_30.html).
+- If an answer isn't acceptable, reply to it if necessary and ask clarifying questions. Define your own acceptance criteria for answers.
+- Continue asking until you get acceptable answers.
+- Mark messages that contain acceptable answers with a reaction (e.g, "👍" or "👌").
+  - Adapted from [this StackOverflow rule](https://stackoverflow.com/help/someone-answers).
+
+## Potential challenges and lessons learned
+## Telegram
+
+Create a group with topics to have focused streams of messages in each topic.
 
 Suggested topics:
 
 - `Important` - for important information such as:
   - team member names, Telegram and GitHub usernames, roles.
-  - links to the repository, GitHub Projects, CONTRIBUTING.md, docs, deployed product, Google Drive, etc.
-- `Recordings` - for recordings.
+  - links to the:
+    - repository;
+    - the most important boards on GitHub Projects;
+    - CONTRIBUTING.md;
+    - docs;
+    - deployed product;
+    - Google Drive;
+    - etc.
+- `Recordings` - for storing recordings.
+  <!-- TODO video and audio recording + raw transcripts? -->
   - You may want to create a backup of recordings in another group because they're evidence against free riders (see [Free riders](#free-riders)).
-- `Pull requests` - for pinging about pull requests, e.g., asking for a review.
-- `Tasks` - for pinging about tasks, assignments, etc.
+- `Pull requests` - for pinging people about pull requests, e.g., when asking for a review.
+- `Tasks` - for pinging people about tasks, e.g., when assigning a task or asking about the task status.
+- `Assignments` - for discussing assignments, presentations, etc.
 - `General` - for all other discussions.
 
 ### Assignments
