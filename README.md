@@ -191,6 +191,216 @@ Only the course instructors give official answers to questions about the course.
   - Adapted from [this StackOverflow rule](https://stackoverflow.com/help/someone-answers).
 
 ## Potential challenges and lessons learned
+
+This section is based on the study *Software engineering team project courses with industrial customers: Students’ insights on challenges and lessons learned* [^SETeamProjectProblems].
+
+Researchers identified various [challenges](#challenges-themes) and [lessons learned](#lessons-learned-themes) from students' reports.
+
+Courses attended by the [target auditory](#target-auditory) of this guide are similar to the courses covered by the study.
+Therefore, challenges
+
+### Challenges (themes)
+
+[Sec 5](https://www.sciencedirect.com/science/article/pii/S0164121225001098#tbl7)
+
+- Working in a team
+- Working in a remote and hybrid setting
+- Working with an industrial customer
+- Working with new technology
+- Managing the project
+- Maintaining self-confidence and motivation
+
+#### Sub-themes of *Working in a team*
+
+[Sec 5.1](https://www.sciencedirect.com/science/article/pii/S0164121225001098#sec5.sec5.1)
+
+- Communication issues within team
+- Contribution issues within team
+- Forming a team with unfamiliar people
+- Managing changes within team
+- Poor team dynamics
+- Coordination issues within team
+- Developing the team mindset
+- Managing conflicts within team
+- Keeping track of team progress
+- Skill gap between team members
+- Different ambition levels within team
+- Adapting to diverse working styles
+- Other difficulties working in a team
+- No prior experience working in a team
+
+#### Sub-themes of *Working in a remote and hybrid setting*
+
+[Sec 5.2](https://www.sciencedirect.com/science/article/pii/S0164121225001098#sec5.2)
+
+- Communicating with the team remotely
+- Fostering team dynamics in remote setting
+- Staying motivated while working remotely
+- Tracking team progress in remote setting
+- Maintaining team efficiency in remote setting
+- Inability to work in customer premises
+- Adapting to online working mode
+- Keeping focus while working from home
+- Managing sickness
+- Maintaining work-life balance
+- Working on-site during the pandemic
+- Maintaining wellbeing
+
+#### Sub-themes of *Working with an industrial customer*
+
+[Sec 5.3](https://www.sciencedirect.com/science/article/pii/S0164121225001098#sec5.3)
+
+- Understanding requirements
+- Managing technical complexity in the project
+- Managing the project scope
+- Understanding customer’s system
+- Working in the customer technical environment
+- Communicating with the customer
+- Integrating different parts of the project
+- Lack of experience in project domain
+- High expectations of the customer
+- Working on outdated parts of the system
+
+#### Sub-themes of *Working with new technology*
+
+[Sec 5.4](https://www.sciencedirect.com/science/article/pii/S0164121225001098#sec5.4)
+
+- Lack of experience with tools & technology
+- Lack of support in chosen technologies
+- Making appropriate technology choices
+- Lack of experience with version control SW
+- Equipment-related challenges
+
+#### Sub-themes of *Managing the project*
+
+[Sec 5.5](https://www.sciencedirect.com/science/article/pii/S0164121225001098#sec5.5)
+
+- Making correct effort estimates
+- Making initial plans
+- Lack of clear work distribution
+- Lack of initiative to take project management roles
+- Lack of project management experience
+- Even distribution of tasks
+- Ineffective time management
+
+#### Sub-themes of *Maintaining self-confidence and motivation*
+
+[Sec 5.6](https://www.sciencedirect.com/science/article/pii/S0164121225001098#sec5.6)
+
+- Doubts in ability to achieve project goals
+- Difficulty staying motivated
+
+### Lessons learned (themes)
+
+[Sec 6](https://www.sciencedirect.com/science/article/pii/S0164121225001098#sec5)
+
+- Working in a team
+- Managing the project
+- Working with an industrial customer
+- Working in a remote and hybrid setting
+- Managing the product quality
+- Setting personal values and ethics
+- Formalizing the processes
+- Working with new technology
+- Taking advice from the mentors
+
+#### Sub-themes of *Working in a team*
+
+[Sec 6.1](https://www.sciencedirect.com/science/article/pii/S0164121225001098#sec6.1)
+
+- Ensure good team communication
+- Create a conducive team environment
+- Create good team dynamics
+- Manage team meetings effectively
+- Develop a team mindset
+- Share knowledge within team
+- Create sub-groups in large teams
+- Appoint a team leader
+- Ensure good coordination within team
+- Set clear goals for the team
+- Encourage reflection and feedback
+- Define a code of conduct for the team
+
+#### Sub-themes of *Managing the project*
+
+[Sec 6.2](https://www.sciencedirect.com/science/article/pii/S0164121225001098#sec6.2)
+
+- Invest time in planning
+- Manage work distribution effectively
+- Manage requirements & changes efficiently
+- Invest time in effort estimation
+- Make informed choices for the project
+- Focus more on risk management
+- Use project management tools effectively
+
+#### Sub-themes of *Working with an industrial customer*
+
+[Sec 6.3](https://www.sciencedirect.com/science/article/pii/S0164121225001098#sec6.3)
+
+- Communicate effectively with the customer
+- Understand requirements from customers' perspective
+- Conduct effective meetings with customer
+- Keep commitments with customer
+- Optimize learning in customer environment
+
+#### Sub-themes of *Working in a remote and hybrid setting*
+
+[Sec 6.4](https://www.sciencedirect.com/science/article/pii/S0164121225001098#sec6.4)
+
+- Make good use of collaboration tools for remote work
+- Working on-site is better
+- Working remotely is better
+- Setup team schedule for remote work
+- Use camera in online meetings
+
+#### Sub-themes of *Managing the product quality*
+
+[Sec 6.5](https://www.sciencedirect.com/science/article/pii/S0164121225001098#sec6.5)
+
+- Focus more on testing
+- Focus more on code quality
+- Focus more on design and architecture
+- Take into account product usability
+
+#### Sub-themes of *Setting personal values and code of ethics*
+
+[Sec 6.6](https://www.sciencedirect.com/science/article/pii/S0164121225001098#sec6.6)
+
+- Try new technologies without hesitation
+- Have confidence and a positive attitude
+- Maintain self discipline
+- Be respectful to others
+- Voice your opinion
+- Have breaks from work to refresh
+- Ask questions and take initiatives
+- Keep record of time spent
+- Keep your commitments
+- React early if subjected to bullying
+- Be proactive to solve problems
+- Identify your own skillset
+
+#### Sub-themes of *Formalizing the processes*
+
+[Sec 6.7](https://www.sciencedirect.com/science/article/pii/S0164121225001098#sec6.7)
+
+- Follow agile practices
+- Document the project and the process
+- Maintain shared repository of documents
+
+#### Sub-themes of *Working with new technology*
+
+[Sec 6.8](https://www.sciencedirect.com/science/article/pii/S0164121225001098#sec6.8)
+
+- Invest time in learning new technologies
+- Make good use of version control system
+- Learn one new technology at a time
+
+#### Sub-themes of *Taking advice from the mentors*
+
+[Sec 6.9](https://www.sciencedirect.com/science/article/pii/S0164121225001098#sec6.9)
+
+- Take advice from the mentors
+
 ## Telegram
 
 Create a group with topics to have focused streams of messages in each topic.
