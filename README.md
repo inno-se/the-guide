@@ -129,7 +129,9 @@ The target auditory of this guide are BS and MS students of the Innopolis Univer
 - ***ITPD*** (IT Product Development) - MS, 1st year, Fall semester;
 - ***Industrial Project*** - MS, 1st year, Spring and Summer semesters.
 
-You may skip points that don't apply to your course, e.g., if there are no labs.
+In each course, students are distributed into teams of 4-6 people. Each team develops a project for a customer from the University or an outside company.
+
+Most points in this guide apply to all courses.
 
 ## Passing the course vs completing the project
 
