@@ -128,13 +128,16 @@ You may skip points that don't apply to your course, e.g., if there are no labs.
 
 ## Grading
 
-- You won't know clear grading rules because:
-  - knowing the grading scheme may:
-    - make your work less creative (see [Goodhart's law](https://en.wikipedia.org/wiki/Goodhart's_law));
-    - make you pay less attention to nevertheless important parts of assignments that happen to have less weight in the grade.
-  - there may be no concrete scheme.
-  - grading is subjective.
-- Ask in advance whether individual grading in team activities is possible and what are preconditions for it. If your request is due to [team work problems](#team-work-problems), better ask course instructors to help normalize the team work.
+- Grading is usually subjective.
+- You won't know the complete grading scheme because it's assumed that if you know the complete grading scheme:
+  - you may produce less creative work;
+    - Assumption: [***Goodhart's law***](https://en.wikipedia.org/wiki/Goodhart's_law) holds.
+  - you may pay less attention to important parts of an assignment that have small weight in the grade.
+    - Assumptions:
+      - You're going to balance required effort/time and grade.
+      - If you don't know the scheme, you'll treat all parts of an assignment as almost equally important.
+- Learn in advance the conditions of individual grading.
+- Don't demand individual grading when you experience [team work problems](#potential-challenges-and-lessons-learned). Instead, ask course instructors to help normalize the team work.
 
 ## Feedback
 
