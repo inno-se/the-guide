@@ -1,7 +1,7 @@
 <!-- TOC ignore:true -->
 # The Guide
 
-This repository provides a guide for managing the development of a software project using existing software engineering knowledge and tools to pass team software project-based Innopolis University courses.
+This repository provides a guide for managing the development of a software project as a team using modern software engineering knowledge and tools to pass several Innopolis University courses.
 
 <!-- TOC ignore:true -->
 ## Table of contents
@@ -101,7 +101,7 @@ This repository provides a guide for managing the development of a software proj
 
 # Courses
 
-This chapter explains what you should know about this this guide and University courses.
+This chapter explains what you should know about University courses covered by this guide.
 
 ## Glossary
 
