@@ -463,40 +463,95 @@ Nothing will be developed, but we have neat [GitHub Projects](#projects) for [Ro
 1. Update all links (e.g., in `Project details` in your projects) to this `README` to point to your version.
 1. Adjust entry criteria specified in Kanban boards (see [Kanban boards](#kanban-boards)).
 
-### Prepare the knowledge base
+## Prepare the knowledge base
 
 Having a well-structured knowledge base for your project will help you share the information about the project with stakeholders and LLMs.
 
-1. Identify textual materials and images that provide relevant information about your project, e.g.:
-    - Description of stakeholders;
-    - Project description and documentation;
-    - Diagrams (as code);
-    - User stories;
-    - Discussions with the customer on Telegram etc.;
-    - GitHub issues.
-1. Gather all video and audio materials relevant to the project, e.g., recordings of:
-    - Interviews with the customer;
-    - Usability sessions;
-    - Sprint planning and sprint review meetings.
-1. Get their transcripts, preferably with speaker labels and timestamps.
-1. Choose a multi-modal LLM service (e.g., Google AI Studio or ChatGPT).
-1. Discuss these questions with the LLM in the context of a small software project:
-    - How to optimally structure materials for loading into a chat with the LLM?
-    - How to prevent LLM hallucinations after loading materials?
-    - Do you need embeddings?
-    - How to optimally load videos and audios?
-    - What should be the format of transcripts for videos and audios?
-    - How to present the structure of the knowledge base to the LLM so that the LLM can select relevant parts for chats on particular topics?
-    - Where to store the knowledge base so that it can be versioned and viewed locally?
-      - Most probably, a single `docs` directory in your repo will be enough to store textual materials and images.
-    - What should be the file structure in the knowledge base directory?
-    - How to store PlantUML, Mermaid, Draw.io diagrams so that they can be loaded into a chat with an LLM and provide useful information?
-    - (Optional) Which VS Code extensions can help you work with the knowledge base?
-1. Structure the knowledge base. You may want to:
-    - ask the LLM to provide scripts that:
-      - check that the knowledge base conforms to a particular structure;
-      - automatically update materials in the knowledge base, e.g., after changes to the documentation in the main repo.
-1. (Optional) Publish the knowledge base to [GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages) as a site generated via a ***static site generator*** such as [mdBook](https://rust-lang.github.io/mdBook/), [MkDocs](https://www.mkdocs.org/), [Docusaurus](https://docusaurus.io/), etc. You may want to automate the publishing process via [GitHub Actions](https://docs.github.com/actions) (see [Marketplace](https://github.com/marketplace?type=actions)).
+### Choose a multi-modal LLM service
+
+Examples:
+
+- [Google AI Studio](https://aistudio.google.com)
+- [ChatGPT](https://chatgpt.com/)
+
+### Collect textual materials
+
+Collect textual materials and images that provide relevant information about your project, e.g.:
+
+- Description of stakeholders;
+- Project description and documentation;
+- Diagrams (as code);
+- User stories;
+- Discussions with the customer on Telegram etc.;
+- Competing products and their properties;
+- GitHub issues.
+
+### Collect video and audio materials
+
+Collect all video and audio materials relevant to the project, e.g., recordings of:
+
+- Interviews with the customer;
+- Usability sessions;
+- Sprint planning and sprint review [meetings](#meetings).
+
+### Produce high-quality transcripts
+
+1. (Optional) Remove sensitive information from recordings.
+1. For video and audio materials, get high-quality transcripts with speaker labels and timestamps.
+1. (Optional) Convert video to audio.
+1. For each recording:
+    1. load it together with its transcript into a chat with the LLM.
+    1. Ask the LLM to improve transcript text using the recording.
+    1. (Optional) Ask the LLM to remove sensitive information.
+    1. Check the [diff](https://en.wikipedia.org/wiki/Diff) between the original transcript and improved transcript (e.g. using the [Compare files](https://code.visualstudio.com/docs/editing/codebasics#_compare-files) feature in [VS Code](#vs-code)) to identify hallucinations.
+    1. Fix hallucinations.
+    1. Ask the LLM to translate the transcript to English if necessary.
+    1. Check the translation to identify hallucinations.
+
+### Discuss the knowledge base with the LLM
+
+1. Load relevant materials into the chat with the LLM.
+1. Tell the LLM that you're working on a small software project in a team.
+1. Discuss with the LLM these questions grouped by topics:
+    - Versioning:
+      - What is versioning?
+      - How does `git` help version files?
+      - Why should `git` be used when using LLMs?
+    - Interaction with LLMs:
+      - How can a developer interact with LLMs?
+      - What are benefits and challenges of each interaction way?
+    - Agents:
+      - What are agents?
+      - How to control them?
+      - Which types of agents do you need in your project?
+      - What can be prompts for these agents?
+        - Check <https://github.com/contains-studio/agents> to see prompts for various agents.
+    - Knowledge base structure:
+      - How to optimally structure materials for loading into a chat with an LLM?
+      - What should be the file structure in the knowledge base directory?
+      - How to let LLM know the structure of the knowledge base so that the LLM can select relevant parts for chats on particular topics?
+    - LLM hallucinations:
+      - How to prevent LLM hallucinations?
+      - How to minimize LLM hallucinations when loading parts of the knowledge base?
+    - Improving search in the knowledge base:
+      - Are custom embeddings necessary in your project?
+      - How to work with embeddings?
+    - Processing recordings:
+      - What are the best practices for extracting information from videos and audios using an LLM?
+    - Knowledge base location:
+      - Where to store the knowledge base so that it can be versioned, accessed by team members, and edited locally on your machine?
+        - Most probably, a single `docs` directory in your repo will be enough to store textual materials and images.
+    - Diagrams as code:
+      - How to store PlantUML, Mermaid, Draw.io diagrams so that they can be loaded into a chat with an LLM and provide useful information?
+    - Tooling for the knowledge base:
+      - Which VS Code extensions can help you work with the knowledge base?
+      - Which automation can you have for your knowledge base?
+
+### Publish the knowledge base
+
+Publish the knowledge base to [GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages) as a site generated via a ***static site generator*** such as [mdBook](https://rust-lang.github.io/mdBook/), [MkDocs](https://www.mkdocs.org/), [Docusaurus](https://docusaurus.io/), etc.
+
+You may want to automate the publishing process via [GitHub Actions](https://docs.github.com/actions) (see [Marketplace](https://github.com/marketplace?type=actions)).
 
 ### Extend the knowledge base
 
