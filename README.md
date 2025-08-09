@@ -622,6 +622,22 @@ You may want to automate the publishing process via [GitHub Actions](https://doc
 - Discuss the topic.
 - Add new relevant verified no-fluff information to your knowledge base.
 
+## Add a Project Charter
+
+<!-- TODO anything else? -->
+
+A ***Project Charter*** [^ProjectCharter] is a document that captures:
+
+- ***Project Purpose***: Clearly defines the project's objectives and the problem it aims to solve.
+- ***Scope and Deliverables***: Outlines what is included in the project scope and the expected deliverables.
+- ***Roles and Responsibilities***: Specifies the roles of everyone involved in the project, from team members to sponsors.
+- ***Budget and Resources***: Details the budget, including financial limits and available resources.
+- ***Timeline***: Provides a high-level timeline or milestones for the project.
+- ***Risk Management***: Identifies potential risks and strategies for mitigating them.
+
+Add a basic Project Charter to your knowledge base.
+
+
 ### Capture Architecturally Significant Requirements (ASRs)
 
 ***Architecturally Significant Requirements*** (ASRs) are any requirements that may affect the architecture of a software system [^Bck] [^Swebok]. They are derived from:
