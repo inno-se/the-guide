@@ -151,7 +151,9 @@ Most points in this guide apply to all courses.
       - You're going to balance required effort/time and grade.
       - If you don't know the scheme, you'll treat all parts of an assignment as almost equally important.
 - Learn in advance the conditions of individual grading.
-- Don't demand individual grading when you experience [team work problems](#potential-challenges-and-lessons-learned). Instead, ask course instructors to help normalize the team work.
+- Don't demand individual grading when you experience [teamwork problems](#potential-challenges-and-lessons-learned).
+  Instead, ask course instructors to help normalize the team work.
+
 
 ## Feedback
 
