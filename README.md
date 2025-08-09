@@ -99,11 +99,7 @@ This repository provides a guide for managing the development of a software proj
 <!-- /TOC -->
 </details>
 
-# Courses
-
-This chapter explains what you should know about University courses covered by this guide.
-
-## Glossary
+# Glossary
 
 - **assumption** (noun) - Something that you accept as true without question or proof.
   - [[Cambridge Dictionary](https://dictionary.cambridge.org/dictionary/english/assumption)]
@@ -120,6 +116,10 @@ This chapter explains what you should know about University courses covered by t
 - **repo** (noun) - A Git repository.
   - [[What are code repositories?](https://github.com/resources/articles/software-development/what-are-code-repositories)]
   - [[About repositories](https://docs.github.com/en/repositories/creating-and-managing-repositories/about-repositories)]
+
+# Courses
+
+This chapter explains what you should know about University courses covered by this guide.
 
 ## Target auditory
 
@@ -640,7 +640,7 @@ Add a basic Project Charter to your knowledge base.
 
 ### Capture Architecturally Significant Requirements (ASRs)
 
-***Architecturally Significant Requirements*** (ASRs) are any requirements that may affect the architecture of a software system [^Bck] [^Swebok]. They are derived from:
+***Architecturally Significant Requirements*** (ASRs) are any requirements that may affect the architecture of a software system [^BckCh19] [^Swebok] [^AdrOrg] [^AdrTemplates]. They are derived from:
 
 - Functional requirements;
 - Quality attribute requirements (aka nonfunctional requirements);
