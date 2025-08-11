@@ -737,11 +737,51 @@ Thus, you should take your ASRs seriously.
 1. For each type `Backlog` issue, `Sprint` in that issue and in its type `Task` sub-issues must be the same.
 1. Set `Ideal Hours` and `Priority` in your type `Task` issues (see [Project `Tasks`](#project-tasks)).
 
-## VS Code
+## Development tools
+
+> [!NOTE]
+> VS Code extensions are given in the `<publisher>.<extension name>` format.
+>
+> Browse and install them from the [Extension Marketplace](https://code.visualstudio.com/docs/configure/extensions/extension-marketplace).
+
+> [!NOTE]
+> See [Settings JSON file](https://code.visualstudio.com/docs/configure/settings#_settings-json-file).
+
+> [!NOTE]
+> Sections are listed in a subjective order of importance.
+
+### VS Code
 
 VS Code is a code editor that features numerous extensions and integrates well with GitHub and LLMs.
 
-### Settings
+#### Recommended tools
+
+Formatting
+
+- [`treefmt`](https://github.com/numtide/treefmt)
+- [`treefmt-nix`](https://github.com/numtide/treefmt-nix)
+
+#### Recommended extensions
+
+- Errors:
+  - `usernamehw.errorlens`
+- Git and GitHub:
+  - `eamodio.gitlens`
+  - `github.vscode-pull-request-github`
+  - `github.vscode-github-actions`
+- Collaboration:
+  - `ms-vsliveshare.vsliveshare`
+- Containers:
+  - `ms-azuretools.vscode-containers`
+  - `ms-vscode-remote.remote-containers`
+  - `docker.docker`
+  - `ms-vscode-remote.vscode-remote-extensionpack`
+- Formatting:
+  - `esbenp.prettier-vscode`
+- Other:
+  - See tools in `trunk.io`
+
+#### Recommended VS Code settings
 
 ```json
 {
@@ -751,105 +791,101 @@ VS Code is a code editor that features numerous extensions and integrates well w
 }
 ```
 
-### Agents
+
+#### Agents
 
 - Set up [Copilot](https://code.visualstudio.com/docs/copilot/overview).
 
-### Extensions and tools
+### Markdown
 
 > [!NOTE]
-> Extensions are given in the `<publisher>.<extension name>` format.
->
-> Browse and install them from the [Extension Marketplace](https://code.visualstudio.com/docs/configure/extensions/extension-marketplace).
+> You're going to use [GitHub-flavored Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
-#### General extensions
+#### Recommended VS Code extensions
 
-- Errors:
-  - `usernamehw.errorlens`
-- git and GitHub:
-  - `eamodio.gitlens`
-  - `github.vscode-pull-request-github`
-  - `github.vscode-github-actions`
-- Drawing:
-  - excalidraw:
-    - `pomdtr.excalidraw-editor`
-  - draw.io:
-    - `hediet.vscode-drawio`
-  - tldraw:
-    - `tldraw-org.tldraw-vscode`
+- `bierner.github-markdown-preview`
+- `yahyabatulu.vscode-markdown-alert`
+- `davidanson.vscode-markdownlint`
+- `takumii.markdowntable`
 
-#### Extensions and tools for languages
+### Drawing
 
-- Markdown:
-  - Extensions:
-    - `bierner.github-markdown-preview`
-    - `yahyabatulu.vscode-markdown-alert`
-    - `davidanson.vscode-markdownlint`
-- Mermaid:
-  - Extensions:
-    - `bierner.markdown-mermaid`
-- PlantUML:
-  - Extensions:
-    - `jebbs.plantuml`
-- LaTeX:
-  - Extensions:
-    - `james-yu.latex-workshop`
-- Python:
-  - Extensions:
-    - `ms-python.python`
-    - `ms-python.black-formatter`
-    - `matangover.mypy`
-    - `ms-python.pylint`
-  - Formatters:
-    - [`black`](https://black.readthedocs.io/en/stable/)
-  - Type checkers:
-    - [`mypy`](https://mypy.readthedocs.io/en/stable/)
-      - Try to [disallow dynamic typing](https://mypy.readthedocs.io/en/stable/config_file.html#disallow-dynamic-typing).
-  - Linters:
-    - [`pylint`](https://pylint.readthedocs.io/en/stable/)
-- Bash:
-  - Extensions:
-    - `mads-hartmann.bash-ide-vscode`
-    - `timonwong.shellcheck`
-- Nix:
-  - Extensions:
-    - `jnoortheen.nix-ide`
-  - Formatters:
-    - [`nixfmt`](https://github.com/NixOS/nixfmt)
-    - [`alejandra`](https://github.com/kamadorueda/alejandra)
-  - Language servers:
-    - [`nil`](https://github.com/oxalica/nil)
-    - [`nixd`](https://github.com/nix-community/nixd)
+#### Recommended tools and VS Code Extensions
 
-## Development environment
+- [Excalidraw](https://github.com/excalidraw/excalidraw) - Virtual whiteboard for sketching hand-drawn like diagrams.
+  - `pomdtr.excalidraw-editor`
+- [Draw.io](https://github.com/jgraph/drawio) - a JavaScript, client-side editor for general diagramming.
+  - `hediet.vscode-drawio`
+- [Tldraw](https://github.com/tldraw/tldraw) - very good whiteboard SDK / infinite canvas SDK.
+  - `tldraw-org.tldraw-vscode`
+  
+### Diagrams as code
 
-### Development environment as code (DEaC)
+#### Recommended tools and VS Code extensions
 
-- Describe development environment configuration using code.
-- Make the environment reproducible to let all developers have the same tools and project-related environment variables in their shell.
-- Commit configuration and lock files to the repo so that the environment can be versioned and shared between developers.
+- [`Mermaid`](https://mermaid.js.org/)
+  - `bierner.markdown-mermaid`
+- [`PlantUML`](https://plantuml.com/)
+  - `jebbs.plantuml`
 
-### Tools for DEaC
+#### Tools for visualizing architecture
 
-#### Direnv
+- [`Mermaid`](https://mermaid.js.org/)
+  - `bierner.markdown-mermaid`
+- [`PlantUML`](https://plantuml.com/)
+  - `jebbs.plantuml`
+- [`C4`](https://c4model.com/)
+- [`LikeC4`](https://github.com/likec4/likec4)
+  - `likec4.likec4-vscode`
+- [other](https://c4model.com/tooling)
+
+### Direnv
 
 See [Direnv docs](https://direnv.net/).
 
-When you enter a directory (e.g., on a terminal), `direnv` loads and executes the `.envrc` file if it's present in the directory.
+When you enter a directory (e.g., via a terminal), `direnv` runs the `.envrc` file if it's present in the directory.
 
-You can use `direnv` with `Nix` (see [nix-direnv](https://github.com/nix-community/nix-direnv)).
+`direnv` can load your [Nix-based devshells](#nix-based-devshells) (see [nix-direnv](https://github.com/nix-community/nix-direnv)).
 
-#### Nix
+#### Recommended VS Code extensions
 
-See [Nix docs](https://nix.dev/index.html).
+- `mkhl.direnv`
 
-Chat about Nix and NixOS on Telegram:
+### Nix
+
+#### Recommended tools
+
+- Formatting (one of these):
+  - [`nixfmt`](https://github.com/NixOS/nixfmt) (official)
+  - [`alejandra`](https://github.com/kamadorueda/alejandra)
+- Language server (one of these):
+  - [`nil`](https://github.com/oxalica/nil)
+  - [`nixd`](https://github.com/nix-community/nixd)
+
+#### Recommended VS Code extension
+
+- `jnoortheen.nix-ide`
+
+#### Resources
+
+- [NixOS.org](https://nixos.org/) - official NixOS Foundation site.
+- [Nix docs](<https://nix>
+.dev/index.html) - official documentation.
+- [awesome-nix](https://github.com/nix-community/awesome-nix) - A curated list of the best resources in the Nix community.
+- [Windows Subsystem for Linux (WSL)](https://nixos.wiki/wiki/Nix_Installation_Guide#Windows_Subsystem_for_Linux_.28WSL.29)
+
+#### NixOS
+
+- [Trilby](https://github.com/ners/trilby) - 👒 Trilby is a NixOS-based operating system that is modeled after Fedora Linux. It provides new users with sensible defaults and a great out-of-the-box experience.
+- [NixOS-WSL](https://github.com/nix-community/NixOS-WSL).
+
+#### Telegram chats
 
 - <https://t.me/nix_org>
 - <https://t.me/nixos_en>
 - <https://t.me/ru_nixos>
 
-##### Nix flakes
+#### Nix flakes
 
 It's strongly recommended to [enable flakes](https://nixos.wiki/wiki/Flakes#Other_Distros.2C_without_Home-Manager) so that you can get a `flake.lock` file that pins all inputs of your flake.
 
@@ -861,62 +897,186 @@ See [NixOS & Flakes Book](https://nixos-and-flakes.thiscute.world).
 
 - [Devenv](https://devenv.sh/) - Fast, Declarative, Reproducible and Composable Developer Environments using Nix.
 - [devshell](https://github.com/numtide/devshell) -  Per project developer environments.
-- [nixos-shell](https://github.com/Mic92/nixos-shell) -  Spawns lightweight NixOS VMs in a shell.
-- [Xome](https://github.com/jeff-hykin/xome) - Xome ("Zome") brings the power of Nix's home-manager to projects -- meaning fancy customized team-shared reproducible shell enviornments.
+- [Xome](https://github.com/jeff-hykin/xome) - Xome ("Zome") brings the power of Nix's home-manager to projects -- meaning fancy customized team-shared reproducible shell environments.
+
+#### GitHub Actions
+
+- [cache-nix-action](https://github.com/nix-community/cache-nix-action/)
 
 #### Nix alternatives
 
 - [Lix](https://lix.systems/)
 - [Nickel](https://github.com/tweag/nickel)
+- [hnix](https://github.com/haskell-nix/hnix)
+- [twix](https://github.com/tvlfyi/tvix)
 
-#### Linux distributions
+### Python
 
-- [Distrobox](https://github.com/89luca89/distrobox) - Use any Linux distribution inside your terminal. Enable both backward and forward compatibility with software and freedom to use whatever distribution you’re more comfortable with.
-- [Trilby](https://github.com/ners/trilby) - 👒 Trilby is a NixOS-based operating system that is modeled after Fedora Linux. It provides new users with sensible defaults and a great out-of-the-box experience.
+See:
 
-#### Python projects
-
-Configuration and lock files:
-
+- [Python](https://www.python.org/)
+- [awesome-python](https://github.com/vinta/awesome-python)
 - [pyproject.toml](https://packaging.python.org/en/latest/guides/writing-pyproject-toml/)
-- When using:
-  - [`Poetry`](https://python-poetry.org/):
-    - [pyproject.toml](https://python-poetry.org/docs/pyproject/)
-    - [`poetry.toml`](https://python-poetry.org/docs/configuration/#local-configuration) with [in-project = true](https://python-poetry.org/docs/configuration/#virtualenvsin-project)
-    - [poetry.lock](https://python-poetry.org/docs/libraries#lock-file)
-  - [`Uv`](https://docs.astral.sh/uv/):
-    - [pyproject.toml](https://docs.astral.sh/uv/concepts/configuration-files/)
-    - [`uv.lock`](https://docs.astral.sh/uv/concepts/projects/layout/#the-lockfile)
-  - [`pip`](https://pip.pypa.io/en/stable/):
-    - [requirements.txt](https://pip.pypa.io/en/stable/reference/requirements-file-format/)
-  
-#### TypeScript projects
 
-Configuration and lock files:
+#### Recommended tools
 
-- When using
-  - `tsc`:
-    - [tsconfig.json](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html);
-  - `NodeJS` (`npm`):
-    - [package.json](https://docs.npmjs.com/cli/v11/configuring-npm/package-json)
-    - [package-lock.json](https://docs.npmjs.com/cli/v11/configuring-npm/package-lock-json);
-  - `bun`:
-    - [bun.lock](https://bun.com/docs/install/lockfile);
+- Formatting (one of these):
+  - [`ruff`](https://docs.astral.sh/ruff/) -  An extremely fast Python linter and code formatter, written in Rust.
+  - [`black`](https://black.readthedocs.io/en/stable/) -  The uncompromising Python code formatter.
+- Type checking (one of these):
+  - [`pyrefly`](https://github.com/facebook/pyrefly) - A fast type checker and IDE for Python.
+  - [`ty`](https://docs.astral.sh/ty/) - An extremely fast Python type checker and language server, written in Rust.
+  - [`mypy`](https://mypy.readthedocs.io/en/stable/) -  Optional static typing for Python.
+    - Try to [disallow dynamic typing](https://mypy.readthedocs.io/en/stable/config_file.html#disallow-dynamic-typing).
+- Linters (one of these):
+  - [`ruff`](https://docs.astral.sh/ruff/) - An extremely fast Python linter and code formatter, written in Rust.
+  - [`pylint`](https://pylint.reappydthedocs.io/en/stable/) -  It's not just a linter that annoys you!
+- Packaging (one of these):
+  - [`Poetry`](https://python-poetry.org/)
+    - Configuration and lock files:
+      - [`pyproject.toml`](https://python-poetry.org/docs/pyproject/)
+      - [`poetry.toml`](https://python-poetry.org/docs/configuration/#local-configuration) with [in-project = true](https://python-poetry.org/docs/configuration/#virtualenvsin-project)
+      - [`poetry.lock`](https://python-poetry.org/docs/libraries#lock-file)
+  - [`uv`](https://docs.astral.sh/uv/)
+    - Configuration and lock files:
+      - [`pyproject.toml`](https://docs.astral.sh/uv/concepts/configuration-files/)
+      - [`uv.lock`](https://docs.astral.sh/uv/concepts/projects/layout/#the-lockfile)
+  - [`pip`](https://pip.pypa.io/en/stable/)
+    - Lock file:
+      - [`requirements.txt`](https://pip.pypa.io/en/stable/reference/requirements-file-format/)
 
-## Secrets
+#### Recommended VS Code extensions
 
-- [SOPS](https://getsops.io/) - "Simple And Flexible Tool For Managing Secrets"
-- [agenix](https://github.com/ryantm/agenix) - age-encrypted secrets for NixOS and Home manager.
-- [sops-nix](https://github.com/Mic92/sops-nix) - Atomic secret provisioning for NixOS based on SOPS.
+Choose relevant extensions based on tools from the previous section that you selected previously.
 
-## Containers
+- Language server:
+  - `ms-python.python`
+    - Also see [Python Interactive window](https://code.visualstudio.com/docs/python/jupyter-support-py).
+- Formatting (one of these):
+  - `charliermarsh.ruff`
+  - `ms-python.black-formatter`
+- Type checking (one of these):
+  - `meta.pyrefly`
+  - `astral-sh.ty`
+  - `matangover.mypy`
+- Linting (one of these):
+  - `charliermarsh.ruff`
+  - `ms-python.pylint`
 
-Tools:
+### TypeScript
+
+#### Recommended tools
+
+- Compiler:
+
+  - [`tsc`](https://github.com/microsoft/TypeScript)
+    - Configuration file:
+      - [tsconfig.json](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html)
+
+- Packaging (one of these):
+
+  - [`bun`](https://github.com/oven-sh/bun)
+    - Configuration and lock files:
+      - [package.json](https://docs.npmjs.com/cli/v11/configuring-npm/package-json)
+      - [bun.lock](https://bun.com/docs/install/lockfile)
+  - [`npm`](https://github.com/nodejs/node/tree/main/deps/npm)
+    - Configuration and lock files:
+      - [package.json](https://docs.npmjs.com/cli/v11/configuring-npm/package-json)
+      - [package-lock.json](https://docs.npmjs.com/cli/v11/configuring-npm/package-lock-json)
+
+### LaTeX
+
+See [LaTeX](https://www.latex-project.org/).
+
+#### Recommended tools
+
+- [`TeX Live`](https://www.tug.org/texlive/) (full)
+- `xetex` (included into `TeX Live` as `texlive-xetex`)
+- `biber` (included into `TeX Live`)
+
+#### Recommended VS Code extensions
+
+- `james-yu.latex-workshop`
+
+#### Recommended VS Code settings
+
+See [LaTeX recipes](https://github.com/james-yu/latex-workshop/wiki/compile#latex-recipes).
+
+```jsonc
+{
+  "latex-workshop.formatting.latex": "latexindent",
+  "latex-workshop.latex.recipes": [
+    {
+      "name": "xelatex -> biber -> xelatex * 2",
+      "tools": ["xelatex", "biber", "xelatex", "xelatex"]
+    }
+  ],
+  "latex-workshop.latex.tools": [
+    {
+      "args": ["%DOCFILE%"],
+      "command": "biber",
+      "name": "biber"
+    },
+    {
+      "args": [
+        "-shell-escape",
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-file-line-error",
+        "%DOC%"
+      ],
+      "command": "xelatex",
+      "env": {},
+      "name": "xelatex"
+    }
+  ]
+}
+```
+
+<!-- TODO 
+dockerfile - hadolint
+
+awesome-linters?
+ -->
+
+### Bash
+
+See [Bash](https://www.gnu.org/software/bash/).
+
+#### Recommended VS Code extensions
+
+- `mads-hartmann.bash-ide-vscode`
+- `timonwong.shellcheck`
+
+### Extensions and tools for formal languages
+
+<!-- TODO add stately -->
+
+See [Formal languages](https://en.wikipedia.org/wiki/Formal_language), [Chomsky hierarchy](https://en.wikipedia.org/wiki/Chomsky_hierarchy).
+
+### Containers
+
+See [awesome-containers](https://github.com/pditommaso/awesome-containers).
 
 - [`Docker Compose`](https://docs.docker.com/compose/) - Docker Compose is a tool for defining and running multi-container applications.
 - [`Kubernetes`](https://kubernetes.io/) - Kubernetes, also known as K8s, is an open source system for automating deployment, scaling, and management of containerized applications.
 - [`Pulumi`](https://www.pulumi.com/) - Infrastructure as Code in any programming language 🚀.
   - See [State & backends](https://www.pulumi.com/docs/iac/concepts/state-and-backends/).
+- [Distrobox](https://github.com/89luca89/distrobox) - Use any Linux distribution inside your terminal. Enable both backward and forward compatibility with software and freedom to use whatever distribution you’re more comfortable with.
+
+### Virtualization
+
+See [awesome-virtualization](https://github.com/Wenzel/awesome-virtualization).
+
+- [VirtualBox](https://www.virtualbox.org/) - a hosted hypervisor for x86 virtualization.
+- [Proxmox](https://www.proxmox.com/en/) - Proxmox Virtual Environment is a complete open-source platform for enterprise virtualization.
+- [nixos-shell](https://github.com/Mic92/nixos-shell) -  Spawns lightweight NixOS VMs in a shell.
+
+### Secrets
+
+- [SOPS](https://getsops.io/) - Simple And Flexible Tool For Managing Secrets.
+- [agenix](https://github.com/ryantm/agenix) - age-encrypted secrets for NixOS and Home manager.
+- [sops-nix](https://github.com/Mic92/sops-nix) - Atomic secret provisioning for NixOS based on SOPS.
 
 
 ## Work item hierarchy
