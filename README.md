@@ -101,21 +101,54 @@ This repository provides a guide for managing the development of a software proj
 
 # Glossary
 
-- **assumption** (noun) - Something that you accept as true without question or proof.
-  - [[Cambridge Dictionary](https://dictionary.cambridge.org/dictionary/english/assumption)]
+- **assumption** (noun)
 
-- **fact** (noun) - Something that is known to have happened or to exist, especially something for which proof exists, or about which there is information.
-  - [[Cambridge Dictionary](https://dictionary.cambridge.org/dictionary/english/fact)]
+  Something that you accept as true without question or proof [[Cambridge Dictionary](https://dictionary.cambridge.org/dictionary/english/assumption)].
 
-- **record** (verb) - To keep information for the future, by writing it down or storing it on a computer.
-  - [[Cambridge Dictionary](https://dictionary.cambridge.org/dictionary/english/record)]
+- **Definition of Done** (noun)
 
-- **record** (noun) - A piece of information or a description of an event that is written on paper or stored on a computer.
-  - [[Cambridge Dictionary](https://dictionary.cambridge.org/dictionary/english/record)]
+  A formal description of the state of the Increment when it meets the quality measures required for the product. The moment a Product Backlog item meets the Definition of Done, an Increment is born. The Definition of Done creates transparency by providing everyone a shared understanding of what work was completed as part of the Increment. If a Product Backlog item does not meet the Definition of Done, it cannot be released or even presented at the Sprint Review [[Glossary of Scrum Terms](https://www.scrum.org/resources/scrum-glossary)].
 
-- **repo** (noun) - A Git repository.
-  - [[What are code repositories?](https://github.com/resources/articles/software-development/what-are-code-repositories)]
-  - [[About repositories](https://docs.github.com/en/repositories/creating-and-managing-repositories/about-repositories)]
+- **fact** (noun)
+
+  Something that is known to have happened or to exist, especially something for which proof exists, or about which there is information [[Cambridge Dictionary](https://dictionary.cambridge.org/dictionary/english/fact)].
+
+- **The Pyramid Principle** (noun)
+
+  A tool to give your (written) communication more clarity and efficiency. Lead with the conclusion, then provide key arguments and finally support them with detailed information [[Minto Pyramid](https://untools.co/minto-pyramid/)].
+
+- **quality attribute** or **QA** (noun)
+
+  A measurable or testable property of a system that is used to indicate how well the system satisfies the needs of its stakeholders beyond the basic function of the system [^Bck].
+
+- **record** (verb)
+
+  To keep information for the future, by writing it down or storing it on a computer [[Cambridge Dictionary](https://dictionary.cambridge.org/dictionary/english/record)].
+
+- **record** (noun)
+
+  A piece of information or a description of an event that is written on paper or stored on a computer [[Cambridge Dictionary](https://dictionary.cambridge.org/dictionary/english/record)].
+
+- **repo** (noun)
+  
+  A Git repository [[What are code repositories?](https://github.com/resources/articles/software-development/what-are-code-repositories)].
+  
+  See also [[About repositories](https://docs.github.com/en/repositories/creating-and-managing-repositories/about-repositories)].
+
+- **stakeholder** (noun)
+  
+  A person external to the Scrum Team with a specific interest in and knowledge of a product that is required for incremental discovery. Represented by the Product Owner and actively engaged with the Scrum Team at Sprint Review [[Glossary of Scrum Terms](https://www.scrum.org/resources/scrum-glossary)].
+
+- **validation** (noun)
+  
+  The process of providing evidence that a deliverable meets the needs of the user [[APM glossary of project management terms](https://www.apm.org.uk/resources/glossary/)].
+
+- **verification** (noun)
+
+  Proof of compliance with specified requirements. Verification may be determined by test, analysis, inspection or demonstration [^ApmGlossary].
+
+- Other terms:
+  - [[Agile Glossary](https://agilealliance.org/agile101/agile-glossary/)]
 
 # Courses
 
