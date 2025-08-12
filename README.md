@@ -986,7 +986,7 @@ Choose relevant extensions based on tools from the previous section that you sel
 
 - Language server:
   - `ms-python.python`
-    - Also see [Python Interactive window](https://code.visualstudio.com/docs/python/jupyter-support-py).
+    - See also [Python Interactive window](https://code.visualstudio.com/docs/python/jupyter-support-py).
 - Formatting (one of these):
   - `charliermarsh.ruff`
   - `ms-python.black-formatter`
