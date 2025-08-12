@@ -929,7 +929,8 @@ See [NixOS & Flakes Book](https://nixos-and-flakes.thiscute.world).
 #### Nix-based devshells
 
 - [Devenv](https://devenv.sh/) - Fast, Declarative, Reproducible and Composable Developer Environments using Nix.
-- [devshell](https://github.com/numtide/devshell) -  Per project developer environments.
+- [devshell](https://github.com/numtide/devshell) - Per project developer environments.
+- [flox](https://github.com/flox/flox) - Developer environments you can take with you.
 - [Xome](https://github.com/jeff-hykin/xome) - Xome ("Zome") brings the power of Nix's home-manager to projects -- meaning fancy customized team-shared reproducible shell environments.
 
 #### GitHub Actions
