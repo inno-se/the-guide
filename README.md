@@ -831,6 +831,12 @@ Sources: [^CirclingBack] [^TheImprovementGuide]
 > [!NOTE]
 > Sections are listed in a subjective order of importance.
 
+## Development environment as code
+
+- Describe development environment configuration using code.
+- Make the environment reproducible so that each developer has the same tools and project-related environment variables in their shell.
+- Commit configuration and lock files to the repo so that the environment can be versioned and shared among all developers.
+
 ### VS Code
 
 VS Code is a code editor that features numerous extensions and integrates well with GitHub and LLMs.
