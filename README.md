@@ -770,6 +770,53 @@ Thus, you should take your ASRs seriously.
 1. For type `Backlog` issues scheduled for the nearest sprints, create type `Task` sub-issues and set corresponding `Sprint` field there.
 1. For each type `Backlog` issue, `Sprint` in that issue and in its type `Task` sub-issues must be the same.
 1. Set `Ideal Hours` and `Priority` in your type `Task` issues (see [Project `Tasks`](#project-tasks)).
+## Quality assurance
+
+## The PDSA cycle
+
+Watch [Theory of Knowledge/PDSA](https://www.youtube.com/watch?v=dgazCOz_IIY).
+
+The **PDSA cycle**, or the **Plan-Do-Study-Act cycle**, or the **Deming cycle** is a systematic process for gaining valuable learning and knowledge for the continual improvement of a product, process, or service [^ThePdsaCycle].
+
+The PDSA cycle is rooted in the scientific method [^CirclingBack] [^ScientificMethodWiki]. The cycle steps are similar to the steps of the empirical cycle [^EmpiricalCycleWiki] but the ultimate goal is specifically continual improvement.
+
+### Application
+
+Follow the cycle steps if you have an idea on how to change a process in your project to improve that process. As a result of going through the cycle, you'll have data and will be able to decide:
+
+- whether your idea worked as expected;
+- whether you should keep the change;
+- whether you need to update your mental model [^TheoryAsModelWiki] [^MentalModel] of the process to come up with more accurate predictions and more feasible improvement ideas;
+
+### The PDSA cycle and the Model for Improvement
+
+![PDSA](./assets/PdsaCycleAndModelForImprovement.png)
+Sources: [^CirclingBack] [^TheImprovementGuide]
+
+### Steps
+
+1. **Plan**
+    - We propose changes based on our goals.
+    - We make falsifiable hypotheses [^FalsifiabilityWiki] (testable predictions) about the results of changes based on our theory [^TheoryWiki].
+    - We introduce metrics that let us reason whether a change led to an improvement.
+    - We design (controlled) experiments [^ExperimentTypesWiki] to test these hypotheses [^DesignExperimentWiki].
+1. **Do**
+    - We conduct experiments (preferably on a small scale).
+    - We perform necessary measurements [^MeasurementWiki] [^QuantificationWiki] to collect data (empirical evidence) [^EmpiricalEvidenceWiki].
+1. **Study**
+    - We check the validity of the experiments.
+    - We identify hypotheses that were not confirmed.
+1. **Act**
+    - If necessary, we revise our goals, the theory, experimentation methods based on the new data.
+    - We adopt the change if it led to improvement.
+    - We abandon the change otherwise.
+
+
+### Alternative approaches
+
+- PDCA [^PdcaVsPdsa] [^TheoryOfKnowledgePdsa]
+- See [[^TheImprovementGuide], Appendix C]
+
 
 ## Development tools
 
