@@ -1658,16 +1658,48 @@ An issue can be closed when it reaches the `Done` column.
 - User settings:
   - `Show date fields`
 
+## References
+
 [^WorkItemHierarchy]: Adapted from <https://learn.microsoft.com/en-us/azure/devops/boards/backlogs/define-features-epics?view=azure-devops&tabs=scrum-process#portfolio-backlogs>
-[^Milestones]: <https://www.atlassian.com/blog/project-management/project-milestones>
-[^MilestonesVsSprints]: <https://pm.stackexchange.com/questions/22510/sprint-vs-milestone-vs-release>
+[^Milestones]: What are project milestones: benefits and examples <https://www.atlassian.com/blog/project-management/project-milestones>
+[^MilestonesVsSprints]: Sprint vs milestone vs release <https://pm.stackexchange.com/questions/22510/sprint-vs-milestone-vs-release>
 [^Bck]: Software Architecture in Practice, 4th Edition by L. Bass, P. Clements, and R. Kazman. Available online at <https://github.com/gmoral/Books/blob/d5594cea78b9af2768550bba70cebe67e7c1fcda/software-architecture-in-practice-4.pdf>
-[^QASofSoftwareArchitecture]: <https://www.cs.unibo.it/cianca/wwwpages/as/5.pdf#page=26>
-[^QualityScenarios]: <https://greg4cr.github.io/courses/spring21dit635/Lectures/Spring21-Lecture3-QualityScenarios.pdf>
-[^Swebok]:  <https://ieeecs-media.computer.org/media/education/swebok/swebok-v4.pdf>
+[^QASofSoftwareArchitecture]: Quality attributes of software architectures <https://www.cs.unibo.it/cianca/wwwpages/as/5.pdf#page=26>
+[^QualityScenarios]: Lecture on Quality Scenarios <https://greg4cr.github.io/courses/spring21dit635/Lectures/Spring21-Lecture3-QualityScenarios.pdf>
+[^Swebok]: SWEBOK v4: Guide to the Software Engineering Body of Knowledge v4.0 <https://ieeecs-media.computer.org/media/education/swebok/swebok-v4.pdf>
 [^UtilityTreeTabular]: Tabular form is recommended at <https://docs.arc42.org/tips/10-2/>
-[^Iso25010]: <https://iso25000.com/index.php/en/iso-25000-standards/iso-25010>
-[^Q42]: <https://quality.arc42.org/>
-[^BckCh19]: [Chapter 19](./assets/BckCh19.pdf) of the book [^Bck]
-[^ProjectCharter]: <https://planyway.com/blog/project-management-guide>
-[^TheMomTest]: Summary of the book <https://durmonski.com/book-summaries/the-mom-test/>
+[^Iso25010]: The ISO/IEC 25010 quality model <https://iso25000.com/index.php/en/iso-25000-standards/iso-25010>
+[^Q42]: The arc42 quality model <https://quality.arc42.org/>
+<!-- TODO rename to Sap -->
+[^BckCh19]: [Click here to view Chapter 19](./assets/BckCh19.pdf) of the book ***Software Architecture in Practice*** [^Bck]
+[^ProjectCharter]: How To Write A Good Project Charter: Templates and Examples <https://planyway.com/blog/project-charter-elements>
+[^ProjectManagementGuide]: <https://planyway.com/blog/project-management-guide>
+[^TheMomTest]: Summary of the book ***The Mom Test*** <https://durmonski.com/book-summaries/the-mom-test/>
+[^AosaBook]: The Architecture of Open Source Applications
+ <https://aosabook.org/en/>
+[^AdrTemplates]: Architecture decision record (ADR) examples for software planning, IT leadership, and template documentation <https://github.com/joelparkerhenderson/architecture-decision-record>
+[^AdrOrg]: Architectural Decision Records <https://adr.github.io/>
+[^RequirementsAgile]: Agile approach and PEGS <https://requirements.university/faq.html#agile>
+[^HandbookRequirements]:  Handbook of Requirements and Business Analysis <https://link.springer.com/book/10.1007/978-3-031-06739-6>
+[^UserStoriesWiki]: User Story on Wikipedia <https://en.wikipedia.org/wiki/User_story>
+[^GivenWhenThen]: Given-When-Then format for acceptance criteria <https://en.wikipedia.org/wiki/Given-When-Then>
+[^SETeamProjectProblems]: Software engineering team project courses with industrial customers: Students’ insights on challenges and lessons learned <https://www.sciencedirect.com/science/article/pii/S0164121225001098>
+[^MidSprintReview]: <https://www.scrum.org/resources/blog/whats-wrong-mid-sprint-check-or-mid-sprint-review>
+[^SoftwareQualityModels]: Software Quality Models: A Systematic Mapping Study <https://ieeexplore.ieee.org/document/8812848>
+[^ApmGlossary]: APM glossary of project management terms <https://www.apm.org.uk/resources/glossary>
+[^ThePdsaCycle]: The PDSA Cycle <https://deming.org/explore/pdsa/>
+[^CirclingBack]: Circling Back <https://deming.org/wp-content/uploads/2020/06/circling-back.pdf>
+[^TheoryWiki]: Scientific theory <https://en.wikipedia.org/wiki/Scientific_theory>
+[^TheImprovementGuide]: [The Improvement Guide](./assets/TheImprovementGuide.pdf)
+[^DesignExperimentWiki]: Design of experiments <https://en.wikipedia.org/wiki/Design_of_experiments>
+[^ExperimentTypesWiki]: Experiment types <https://en.wikipedia.org/wiki/Experiment#Types>
+[^TheoryAsModelWiki]: Theories as models <https://en.wikipedia.org/wiki/Scientific_theory#Theories_as_models>
+[^MentalModel]: Mental model <https://en.wikipedia.org/wiki/Mental_model>
+[^FalsifiabilityWiki]: Falsifiability <https://en.wikipedia.org/wiki/Falsifiability>
+[^ScientificMethodWiki]: Scientific method <https://en.wikipedia.org/wiki/Scientific_method>
+[^EmpiricalCycleWiki]: Empirical cycle <https://en.wikipedia.org/wiki/Empirical_research#Empirical_cycle>
+[^EmpiricalEvidenceWiki]: Empirical evidence <https://en.wikipedia.org/wiki/Empirical_research>
+[^QuantificationWiki]: Quantification (science) <https://en.wikipedia.org/wiki/Quantification_(science)>
+[^MeasurementWiki]: Measurement <https://en.wikipedia.org/wiki/Measurement>
+[^PdcaVsPdsa]: Plan Do Check Act (PDCA) vs. Plan Do Study Act (PDSA): What’s the Difference? <https://qualityandinnovation.com/2011/08/26/pdca-vs-pdsa-whats-the-difference/>
+[^TheoryOfKnowledgePdsa]: Theory of Knowledge/PDSA <https://www.youtube.com/watch?v=dgazCOz_IIY>
