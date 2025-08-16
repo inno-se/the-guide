@@ -811,6 +811,34 @@ Sources: [^CirclingBack] [^TheImprovementGuide]
     - We adopt the change if it led to improvement.
     - We abandon the change otherwise.
 
+### Example
+
+#### The Three Questions (Model for Improvement)
+
+1. **What are we trying to accomplish?**
+    We want to improve the clarity and completeness of new GitHub issues so maintainers can understand them faster.
+
+2. **How will we know that a change is an improvement?**
+    We will measure improvement with these metrics:
+    - An increase in the maintainer-rated "readability score" (1-5 scale).
+    - A decrease in the average number of follow-up comments asking for information.
+
+3. **What change can we make that will result in improvement?**
+    Our theory is that implementing structured issue form templates for specific categories (like "Bug Reports" and "Feature Requests") will guide contributors to provide better information from the start.
+
+#### The Test Cycle (PDSA)
+
+1. **Plan:** To test our theory, we will create and enable the two new templates ("Bug Report" and "Feature Request"). We will run this test for one month and collect data on our chosen metrics.
+
+1. **Do:** We implemented the plan by enabling the new templates in the GitHub repository.
+
+1. **Study:** We analyzed the data after one month.
+    - The "Bug Report" template was a clear success: readability scores went up, and follow-up comments decreased as predicted.
+    - **Unexpected Discovery:** For "Feature Requests," contributors almost exclusively used the "Brief description" field, ignoring the other detailed prompts. This suggested the template was too rigid for creative ideas.
+
+1. **Act:** Based on our learning, we made the following decisions:
+    - **Adopt:** We will keep the detailed "Bug Report" template as the new standard.
+    - **Adapt:** We will significantly simplify the "Feature Request" template, making it less formal. This new, simpler template will be the subject of our next PDSA cycle to see if it performs better.
 
 ### Alternative approaches
 
