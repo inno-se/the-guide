@@ -1699,7 +1699,7 @@ An issue can be closed when it reaches the `Done` column.
 [^Iso25010]: The ISO/IEC 25010 quality model <https://iso25000.com/index.php/en/iso-25000-standards/iso-25010>
 [^Q42]: The arc42 quality model <https://quality.arc42.org/>
 <!-- TODO rename to Sap -->
-[^BckCh19]: [Click here to view Chapter 19](./assets/BckCh19.pdf) of the book ***Software Architecture in Practice*** [^Bck]
+[^BckCh19]: ***Software Architecture in Practice*** [^Bck], Chapter 19 ([file](./assets/BckCh19.pdf))
 [^ProjectCharter]: How To Write A Good Project Charter: Templates and Examples <https://planyway.com/blog/project-charter-elements>
 [^ProjectManagementGuide]: <https://planyway.com/blog/project-management-guide>
 [^TheMomTest]: Summary of the book ***The Mom Test*** <https://durmonski.com/book-summaries/the-mom-test/>
@@ -1718,7 +1718,7 @@ An issue can be closed when it reaches the `Done` column.
 [^ThePdsaCycle]: The PDSA Cycle <https://deming.org/explore/pdsa/>
 [^CirclingBack]: Circling Back <https://deming.org/wp-content/uploads/2020/06/circling-back.pdf>
 [^TheoryWiki]: Scientific theory <https://en.wikipedia.org/wiki/Scientific_theory>
-[^TheImprovementGuide]: [The Improvement Guide](./assets/TheImprovementGuide.pdf)
+[^TheImprovementGuide]: Langley GL, Moen R, Nolan KM, Nolan TW, Norman CL, Provost LP. The Improvement Guide: A Practical Approach to Enhancing Organizational Performance (2nd Edition). San Francisco: Jossey-Bass Publishers; 2009. ([file](./assets/TheImprovementGuide.pdf))
 [^DesignExperimentWiki]: Design of experiments <https://en.wikipedia.org/wiki/Design_of_experiments>
 [^ExperimentTypesWiki]: Experiment types <https://en.wikipedia.org/wiki/Experiment#Types>
 [^TheoryAsModelWiki]: Theories as models <https://en.wikipedia.org/wiki/Scientific_theory#Theories_as_models>
