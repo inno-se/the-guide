@@ -1223,6 +1223,86 @@ Legend:
 - *Agile Principle* - a principle [^AgileManifestoPrinciple] behind the Agile Manifesto [^AgileManifesto].
 - *Architecture-centric View* - the book [^Bck] authors' comment on the principle from the architecture-centric point of view.
 
+## Scrum
+
+
+From [^WhatIsScrum]:
+
+Scrum is a way to get work done as a team in small pieces at a time, with continuous experimentation and feedback loops along the way to [learn and improve](#relation-to-pdsa) as you go. Scrum helps people and teams deliver value *incrementally* in a collaborative way. As an [Agile](#agile) framework, Scrum provides just enough structure for people and teams to integrate into how they work, while adding the right practices to optimize for their specific needs.
+
+Scrum is an empirical process, where decisions are based on observation, experience and experimentation. Scrum has three pillars: transparency, inspection and adaptation. This supports the concept of working *iteratively*. Think of Empiricism as working through small experiments, learning from that work and adapting both what you are doing and how you are doing it as needed.
+
+From [^TheThreePillarsOfEmpiricismScrum]:
+
+Scrum works not because it has three [roles](#roles), five [events](#events), and three [artifacts](#artifacts-and-commitments) but because it adheres to the underlying [Agile](#agile) principles of iterative, value-based incremental delivery by frequently gathering customer feedback and embracing change. This results in faster time to market, better delivery predictability, increased customer responsiveness, ability to change direction by managing changing priorities, enhanced software quality, and improved risk management.
+
+### Theory
+
+- [Scrum in a Nutshell](https://youtu.be/502ILHjX9EE) (~15 minutes);
+- [What is Professional Scrum](https://youtu.be/BYlv7eP9zgg) (~7 minutes);
+- *The 2020 Scrum Guide* [^ScrumGuide];
+- *Using Agile in Project Management* [^UsingAgileInProjectManagement];
+- *SBOK® (Scrum Body of Knowledge) Guide* [^SbokGuide];
+
+### Process
+
+![What is Scrum?](./assets/WhatIsScrum.png)
+
+<!-- 
+This image was chosen because:
+- It has a better resolution than the one at https://www.scrum.org/learning-series/what-is-scrum/what-is-scrum
+- It shows both artifacts and commitments
+ -->
+
+Source: [^WhatIsScrumGfg]
+
+Legend:
+
+- *Dev* - Developer
+- *SM* - Scrum Master
+- *PO* - Product Owner
+
+### Relation to PDSA
+
+Scrum incorporates a [PDSA cycle](#the-pdsa-cycle).
+
+Adapted from [^ScrumPdca]:
+
+- *Plan* is the sprint planning meeting
+- *Do* is the sprint execution (together with Daily Scrum)
+- *Study* is the sprint review and retrospective, and
+- *Act* is the feedback result of the sprint review and retrospective, which is reflected in the specific requirements and process improvement activities.
+
+### Roles
+
+#### Core roles
+
+From [^SbokGuide]:
+
+1. **Product Owner** is the person responsible for maximizing business value for the project. He or she is responsible for articulating customer requirements and maintaining business justification for the project. The Product Owner represents the *Voice of the Customer*.
+
+1. **Scrum Master** is a facilitator who ensures that the Scrum Team is provided with an environment conducive to completing the product’s development successfully. The Scrum Master guides, facilitates, and teaches Scrum practices to everyone involved in the project; clears impediments for the team; and ensures that Scrum processes are being followed.
+
+    Note that the Scrum Master role is vastly different from the role played by the Project Manager in a traditional Waterfall model of project management, in which the Project Manager works as a manager or leader for the project. The Scrum Master only works as a facilitator and he or she is at the same hierarchical level as anyone else in the Scrum Team — any person from the Scrum Team who learns how to facilitate Scrum projects can become the Scrum Master for a project or for a Sprint.
+
+1. **Scrum Team** is a group or team of people who are responsible for understanding the business requirements specified by the Product Owner, estimating User Stories, and final creation of the project deliverables.
+
+### Artifacts and commitments
+
+There are three required artifacts in Scrum.
+
+From [^ScrumGuide]:
+
+Scrum’s artifacts represent work or value. They are designed to maximize transparency of key information. Thus, everyone inspecting them has the same basis for adaptation.
+
+Each artifact contains a *commitment* to ensure it provides information that enhances transparency and focus against which progress can be measured:
+
+- For the *Product Backlog* it is the *Product Goal*.
+- For the *Sprint Backlog* it is the *Sprint Goal*.
+- For the *Increment* it is the *Definition of Done*.
+
+These commitments exist to reinforce empiricism and the Scrum values for the Scrum Team and their stakeholders.
+
 
 ## Work item hierarchy
 
