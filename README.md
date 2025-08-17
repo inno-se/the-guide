@@ -770,15 +770,16 @@ Thus, you should take your ASRs seriously.
 1. For type `Backlog` issues scheduled for the nearest sprints, create type `Task` sub-issues and set corresponding `Sprint` field there.
 1. For each type `Backlog` issue, `Sprint` in that issue and in its type `Task` sub-issues must be the same.
 1. Set `Ideal Hours` and `Priority` in your type `Task` issues (see [Project `Tasks`](#project-tasks)).
-## Quality assurance
-
 ## The PDSA cycle
-
-Watch [Theory of Knowledge/PDSA](https://www.youtube.com/watch?v=dgazCOz_IIY).
 
 The **PDSA cycle**, or the **Plan-Do-Study-Act cycle**, or the **Deming cycle** is a systematic process for gaining valuable learning and knowledge for the continual improvement of a product, process, or service [^ThePdsaCycle].
 
 The PDSA cycle is rooted in the scientific method [^CirclingBack] [^ScientificMethodWiki]. The cycle steps are similar to the steps of the empirical cycle [^EmpiricalCycleWiki] but the ultimate goal is specifically continual improvement.
+
+### Theory
+
+- [Theory of Knowledge/PDSA](https://www.youtube.com/watch?v=dgazCOz_IIY)
+- *Circling Back* [^CirclingBack]
 
 ### Application
 
