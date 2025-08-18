@@ -287,8 +287,7 @@ This section is based on the study *Software engineering team project courses wi
 
 Researchers identified various [challenges](#challenges-themes) and [lessons learned](#lessons-learned-themes) from students' reports.
 
-Courses attended by the [target auditory](#target-auditory) of this guide are similar to the courses covered by the study.
-Therefore, challenges
+Courses attended by the [target auditory](#target-auditory) of this guide are similar to the courses covered by the study. Therefore, [lessons learned](#lessons-learned-themes) may be useful.
 
 ### Challenges (themes)
 
