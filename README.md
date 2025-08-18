@@ -107,7 +107,7 @@ This repository provides a guide for managing the development of a software proj
 
 - **Definition of Done** (noun)
 
-  A formal description of the state of the Increment when it meets the quality measures required for the product. The moment a Product Backlog item meets the Definition of Done, an Increment is born. The Definition of Done creates transparency by providing everyone a shared understanding of what work was completed as part of the Increment. If a Product Backlog item does not meet the Definition of Done, it cannot be released or even presented at the Sprint Review [[Glossary of Scrum Terms](https://www.scrum.org/resources/scrum-glossary)].
+  A formal description of the state of the Increment when it meets the quality measures required for the product. The moment a Product Backlog item meets the Definition of Done, an Increment is born. The Definition of Done creates transparency by providing everyone a shared understanding of what work was completed as part of the Increment. If a Product Backlog item does not meet the Definition of Done, it cannot be released or even presented at the Sprint Review [^GlossaryOfScrumTerms].
 
 - **fact** (noun)
 
@@ -115,7 +115,7 @@ This repository provides a guide for managing the development of a software proj
 
 - **The Pyramid Principle** (noun)
 
-  A tool to give your (written) communication more clarity and efficiency. Lead with the conclusion, then provide key arguments and finally support them with detailed information [[Minto Pyramid](https://untools.co/minto-pyramid/)].
+  A tool to give your (written) communication more clarity and efficiency. Lead with the conclusion, then provide key arguments and finally support them with detailed information [^MintoPyramid].
 
 - **quality attribute** or **QA** (noun)
 
@@ -141,7 +141,7 @@ This repository provides a guide for managing the development of a software proj
 
 - **validation** (noun)
   
-  The process of providing evidence that a deliverable meets the needs of the user [[APM glossary of project management terms](https://www.apm.org.uk/resources/glossary/)].
+  The process of providing evidence that a deliverable meets the needs of the user [^ApmGlossary].
 
 - **verification** (noun)
 
