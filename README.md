@@ -264,22 +264,22 @@ Good feedback should lead to improvements. Here is how to make that happen.
     - **What to do:** Implement the changes. After you implement and test the changes, show the person who gave the feedback what you did. You can do this at the next sprint review or lab session.
     - **Why it helps:** This improves the product, which is the main goal. It also shows the person that their feedback was valuable, which completes the loop.
 
-## Questions and answers about the course
+## Asking questions
 
-### Official answers
+- Before asking a question, search for an answer in relevant sources.
 
-Only the course instructors give official answers to questions about the course.
+  E.g., for questions about the course these are the official course chat history and course materials.
+- Ask question where it can be answered authoritatively.
+  
+  E.g., ask course instructors to answer questions about the course.
+- If multiple people may want to know an answer to a question, let them know both the question and answer(s).
 
-### Asking questions
-
-- Before asking a question, search fo an answer in the official course chat history and course materials.
-- Ask questions in the official course chat so that both the question and the answer are visible to everyone.
-- Ask one question per message. A reply to that message will clearly be related to that question.
-  - Adapted from [this advice](https://www.kadansky.com/files/newsletters/2024/2024_04_30.html).
+  E.g., ask questions about the course in the official course chat so that both questions and answers are visible to everyone.
+- Ask one question per message [^WritingBetterEmailsAndTexts]. A reply to that message will clearly be related to that question.
 - If an answer isn't acceptable, reply to it if necessary and ask clarifying questions. Define your own acceptance criteria for answers.
-- Continue asking until you get acceptable answers.
-- Mark messages that contain acceptable answers with a reaction (e.g, "👍" or "👌").
-  - Adapted from [this StackOverflow rule](https://stackoverflow.com/help/someone-answers).
+- If you found an acceptable answer to your own question, share that answer.
+- Mark messages that contain acceptable answers with a reaction (e.g, "👍" or "👌") to make such answers more noticeable for those looking for them (like on StackOverflow [^SomeoneAnswers]).
+
 
 ## Potential challenges and lessons learned
 
