@@ -135,9 +135,9 @@ This repository provides a guide for managing the development of a software proj
   
   See also [[About repositories](https://docs.github.com/en/repositories/creating-and-managing-repositories/about-repositories)].
 
-- **stakeholder** (noun)
+- **stakeholders** (noun)
   
-  A person external to the Scrum Team with a specific interest in and knowledge of a product that is required for incremental discovery. Represented by the Product Owner and actively engaged with the Scrum Team at Sprint Review [[Glossary of Scrum Terms](https://www.scrum.org/resources/scrum-glossary)].
+  All individuals and groups affected by the Scrum project, both within and outside the organization (e.g., all [core](#core-roles) and [non-core](#non-core-roles) roles, vendors, internal groups, experts, and so on) [^SbokGuide].
 
 - **validation** (noun)
   
