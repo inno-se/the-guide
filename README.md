@@ -1288,6 +1288,13 @@ From [^SbokGuide]:
 
 1. **Scrum Team** is a group or team of people who are responsible for understanding the business requirements specified by the Product Owner, estimating User Stories, and final creation of the project deliverables.
 
+#### Non-core roles
+
+- **Business Stakeholder(s)**, which is a collective term that includes customers, users, and sponsors who frequently interface with the Scrum Core Team and also influence the project throughout the project’s development. Most importantly, it is for the business stakeholders that the project produces collaborative benefits [^SbokGuide].
+
+- **Course Stakeholders** - course instructors (primary instructor, TAs, mentors).
+
+
 ### Artifacts and commitments
 
 There are three required artifacts in Scrum.
