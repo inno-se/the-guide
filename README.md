@@ -280,6 +280,35 @@ Good feedback should lead to improvements. Here is how to make that happen.
 - If you found an acceptable answer to your own question, share that answer.
 - Mark messages that contain acceptable answers with a reaction (e.g, "👍" or "👌") to make such answers more noticeable for those looking for them (like on StackOverflow [^SomeoneAnswers]).
 
+## Surviving a group project
+
+- Meet regularly. Find time for meetings using [Timeful](https://timeful.app/) or other services.
+- Respond to messages promptly (in 24 hours at most) [^GroupProjectEtiquette].
+
+### Identify and fix teamwork problems
+
+- See:
+  - [potential challenges and lessons learned](#potential-challenges-and-lessons-learned).
+  - tips: [^GroupWork] [^TipsToStructureAStrongGroupProject].
+- Discuss problems with an LLM and a course instructor.
+- If necessary, ask a course instructor to facilitate a [Team fixing meeting](#team-fixing-meeting).
+- [Fight free riders](#fight-free-riders).
+
+### Fight free riders
+
+- Identify free riders who consistently do some or all of these:
+  - miss team meetings;
+  - don't complete their tasks timely so that tasks have to be reassigned;
+  - produce poor quality work despite clear acceptance criteria.
+  
+- Collect hard evidence:
+  - Take attendance during team meetings;
+  - Record meetings. For each meeting recording:
+    - make a transcript with speaker labels and timestamps;
+    - identify all speakers;
+    - write a list of all speakers and the transcript in a document in your knowledge base or elsewhere.
+  - Identify tasks that had to be reassigned because the free rider didn't complete them timely or didn't meet acceptance criteria.
+
 
 ## Potential challenges and lessons learned
 
