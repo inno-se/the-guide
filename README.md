@@ -1873,3 +1873,27 @@ An issue can be closed when it reaches the `Done` column.
 [^MeasurementWiki]: Measurement <https://en.wikipedia.org/wiki/Measurement>
 [^PdcaVsPdsa]: Plan Do Check Act (PDCA) vs. Plan Do Study Act (PDSA): What’s the Difference? <https://qualityandinnovation.com/2011/08/26/pdca-vs-pdsa-whats-the-difference/>
 [^TheoryOfKnowledgePdsa]: Theory of Knowledge/PDSA <https://www.youtube.com/watch?v=dgazCOz_IIY>
+[^SbokGuide]: SBOK® Guide ([File](./assets/SbokGuideEdition5.pdf)) <https://www.scrumstudy.com/sbokguide/download-free-buy-sbok>
+[^WhatIsScrum]: What is Scrum? <https://www.scrum.org/learning-series/what-is-scrum/what-is-scrum>
+[^UsingAgileInProjectManagement]: Using Agile in Project Management <https://www.scrum.org/resources/blog/using-agile-project-management>
+[^TheThreePillarsOfEmpiricismScrum]: The Three Pillars of Empiricism (Scrum) <https://www.scrum.org/resources/blog/three-pillars-empiricism-scrum>
+[^AgileManifesto]: Manifesto for Agile Software Development <https://agilemanifesto.org/>
+[^AgileManifestoPrinciples]: Principles behind the Agile Manifesto <https://agilemanifesto.org/principles.html>
+[^ScrumGuide]:  The 2020 Scrum Guide <https://scrumguides.org/scrum-guide.html>
+[^WhatIsScrumGfg]:
+What is Scrum? Understanding the Agile Framework for Project Management
+ <https://www.geeksforgeeks.org/software-engineering/what-is-scrum/>
+[^ScrumPdca]: How is Scrum Related to Plan-Do-Check-Act (PDCA) Process? <https://www.archimetric.com/how-is-scrum-related-to-plan-do-check-act-pdca-process/>
+[^GlossaryOfScrumTerms](https://www.scrum.org/resources/scrum-glossary)
+[^MintoPyramid]: The Minto Pyramid Principle <https://untools.co/minto-pyramid/>
+[^ContinualImprovementProcess]: Continual improvement process <https://en.wikipedia.org/wiki/Continual_improvement_process>
+[^ArchitecturalDecision]: Architectural decision <https://en.wikipedia.org/wiki/Architectural_decision>
+[^JustBarelyGoodEnough]: Just Barely Good Enough (JBGE) Artifacts: An Agile Core Practice <https://agilemodeling.com/essays/barelygoodenough.htm>
+[^AgileModelingCorePractices]: Agile Modeling Core Practices <https://agilemodeling.com/essays/bestpractices.htms>
+[^Tagri]: They Ain’t Gonna Read It <https://agilemodeling.com/essays/tagri.htm>
+[^GuideToChatEtiquetteInWorkplace]: Your guide to chat etiquette in the workplace <https://www.microsoft.com/en-us/microsoft-365/business-insights-ideas/resources/your-guide-to-chat-etiquette-in-the-workplace>
+[^GroupProjectEtiquette]: Nam Knows Best: Group Project Etiquette <https://pepperdine-graphic.com/nam-knows-best-group-project-etiquette/>
+[^WritingBetterEmailsAndTexts]: Writing Better Emails and Texts: Asking Multiple Questions <https://www.kadansky.com/files/newsletters/2024/2024_04_30.html>
+[^SomeoneAnswers]: What should I do when someone answers my question? <https://stackoverflow.com/mahelp/someone-answers>
+[^GroupWork]: Group work <https://my.uq.edu.au/information-and-services/student-support/study-skills-and-learning-advice/study-skills-and-learning-advice-overview/group-work>
+[^TipsToStructureAStrongGroupProject]: Tips to Structure a Strong Group Project <https://www.apu.apus.edu/area-of-study/business-and-management/resources/how-do-you-survive-a-group-project/>
