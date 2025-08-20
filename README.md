@@ -544,28 +544,82 @@ Suggested topics:
 - `Assignments` - for discussing assignments, presentations, etc.
 - `General` - for all other discussions.
 
-### Assignments
+## Presentation
 
-- Make a copy of the assignment and save it on Google Drive.
-- Write in comments to the file who will do which part of the assignment.
-- Agree when everything must be done.
-- Leave buffer time.
-  - If the course deadline is on Sunday, 23:59, you may want to set a soft deadline on Saturday morning and a hard deadline on Saturday evening. Then, you'll have a calm Sunday or at least a day of buffer time to finish remaining parts of the assignment.
+When you design a presentation, think about:
 
+- Which goals do you want achieve through this presentation?
+  - Example of a goal: You want to reassure your stakeholders that everything in the project is under your control and goes as planned.
+- What are key takeaways (what your audience should remember) aligned with your goals?
+  - Example of a takeaway: "LLMs quickly and accurately mapped our architecture description to actionable tasks."
+- What does the audience expect to see and hear during the presentation?
+  - Example of expectations: Course instructors asked you to talk about specific topics during presentation.
+- How familiar with the topic your audience is?
+  - Example of unfamiliarity with a topic: You're going to talk about architecture of your system, but your audience doesn't know what the word "architecture" means, so you have to explain the concept.
+- How much time do you have for presenting?
+  - Example of a wrong slide count: You created 60 slides for a 5-minute presentation.
+- How to make navigation over slides convenient for someone who wants to read the slides as a PDF after the presentation?
+  - Example of a situation when someone reads the slides afterwards: Course instructors go through your presentation slides to access and grade artifacts that you mentioned.
 
-# Setup
+### Presentation slides
 
-## Glossary
+The presentation slides should have nice [structure](#structure), [content](#content), and [appearance](#appearance).
 
-- ***repo*** - [repository](https://github.com/resources/articles/software-development/what-are-code-repositories)
+Acceptance criteria in the corresponding sections specify what is "nice".
 
-### Example project
+#### Structure
 
-The goal of the software project in this repository is to develop a TikTok-like application.
+- The presentation has the following parts:
+  - title slide;
+  - agenda slide(s);
+  - main part;
+  - final slide(s);
+- If you decided to provide an appendix (backup slides that you're going to open only during the Q&A section), the presentation has the following parts after the final slide(s):
+  - appendix outline;
+  - appendix slides;
+- The title slide:
+  - provides correctly capitalized presentation title, presenter name(s), date;
+  - doesn't contain uncommon abbreviations that can confuse your audience.
+- Agenda slide(s):
+  - are provided right after the title slide;
+  - display the outline of the main part;
+  - display a hyperlink to the appendix outline if the appendix exists;
+- Appendix outline displays hyperlinks to appendix slides;
 
-Nothing will be developed, but we have neat [GitHub Projects](#projects) for [Roadmap Items](https://github.com/orgs/inno-swp-2025/projects/5/views/4), [Product Backlog Items](https://github.com/orgs/inno-swp-2025/projects/1), and [Tasks](https://github.com/orgs/inno-swp-2025/projects/2).
+#### Content
 
-### Set up repositories
+- All required topics are covered in the main part in enough detail to achieve your goals.
+- The final slide contains key takeaways aligned with your presentation goals [^HowToWriteKeyTakeawaySlides].
+- Additional information that you're going to cover very briefly or completely skip is distributed between special slides in the main part and the appendix.
+
+  You may need such special slides for the Q&A section.
+
+#### Appearance
+
+- Special slides are (either of these):
+  - visible and marked as such so that during the presentation:
+    - the audience learns these slides exists;
+    - you can quickly understand during the presentation that the slide is safe to skip.
+  - hidden.
+- Each slide:
+  - has an aspect ratio appropriate for the presentation tool (screen, beamer).
+
+    The 16:9 ratio [^AspectRatio16to9] is very common.
+  - has a unique number;
+  - has a title;
+  - is not overloaded with information;
+  - contains no walls of text;
+  - is polished;
+- Each important text element is readable when slides are displayed by the presentation tool and viewed from particular places in the verue where you're going to present;
+- Each diagram and table:
+  - is clearly visible;
+  - has a meaningful legend;
+- Fonts are used consistently;
+- All hyperlinks are correct;
+- QR codes are accompanied by hyperlinks;
+- Citations mention source authors.
+  
+  It's hard to keep numbers in mind when listening to a presentation. So, use the APA citation style [^ApaCitationStyle] or a similar one and do NOT use the the IEEE style [^IeeeCitationStyle].
 
 1. [Create](https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/creating-a-new-organization-from-scratch) a GitHub organization.
 1. [Import](https://docs.github.com/en/migrations/importing-source-code/using-github-importer/importing-a-repository-with-github-importer) or [transfer](https://docs.github.com/en/repositories/creating-and-managing-repositories/transferring-a-repository) your repositories into your organization.
