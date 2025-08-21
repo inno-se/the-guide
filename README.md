@@ -3,6 +3,91 @@
 
 This repository provides a guide for managing the development of a software project as a team using modern software engineering knowledge and tools to pass several Innopolis University courses.
 
+## TL;DR
+
+- Use git for code and documentation versioning from the first day of the project;
+- Use GitHub for collaboratively working on the code;
+- Use GitHub issue form templates and pull request (PR) templates for consistent quality of issue and PR descriptions;
+- Use a hierarchy of issues, e.g.: epics (don't fit into a single sprint) -> high-level product backlog items (user stories, bug reports, etc. that fit into a sprint) -> tasks.
+- Mention issues addressed by a PR in the PR description.
+- Use GitHub Projects for:
+  - planning work;
+  - estimating effort;
+  - prioritizing issues;
+  - tracking progress.
+- Use GitHub Pages for publishing project documentation.
+- Use GitHub Issues to assign tasks and reassign if tasks weren't completed timely.
+- Use GitHub Actions for CI/CD.
+- Use diagrams as code ([Mermaid](https://mermaid.js.org/), PlantUML, LikeC4, [C4](https://c4model.com/), and [others](https://c4model.com/tooling)).
+- Embrace LLMs for:
+  - analyzing recordings;
+  - asking questions about docs;
+  - brainstorming architecture;
+  - generating diagrams as code;
+  - generating task descriptions;
+  - generating acceptance criteria;
+  - fixing language problems in a text;
+  - writing personal study plans for the project domain and technologies;
+  - scaffolding ([project generation](https://en.wikipedia.org/wiki/Scaffold_(programming)#Project_generation));
+  - helping you [learn to code](https://docs.github.com/en/get-started/learning-to-code/setting-up-copilot-for-learning-to-code);
+  - etc.
+- Beware of LLMs' hallucinations.
+- Create a knowledge base to share project context with LLMs and stakeholders, including course instructors and developers.
+- Store it in the `docs` directory of your repo.
+- Decide on the file structure that facilitates usage of LLMs.
+- As soon as possible:
+  - Learn about stakeholders' expectations and requirements so that you have enough time to manage and meet them.
+  - Gather and validate with stakeholders Architecturally Significant Requirements (ASRs) ([link](#architecturally-significant-requirements-asrs)).
+  - Develop an initial [architecture](#architecture) that will enable you to satisfy ASRs.
+  - Communicate your decisions to team members and stakeholders.
+- Use Scrum to be agile and have a light-weight framework for project management.
+- Since you're agile, expect changes in requirements and hence in the architecture. The initial architecture should be justified and flexible so that you can make changes later.
+- If you need to present your results to stakeholders:
+  - try to present your results in a way that:
+    - stakeholders expect;
+    - is convenient for stakeholders if the expected format isn't specified
+
+  - better show and ask if the format is convenient than assume it is.
+  - explicitly explain any discrepancies between your presentation and the expected format.
+  
+    Example: If the assignment asks to provide a link to your deployed product and you have just binaries, explain what "deployed" means in your case.
+- Document usability tests, run them before and during the meeting with the customer, address failing tests and customer's feedback.
+- Agree on the convenient meeting time in advance (see the [Timeful](https://timeful.app/) app).
+- Don't skip team meetings:
+  - sprint planning;
+  - sprint review;
+  - meeting with the customer;
+  - sprint retrospective.
+- Discuss architecture during team meetings.
+- Integrate parts of your app asap and often.
+- Define protocols for communication between system parts. E.g., if you have a client-server app, produce OpenAPI3 or protobuf spec and generate (if appropriate tooling is available) types for back end and front end from the spec.
+- Read about [challenges and lessons learned](#potential-challenges-and-lessons-learned) in students' team software projects.
+- Openly discuss your team work during a retrospective. Check your assumptions by asking questions.
+- If you have poor communication in the team despite meetings:
+  - try team building activities;
+  - ask a course instructor to conduct a retrospective.
+- Record all meetings whenever possible to later:
+  - analyze original customer's feedback;
+  - convert task discussions into issue descriptions;
+  - obtain hard evidence for attendance, etc.
+- Discuss tasks and acceptance criteria during team meetings to align task understanding and quality standards of team members.
+- Set a clear goal for each sprint and assign all issues planned for the sprint.
+- Leave enough buffer time to complete tasks, test code, and prepare neat assignment submissions.
+- Make sure people know (ping them) and understand their tasks (discuss with them) for the sprint.
+- Track team activity (attendance) and dynamics (main points from team meetings) in a sprint tracking sheet.
+- Decide on rules for writing good acceptance criteria.
+- Let the person who understands the task write acceptance criteria for that task.
+- If there is a risk that a task won't be completed, assign it to two people.
+- Identify people who struggle with their tasks and help them learn and complete tasks.
+- Ask course instructors to help fight free riders.
+- Identify stakeholders
+- Capture high-level functional and non-functional requirements, business goals, constraints
+- Derive architecturally significant requirements (ASRs) in the Quality Attribute Scenario format.
+- Design a high-level architecture that satisfies the ASRs.
+- For each ASR, explain how exactly you're going to test it (you may need to detail the architecture for this task).
+- Based on the architecture, split the work into epics, backlog items, and tasks.
+- Plan the work for several sprints using a Scrum board.
+- Assign tasks and set deadlines.
 <!-- TOC ignore:true -->
 ## Table of contents
 
