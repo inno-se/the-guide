@@ -2091,3 +2091,12 @@ What is Scrum? Understanding the Agile Framework for Project Management
 [^SomeoneAnswers]: What should I do when someone answers my question? <https://stackoverflow.com/mahelp/someone-answers>
 [^GroupWork]: Group work <https://my.uq.edu.au/information-and-services/student-support/study-skills-and-learning-advice/study-skills-and-learning-advice-overview/group-work>
 [^TipsToStructureAStrongGroupProject]: Tips to Structure a Strong Group Project <https://www.apu.apus.edu/area-of-study/business-and-management/resources/how-do-you-survive-a-group-project/>
+[^ArchitectingBoK]: An Architecting Book of Knowledge (BoK) to Improve Architectural Decision-Making <https://www.researchgate.net/profile/Alejandro-Salado/publication/394253598_An_Architecting_Book_of_Knowledge_BoK_to_Improve_Architectural_Decision-Making/links/688f3c047b62e240dd32c5c0/An-Architecting-Book-of-Knowledge-BoK-to-Improve-Architectural-Decision-Making.pdf>
+[^ApaCitationStyle]: APA 7th Edition citation style <https://pitt.libguides.com/citationhelp/apa7>
+[^AspectRatio16to9]: 16:9 aspect ratio <https://en.wikipedia.org/wiki/16:9_aspect_ratio>
+[^IeeeCitationStyle]: IEEE citation style <https://pitt.libguides.com/citationhelp/ieee>
+[^HowToWriteKeyTakeawaySlides]: How to Write Key Takeaway Slides <https://slideworks.io/resources/how-to-write-key-takeaway-slides-with-examples-and-free-template>
+[^EffectivePresentationSlides]: Ten simple rules for effective presentation slides <https://pmc.ncbi.nlm.nih.gov/articles/PMC8638955/>
+[^HandlingAudienceQuestions]: Handling Audience Questions <https://sheridancollege.libguides.com/psb-presentation-skills-module/delivering-your-presentation/handling-audience-questions>
+[^SoftwareEngineeringPractitionersApproach]: Pressman. R. Software Engineering: A Practitioner's Approach, Edition 7. McGraw-Hill ([File](./assets/SoftwareEngineeringPractitionersApproach.pdf))
+[^LlmAssistedAdd]: An LLM-assisted approach to designing software architectures using ADD <https://www.arxiv.org/abs/2506.22688>
