@@ -98,7 +98,7 @@ This repository provides a guide for managing the development of a software proj
 <!-- TOC -->
 
 - [Courses](#courses)
-  - [Target auditory](#target-auditory)
+  - [Target audience](#target-audience)
   - [Passing the course vs completing the project](#passing-the-course-vs-completing-the-project)
   - [Grading](#grading)
   - [Industrial project](#industrial-project)
@@ -239,9 +239,9 @@ This repository provides a guide for managing the development of a software proj
 
 This chapter explains what you should know about University courses covered by this guide.
 
-## Target auditory
+## Target audience
 
-The target auditory of this guide are BS and MS students of the Innopolis University atteding the courses:
+The target audience of this guide are BS and MS students of the Innopolis University atteding the courses:
 
 - ***SWP*** (Software Project) - BS, 1st year, Summer semester;
 - ***ITPD*** (IT Product Development) - MS, 1st year, Fall semester;
@@ -401,7 +401,7 @@ This section is based on the study *Software engineering team project courses wi
 
 Researchers identified various [challenges](#challenges-themes) and [lessons learned](#lessons-learned-themes) from students' reports.
 
-Courses attended by the [target auditory](#target-auditory) of this guide are similar to the courses covered by the study. Therefore, [lessons learned](#lessons-learned-themes) may be useful.
+Courses attended by the [target audience](#target-audience) of this guide are similar to the courses covered by the study. Therefore, [lessons learned](#lessons-learned-themes) may be useful.
 
 ### Challenges (themes)
 
