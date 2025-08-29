@@ -198,6 +198,14 @@ This repository provides a guide for managing the development of a software proj
 
   Something that is known to have happened or to exist, especially something for which proof exists, or about which there is information [[Cambridge Dictionary](https://dictionary.cambridge.org/dictionary/english/fact)].
 
+- **just barely good enough**, or **JBGE** (adjective)
+
+  A JBGE artifact is an artifact that at the moment has sufficient quality for a target audience [^JustBarelyGoodEnough].
+  To make JBGE artifacts, you should know the audience of these artifacts and what quality of these artifacts it expects.
+  As time goes, you may need to change artifacts to keep them JBGE.
+  
+  See also TAGRI in this glossary.
+  
 - **The Pyramid Principle** (noun)
 
   A tool to give your (written) communication more clarity and efficiency. Lead with the conclusion, then provide key arguments and finally support them with detailed information [^MintoPyramid].
@@ -223,7 +231,12 @@ This repository provides a guide for managing the development of a software proj
 - **stakeholders** (noun)
   
   All individuals and groups affected by the Scrum project, both within and outside the organization (e.g., all [core](#core-roles) and [non-core](#non-core-roles) roles, vendors, internal groups, experts, and so on) [^SbokGuide].
-
+- **They Ain’t Gonna Read It**, or **TAGRI** (principle)
+  
+  The basic idea is that very little of the documentation which gets created during software development actually gets read by the actual target audience. Recognizing this, you should model/document with a purpose and create agile documentation which reflects the true needs of the audience for that documentation. [^Tagri]
+  
+  See also JBGE in this glossary.
+  
 - **validation** (noun)
   
   The process of providing evidence that a deliverable meets the needs of the user [^ApmGlossary].
