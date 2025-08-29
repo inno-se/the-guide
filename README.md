@@ -231,6 +231,11 @@ This repository provides a guide for managing the development of a software proj
 - **stakeholders** (noun)
   
   All individuals and groups affected by the Scrum project, both within and outside the organization (e.g., all [core](#core-roles) and [non-core](#non-core-roles) roles, vendors, internal groups, experts, and so on) [^SbokGuide].
+
+- **TA** (noun)
+
+  Teaching assistant.
+
 - **They Ain’t Gonna Read It**, or **TAGRI** (principle)
   
   The basic idea is that very little of the documentation which gets created during software development actually gets read by the actual target audience. Recognizing this, you should model/document with a purpose and create agile documentation which reflects the true needs of the audience for that documentation. [^Tagri]
