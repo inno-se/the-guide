@@ -659,7 +659,7 @@ Acceptance criteria in the corresponding sections specify what is "nice".
   - agenda slide(s);
   - main part;
   - final slide(s);
-- If you decided to provide an appendix (backup slides that you're going to open only during the Q&A section), the presentation has the following parts after the final slide(s):
+- If you decided to provide an appendix (backup slides that you're going to open only during the Q&A session [^HandlingAudienceQuestions]), the presentation has the following parts after the final slide(s):
   - appendix outline;
   - appendix slides;
 - The title slide:
@@ -677,7 +677,7 @@ Acceptance criteria in the corresponding sections specify what is "nice".
 - The final slide contains key takeaways aligned with your presentation goals [^HowToWriteKeyTakeawaySlides].
 - Additional information that you're going to cover very briefly or completely skip is distributed between special slides in the main part and the appendix.
 
-  You may need such special slides for the Q&A section.
+  You may need such special slides for the Q&A session.
 
 #### Appearance
 
