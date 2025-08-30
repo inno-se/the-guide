@@ -5,6 +5,27 @@ This repository provides a guide for managing the development of a software proj
 
 ## TL;DR
 
+- Focus on delivering a product that has quality sufficient for [stakeholders](#stakeholders).
+- Negotiate with stakeholders the most important [quality attributes](#quality-attributes) and record testable [quality attribute scenarios](#quality-attribute-scenarios).
+- Use architecture, processes, tools, and tests that help you achieve the desired quality.
+- Make justified decisions about various aspects of your project and record them.
+- Regularly:
+  - gather and address stakeholders' [feedback](#feedback-loop) on your project.
+  - groom your product backlog based on the feedback.
+  - manage stakeholders' expectations based on the scope (remaining work), human resources, and schedule.
+
+## TL;DR extended
+
+- Identify stakeholders (usually course instructors and customer).
+- Capture their high-level functional and non-functional requirements, business goals, constraints.
+- Derive architecturally significant requirements (ASRs) in the [Quality Attribute Scenario](#quality-attribute-scenarios) format.
+- Design a high-level architecture that satisfies the ASRs.
+- For each ASR, explain how exactly you're going to test it (you may need to detail the architecture for this task).
+- Based on the architecture, split the work into epics, backlog items, and tasks.
+- Plan the work for several sprints using a Scrum board.
+- Assign tasks and set deadlines.
+- Keep stakeholders informed about your decisions and progress.
+- Use architecture, processes, and tools that help you achieve that quality.
 - Use git for code and documentation versioning from the first day of the project;
 - Use GitHub for collaboratively working on the code;
 - Use GitHub issue form templates and pull request (PR) templates for consistent quality of issue and PR descriptions;
@@ -88,14 +109,7 @@ This repository provides a guide for managing the development of a software proj
   - don't complete their tasks timely so that tasks have to be reassigned;
   - produce poor quality work despite clear acceptance criteria.
 - Ask course instructors to help fight free riders.
-- Identify stakeholders.
-- Capture their high-level functional and non-functional requirements, business goals, constraints
-- Derive architecturally significant requirements (ASRs) in the Quality Attribute Scenario format.
-- Design a high-level architecture that satisfies the ASRs.
-- For each ASR, explain how exactly you're going to test it (you may need to detail the architecture for this task).
-- Based on the architecture, split the work into epics, backlog items, and tasks.
-- Plan the work for several sprints using a Scrum board.
-- Assign tasks and set deadlines.
+
 <!-- TOC ignore:true -->
 ## Table of contents
 
