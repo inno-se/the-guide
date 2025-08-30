@@ -272,10 +272,19 @@ Most points in this guide apply to all courses.
 ## Passing the course vs completing the project
 
 - The [Setup](#setup) chapter of this guide explains how to create a working environment that can help you complete your project successfully.
-- However, to pass the course, you need to meet requirements and expectations of the key project stakeholders, not just complete the project. Key project stakeholders are usually course instructors (primary instructor, TAs, mentors) and your customer.
+- However, to pass the course, you need to meet requirements and expectations of key project stakeholders, not just complete the project. Key project stakeholders are usually course instructors (primary instructor, TAs, mentors) and your customer.
 - Identify key stakeholders and learn about stakeholders' requirements and expectations as soon as possible. You need to have enough time to manage and meet their requirements and expectations.
 - You should communicate to the stakeholders how you met their requirements and expectations in a way that the stakeholders expect.
-- You should explicitly explain all discrepancies.
+  
+  You should explicitly explain discrepancies between your deliverables and stakeholders' requirements and expectations.
+
+## Expected learning outcomes
+
+During the course, you should learn to:
+
+- manage your project to achieve project goals;
+- make, communicate to stakeholders and teammates, and follow justified (with respect to project goals) decisions about your SDLC, processes, architecture etc.;
+- demonstrate stakeholders that you have enough control over various [practice areas](#practice-areas) in your project.
 
 ## Grading
 
