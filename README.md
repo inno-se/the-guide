@@ -32,16 +32,18 @@ This repository provides a guide for managing the development of a software proj
   - helping you [learn to code](https://docs.github.com/en/get-started/learning-to-code/setting-up-copilot-for-learning-to-code);
   - etc.
 - Beware of LLMs' hallucinations.
-- Create a knowledge base to share project context with LLMs and stakeholders, including course instructors and developers.
-- Store it in the `docs` directory of your repo.
+- Create a knowledge base to share project context with LLMs, stakeholders, and teammates.
+- Store the knowledge base in the `docs` directory of your repo.
 - Decide on the file structure that facilitates usage of LLMs.
 - As soon as possible:
   - Learn about stakeholders' expectations and requirements so that you have enough time to manage and meet them.
-  - Gather and validate with stakeholders Architecturally Significant Requirements (ASRs) ([link](#architecturally-significant-requirements-asrs)).
+  - Gather and validate with stakeholders [Architecturally Significant Requirements (ASRs)](#architecturally-significant-requirements-asrs).
   - Develop an initial [architecture](#architecture) that will enable you to satisfy ASRs.
   - Communicate your decisions to team members and stakeholders.
-- Use Scrum to be agile and have a light-weight framework for project management.
-- Since you're agile, expect changes in requirements and hence in the architecture. The initial architecture should be justified and flexible so that you can make changes later.
+- Ensure most of your decisions are justified and recorded.
+- Use Scrum, a light-weight agile [software process framework](#software-process-framework).
+- Be agile and be ready for changes in requirements and hence in architecture.
+- The initial architecture should be flexible so that you can make changes later.
 - If you need to present your results to stakeholders:
   - try to present your results in a way that:
     - stakeholders expect;
@@ -59,8 +61,10 @@ This repository provides a guide for managing the development of a software proj
   - meeting with the customer;
   - sprint retrospective.
 - Discuss architecture during team meetings.
-- Integrate parts of your app asap and often.
-- Define protocols for communication between system parts. E.g., if you have a client-server app, produce OpenAPI3 or protobuf spec and generate (if appropriate tooling is available) types for back end and front end from the spec.
+- Integrate parts of your system as soon as possible and often.
+- Define protocols for communication between your system parts.
+
+  E.g., if your system has client and server parts, produce OpenAPI3 or protobuf spec and generate (if appropriate tooling is available) types for back end and front end from the spec.
 - Read about [challenges and lessons learned](#potential-challenges-and-lessons-learned) in students' team software projects.
 - Openly discuss your team work during a retrospective. Check your assumptions by asking questions.
 - If you have poor communication in the team despite meetings:
@@ -69,19 +73,23 @@ This repository provides a guide for managing the development of a software proj
 - Record all meetings whenever possible to later:
   - analyze original customer's feedback;
   - convert task discussions into issue descriptions;
-  - obtain hard evidence for attendance, etc.
+  - obtain hard evidence for attendance and participation to later use it against free riders.
 - Discuss tasks and acceptance criteria during team meetings to align task understanding and quality standards of team members.
 - Set a clear goal for each sprint and assign all issues planned for the sprint.
 - Leave enough buffer time to complete tasks, test code, and prepare neat assignment submissions.
-- Make sure people know (ping them) and understand their tasks (discuss with them) for the sprint.
+- Make sure people know and understand their tasks for the sprint. Ping them and discuss their tasks at the start of a sprint.
 - Track team activity (attendance) and dynamics (main points from team meetings) in a sprint tracking sheet.
 - Decide on rules for writing good acceptance criteria.
 - Let the person who understands the task write acceptance criteria for that task.
-- If there is a risk that a task won't be completed, assign it to two people.
+- If there is a risk that a task won't be completed, assign it to two people. One of them should be a reliable and competent person.
 - Identify people who struggle with their tasks and help them learn and complete tasks.
+- Identify free riders who consistently do some or all of these:
+  - miss team meetings;
+  - don't complete their tasks timely so that tasks have to be reassigned;
+  - produce poor quality work despite clear acceptance criteria.
 - Ask course instructors to help fight free riders.
-- Identify stakeholders
-- Capture high-level functional and non-functional requirements, business goals, constraints
+- Identify stakeholders.
+- Capture their high-level functional and non-functional requirements, business goals, constraints
 - Derive architecturally significant requirements (ASRs) in the Quality Attribute Scenario format.
 - Design a high-level architecture that satisfies the ASRs.
 - For each ASR, explain how exactly you're going to test it (you may need to detail the architecture for this task).
