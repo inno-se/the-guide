@@ -94,7 +94,7 @@ This repository provides a guide for managing the development of a software proj
 - Record all meetings whenever possible to later:
   - analyze original customer's feedback;
   - convert task discussions into issue descriptions;
-  - obtain hard evidence for attendance and participation to later use it against free riders.
+  - obtain hard evidence for attendance and participation to later [deal with free riders](#deal-with-free-riders).
 - Discuss tasks and acceptance criteria during team meetings to align task understanding and quality standards of team members.
 - Set a clear goal for each sprint and assign all issues planned for the sprint.
 - Leave enough buffer time to complete tasks, test code, and prepare neat assignment submissions.
@@ -108,7 +108,7 @@ This repository provides a guide for managing the development of a software proj
   - miss team meetings;
   - don't complete their tasks timely so that tasks have to be reassigned;
   - produce poor quality work despite clear acceptance criteria.
-- Ask course instructors to help fight free riders.
+- Ask course instructors to help [deal with free riders](#deal-with-free-riders).
 
 <!-- TOC ignore:true -->
 ## Table of contents
@@ -353,6 +353,40 @@ During the course, you should learn to:
 - Don't demand individual grading when you experience [teamwork problems](#potential-challenges-and-lessons-learned).
   Instead, ask course instructors to help normalize the team work.
 
+## Surviving a group project
+
+- Have stable and friendly communication inside the team:
+  - Meet regularly. Find time for meetings using [Timeful](https://timeful.app/) and/or other services.
+  - Respond to messages promptly (in 24 hours at most) [^GroupProjectEtiquette].
+  - Bring snacks for your team members when you meet offline [^GroupProjectEtiquette].
+- Communicate clearly each sprint how much effort you're going to put into the project. You probably have other courses and life.
+- If you get stuck with a task, try to get unstuck by clarifying task requirements and talking to LLMs and team members. Tell what you did and where you got stuck and ask them for help.
+- Follow tips for group projects: [^GroupProjectEtiquette] [^TipsToStructureAStrongGroupProject] [^GroupWork].
+- Follow basic workplace etiquette rules: [^GuideToChatEtiquetteInWorkplace] [^EtiquetteTipsForUsingChatAtWork] [^The14CommandmentsOfTextingEtiquette].
+- Skim [potential challenges and lessons learned](#potential-challenges-and-lessons-learned).
+- [Deal with free riders](#deal-with-free-riders) with help of course instructors.
+- If you feel something goes wrong, write down your observations and discuss the problem with an LLM.
+
+  If you need input from other team members to resolve the problem, discuss the problem during a [retrospective](#retrospective).
+  
+  If you can't resolve the problem, ask the course instructors to help [^HowToHelpStudentsResolveTeamConflict].
+
+## Deal with free riders
+
+- Identify free riders who consistently do some or all of these:
+  - miss team meetings;
+  - don't complete their tasks timely so that tasks have to be reassigned;
+  - produce poor quality work despite clear acceptance criteria.
+  
+- Collect hard evidence:
+  - Take attendance during team meetings;
+  - Record meetings. For each meeting recording:
+    - make a transcript with speaker labels and timestamps;
+    - identify all speakers;
+    - write a list of all speakers and the transcript in a document in your knowledge base or elsewhere.
+    - update attendance sheets;
+  - Identify tasks that had to be reassigned because the free rider didn't complete them timely or didn't meet acceptance criteria.
+
 ## Feedback loop
 
 A feedback loop helps you continually improve [^ContinualImprovementProcess] an artifact or process to achieve specific goals based on evaluation of (changes to) your artifact or process using specific metrics (connected to the goals).
@@ -444,36 +478,6 @@ Good feedback should lead to improvements. Here is how to make that happen.
 - If an answer isn't acceptable, reply to it if necessary and ask clarifying questions. Define your own acceptance criteria for answers.
 - If you found an acceptable answer to your own question, share that answer.
 - Mark messages that contain acceptable answers with a reaction (e.g, "👍" or "👌") to make such answers more noticeable for those looking for them (like on StackOverflow [^SomeoneAnswers]).
-
-## Surviving a group project
-
-- Meet regularly. Find time for meetings using [Timeful](https://timeful.app/) or other services.
-- Respond to messages promptly (in 24 hours at most) [^GroupProjectEtiquette].
-
-### Identify and fix teamwork problems
-
-- See:
-  - [potential challenges and lessons learned](#potential-challenges-and-lessons-learned).
-  - tips: [^GroupWork] [^TipsToStructureAStrongGroupProject].
-- Discuss problems with an LLM and a course instructor.
-- If necessary, ask a course instructor to facilitate a [Team fixing meeting](#team-fixing-meeting).
-- [Fight free riders](#fight-free-riders).
-
-### Fight free riders
-
-- Identify free riders who consistently do some or all of these:
-  - miss team meetings;
-  - don't complete their tasks timely so that tasks have to be reassigned;
-  - produce poor quality work despite clear acceptance criteria.
-  
-- Collect hard evidence:
-  - Take attendance during team meetings;
-  - Record meetings. For each meeting recording:
-    - make a transcript with speaker labels and timestamps;
-    - identify all speakers;
-    - write a list of all speakers and the transcript in a document in your knowledge base or elsewhere.
-  - Identify tasks that had to be reassigned because the free rider didn't complete them timely or didn't meet acceptance criteria.
-
 
 ## Potential challenges and lessons learned
 
