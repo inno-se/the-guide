@@ -2136,8 +2136,7 @@ Paywalled books and articles are usually available in shadow libraries such as:
 [^ProjectCharter]: How To Write A Good Project Charter: Templates and Examples <https://planyway.com/blog/project-charter-elements>
 [^ProjectManagementGuide]: <https://planyway.com/blog/project-management-guide>
 [^TheMomTest]: Summary of the book ***The Mom Test*** <https://durmonski.com/book-summaries/the-mom-test/>
-[^AosaBook]: The Architecture of Open Source Applications
- <https://aosabook.org/en/>
+[^AosaBook]: The Architecture of Open Source Applications <https://aosabook.org/en/>
 [^AdrTemplates]: Architecture decision record (ADR) examples for software planning, IT leadership, and template documentation <https://github.com/joelparkerhenderson/architecture-decision-record>
 [^AdrOrg]: Architectural Decision Records <https://adr.github.io/>
 [^RequirementsAgile]: Agile approach and PEGS <https://requirements.university/faq.html#agile>
@@ -2171,9 +2170,7 @@ Paywalled books and articles are usually available in shadow libraries such as:
 [^AgileManifesto]: Manifesto for Agile Software Development <https://agilemanifesto.org/>
 [^AgileManifestoPrinciples]: Principles behind the Agile Manifesto <https://agilemanifesto.org/principles.html>
 [^ScrumGuide]:  The 2020 Scrum Guide <https://scrumguides.org/scrum-guide.html>
-[^WhatIsScrumGfg]:
-What is Scrum? Understanding the Agile Framework for Project Management
- <https://www.geeksforgeeks.org/software-engineering/what-is-scrum/>
+[^WhatIsScrumGfg]: What is Scrum? Understanding the Agile Framework for Project Management <https://www.geeksforgeeks.org/software-engineering/what-is-scrum/>
 [^ScrumPdca]: How is Scrum Related to Plan-Do-Check-Act (PDCA) Process? <https://www.archimetric.com/how-is-scrum-related-to-plan-do-check-act-pdca-process/>
 [^GlossaryOfScrumTerms](https://www.scrum.org/resources/scrum-glossary)
 [^MintoPyramid]: The Minto Pyramid Principle <https://untools.co/minto-pyramid/>
