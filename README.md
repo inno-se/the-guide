@@ -1667,7 +1667,7 @@ graph LR
 
 ### Sample issues
 
-We created several sample [issues](https://github.com/inno-swp-2025/we-have-tiktok-at-home/issues) in the [inno-swp-2025/we-have-tiktok-at-home](https://github.com/inno-swp-2025/we-have-tiktok-at-home) repo.
+We created several sample [issues](https://github.com/inno-swp-2025/the-guide/issues) in the [inno-swp-2025/the-guide](https://github.com/inno-swp-2025/the-guide) repo.
 
 ### Issue types
 
@@ -1689,7 +1689,7 @@ A Task is a specific action required to complete a Product Backlog Item (PBI). I
 
 ### Issue labels
 
-Issues have meaningful [labels](https://github.com/inno-swp-2025/we-have-tiktok-at-home/labels).
+Issues have meaningful [labels](https://github.com/inno-swp-2025/the-guide/labels).
 
 If you plan to have several repositories in your organization, you can [create default issue labels](https://docs.github.com/en/organizations/managing-organization-settings/managing-default-labels-for-repositories-in-your-organization).
 
@@ -1772,7 +1772,7 @@ Milestones are specific, key points within a project that mark progress and comp
 
 Milestones are not sprints [^MilestonesVsSprints].
 
-We defined two [milestones](https://github.com/inno-swp-2025/we-have-tiktok-at-home/milestones) and provided their goals in descriptions.
+We defined two [milestones](https://github.com/inno-swp-2025/the-guide/milestones) and provided their goals in descriptions.
 
 ## Projects
 
