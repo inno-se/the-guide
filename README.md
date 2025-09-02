@@ -2194,3 +2194,6 @@ Paywalled books and articles are usually available in shadow libraries such as:
 [^HandlingAudienceQuestions]: Handling Audience Questions <https://sheridancollege.libguides.com/psb-presentation-skills-module/delivering-your-presentation/handling-audience-questions>
 [^SoftwareEngineeringPractitionersApproach]: Pressman. R. Software Engineering: A Practitioner's Approach, Edition 7. McGraw-Hill ([File](./assets/SoftwareEngineeringPractitionersApproach.pdf))
 [^LlmAssistedAdd]: An LLM-assisted approach to designing software architectures using ADD <https://www.arxiv.org/abs/2506.22688>
+[^EtiquetteTipsForUsingChatAtWork]: 8 Etiquette Tips for Using Chat at Work <https://taskworld.com/blog/8-etiquette-tips-for-using-chat-at-work/>
+[^The14CommandmentsOfTextingEtiquette]: The 14 Commandments of Texting Etiquette <https://www.userlike.com/en/blog/texting-etiquette>
+[^HowToHelpStudentsResolveTeamConflict]: How to help students resolve team conflict <https://www.curaeducation.com/best-practice/how-to-help-students-resolve-team-conflict>
