@@ -2106,6 +2106,19 @@ An issue can be closed when it reaches the `Done` column.
 - User settings:
   - `Show date fields`
 
+## Shadow libraries
+
+Paywalled books and articles are usually available in shadow libraries such as:
+
+- [Nexus](https://t.me/nexus_search/214) (use their Telegram bot)
+- [Libgen](https://libgen.ac/)
+- [Z-Library](https://z-library.cc/)
+- [Anna's archive](https://annas-archive.org/)
+
+## Local library
+
+- [Zotero](https://github.com/zotero/zotero) - Zotero is a free, easy-to-use tool to help you collect, organize, annotate, cite, and share your research sources.
+
 ## References
 
 [^WorkItemHierarchy]: Adapted from <https://learn.microsoft.com/en-us/azure/devops/boards/backlogs/define-features-epics?view=azure-devops&tabs=scrum-process#portfolio-backlogs>
