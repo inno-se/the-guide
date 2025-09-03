@@ -374,7 +374,7 @@ During the course, you should learn to:
 ## Deal with free riders
 
 > [!IMPORTANT]
-> Don't accuse people of free riding if you don't have hard evidence.
+> Always communicate with teammates professionally to not make the atmosphere in the team toxic.
 
 - Continuously collect hard evidence:
   - Record participation during team meetings in a sheet available to all team members.
@@ -388,14 +388,28 @@ During the course, you should learn to:
 
 - Discuss with these people what prevents them from contributing productively.
 
-- Discuss goals of these people. E.g., they want to:
+- Explain them that you expect them to work without constant guidance from their teammates.
+  
+  They should:
+  - communicate with others to clarify task requirements and acceptance criteria;
+  - study necessary materials to complete their tasks (see [Self-study](#self-study)).
+
+- Discuss goals of these people. Determine whether they want to:
   - contribute productively for the project to succeed;
   - contribute just enough to pass the course and not make their teammates annoyed about them;
   - not contribute and fail the course.
 
-- Based on your [team goals](#team-goals) and goals of these people, agree on:
-  - these people role in the project;
-  - the amount of help you should provide to these people so that they become productive enough contributors.
+- Based on your [team goals](#team-goals) and goals of these people:
+  - if they're going to contribute, agree with them on:
+    - their role in the project;
+    - the sufficient amount of work that they should perform;
+    - the amount of guidance that you'll provide to these people so that they become productive enough contributors;
+  - otherwise, agree with them that:
+    - they're not going to get any task;
+    - you'll report no contribution from them until the end of the course;
+    - you'll report to the course instructors that they want to fail the course.
+
+- Record your agreement in a format that won't let these people accuse you of making them fail the course.
 
 
 ## Feedback loop
