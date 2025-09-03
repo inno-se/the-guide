@@ -264,6 +264,20 @@ A Git repository [[What are code repositories?](https://github.com/resources/art
 
 See also [[About repositories](https://docs.github.com/en/repositories/creating-and-managing-repositories/about-repositories)].
 
+## SMART
+
+*adjective*
+
+A framework for setting management objectives, emphasizing the importance of clear goals [^SmartCriteriaWiki].
+
+Acronym components [^SmartCriteriaWiki]:
+
+- **S**pecific: Targeting a particular area for improvement.
+- **M**easurable: Quantifying, or at least suggesting, an indicator of progress.
+- **A**ssignable: Defining responsibility clearly.
+- **R**ealistic: Outlining attainable results with available resources.
+- **T**ime-related: Including a timeline for expected results.
+
 ## stakeholders
 
 *noun*
