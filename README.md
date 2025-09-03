@@ -94,7 +94,7 @@ This repository provides a guide for managing the development of a software proj
 - Record all meetings whenever possible to later:
   - analyze original customer's feedback;
   - convert task discussions into issue descriptions;
-  - obtain hard evidence for attendance and participation to later [deal with free riders](#deal-with-free-riders).
+  - [deal with free riders](#deal-with-free-riders).
 - Discuss tasks and acceptance criteria during team meetings to align task understanding and quality standards of team members.
 - Set a clear goal for each sprint and assign all issues planned for the sprint.
 - Leave enough buffer time to complete tasks, test code, and prepare neat assignment submissions.
@@ -373,19 +373,30 @@ During the course, you should learn to:
 
 ## Deal with free riders
 
-- Identify free riders who consistently do some or all of these:
-  - miss team meetings;
-  - don't complete their tasks timely so that tasks have to be reassigned;
+> [!IMPORTANT]
+> Don't accuse people of free riding if you don't have hard evidence.
+
+- Continuously collect hard evidence:
+  - Record participation during team meetings in a sheet available to all team members.
+  - Update participation records based on processed [meeting recordings](#produce-high-quality-transcripts).
+  - Identify tasks that were reassigned.
+
+- Identify people who consistently do some or all of these:
+  - don't participate in team meetings;
+  - get their tasks reassigned to other people;
   - produce poor quality work despite clear acceptance criteria.
-  
-- Collect hard evidence:
-  - Take attendance during team meetings;
-  - Record meetings. For each meeting recording:
-    - make a transcript with speaker labels and timestamps;
-    - identify all speakers;
-    - write a list of all speakers and the transcript in a document in your knowledge base or elsewhere.
-    - update attendance sheets;
-  - Identify tasks that had to be reassigned because the free rider didn't complete them timely or didn't meet acceptance criteria.
+
+- Discuss with these people what prevents them from contributing productively.
+
+- Discuss goals of these people. E.g., they want to:
+  - contribute productively for the project to succeed;
+  - contribute just enough to pass the course and not make their teammates annoyed about them;
+  - not contribute and fail the course.
+
+- Based on your [team goals](#team-goals) and goals of these people, agree on:
+  - these people role in the project;
+  - the amount of help you should provide to these people so that they become productive enough contributors.
+
 
 ## Feedback loop
 
@@ -705,9 +716,9 @@ Suggested topics:
     - deployed product;
     - Google Drive;
     - etc.
-- `Recordings` - for storing recordings.
-  <!-- TODO video and audio recording + raw transcripts? -->
-  - You may want to create a backup of recordings in another group because they're evidence against free riders (see [Free riders](#free-riders)).
+- `Recordings` - for storing video and audio recordings.
+  
+  You may want to create a backup of recordings in another group because they're evidence for [dealing with free riders](#deal-with-free-riders).
 - `Pull requests` - for pinging people about pull requests, e.g., when asking for a review.
 - `Tasks` - for pinging people about tasks, e.g., when assigning a task or asking about the task status.
 - `Assignments` - for discussing assignments, presentations, etc.
