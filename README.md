@@ -1059,6 +1059,25 @@ Thus, you should take your ASRs seriously.
 <!-- TODO write here -->
 ![Design Concepts](./assets/BckDesignConcepts.png)
 
+## Work breakdown structure (WBS)
+
+A hierarchical decomposition of the total scope of work to be carried out by the project team to accomplish the project objectives and create the required deliverables [^Pmbok].
+
+One of the WBS representations is a directed acyclic graph where nodes are tasks and edges are relations between tasks [^SoftwareEngineeringPractitionersApproach]. An edge from `A` to `B` means that `A` is a subtask of `B`. The relation can be more specific, e.g.:
+
+- FS: finish `A` to be able to start `B`;
+- SS: start `A` to be able to start `B`;
+- FF: finish `A` to be able to finish `B`;
+- SF: start `A` to be able to finish `B`;
+
+The architecture is a basis for the WBS [[^Bck], p. 32].
+
+The work-breakdown structure in turn dictates units of planning, scheduling, and budget; inter-team communication channels; configuration control and file-system organization etc. [[^Bck], p. 32]
+
+Different people work on different parts of the system (in parallel). [[^Bck], p. 32]
+
+Estimations about the project cost and schedule can be based on the [WBS](#work-breakdown-structure-wbs) early in the project's lifecycle. [[^Bck], p. 33]
+
 ### Break down the work
 
 1. Load necessary context into a chat with an LLM.
