@@ -342,8 +342,15 @@ Most points in this guide apply to all courses.
 - However, to pass the course, you need to meet requirements and expectations of key project [stakeholders](#stakeholders), not just complete the project.
 - Identify key project stakeholders and learn about stakeholders' requirements and expectations as soon as possible. You need to have enough time to manage and meet their requirements and expectations.
 - You should communicate to the stakeholders how you met their requirements and expectations in a way that the stakeholders expect.
-  
-  You should explicitly explain discrepancies between your deliverables and stakeholders' requirements and expectations.
+- You should explicitly explain discrepancies between your deliverables and stakeholders' requirements and expectations.
+
+## Team goals
+
+You should agree with your teammates on:
+
+- the desired course grade;
+- threshold of success [^ThresholdOfSuccess] - a minimal set of SMART goals that should all be achieved to consider the project a success.
+
 
 ## Expected learning outcomes
 
