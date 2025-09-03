@@ -2262,3 +2262,7 @@ Paywalled books and articles are usually available in shadow libraries such as:
 [^EtiquetteTipsForUsingChatAtWork]: 8 Etiquette Tips for Using Chat at Work <https://taskworld.com/blog/8-etiquette-tips-for-using-chat-at-work/>
 [^The14CommandmentsOfTextingEtiquette]: The 14 Commandments of Texting Etiquette <https://www.userlike.com/en/blog/texting-etiquette>
 [^HowToHelpStudentsResolveTeamConflict]: How to help students resolve team conflict <https://www.curaeducation.com/best-practice/how-to-help-students-resolve-team-conflict>
+[^ThresholdOfSuccess]:  Threshold of Success <https://www.neverletdown.net/2010/01/threshold-of-success.html>
+[^SmartCriteriaWiki]: SMART criteria <https://en.wikipedia.org/wiki/SMART_criteria>
+[^HowToUseAcceptanceCriteria]: <https://www.scrum.org/resources/blog/how-use-acceptance-criteria>
+[^Pmbok]: Project Management Institute. (2021). A guide to the Project Management Body of Knowledge (PMBOK guide) (7th ed.). Project Management Institute. ([File](./assets/PmbokGuideEdition7.pdf))
