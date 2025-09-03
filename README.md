@@ -77,20 +77,20 @@ This repository provides a guide for managing the development of a software proj
 - Document usability tests, run them before and during the meeting with the customer, address failing tests and customer's feedback.
 - Agree on the convenient meeting time in advance (see the [Timeful](https://timeful.app/) app).
 - Don't skip team meetings:
-  - sprint planning;
-  - sprint review;
+  - Sprint Planning;
+  - Sprint Review;
   - meeting with the customer;
-  - sprint retrospective.
+  - Sprint Retrospective.
 - Discuss architecture during team meetings.
 - Integrate parts of your system as soon as possible and often.
 - Define protocols for communication between your system parts.
 
   E.g., if your system has client and server parts, produce OpenAPI3 or protobuf spec and generate (if appropriate tooling is available) types for back end and front end from the spec.
 - Read about [challenges and lessons learned](#potential-challenges-and-lessons-learned) in students' team software projects.
-- Openly discuss your team work during a retrospective. Check your assumptions by asking questions.
+- Openly discuss your team work during a Sprint Retrospective. Check your assumptions by asking questions.
 - If you have poor communication in the team despite meetings:
   - try team building activities;
-  - ask a course instructor to conduct a retrospective.
+  - ask a course instructor to conduct a Sprint Retrospective.
 - Record all meetings whenever possible to later:
   - analyze original customer's feedback;
   - convert task discussions into issue descriptions;
@@ -367,7 +367,7 @@ During the course, you should learn to:
 - [Deal with free riders](#deal-with-free-riders) with help of course instructors.
 - If you feel something goes wrong, write down your observations and discuss the problem with an LLM.
 
-  If you need input from other team members to resolve the problem, discuss the problem during a [retrospective](#retrospective).
+  If you need input from other team members to resolve the problem, discuss the problem during a [Retrospective](#retrospective).
   
   If you can't resolve the problem, ask the course instructors to help [^HowToHelpStudentsResolveTeamConflict].
 
@@ -460,7 +460,7 @@ Good feedback should lead to improvements. Here is how to make that happen.
     - **Why it helps:** This turns general comments into clear work that you can track in your scrum process.
 
 9. **Implement and close the loop**
-    - **What to do:** Implement the changes. After you implement and test the changes, show the person who gave the feedback what you did. You can do this at the next sprint review or lab session.
+    - **What to do:** Implement the changes. After you implement and test the changes, show the person who gave the feedback what you did. You can do this at the next Sprint Review or lab session.
     - **Why it helps:** This improves the product, which is the main goal. It also shows the person that their feedback was valuable, which completes the loop.
 
 ## Asking questions
@@ -834,7 +834,7 @@ Collect all video and audio materials relevant to the project, e.g., recordings 
 
 - Interviews with the customer;
 - Usability sessions;
-- Sprint planning and sprint review [meetings](#meetings).
+- Sprint planning and Sprint Review [meetings](#meetings).
 
 ### Produce high-quality transcripts
 
@@ -1572,10 +1572,10 @@ Scrum incorporates a [PDSA cycle](#the-pdsa-cycle).
 
 Adapted from [^ScrumPdca]:
 
-- *Plan* is the sprint planning meeting
+- *Plan* is the Sprint Planning meeting
 - *Do* is the sprint execution (together with Daily Scrum)
-- *Study* is the sprint review and retrospective, and
-- *Act* is the feedback result of the sprint review and retrospective, which is reflected in the specific requirements and process improvement activities.
+- *Study* is the Sprint Review and Sprint Retrospective
+- *Act* is the feedback result of the Sprint Review and Sprint Retrospective, which is reflected in the specific requirements and process improvement activities.
 
 ### Roles
 
