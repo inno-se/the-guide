@@ -408,6 +408,10 @@ During the course, you should learn to:
   - produce poor quality work despite clear acceptance criteria.
 
 - Discuss with these people what prevents them from contributing productively.
+  
+  People may struggle with disorders [^WhySomeStudentsStruggleWithGroupWork].
+  
+  Or, they may feel that their input isn't valued by teammates [[^SbokGuide], Sec. 3.9.3.2, p. 74].
 
 - Explain them that you expect them to work without constant guidance from their teammates.
   
