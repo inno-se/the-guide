@@ -394,6 +394,10 @@ This repository provides a guide for managing the development of a software proj
 
 # Glossary
 
+## acceptance criteria
+
+Conditions for team or stakeholder acceptance, ensuring that the work meets the required standards and setting clear expectations for what needs to be delivered [^HowToUseAcceptanceCriteria].
+
 ## assumption
 
 *noun*
