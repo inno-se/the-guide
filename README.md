@@ -1033,6 +1033,17 @@ Software architecture is important for a wide variety of technical and nontechni
 
     Reduce the number of choices of elements and try to use proven solutions to reduce the risk of not being able to produce an appropriate architecture. [[^Bck], p. 35]
 1. An architecture can be the foundation for training of a new team member.
+
+### When to design the architecture?
+
+You should start designing the architecture early in the project after gathering initial [architecturally significant requirements](#architecturally-significant-requirements-asrs) [[^Bck], p. 371], [^InitialArchitectureModeling].
+
+You should decide what's the acceptable level of detail for the architecture at the moment (see [JBGE](#just-barely-good-enough-jbge)). Note that it may be costly to significantly modify the architecture later in the project [[^Bck], p. 32].
+
+You should review and update the architecture throughout the project to account for [ASRs](#architecturally-significant-requirements-asrs) that are high-priority at the corresponding moment.
+
+![When to design architecture](./assets/WhenToDesignArchitecture.png)
+
 ### Derive architectural decisions using an LLM
 
 See the preprint *An LLM-assisted approach to designing software architectures using ADD* [^LlmAssistedAdd].
