@@ -2494,7 +2494,7 @@ Paywalled books and articles are usually available in shadow libraries such as:
 [^Bck]: Software Architecture in Practice, 4th Edition by L. Bass, P. Clements, and R. Kazman. ([File](./assets/SoftwareArchitectureInPracticeEdition4.pdf))
 [^QASofSoftwareArchitecture]: Quality attributes of software architectures <https://www.cs.unibo.it/cianca/wwwpages/as/5.pdf#page=26>
 [^QualityScenarios]: Lecture on Quality Scenarios <https://greg4cr.github.io/courses/spring21dit635/Lectures/Spring21-Lecture3-QualityScenarios.pdf>
-[^Swebok]: SWEBOK v4: Guide to the Software Engineering Body of Knowledge v4.0 <https://ieeecs-media.computer.org/media/education/swebok/swebok-v4.pdf>
+[^Swebok]: SWEBOK v4: Guide to the Software Engineering Body of Knowledge v4.0a <https://ieeecs-media.computer.org/media/education/swebok/swebok-v4.pdf> ([file](./assets/SwebokGuideEditionV4.0a.pdf))
 [^UtilityTreeTabular]: Tabular form is recommended at <https://docs.arc42.org/tips/10-2/>
 [^Iso25010]: The ISO/IEC 25010 quality model <https://iso25000.com/index.php/en/iso-25000-standards/iso-25010>
 [^Q42]: The arc42 quality model <https://quality.arc42.org/>
