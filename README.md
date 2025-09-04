@@ -63,8 +63,7 @@ This repository provides a guide for managing the development of a software proj
   - Communicate your decisions to team members and stakeholders.
 - Ensure most of your decisions are justified and recorded.
 - Use Scrum, a light-weight agile [software process framework](#software-process-framework).
-- Be agile and be ready for changes in requirements and hence in architecture.
-- The initial architecture should be flexible so that you can make changes later.
+- Be agile and be ready for changes in requirements and hence in [the architecture](#when-to-design-the-architecture).
 - If you need to present your results to stakeholders:
   - try to present your results in a way that:
     - stakeholders expect;
