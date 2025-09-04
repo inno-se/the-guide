@@ -1679,7 +1679,7 @@ Legend:
 
 ### Relation to PDSA
 
-Scrum incorporates a [PDSA cycle](#the-pdsa-cycle).
+A scrum iteration can be viewed as a [PDSA cycle](#the-pdsa-cycle) where you try to improve the product so that it provides more value to the [stakeholders](#stakeholders).
 
 Adapted from [^ScrumPdca]:
 
