@@ -1006,7 +1006,7 @@ A structure is architectural if it supports reasoning about the system and the s
 
 Architecture provides a common language in which different concerns can be expressed, negotiated, and resolved at a level that is intellectually manageable even for large, complex systems. [[^Bck], p. 29]
 
-Software architecture is important for a wide variety of technical and nontechnical reasons. Here are the main resons why architecture matters: [[^Bck], p. 36]
+Software architecture is important for a wide variety of technical and nontechnical reasons. Here are the main resons why architecture matters [[^Bck], p. 36]:
 
 1. An architecture will inhibit or enable a system’s driving [quality attributes](#quality-attributes).
 1. The decisions made in an architecture allow you to reason about and manage change as the system evolves.
@@ -1016,7 +1016,7 @@ Software architecture is important for a wide variety of technical and nontechni
 1. An architecture defines a set of constraints on subsequent implementation.
 1. The architecture dictates the structure of an organization, or vice versa.
 
-    See [Work-breakdown structure](#work-breakdown-structure).
+    See [Work-breakdown structure](#work-breakdown-structure-wbs).
 1. An architecture can provide the basis for incremental development.
 
     The first increment can be a skeletal system in which at least some of the infrastructure — how the elements initialize, communicate, share data, access resources, report errors, log activity, and so forth — is present, but much of the system’s application functionality is not. [[^Bck], p. 33]
