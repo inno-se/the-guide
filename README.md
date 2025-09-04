@@ -1190,7 +1190,7 @@ The **PDSA cycle**, or the **Plan-Do-Study-Act cycle**, or the **Deming cycle** 
 
 The PDSA cycle is rooted in the scientific method [^CirclingBack] [^ScientificMethodWiki]. The cycle steps are similar to the steps of the empirical cycle [^EmpiricalCycleWiki] but the ultimate goal is specifically continual improvement.
 
-### Theory
+### PDSA Theory
 
 - [Theory of Knowledge/PDSA](https://www.youtube.com/watch?v=dgazCOz_IIY)
 - *Circling Back* [^CirclingBack]
