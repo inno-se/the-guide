@@ -1708,6 +1708,27 @@ From [^SbokGuide]:
 
 - **Course Stakeholders** - course instructors (primary instructor, TAs, mentors).
 
+### Tuckman model
+
+The Tuckman model describes the phases that groups of individuals go through when they first begin working together as a team [^TuckmanModelForAgileTeams] [[^Sbok], Sec. 3.9.1, p. 73]:
+
+1. *Forming* - teams are uncertain about the team goals and how to work together.
+1. *Storming* - teams challenge boundaries and get to know each other and how to work together.
+1. *Norming* - teams become more comfortable with each other and more familiar with their processes.  
+1. *Performing* - teams really begin to work together well, achieving an ever increasing level of peak performance.
+
+![Tuckman model and Scrum](./assets/ScrumTuckman.png)
+
+Source: [^TuckmanModelForAgileTeams]
+
+For Agile teams, the goal of the Scrum Master or Agile coach is to get teams through the first three phases (Forming, Storming and Norming) as quickly as possible so that the team can get to Performing [^TuckmanModelForAgileTeams].
+
+### Conflict resolution
+
+Sources of conflict evolve primarily due to schedules, priorities, resources, reporting hierarchy, technical issues, procedures, personality, and costs [[^SbokGuide], Sec. 3.9.3, p. 74].
+
+It is usually best for team members to face problems directly with a cooperative attitude and an open dialogue to work through any disagreements to reach consensus (Win-Win approach) [[^SbokGuide], Sec. 3.9.3, p. 74].
+
 
 ### Artifacts and commitments
 
