@@ -357,7 +357,7 @@ You should agree with your teammates on:
 During the course, you should learn to:
 
 - manage your project to achieve project goals;
-- make, communicate to stakeholders and teammates, and follow justified (with respect to project goals) decisions about your SDLC, processes, architecture etc.;
+- make, communicate to stakeholders and teammates, and follow justified (with respect to project goals) decisions about your [SDLC](#software-development-life-cycle-sdlc), processes, architecture etc.;
 - demonstrate stakeholders that you have enough control over various [practice areas](#practice-areas) in your project.
 
 ## Grading
@@ -734,6 +734,18 @@ Courses attended by the [target audience](#target-audience) of this guide are si
 [Sec 6.9](https://www.sciencedirect.com/science/article/pii/S0164121225001098#sec6.9)
 
 - Take advice from the mentors
+
+## Software development life cycle (SDLC)
+
+The life cycle for any software system contains a number of concrete stages relevant to stakeholders [^Swebok]. These concrete stages fit into the following general stages (not necessarily sequential):
+
+- **Concept**: At this stage, stakeholders' needs are identified, concepts will be explored, and solutions will be proposed.
+- **Development**: At this stage, requirements representing the users' needs will be refined, solutions will be created, systems built, and all undergo the needed verification and validation processes.
+- **Production**: This stage will have a different scope depending on the characteristics of the software system under focus. Generally speaking, it will include the production and testing of the system.
+- **Utilization**: At this stage, the system operates to satisfy users' needs.
+- **Support**: At this stage, developers provide the required actions to achieve a satisfactory operation.
+- **Retirement**: At this stage, the team follows established procedures to dispose of the system.
+
 
 ## Telegram
 
