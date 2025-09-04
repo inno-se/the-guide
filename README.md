@@ -1710,7 +1710,7 @@ From [^SbokGuide]:
 
 ### Tuckman model
 
-The Tuckman model describes the phases that groups of individuals go through when they first begin working together as a team [^TuckmanModelForAgileTeams] [[^Sbok], Sec. 3.9.1, p. 73]:
+The Tuckman model describes phases that groups of individuals go through when they first begin working together as a team [^TuckmanModelForAgileTeams] [[^SbokGuide], Sec. 3.9.1, p. 73]:
 
 1. *Forming* - teams are uncertain about the team goals and how to work together.
 1. *Storming* - teams challenge boundaries and get to know each other and how to work together.
