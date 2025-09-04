@@ -1688,11 +1688,9 @@ Adapted from [^ScrumPdca]:
 - *Study* is the Sprint Review and Sprint Retrospective
 - *Act* is the feedback result of the Sprint Review and Sprint Retrospective, which is reflected in the specific requirements and process improvement activities.
 
-### Roles
+### Core roles
 
-#### Core roles
-
-From [^SbokGuide]:
+**Scrum Core Team** [^SbokGuide]:
 
 1. **Product Owner** is the person responsible for maximizing business value for the project. He or she is responsible for articulating customer requirements and maintaining business justification for the project. The Product Owner represents the *Voice of the Customer*.
 
@@ -1702,7 +1700,8 @@ From [^SbokGuide]:
 
 1. **Scrum Team** is a group or team of people who are responsible for understanding the business requirements specified by the Product Owner, estimating User Stories, and final creation of the project deliverables.
 
-#### Non-core roles
+
+### Non-core roles
 
 - **Business Stakeholder(s)**, which is a collective term that includes customers, users, and sponsors who frequently interface with the Scrum Core Team and also influence the project throughout the project’s development. Most importantly, it is for the business stakeholders that the project produces collaborative benefits [^SbokGuide].
 
