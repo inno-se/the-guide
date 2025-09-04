@@ -1194,6 +1194,7 @@ The PDSA cycle is rooted in the scientific method [^CirclingBack] [^ScientificMe
 
 - [Theory of Knowledge/PDSA](https://www.youtube.com/watch?v=dgazCOz_IIY)
 - *Circling Back* [^CirclingBack]
+- *Continual improvement process* [^ContinualImprovementProcess]
 
 ### Application
 
