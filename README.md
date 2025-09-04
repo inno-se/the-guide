@@ -1729,6 +1729,15 @@ Sources of conflict evolve primarily due to schedules, priorities, resources, re
 
 It is usually best for team members to face problems directly with a cooperative attitude and an open dialogue to work through any disagreements to reach consensus (Win-Win approach) [[^SbokGuide], Sec. 3.9.3, p. 74].
 
+#### Team lead
+
+At the start of the project, [architectural](#architectural-decision) and other technical decisions need to be made.
+
+Meanwhile, the team may be in the [Forming](#tuckman-model) or [Storming](#tuckman-model) phase when disagreements occur relatively often. What if some of the [Scrum Core Team](#core-roles) members can't reach a consensus on a decision, even with the help of a Scrum Master?
+
+Scrum Core Team members don't have any power over each other [[^SbokGuide], Sec. 3.2.1].
+
+A possible solution is to assign someone the role of a formal team lead who will break the tie in such a case and explain their decision to others [^WhyHaveTeamLead].
 
 ### Artifacts and commitments
 
