@@ -1515,6 +1515,28 @@ Choose relevant extensions based on tools from the previous section that you sel
       - [package.json](https://docs.npmjs.com/cli/v11/configuring-npm/package-json)
       - [package-lock.json](https://docs.npmjs.com/cli/v11/configuring-npm/package-lock-json)
 
+### Rust
+
+#### Recommended tools
+
+- Devshell
+  - [rust-overlay](https://github.com/oxalica/rust-overlay) -  Pure and reproducible nix overlay of binary distributed rust toolchains.
+
+- Build
+  - [crane](https://github.com/ipetkov/crane) - A Nix library for building cargo projects. Never build twice thanks to incremental artifact caching.
+
+#### Recommended extensions
+
+- `rust-lang.rust-analyzer`
+
+#### Recommended configuration
+
+- In [`Cargo.toml`]():
+
+  ```toml
+  edition = "2024"
+  ```
+
 ### LaTeX
 
 See [LaTeX](https://www.latex-project.org/).
@@ -1643,7 +1665,7 @@ Legend:
 
 From [^WhatIsScrum]:
 
-Scrum is a way to get work done as a team in small pieces at a time, with continuous experimentation and feedback loops along the way to [learn and improve](#relation-to-pdsa) as you go. Scrum helps people and teams deliver value *incrementally* in a collaborative way. As an [Agile](#agile) framework, Scrum provides just enough structure for people and teams to integrate into how they work, while adding the right practices to optimize for their specific needs.
+Scrum is a way to get work done as a team in small pieces at a time, with continuous experimentation and [feedback loops](#feedback-loop) along the way to [learn and improve](#relation-to-pdsa) as you go. Scrum helps people and teams deliver value *incrementally* in a collaborative way. As an [Agile](#agile) framework, Scrum provides just enough structure for people and teams to integrate into how they work, while adding the right practices to optimize for their specific needs.
 
 Scrum is an empirical process, where decisions are based on observation, experience and experimentation. Scrum has three pillars: transparency, inspection and adaptation. This supports the concept of working *iteratively*. Think of Empiricism as working through small experiments, learning from that work and adapting both what you are doing and how you are doing it as needed.
 
