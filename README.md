@@ -436,6 +436,7 @@ During the course, you should learn to:
 
 - Record your agreement in a format that won't let these people accuse you of making them fail the course.
 
+  For example, write their new roles and responsibilities in the [Project Charter](#project-charter).
 
 ## Feedback loop
 
