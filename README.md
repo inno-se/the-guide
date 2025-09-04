@@ -2486,6 +2486,16 @@ Paywalled books and articles are usually available in shadow libraries such as:
 
 - [Zotero](https://github.com/zotero/zotero) - Zotero is a free, easy-to-use tool to help you collect, organize, annotate, cite, and share your research sources.
 
+## Browser extensions
+
+### Firefox
+
+- `Medium Unlimited: Read for free` - Unlocks medium.com for unlimited reads, no membership required.
+
+### Chrome
+
+- `Medium Unlock` - Unlimited Access to Medium Articles.
+
 ## References
 
 [^WorkItemHierarchy]: Adapted from <https://learn.microsoft.com/en-us/azure/devops/boards/backlogs/define-features-epics?view=azure-devops&tabs=scrum-process#portfolio-backlogs>
