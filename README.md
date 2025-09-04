@@ -915,7 +915,7 @@ Collect all video and audio materials relevant to the project, e.g., recordings 
 
 - Interviews with the customer;
 - Usability sessions;
-- Sprint planning and Sprint Review [meetings](#meetings).
+- Sprint Planning and Sprint Review [meetings](#meetings).
 
 ### Produce high-quality transcripts
 
