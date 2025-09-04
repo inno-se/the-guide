@@ -1261,6 +1261,20 @@ Sources: [^CirclingBack] [^TheImprovementGuide]
 - PDCA [^PdcaVsPdsa] [^TheoryOfKnowledgePdsa]
 - See [[^TheImprovementGuide], Appendix C]
 
+## Quality attributes
+
+<!-- TODO extend -->
+
+Quality attributes are a language for talking about system quality with stakeholders.
+
+Quality attributes are defined in quality models.
+
+### Quality attribute scenarios
+
+See [^BckCh19] [^QASofSoftwareArchitecture] [^QualityScenarios].
+
+See [Derive architectural decisions using an LLM](#derive-architectural-decisions-using-an-llm).
+
 
 ## Development tools
 
