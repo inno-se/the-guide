@@ -749,12 +749,30 @@ The life cycle for any software system contains a number of concrete stages rele
 
 ## Telegram
 
-Create a group with topics to have focused streams of messages in each topic.
+### Group
+
+Create a Telegram group for team members.
+
+You may add your mentor or a TA there if you need supervision and they don't mind.
+
+Discuss the project only in the group and not in personal messages so that:
+
+- you don't need to send everyone the same message, e.g., with a meeting link;
+- group members can see all discussions and can join them freely;
+- you can search in all project-related discussions by searching in the group or exported history.
+
+
+### Topics
+
+Create topics in the group to have focused streams of messages in each topic.
 
 Suggested topics:
 
 - `Important` - for important information such as:
-  - team member names, Telegram and GitHub usernames, roles.
+  - team member names;
+  - Telegram and GitHub usernames;
+  - roles (see [Roles](#roles));
+  - rights and responsibilities of the project manager (can also be documented in the [Project Charter](#project-charter));
   - links to the:
     - repository;
     - the most important boards on GitHub Projects;
