@@ -1651,7 +1651,7 @@ From [^TheThreePillarsOfEmpiricismScrum]:
 
 Scrum works not because it has three [roles](#roles), five [events](#events), and three [artifacts](#artifacts-and-commitments) but because it adheres to the underlying [Agile](#agile) principles of iterative, value-based incremental delivery by frequently gathering customer feedback and embracing change. This results in faster time to market, better delivery predictability, increased customer responsiveness, ability to change direction by managing changing priorities, enhanced software quality, and improved risk management.
 
-### Theory
+### Scrum theory
 
 - [Scrum in a Nutshell](https://youtu.be/502ILHjX9EE) (~15 minutes);
 - [What is Professional Scrum](https://youtu.be/BYlv7eP9zgg) (~7 minutes);
