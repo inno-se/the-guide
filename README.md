@@ -920,8 +920,8 @@ Collect all video and audio materials relevant to the project, e.g., recordings 
 ### Produce high-quality transcripts
 
 1. (Optional) Remove sensitive information from recordings.
-1. For video and audio materials, get high-quality transcripts with speaker labels and timestamps.
-1. (Optional) Convert video to audio.
+1. For video and audio recordings, get high-quality transcripts with speaker labels and timestamps.
+1. (Optional) Convert video recordings to audio recordings.
 1. For each recording:
     1. load it together with its transcript into a chat with the LLM.
     1. Ask the LLM to improve transcript text using the recording.
