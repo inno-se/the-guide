@@ -11,7 +11,7 @@ This repository provides a guide for managing the development of a software proj
 - Make justified decisions about various aspects of your project and record them.
 - Regularly:
   - gather and address stakeholders' [feedback](#feedback-loop) on your project.
-  - groom your product backlog based on the feedback.
+  - groom your Product Backlog based on the feedback.
   - manage stakeholders' expectations based on the scope (remaining work), human resources, and schedule.
 
 ## TL;DR extended
@@ -29,7 +29,7 @@ This repository provides a guide for managing the development of a software proj
 - Use git for code and documentation versioning from the first day of the project;
 - Use GitHub for collaboratively working on the code;
 - Use GitHub issue form templates and pull request (PR) templates for consistent quality of issue and PR descriptions;
-- Use a hierarchy of issues, e.g.: epics (don't fit into a single sprint) -> high-level product backlog items (user stories, bug reports, etc. that fit into a sprint) -> tasks.
+- Use a hierarchy of issues, e.g.: epics (don't fit into a single sprint) -> high-level Product Backlog Items (user stories, bug reports, etc. that fit into a sprint) -> tasks.
 - Mention issues addressed by a PR in the PR description.
 - Use GitHub Projects for:
   - planning work;
@@ -408,7 +408,7 @@ Something that you accept as true without question or proof [[Cambridge Dictiona
 
 *noun*
 
-A formal description of the state of the Increment when it meets the quality measures required for the product. The moment a Product Backlog item meets the Definition of Done, an Increment is born. The Definition of Done creates transparency by providing everyone a shared understanding of what work was completed as part of the Increment. If a Product Backlog item does not meet the Definition of Done, it cannot be released or even presented at the Sprint Review [^GlossaryOfScrumTerms].
+A formal description of the state of the Increment when it meets the quality measures required for the product. The moment a Product Backlog Item meets the Definition of Done, an Increment is born. The Definition of Done creates transparency by providing everyone a shared understanding of what work was completed as part of the Increment. If a Product Backlog Item does not meet the Definition of Done, it cannot be released or even presented at the Sprint Review [^GlossaryOfScrumTerms].
 
 ## fact
 
@@ -1351,7 +1351,7 @@ Estimations about the project cost and schedule can be based on the [WBS](#work-
 1. (Optional) Ask LLM to generate:
     - A new use case diagram using PlantUML.
     - Project architecture using mermaid (see [Architecture Diagrams Documentation](https://mermaid.js.org/syntax/architecture.html)).
-    - Tasks for each product backlog item. Each task must have a brief description, a checklist of sub-tasks, and a checklist of corresponding task [acceptance criteria](#acceptance-criteria).
+    - Tasks for each Product Backlog Item. Each task must have a brief description, a checklist of sub-tasks, and a checklist of corresponding task [acceptance criteria](#acceptance-criteria).
 1. (Optional) Save the chat into a Markdown doc in the repo so that you can use it in subsequent chats.
 
 1. In the chat with all materials and analysis, ask the LLM to plan the work as a [Gantt chart](https://mermaid.js.org/syntax/gantt.html) and open the obtained diagram in the [editor](https://mermaid.live/edit). Sample prompt:
