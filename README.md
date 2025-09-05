@@ -98,7 +98,7 @@ This repository provides a guide for managing the development of a software proj
 - Set a clear goal for each sprint and assign all issues planned for the sprint.
 - Leave enough buffer time to complete tasks, test code, and prepare neat assignment submissions.
 - Make sure people know and understand their tasks for the sprint. Ping them and discuss their tasks at the start of a sprint.
-- Track team activity (attendance) and dynamics (main points from team meetings) in a sprint tracking sheet.
+- Track team activity (participation) and dynamics (main points from team meetings) in a [sprint tracking sheet](#sprint-tracking-sheet).
 - Decide on rules for writing good acceptance criteria.
 - Let the person who understands the task write acceptance criteria for that task.
 - If there is a risk that a task won't be completed, assign it to two people. One of them should be a reliable and competent person.
@@ -1980,6 +1980,12 @@ Each artifact contains a *commitment* to ensure it provides information that enh
 - For the *Increment* it is the [Definition of Done](#definition-of-done-dod).
 
 These commitments exist to reinforce empiricism and the Scrum values for the Scrum Team and their stakeholders.
+
+### Sprint tracking sheet
+
+Record certain information about sprint activities to be able to improve and see progress.
+
+Use this [template](https://docs.google.com/spreadsheets/d/13gyIubyAh7xs3t6kEXFNoJiOxuWwGo9ck0cPleS7Ef8/edit?usp=sharing).
 
 
 ## Work item hierarchy
