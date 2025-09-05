@@ -46,7 +46,7 @@ This repository provides a guide for managing the development of a software proj
   - brainstorming architecture;
   - generating diagrams as code;
   - generating task descriptions;
-  - generating acceptance criteria;
+  - generating [acceptance criteria](#acceptance-criteria);
   - fixing language problems in a text;
   - writing personal study plans for the project domain and technologies;
   - scaffolding ([project generation](https://en.wikipedia.org/wiki/Scaffold_(programming)#Project_generation));
@@ -94,13 +94,13 @@ This repository provides a guide for managing the development of a software proj
   - analyze original customer's feedback;
   - convert task discussions into issue descriptions;
   - [deal with free riders](#deal-with-free-riders).
-- Discuss tasks and acceptance criteria during team meetings to align task understanding and quality standards of team members.
+- Discuss tasks and [acceptance criteria](#acceptance-criteria) during team meetings to align task understanding and quality standards of team members.
 - Set a clear goal for each sprint and assign all issues planned for the sprint.
 - Leave enough buffer time to complete tasks, test code, and prepare neat assignment submissions.
 - Make sure people know and understand their tasks for the sprint. Ping them and discuss their tasks at the start of a sprint.
 - Track team activity (participation) and dynamics (main points from team meetings) in a [sprint tracking sheet](#sprint-tracking-sheet).
-- Decide on rules for writing good acceptance criteria.
-- Let the person who understands the task write acceptance criteria for that task.
+- Decide on rules for writing good [acceptance criteria](#acceptance-criteria).
+- Let the person who understands the task write [acceptance criteria](#acceptance-criteria) for that task.
 - If there is a risk that a task won't be completed, assign it to two people. One of them should be a reliable and competent person.
 - Identify people who struggle with their tasks and help them learn and complete tasks.
 - Identify free riders who consistently do some or all of these:
@@ -595,7 +595,7 @@ During the course, you should learn to:
 - Identify people who consistently do some or all of these:
   - don't participate in team meetings;
   - get their tasks reassigned to other people;
-  - produce poor quality work despite clear acceptance criteria.
+  - produce poor quality work despite clear [acceptance criteria](#acceptance-criteria).
 
 - Discuss with these people what prevents them from contributing productively.
   
@@ -606,7 +606,7 @@ During the course, you should learn to:
 - Explain them that you expect them to work without constant guidance from their teammates.
   
   They should:
-  - communicate with others to clarify task requirements and acceptance criteria;
+  - communicate with others to clarify task requirements and [acceptance criteria](#acceptance-criteria);
   - study necessary materials to complete their tasks (see [Self-study](#self-study)).
 
 - Discuss goals of these people. Determine whether they want to:
@@ -695,7 +695,7 @@ Good feedback should lead to improvements. Here is how to make that happen.
     - **Why it helps:** This helps your team focus on the most important changes first.
 
 8. **Create clear, actionable tasks**
-    - **What to do:** Turn the feedback you decided to work on into specific tasks or user stories in your backlog. Every task needs clear acceptance criteria to show when it is "done."
+    - **What to do:** Turn the feedback you decided to work on into specific tasks or user stories in your backlog. Every task needs clear [acceptance criteria](#acceptance-criteria) to show when it is "done."
         - *Example:* "As a user, I want the confirmation button to be green and in the top-right corner so it is more visible."
         - *Acceptance Criteria:* 1. Button color is #28a745. 2. Button is in the top-right of the modal. 3. Clicking the button closes the modal.
     - **Why it helps:** This turns general comments into clear work that you can track in your scrum process.
@@ -1005,7 +1005,7 @@ When you design a presentation, think about:
 
 The presentation slides should have nice [structure](#structure), [content](#content), and [appearance](#appearance).
 
-Acceptance criteria in the corresponding sections specify what is "nice".
+[Acceptance criteria](#acceptance-criteria) in the corresponding sections specify what is "nice".
 
 #### Structure
 
@@ -1351,7 +1351,7 @@ Estimations about the project cost and schedule can be based on the [WBS](#work-
 1. (Optional) Ask LLM to generate:
     - A new use case diagram using PlantUML.
     - Project architecture using mermaid (see [Architecture Diagrams Documentation](https://mermaid.js.org/syntax/architecture.html)).
-    - Tasks for each product backlog item. Each task must have a brief description, a checklist of sub-tasks, and a checklist of corresponding task acceptance criteria.
+    - Tasks for each product backlog item. Each task must have a brief description, a checklist of sub-tasks, and a checklist of corresponding task [acceptance criteria](#acceptance-criteria).
 1. (Optional) Save the chat into a Markdown doc in the repo so that you can use it in subsequent chats.
 
 1. In the chat with all materials and analysis, ask the LLM to plan the work as a [Gantt chart](https://mermaid.js.org/syntax/gantt.html) and open the obtained diagram in the [editor](https://mermaid.live/edit). Sample prompt:
