@@ -2738,3 +2738,6 @@ Paywalled books and articles are usually available in shadow libraries such as:
 [^TuckmanModelForAgileTeams]: Forming, Storming, Norming and Performing for Agile teams <https://www.scrum.org/resources/blog/forming-storming-norming-and-performing-agile-teams>
 [^InitialArchitectureModeling]: Agile Architecture Envisioning: An Agile Core Practice <https://agilemodeling.com/essays/initialArchitectureModeling.htm>
 [^PracticeStandardForWbs]: Practice Standard for Work Breakdown Structures, 3rd Edition. ([File](./assets/PracticeStandardForWbs.pdf))
+[^ProjectNetworkWiki]: Project network <https://en.wikipedia.org/wiki/Project_network>
+[^AgileImprovementsToCpm]: Agile Improvements to Critical Path Method <https://calhoun.nps.edu/server/api/core/bitstreams/ece19976-6629-4745-94a1-3fc98c5924c6/content>
+[^WhatIsNetworkDiagramWrike]: What Is a Network Diagram in Project Management? <https://www.wrike.com/project-management-guide/faq/what-is-a-network-diagram-in-project-management/>
