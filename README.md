@@ -2151,9 +2151,17 @@ graph LR
 
 ### Sample issues
 
-We created several sample [issues](https://github.com/inno-swp-2025/the-guide/issues) in the [inno-swp-2025/the-guide](https://github.com/inno-swp-2025/the-guide) repo.
+We pretend to develop a TikTok-like application.
 
-The issues are organized according to the [work item hierarchy](#work-item-hierarchy).
+We created several [issues](https://github.com/inno-swp-2025/the-guide/issues) in the [inno-swp-2025/the-guide](https://github.com/inno-swp-2025/the-guide) repo.
+
+We connected issues according to the [work item hierarchy](#work-item-hierarchy) to represent a [WBS](#work-breakdown-structure-wbs) with [three levels](#issue-types) of decomposition.
+
+We used [GitHub Projects](#projects) to provide additional information about issues at each level:
+
+- [Roadmap Items](https://github.com/orgs/inno-swp-2025/projects/5/views/4);
+- [Product Backlog Items](https://github.com/orgs/inno-swp-2025/projects/1);
+- [Tasks](https://github.com/orgs/inno-swp-2025/projects/2).
 
 ### Issue types
 
@@ -2169,9 +2177,13 @@ An Epic is a container for a major initiative that is too large and complex to b
 
 A Product Backlog Item (PBI) is a unit of work that is small enough to be completed by the team within a single sprint. It represents a concrete step toward completing an Epic. A PBI must deliver a demonstrable increment of value, though that value may be for the end-user (a feature), for the system (stability/performance), or for the development team (enabling future work).
 
+Parent issue type: `Epic`.
+
 #### `Task`
 
 A Task is a specific action required to complete a Product Backlog Item (PBI). It breaks down a PBI into the smallest, most granular steps needed for implementation or completion.
+
+Parent issue type: `Backlog`.
 
 ### Issue labels
 
