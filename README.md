@@ -2699,3 +2699,4 @@ Paywalled books and articles are usually available in shadow libraries such as:
 [^WhyHaveTeamLead]: Why should you have a Team Lead in a Scrum team? <https://nicolae-andronic.medium.com/why-should-you-have-a-team-lead-in-a-scrum-team-36e88e26a4c2>
 [^TuckmanModelForAgileTeams]: Forming, Storming, Norming and Performing for Agile teams <https://www.scrum.org/resources/blog/forming-storming-norming-and-performing-agile-teams>
 [^InitialArchitectureModeling]: Agile Architecture Envisioning: An Agile Core Practice <https://agilemodeling.com/essays/initialArchitectureModeling.htm>
+[^PracticeStandardForWbs]: Practice Standard for Work Breakdown Structures, 3rd Edition. ([File](./assets/PracticeStandardForWbs.pdf))
