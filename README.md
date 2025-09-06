@@ -1304,9 +1304,109 @@ Thus, you should take your ASRs seriously.
 
 ## Work breakdown structure (WBS)
 
-A hierarchical decomposition of the total scope of work to be carried out by the project team to accomplish the project objectives and create the required deliverables [^Pmbok].
+The WBS is a hierarchical decomposition of the total scope of work to be carried out by the project team to accomplish the project objectives and create the required deliverables [[^Pmbok], Sec. 2.6.2.2, p. 84].
 
-One of the WBS representations is a directed acyclic graph where nodes are tasks and edges are relations between tasks [^SoftwareEngineeringPractitionersApproach]. An edge from `A` to `B` means that `A` is a subtask of `B`. The relation can be more specific, e.g.:
+The WBS is an important tool used in the planning and execution of a successful project. Many project cost, schedule, and quality failures trace directly to flaws in the development of the project’s WBS. A project’s success is less likely without the existence of a [quality WBS](#wbs-quality-attributes). [[^PracticeStandardForWbs], Sec 3.2.2.2, p. 60]
+
+Estimations about the project cost and schedule can be based on the WBS early in the project's lifecycle [[^Bck], p. 33].
+
+The architecture is a basis for the WBS [[^Bck], p. 32].
+
+The WBS in turn dictates units of planning, scheduling, and budget; inter-team communication channels; configuration control and file-system organization; integration
+and test plans and procedures etc. [[^Bck], p. 32]
+
+The WBS content depends on the project [life cycle](#software-development-life-cycle-sdlc) and the [software process framework](#software-process-framework) that dictates project activities [[^PracticeStandardForWbs], Sec 2.2, p. 14]
+
+### Theory
+
+See:
+
+- Practice Standard for Work Breakdown Structures, 3rd Edition. [^PracticeStandardForWbs]
+
+### Summary
+
+In summary, the WBS: [[^PracticeStandardForWbs], Sec 2.7, p. 51]
+
+- Defines the hierarchy of deliverables;
+- Facilitates interaction with different project stakeholders;
+- Supports the definition of all work required to achieve an end objective or deliverable(s);
+- Provides a graphical representation or textual outline of the project scope;
+- Provides the framework for all deliverables across the project life cycle;
+- Serves as a mechanism for integrating and assessing schedule and cost performance;
+- Facilitates assignment of resources;
+- Facilitates the reporting and analysis of progress and status data;
+- Provides a framework for specifying performance objectives;
+- Provides a strong foundation for risk identification;
+- Facilitates other project management processes;
+- Provides a tool for team brainstorming and collaboration;
+- Helps to improve communication with stakeholders;
+- Helps to avoid scope creep;
+- Provides a basis for procurement statement of work when outsourcing a work package.
+
+### Types of Decomposition
+
+![Types of Decomposition](./assets/WbsTypesOfDecomposition.png)
+
+Source: [[^PracticeStandardForWbs], Table 2-1, p. 30]
+
+### Styles
+
+The most common WBS representations of styles are [[^PracticeStandardForWbs], Sec. 2.5, p. 42]:
+
+- Hierarchical
+- Outline
+- Tabular
+
+### Project WBS
+
+Product-oriented Project WBS using Hierarchical Structure Style:
+
+![Project WBS](./assets/ProjectWbs.png)
+
+Source: [[^PracticeStandardForWbs], Fig. 5-1, p. 97]
+
+### Relation to the Project Charter
+
+The [Project Charter](#project-charter) is the starting point for the WBS. The highest-level element in the WBS represents the project’s overall end-point product(s), service(s), or outcomes as described in the Project Charter. If the project’s major products cannot be described during the creation of the WBS, then the project management team examines the Project Charter for sufficient definition. [[^PracticeStandardForWbs], Sec 3.2.2.2, p. 60]
+
+### Agile life cycle WBS
+
+The agile life cycle WBS is typically a blend of product-, phase-, and action-oriented WBS elements. The differentiating characteristic is that each branch of the hierarchy often represents a mini life cycle, yielding a discrete, evolving product as an output. The expected duration is typically fixed, spanning a relatively short period of time. [[^PracticeStandardForWbs], Sec 5.2.6, p. 94]
+
+![Agile WBS as a diagram](./assets/AgileWbsDiagram.png)
+
+Source: [[^PracticeStandardForWbs], Fig. 4-4, p. 83]
+
+![Agile WBS as a list](./assets/AgileWbsList.png)
+
+Source: [[^PracticeStandardForWbs], Table 5-6, p. 94]
+
+### WBS quality attributes
+
+A WBS with the following core quality attributes reflects sufficient and complete quality [[^PracticeStandardForWbs], Sec. 4.2.1, p. 76]:
+
+1. Defines the scope of the project by containing 100 percent of the work defined by the scope; each level of
+decomposition contains 100 percent of the work in the parent level.
+1. Clarifies the work at different levels and allows the project scope to be communicated accurately to stakeholders.
+1. Allows easier review and audit of the WBS work packages.
+1. Captures internal, external, and interim deliverables in terms of work to be completed, including project
+management.
+1. Contains work packages that clearly support the identification of the tasks performed to deliver the work
+package.
+1. Provides a graphical and hierarchical breakdown of the project scope.
+1. Contains elements that are defined using nouns and adjectives — not verbs.
+1. Arranges major and minor deliverables in a hierarchical structure.
+1. Employs a coding scheme for each element that clearly identifies its hierarchical nature when viewed in any
+format, such as a chart or outline.
+1. Comprises two levels, with at least one level of decomposition.
+1. Created by individuals performing the work, not just one expert.
+1. Constructed with technical input from knowledgeable subject matter experts (SMEs) and other project
+stakeholders, such as financial and business managers.
+1. Iteratively evolves along with the progressive elaboration of project scope, up to the point the scope has been
+baselined and fixed.
+1. Updated in accordance with a project change control process.
+## Project schedule network diagram
+
 
 - FS: finish `A` to be able to start `B`;
 - SS: start `A` to be able to start `B`;
