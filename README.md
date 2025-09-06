@@ -2153,6 +2153,8 @@ graph LR
 
 We created several sample [issues](https://github.com/inno-swp-2025/the-guide/issues) in the [inno-swp-2025/the-guide](https://github.com/inno-swp-2025/the-guide) repo.
 
+The issues are organized according to the [work item hierarchy](#work-item-hierarchy).
+
 ### Issue types
 
 Each issue has a [type](https://docs.github.com/en/issues/tracking-your-work-with-issues/configuring-issues/managing-issue-types-in-an-organization).
