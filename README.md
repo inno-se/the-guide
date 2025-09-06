@@ -2731,7 +2731,7 @@ Paywalled books and articles are usually available in shadow libraries such as:
 [^HowToHelpStudentsResolveTeamConflict]: How to help students resolve team conflict <https://www.curaeducation.com/best-practice/how-to-help-students-resolve-team-conflict>
 [^ThresholdOfSuccess]:  Threshold of Success <https://www.neverletdown.net/2010/01/threshold-of-success.html>
 [^SmartCriteriaWiki]: SMART criteria <https://en.wikipedia.org/wiki/SMART_criteria>
-[^HowToUseAcceptanceCriteria]: <https://www.scrum.org/resources/blog/how-use-acceptance-criteria>
+[^HowToUseAcceptanceCriteria]: How to Use Acceptance Criteria? <https://www.scrum.org/resources/blog/how-use-acceptance-criteria>
 [^Pmbok]: Project Management Institute. (2021). A guide to the Project Management Body of Knowledge (PMBOK guide) (7th ed.). Project Management Institute. ([File](./assets/PmbokGuideEdition7.pdf))
 [^WhySomeStudentsStruggleWithGroupWork]: Why Some Students Struggle with Group Work <https://www.facultyfocus.com/articles/course-design-ideas/why-some-students-struggle-with-group-work/>
 [^WhyHaveTeamLead]: Why should you have a Team Lead in a Scrum team? <https://nicolae-andronic.medium.com/why-should-you-have-a-team-lead-in-a-scrum-team-36e88e26a4c2>
