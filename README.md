@@ -1420,7 +1420,7 @@ baselined and fixed.
 
 The network diagram is a sequential arrangement of the work defined by the [WBS](#work-breakdown-structure-wbs) and is essential to uncovering project dependencies and risks. Developing the network diagram often uncovers problems in the WBS, such as incomplete decomposition and the assignment of too much work in an element, thus resulting in needed revisions. [[^PracticeStandardForWbs], Sec. 4.2.1, p. 76]
 
-A network diagram is a directed acyclic graph where nodes contain tasks and edges denote relations between tasks [^ProjectNetworkWiki] [^AgileImprovementsToCpm] [^SoftwareEngineeringPractitionersApproach]. An edge from `A` to `B` can be labeled to represent a specific relation:
+A network diagram is a directed acyclic graph where nodes contain tasks and edges denote relations between tasks [^ProjectNetworkWiki] [^AgileImprovementsToCpm] [[^SoftwareEngineeringPractitionersApproach], Sec. 27.4, p. 731]. An edge from `A` to `B` can be labeled to represent a specific relation:
 
 ![Network diagram](./assets/NetworkDiagramWrike.png)
 
