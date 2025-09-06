@@ -1415,23 +1415,22 @@ stakeholders, such as financial and business managers.
 1. Iteratively evolves along with the progressive elaboration of project scope, up to the point the scope has been
 baselined and fixed.
 1. Updated in accordance with a project change control process.
+
 ## Project schedule network diagram
 
+The network diagram is a sequential arrangement of the work defined by the [WBS](#work-breakdown-structure-wbs) and is essential to uncovering project dependencies and risks. Developing the network diagram often uncovers problems in the WBS, such as incomplete decomposition and the assignment of too much work in an element, thus resulting in needed revisions. [[^PracticeStandardForWbs], Sec. 4.2.1, p. 76]
 
-- FS: finish `A` to be able to start `B`;
-- SS: start `A` to be able to start `B`;
-- FF: finish `A` to be able to finish `B`;
-- SF: start `A` to be able to finish `B`;
+A network diagram is a directed acyclic graph where nodes contain tasks and edges denote relations between tasks [^ProjectNetworkWiki] [^AgileImprovementsToCpm] [^SoftwareEngineeringPractitionersApproach]. An edge from `A` to `B` can be labeled to represent a specific relation:
 
-The architecture is a basis for the WBS [[^Bck], p. 32].
+![Network diagram](./assets/NetworkDiagramWrike.png)
 
-The work-breakdown structure in turn dictates units of planning, scheduling, and budget; inter-team communication channels; configuration control and file-system organization etc. [[^Bck], p. 32]
+Source: [^WhatIsNetworkDiagramWrike]
 
-Different people work on different parts of the system (in parallel). [[^Bck], p. 32]
+In this repository, a network diagram should be constructed from type `Task` issues because they represent activities (see [WBS and issue hierarchy](#wbs-and-issue-hierarchy)).
 
-Estimations about the project cost and schedule can be based on the [WBS](#work-breakdown-structure-wbs) early in the project's lifecycle. [[^Bck], p. 33]
+Any type `Task` issue may have a list of blockers - issues that must be finished before that issue can be finished. Therefore, the edge from a blocker to a type `Task` issue should be labeled FS.
 
-### Break down the work
+## Break down the work
 
 1. Load necessary context into a chat with an LLM.
 1. Load relevant [issue form templates](#issue-form-templates).
