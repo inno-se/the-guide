@@ -1306,6 +1306,12 @@ Thus, you should take your ASRs seriously.
 
 The WBS is a hierarchical decomposition of the total scope of work to be carried out by the project team to accomplish the project objectives and create the required deliverables [[^Pmbok], Sec. 2.6.2.2, p. 84].
 
+The work package is the work defined at the lowest level of the WBS for which cost and duration can be estimated and managed. [[^PracticeStandardForWbs], Sec 3.3.1, p. 66]
+
+Activities in the schedule model represent the work that produces the deliverables or work packages identified in the WBS. [[^PracticeStandardForWbs], Sec 5.2.1, p. 88]
+
+It shall be made clear that activities are not part of the WBS, because activities represent the how and the WBS represents the what. [[^PracticeStandardForWbs], Sec 2.3.2, p. 31]
+
 The WBS is an important tool used in the planning and execution of a successful project. Many project cost, schedule, and quality failures trace directly to flaws in the development of the project’s WBS. A project’s success is less likely without the existence of a [quality WBS](#wbs-quality-attributes). [[^PracticeStandardForWbs], Sec 3.2.2.2, p. 60]
 
 Estimations about the project cost and schedule can be based on the WBS early in the project's lifecycle [[^Bck], p. 33].
