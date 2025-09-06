@@ -1365,6 +1365,10 @@ Product-oriented Project WBS using Hierarchical Structure Style:
 
 Source: [[^PracticeStandardForWbs], Fig. 5-1, p. 97]
 
+### WBS using GitHub issues
+
+This repository provides an Agile product-oriented WBS constructed using GitHub issues (see [Issues](#issues)).
+
 ### Relation to the Project Charter
 
 The [Project Charter](#project-charter) is the starting point for the WBS. The highest-level element in the WBS represents the project’s overall end-point product(s), service(s), or outcomes as described in the Project Charter. If the project’s major products cannot be described during the creation of the WBS, then the project management team examines the Project Charter for sufficient definition. [[^PracticeStandardForWbs], Sec 3.2.2.2, p. 60]
