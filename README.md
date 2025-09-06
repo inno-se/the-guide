@@ -2165,9 +2165,9 @@ We pretend to develop a TikTok-like application.
 
 We created several [issues](https://github.com/inno-swp-2025/the-guide/issues) in the [inno-swp-2025/the-guide](https://github.com/inno-swp-2025/the-guide) repo.
 
-We connected issues according to the [work item hierarchy](#work-item-hierarchy) to represent a [WBS](#work-breakdown-structure-wbs) with [three levels](#issue-types) of decomposition.
+We assigned them types and connected them according to the [work item hierarchy](#work-item-hierarchy) to represent a [WBS](#wbs-and-issue-hierarchy).
 
-We used [GitHub Projects](#projects) to provide additional information about issues at each level:
+We used the following GitHub Projects (See [Projects](#projects)) to provide additional information about these issues:
 
 - [Roadmap Items](https://github.com/orgs/inno-swp-2025/projects/5/views/4);
 - [Product Backlog Items](https://github.com/orgs/inno-swp-2025/projects/1);
@@ -2194,6 +2194,21 @@ Parent issue type: `Epic`.
 A Task is a specific action required to complete a Product Backlog Item (PBI). It breaks down a PBI into the smallest, most granular steps needed for implementation or completion.
 
 Parent issue type: `Backlog`.
+
+### WBS and issue hierarchy
+
+Recall that activities are not part of the [WBS](#work-breakdown-structure-wbs), because activities represent the how and the WBS represents the what. [[^PracticeStandardForWbs], Sec 2.3.2, p. 31]
+
+In case of our hierarchy:
+
+- type `Epic` issues and type `Backlog` issues usually represent what to do;
+- type `Task` issues provide details on how to do that.
+
+Therefore:
+
+- type `Epic` issues and type `Backlog` issues belong to the WBS;
+- type `Backlog` issues represent work packages;
+- type `Task` issues represent activities to produce work packages.
 
 ### Issue labels
 
