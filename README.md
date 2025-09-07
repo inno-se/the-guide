@@ -1502,6 +1502,12 @@ The CPM can be applied at the sprint level. At the sprint level, the estimated d
 
 At the end of a Sprint Planning, you can take 5 minutes and think about inter-dependencies between product backlog items for the next 1-3 sprints to not be surprised by a long critical path [^CriticalPathOnAgileProjects].
 
+### CPM alternatives
+
+The Work Performance Management (WPM) approach [^PredictingCompletionInAgileProjects] can be used instead of CPM in agile projects.
+
+<!-- TODO move -->
+
 ## Break down the work
 
 1. Load necessary context into a chat with an LLM.
@@ -2824,3 +2830,4 @@ Paywalled books and articles are usually available in shadow libraries such as:
 [^WhatIsNetworkDiagramWrike]: What Is a Network Diagram in Project Management? <https://www.wrike.com/project-management-guide/faq/what-is-a-network-diagram-in-project-management/>
 [^DeepCharacteristicsOfGoodBacklog]: DEEP: The 4 Characteristics of a Good Product Backlog <https://www.easyagile.com/blog/product-backlog>
 [^CriticalPathOnAgileProjects]: The Critical Path on Agile Projects <https://www.mountaingoatsoftware.com/blog/the-critical-path-on-agile-projects>
+[^PredictingCompletionInAgileProjects]: Predicting Completion in Agile Projects <https://www.projectmanagement.com/blog-post/74923/predicting-completion-in-agile-projects>
