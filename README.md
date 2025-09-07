@@ -2047,6 +2047,15 @@ Adapted from [^ScrumPdca]:
 - *Study* is the Sprint Review and Sprint Retrospective
 - *Act* is the feedback result of the Sprint Review and Sprint Retrospective, which is reflected in the specific requirements and process improvement activities.
 
+### Product backlog
+
+In Scrum, the Product Owner refines the product backlog to make it DEEP [^DeepCharacteristicsOfGoodBacklog]:
+
+- **D**etailed appropriately - The closer an item is to being completed, the more detail it should have.
+- **E**stimated - Thorough estimation should be focused on high-priority items that will be tackled soon. When you are further down the priority list, your estimation will be more of a guess since you don’t have all of the information yet.
+- **E**mergent - Allow your backlog to evolve, adding, removing, and refining items as needed.
+- **P**rioritized - Items at the top are a higher priority, and items toward the bottom are a lower priority. When deciding which items should be prioritized, consider the value each item will provide.
+
 ### Core roles
 
 **Scrum Core Team** [^SbokGuide] consists of:
