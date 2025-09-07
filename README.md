@@ -446,6 +446,12 @@ To keep information for the future, by writing it down or storing it on a comput
 
 A piece of information or a description of an event that is written on paper or stored on a computer [[Cambridge Dictionary](https://dictionary.cambridge.org/dictionary/english/record)].
 
+## relative estimating
+
+*noun*
+
+Relative estimating is used to create estimates that are derived from performing a comparison against a similar body of work, taking effort, complexity, and uncertainty into consideration. Relative estimating is not necessarily based on absolute units of cost or time. [Story points](#story-points) are a common unitless measure used in relative estimating. [[^Pmbok], p. 178]
+
 ## repo
 
 *noun*
@@ -479,6 +485,20 @@ In your course, stakeholders are usually:
 - course instructors;
 - your customer;
 - users of your product.
+
+## story points
+
+*noun*
+
+A unit used to estimate the relative level of effort needed to implement a user story [[^Pmbok], p. 250].
+
+Story points are a common unitless measure used in [relative estimating](#relative-estimating) [[^Pmbok], p. 178].
+
+## sprint velocity
+
+*noun*
+
+Sprint Velocity is the rate at which the team can complete the work in a Sprint. It is usually expressed in the same units as those used for estimation, normally [story points](#story-points) or ideal time. A record of the team’s velocity for each Sprint is maintained and used as a reference point for future Sprints. The previous Sprint Velocity becomes the most important factor in determining the amount of work the team can commit to in a subsequent Sprint. Any changes in the situation or conditions since the last Sprint are accounted for to ensure a better estimation of the Sprint Velocity for the upcoming Sprint. [[^SbokGuide], Sec. 9.3.1.4, p. 219]
 
 ## TA
 
