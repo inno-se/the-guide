@@ -2800,3 +2800,5 @@ Paywalled books and articles are usually available in shadow libraries such as:
 [^ProjectNetworkWiki]: Project network <https://en.wikipedia.org/wiki/Project_network>
 [^AgileImprovementsToCpm]: Agile Improvements to Critical Path Method <https://calhoun.nps.edu/server/api/core/bitstreams/ece19976-6629-4745-94a1-3fc98c5924c6/content>
 [^WhatIsNetworkDiagramWrike]: What Is a Network Diagram in Project Management? <https://www.wrike.com/project-management-guide/faq/what-is-a-network-diagram-in-project-management/>
+[^DeepCharacteristicsOfGoodBacklog]: DEEP: The 4 Characteristics of a Good Product Backlog <https://www.easyagile.com/blog/product-backlog>
+[^CriticalPathOnAgileProjects]: The Critical Path on Agile Projects <https://www.mountaingoatsoftware.com/blog/the-critical-path-on-agile-projects>
