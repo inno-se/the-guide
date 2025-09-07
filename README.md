@@ -1426,9 +1426,12 @@ A network diagram is a directed acyclic graph where nodes contain tasks and edge
 
 Source: [^WhatIsNetworkDiagramWrike]
 
-In this repository, a network diagram should be constructed from type `Task` issues because they represent activities (see [WBS and issue hierarchy](#wbs-and-issue-hierarchy)).
+### Network diagram and issues
 
-Any type `Task` issue may have a list of blockers - issues that must be finished before that issue can be finished. Therefore, the edge from a blocker to a type `Task` issue should be labeled FS.
+In this repository, a network diagram should be constructed from type `Task` issues because they represent activities (see [Issues](#issues), [WBS and issue hierarchy](#wbs-and-issue-hierarchy)).
+
+Any type `Task` issue may have a list of sub-issues that represent blockers. A blocker for a type `Task` issue is an issue that must be finished before the type `Task` issue can be started.
+
 
 ## Break down the work
 
