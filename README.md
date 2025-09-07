@@ -1256,7 +1256,7 @@ Software architecture is important for a wide variety of technical and nontechni
     Building the infrastructure and building the application functionality can go hand in hand. Design and build a little infrastructure to support a little end-to-end functionality; repeat until done. [[^Bck], p. 33]
 1. An architecture is the key artifact that allows the architect and the project manager to reason about cost and schedule.
 
-    See [Critical path method](#critical-path-method).
+    See [Critical path method](#critical-path-method-cpm).
 1. An architecture can be created as a transferable, reusable model that forms the heart of a product line.
 1. Architecture-based development focuses attention on the assembly of components, rather than simply on their creation.
 
