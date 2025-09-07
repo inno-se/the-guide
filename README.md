@@ -229,7 +229,7 @@ This repository provides a guide for managing the development of a software proj
     - [Describe tests for ASR scenarios](#describe-tests-for-asr-scenarios)
     - [Build a prototype](#build-a-prototype)
   - [Work breakdown structure WBS](#work-breakdown-structure-wbs)
-  - [Critical path method](#critical-path-method)
+  - [Critical path method (CPM)](#critical-path-method-cpm)
   - [Break down the work](#break-down-the-work)
   - [Execution](#execution)
   - [The GQM approach](#the-gqm-approach)
@@ -1452,6 +1452,33 @@ In this repository, a network diagram should be constructed from type `Task` iss
 
 Any type `Task` issue may have a list of sub-issues that represent blockers. A blocker for a type `Task` issue is an issue that must be finished before the type `Task` issue can be started.
 
+## Critical path method (CPM)
+
+CPM is a method used to estimate the minimum project duration and determine the amount of schedule flexibility on the logical network paths within the schedule model. [[^Pmbok], p. 219]
+
+CPM uses a [schedule network](#project-schedule-network-diagram) analysis technique, independent of resources, to calculate the estimated project duration based on early start/finish and late start/finish activity dates. [[^AgileImprovementsToCpm], p. 219]
+
+### CPM Limitations
+
+Limitations [[^AgileImprovementsToCpm], p. 220]:
+
+- There is an assumption that durations can be accurately estimated and forecast.
+- Interdependencies are not always clear up front; they evolve as more information becomes available and work is further broken down, making it difficult to differentiate between scope creep and scope refinement.
+- Schedule logic in CPM is largely driven by finish-to-start dependencies, making other types of dependencies difficult to forecast and the critical path difficult to identify without software.
+
+### CPM and Scrum
+
+In Scrum, your product backlog is DEEP (see [Product backlog](#product-backlog)).
+
+The closer an item is to being completed, the more detail it should have [^DeepCharacteristicsOfGoodBacklog].
+
+Since not much is known about them, it’s difficult to properly estimate items that are lower in priority [^DeepCharacteristicsOfGoodBacklog].
+
+The CPM should be applied to items whose durations can be accurately estimated (see [CPM Limitations](#cpm-limitations)).
+
+The CPM can be applied at the sprint level. At the sprint level, the estimated duration can be inferred from the story point estimates for each task. [[^AgileImprovementsToCpm], Sec. Agile Approach for CPM, p.223]
+
+At the end of a Sprint Planning, you can take 5 minutes and think about inter-dependencies between product backlog items for the next 1-3 sprints to not be surprised by a long critical path [^CriticalPathOnAgileProjects].
 
 ## Break down the work
 
