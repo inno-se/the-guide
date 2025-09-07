@@ -950,6 +950,28 @@ Courses attended by the [target audience](#target-audience) of this guide are si
 
 - Take advice from the mentors
 
+## Industrial project
+
+### Practice areas
+
+Teams have an obligation to demonstrate they are controlling and managing their project in a discipline way with respect to the following 7 practice areas. Teams may emphasize different practices during different semesters based on the product development lifecycle and program course scheduling. The 7 practice areas are explained below:
+
+A. Project Planning: Teams are able to show that they have created and are using strategic plans and tactical plans based on some repeatable estimation technique. Strategic plans should include realistic milestones. Tactical (short term) plans and are derived from and correlated with strategic plans.
+
+B. Project Tracking: Teams are able to demonstrate that they are tracking their team’s progress with respect to their plans and regularly monitor their progress and make changes to the plans as necessary. Teams review progress with their mentors and their customers. Teams collect and have available basic progress measurement metrics.
+
+C. Context and Requirements Engineering: Teams establish the project and business context. Teams identify the key stakeholders and establish communication mechanisms to maintain interaction with their customers. Teams develop plans to regularly meet with their customers to elicit requirements. Changes to requirements and impacts to plans are negotiated with the customer.
+
+D. Quality Management: Teams are able to show that they have established quality mechanisms consistent with the needs of their client. Quality mechanisms may include prevention mechanisms as well as detection mechanisms. Teams will collect and have available basic quality plans and metrics consistent with the phase of the project.
+
+E. Configuration Management: Teams can show that they have policies, processes, and tools for managing the configuration of the project artifacts to include at a minimum: requirements, design, meeting minutes, code, test plans, project plans, and other similar artifacts (teams will provide an archive or access to their archive of all project artifacts).
+
+F. Architecture Design: Team plans include architecture design activities. Architectural designs form the basis of detailed designs and guide construction. Teams evaluate the design for fitness of purpose. Teams will document the design according to best design documentation practices. Teams must be able to demonstrate that they are following and using the established design.
+
+G. Risk Management: Teams perform basic project risk management to include: risk identification, assessment of probability, impact, priority, and mitigation strategies. Plans will include risk management activities.
+
+These practice areas list those practices that each team should fulfill, but not how they should fulfill them. Teams are free to satisfy these practice areas in any way that best meets the needs of their team, project, and their customer. Teams should be able to justify their approach and reason about alternatives.
+
 ## Software development life cycle (SDLC)
 
 The life cycle for any software system contains a number of concrete stages relevant to stakeholders [^Swebok]. These concrete stages fit into the following general stages (not necessarily sequential):
