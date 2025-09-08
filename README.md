@@ -1021,6 +1021,8 @@ Suggested topics:
 
 ## Presentation
 
+### Design decisions
+
 When you design a presentation, think about:
 
 - Which goals do you want achieve through this presentation?
@@ -1036,13 +1038,35 @@ When you design a presentation, think about:
 - How to make navigation over slides convenient for someone who wants to read the slides as a PDF after the presentation?
   - Example of a situation when someone reads the slides afterwards: Course instructors go through your presentation slides to access and grade artifacts that you mentioned.
 
-### Presentation slides
+### Presentation as code
+
+Idea: generate slides for a [nice presentation](#nice-presentation) from code written in a domain-specific language.
+
+Advantages:
+
+- An LLM can assist you in writing code for a presentation.
+- You can see diffs between presentation versions.
+
+Disadvantages:
+
+- Need to learn a new domain-specific language.
+
+Systems:
+
+- `LaTeX` - [`Beamer`](https://www.overleaf.com/learn/latex/Beamer)
+- `Typst` ([site](https://typst.app/), [repo](https://github.com/typst/)) - [`Slydst`](https://typst.app/universe/package/slydst/)
+- `Quarto` ([site](https://github.com/quarto-dev/quarto-cli), [repo](https://github.com/quarto-dev/quarto-cli))
+- `Marp` ([site](https://marp.app/), [repo](https://github.com/marp-team/marp))
+
+### Nice presentation
 
 The presentation slides should have nice [structure](#structure), [content](#content), and [appearance](#appearance).
 
+The presentation [rehearsal](#rehearsal) and the [talk](#talk) should also be nice.
+
 [Acceptance criteria](#acceptance-criteria) in the corresponding sections specify what is "nice".
 
-### Structure
+#### Structure
 
 - The presentation has the following parts:
   - title slide;
@@ -1061,7 +1085,7 @@ The presentation slides should have nice [structure](#structure), [content](#con
   - display a hyperlink to the appendix outline if the appendix exists;
 - Appendix outline displays hyperlinks to appendix slides;
 
-### Content
+#### Content
 
 - All required topics are covered in the main part in enough detail to achieve your goals.
 - The final slide contains key takeaways aligned with your presentation goals [^HowToWriteKeyTakeawaySlides].
@@ -1069,7 +1093,7 @@ The presentation slides should have nice [structure](#structure), [content](#con
 
   You may need such special slides for the Q&A session.
 
-### Appearance
+#### Appearance
 
 - Special slides are (either of these):
   - visible and marked as such so that during the presentation:
@@ -1095,6 +1119,19 @@ The presentation slides should have nice [structure](#structure), [content](#con
 - Citations mention source authors.
   
   It's hard to keep numbers in mind when listening to a presentation. So, use the APA citation style [^ApaCitationStyle] or a similar one and do NOT use the the IEEE style [^IeeeCitationStyle].
+
+#### Rehearsal
+
+- Presenters know which slides they're going to present.
+- You rehearsed the presentation at least once.
+- You finished timely during the rehearsal.
+- Both an interactive ".pptx" and a PDF version and accompanying files (e.g., video recording of a demo) are on the computer used for presenting [^EffectivePresentationSlides].
+
+  You should be able to present without the Internet connection and specialized programs such as PowerPoint.
+
+#### Talk
+
+- You demonstrated the final slide when you finished presenting.
 
 1. [Create](https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/creating-a-new-organization-from-scratch) a GitHub organization.
 1. [Import](https://docs.github.com/en/migrations/importing-source-code/using-github-importer/importing-a-repository-with-github-importer) or [transfer](https://docs.github.com/en/repositories/creating-and-managing-repositories/transferring-a-repository) your repositories into your organization.
