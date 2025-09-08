@@ -2052,8 +2052,15 @@ Legend:
 - *Agile Principle* - a principle [^AgileManifestoPrinciple] behind the Agile Manifesto [^AgileManifesto].
 - *Architecture-centric View* - the book [^Bck] authors' comment on the principle from the architecture-centric point of view.
 
-## Scrum
+## Agile Model Driven Development (AMDD)
 
+It's a flavor of Agile with own core principles [^AgileModelingCorePractices].
+
+![Core practices](./assets/AgileModelingCorePractices.png)
+
+Source: [^AgileModelingCorePractices]
+
+## Scrum
 
 From [^WhatIsScrum]:
 
@@ -2796,7 +2803,7 @@ Paywalled books and articles are usually available in shadow libraries such as:
 [^ContinualImprovementProcess]: Continual improvement process <https://en.wikipedia.org/wiki/Continual_improvement_process>
 [^ArchitecturalDecision]: Architectural decision <https://en.wikipedia.org/wiki/Architectural_decision>
 [^JustBarelyGoodEnough]: Just Barely Good Enough (JBGE) Artifacts: An Agile Core Practice <https://agilemodeling.com/essays/barelygoodenough.htm>
-[^AgileModelingCorePractices]: Agile Modeling Core Practices <https://agilemodeling.com/essays/bestpractices.htms>
+[^AgileModelingCorePractices]: Agile Modeling Core Practices <https://agilemodeling.com/essays/bestpractices.htm>
 [^Tagri]: They Ain’t Gonna Read It <https://agilemodeling.com/essays/tagri.htm>
 [^GuideToChatEtiquetteInWorkplace]: Your guide to chat etiquette in the workplace <https://www.microsoft.com/en-us/microsoft-365/business-insights-ideas/resources/your-guide-to-chat-etiquette-in-the-workplace>
 [^GroupProjectEtiquette]: Nam Knows Best: Group Project Etiquette <https://pepperdine-graphic.com/nam-knows-best-group-project-etiquette/>
