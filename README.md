@@ -2070,7 +2070,7 @@ Scrum is an empirical process, where decisions are based on observation, experie
 
 From [^TheThreePillarsOfEmpiricismScrum]:
 
-Scrum works not because it has three [roles](#roles), five [events](#events), and three [artifacts](#artifacts-and-commitments) but because it adheres to the underlying [Agile](#agile) principles of iterative, value-based incremental delivery by frequently gathering customer feedback and embracing change. This results in faster time to market, better delivery predictability, increased customer responsiveness, ability to change direction by managing changing priorities, enhanced software quality, and improved risk management.
+Scrum works not because it has three [roles](#core-roles), five [events](#events), and three [artifacts](#artifacts-and-commitments) but because it adheres to the underlying [Agile](#agile) principles of iterative, value-based incremental delivery by frequently gathering customer feedback and embracing change. This results in faster time to market, better delivery predictability, increased customer responsiveness, ability to change direction by managing changing priorities, enhanced software quality, and improved risk management.
 
 ### Scrum theory
 
