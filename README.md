@@ -128,7 +128,6 @@ This repository provides a guide for managing the development of a software proj
   - [fact](#fact)
   - [just barely good enough JBGE](#just-barely-good-enough-jbge)
   - [the Pyramid Principle](#the-pyramid-principle)
-  - [quality attribute QA](#quality-attribute-qa)
   - [record](#record)
   - [repo](#repo)
   - [SMART](#smart)
@@ -429,12 +428,6 @@ See also [TAGRI](#they-aint-gonna-read-it-tagri).
 *noun*
 
 A tool to give your (written) communication more clarity and efficiency. Lead with the conclusion, then provide key arguments and finally support them with detailed information [^MintoPyramid].
-
-## quality attribute (QA)
-
-*noun*
-
-A measurable or testable property of a system that is used to indicate how well the system satisfies the needs of its stakeholders beyond the basic function of the system [^Bck].
 
 ## record
 
