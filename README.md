@@ -967,7 +967,7 @@ These practice areas list those practices that each team should fulfill, but not
 
 ## Software development life cycle (SDLC)
 
-The life cycle for any software system contains a number of concrete stages relevant to stakeholders [^Swebok]. These concrete stages fit into the following general stages (not necessarily sequential):
+The life cycle for any software system contains a number of concrete stages relevant to stakeholders [[^Swebok], Sec. 2.6]. These concrete stages fit into the following general stages (not necessarily sequential):
 
 - **Concept**: At this stage, stakeholders' needs are identified, concepts will be explored, and solutions will be proposed.
 - **Development**: At this stage, requirements representing the users' needs will be refined, solutions will be created, systems built, and all undergo the needed verification and validation processes.
