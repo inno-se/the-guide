@@ -1042,7 +1042,7 @@ The presentation slides should have nice [structure](#structure), [content](#con
 
 [Acceptance criteria](#acceptance-criteria) in the corresponding sections specify what is "nice".
 
-#### Structure
+### Structure
 
 - The presentation has the following parts:
   - title slide;
@@ -1061,7 +1061,7 @@ The presentation slides should have nice [structure](#structure), [content](#con
   - display a hyperlink to the appendix outline if the appendix exists;
 - Appendix outline displays hyperlinks to appendix slides;
 
-#### Content
+### Content
 
 - All required topics are covered in the main part in enough detail to achieve your goals.
 - The final slide contains key takeaways aligned with your presentation goals [^HowToWriteKeyTakeawaySlides].
@@ -1069,7 +1069,7 @@ The presentation slides should have nice [structure](#structure), [content](#con
 
   You may need such special slides for the Q&A session.
 
-#### Appearance
+### Appearance
 
 - Special slides are (either of these):
   - visible and marked as such so that during the presentation:
