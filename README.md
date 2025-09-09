@@ -134,8 +134,6 @@ This repository provides a guide for managing the development of a software proj
   - [stakeholders](#stakeholders)
   - [TA](#ta)
   - [They Ain’t Gonna Read It TAGRI](#they-aint-gonna-read-it-tagri)
-  - [validation](#validation)
-  - [verification](#verification)
   - [Other terms](#other-terms)
 - [Courses](#courses)
   - [Target audience](#target-audience)
@@ -506,18 +504,6 @@ Teaching assistant.
 The basic idea is that very little of the documentation which gets created during software development actually gets read by the actual target audience. Recognizing this, you should model/document with a purpose and create agile documentation which reflects the true needs of the audience for that documentation. [^Tagri]
 
 See also [JBGE](#just-barely-good-enough-jbge).
-
-## validation
-
-*noun*
-
-The process of providing evidence that a deliverable meets the needs of the user [^ApmGlossary].
-
-## verification
-
-*noun*
-
-Proof of compliance with specified requirements. Verification may be determined by test, analysis, inspection or demonstration [^ApmGlossary].
 
 ## Other terms
 
@@ -977,7 +963,7 @@ These practice areas list those practices that each team should fulfill, but not
 The life cycle for any software system contains a number of concrete stages relevant to stakeholders [[^Swebok], Sec. 2.6]. These concrete stages fit into the following general stages (not necessarily sequential):
 
 - **Concept**: At this stage, stakeholders' needs are identified, concepts will be explored, and solutions will be proposed.
-- **Development**: At this stage, requirements representing the users' needs will be refined, solutions will be created, systems built, and all undergo the needed verification and validation processes.
+- **Development**: At this stage, requirements representing the users' needs will be refined, solutions will be created, systems built, and all undergo the needed [verification and validation processes](#verification-and-validation).
 - **Production**: This stage will have a different scope depending on the characteristics of the software system under focus. Generally speaking, it will include the production and testing of the system.
 - **Utilization**: At this stage, the system operates to satisfy users' needs.
 - **Support**: At this stage, developers provide the required actions to achieve a satisfactory operation.
@@ -1747,7 +1733,7 @@ Software is ready for release when you can argue that it shows sufficient qualit
 - Requires choosing [quality attributes](#quality-attributes).
   - Requires specifying measurements and thresholds.
   - May require different measurements and thresholds for different functionality and execution scenarios.
-- Assessed through [Verification and Validation](#verification-and-validation).
+- Assessed through [verification and validation](#verification-and-validation).
 
 ### Verification and validation
 
