@@ -1832,7 +1832,6 @@ Formatting
 }
 ```
 
-
 #### Agents
 
 - Set up [Copilot](https://code.visualstudio.com/docs/copilot/overview).
