@@ -531,9 +531,9 @@ This chapter explains what you should know about University courses covered by t
 
 The target audience of this guide are BS and MS students of the Innopolis University attending the courses:
 
-- ***SWP*** (Software Project) - BS, 1st year, Summer semester;
-- ***ITPD*** (IT Product Development) - MS, 1st year, Fall semester;
-- ***Industrial Project*** - MS, 1st year, Spring and Summer semesters.
+- ***SWP*** (Software Project) - BS, 1st year, Summer semester (semester 3);
+- ***ITPD*** (IT Product Development) - MS, 1st year, Fall semester (semester 1);
+- ***Industrial Project*** - MS, 1st year, Spring and Summer semesters (semesters 2 and 3).
 
 In each course, students are distributed into teams of 4-6 people. Each team develops a project for a customer from the University or an outside company.
 
