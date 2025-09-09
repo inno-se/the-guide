@@ -1675,19 +1675,64 @@ Sources: [^CirclingBack] [^TheImprovementGuide]
 - PDCA [^PdcaVsPdsa] [^TheoryOfKnowledgePdsa]
 - See [[^TheImprovementGuide], Appendix C]
 
-## Quality attributes
+## Quality
 
-<!-- TODO extend -->
+### What is quality?
 
-Quality attributes are a language for talking about system quality with stakeholders.
+- The quality of a system is the degree to which the system satisfies the stated and implied needs of its various stakeholders, and thus provides value. [^Iso25010]
+- Software quality is an effective software process applied in a manner that creates a useful product that provides measurable value for those who produce it and those who use it. [[^SoftwareEngineeringPractitionersApproach], Sec. 14.2, p. 400]
+- Quality is the degree to which a set of inherent characteristics of a product, service, or result fulfills the requirements. Quality includes the ability to satisfy the customer’s stated or implied needs. The product, service, or result of a project (referred to here as deliverables) is measured for the quality of both the conformance to acceptance criteria and fitness for use. [[^Pmbok], Sec 3.8, p. 47]
 
-Quality attributes are defined in quality models.
+  Project quality entails satisfying stakeholders’ expectations and fulfilling project and product requirements. Quality focuses on meeting acceptance criteria for deliverables. Project quality entails ensuring project processes are appropriate and as effective as possible. [[^Pmbok], Sec 3.8, Fig.3-9, p. 47]
+- [^Bck] doesn't define "software quality" and introduces [quality attributes](#quality-attributes) immediately.
 
-### Quality attribute scenarios
 
-See [^BckCh19] [^QASofSoftwareArchitecture] [^QualityScenarios].
+### Quality attributes
 
-See [Derive architectural decisions using an LLM](#derive-architectural-decisions-using-an-llm).
+A ***quality attribute*** (QA) is a measurable or testable property of a system that is used to indicate how well the system satisfies the needs of its stakeholders beyond the basic function of the system. You can think of a quality attribute as measuring the “utility” of a product along some dimension of interest to a stakeholder. [[^Bck], Ch. 3, p. 39]
+  
+Quality attributes can never be achieved in isolation. The achievement of any one will have an effect — sometimes positive and sometimes negative — on the achievement of others. [[^Bck], Sec. 3.2, p. 42]
+
+Various quality attributes are defined in [quality models](#quality-models).
+
+### Quality attributes and architecture
+
+A system’s ability to meet its desired (or required) quality attributes is substantially determined by its [architecture](#architecture). [[^Bck], Sec. 2.1, p. 26]
+
+It is possible to make quality predictions about a system based solely on an evaluation of its architecture. [[^Bck], Sec. 2.3, p. 28]
+
+### Quality models
+
+A ***quality model*** is a defined set of characteristics and of relationships between them, which provides a framework for specifying quality requirements and evaluating quality [^SoftwareQualityModels].
+
+There are various quality models [^SoftwareQualityModels]. Examples:
+
+<!-- TODO group "commonly used" or "recommended" -->
+- The ***ISO 25010*** quality model [^Iso25010] provides generic definitions of quality attributes (aka ***quality characteristics*** and ***quality sub-characteristics***).
+- The ***Q42*** quality model [^Q42] shows a wider range of quality attributes (aka ***qualities***) and quality requirement examples [^QualityRequirementExamplesArc42], many of which are in the [quality attribute scenario](#quality-attribute-scenarios-qa-scenarios) format.
+
+### Quality attribute scenarios (QA scenarios)
+
+QA scenarios are a way to write unambiguous testable QA requirements [[^BckCh19], Sec. 3.3, p. 42].
+
+The more difficult and important the QA requirement, the more likely it is to significantly affect the architecture, and hence to be an [ASR](#architecturally-significant-requirements-asrs). [[^BckCh19], Sec. 3.3, p. 277]
+
+A QA scenario has six parts [[^QasOfSoftwareArchitecture], p. 28] [[^BckCh19], Sec. 3.3, p. 42]:
+
+| Part               | Short description                                                                                       |
+| ------------------ | ------------------------------------------------------------------------------------------------------- |
+| Source of stimulus | An entity that generates the stimulus (human, external system, sensor, etc.)                            |
+| Stimulus           | A condition (event) to be considered when it arrives at a system                                        |
+| Environment        | A system’s condition when a stimulus occurs                                                             |
+| Response           | The activity undertaken at the arrival of the stimulus                                                  |
+| Artifact           | Some artifact that is stimulated; may be the whole system or part of it                                 |
+| Response measure   | The response to the stimulus should be measurable someway so that the quality requirement can be tested |
+
+![QA scenario parts](./assets/QaScenarioParts.png)
+
+![QA scenario example (Availability)](./assets/QaScenarioExample.png)
+
+One scenario can be used to create many concrete test cases [[^SoftwareQualityVerificationAndValidation], p. 19].
 
 
 ## Development tools
