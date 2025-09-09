@@ -529,7 +529,7 @@ This chapter explains what you should know about University courses covered by t
 
 ## Target audience
 
-The target audience of this guide are BS and MS students of the Innopolis University atteding the courses:
+The target audience of this guide are BS and MS students of the Innopolis University attending the courses:
 
 - ***SWP*** (Software Project) - BS, 1st year, Summer semester;
 - ***ITPD*** (IT Product Development) - MS, 1st year, Fall semester;
