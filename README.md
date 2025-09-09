@@ -549,7 +549,7 @@ Most points in this guide apply to all courses.
 
 ## Team goals
 
-You should agree with your teammates on:
+You should agree with your teammates on the threshold of success - a minimal set of SMART goals that should all be achieved to consider the project a success [^ThresholdOfSuccess]. The goals should include the desired course grade.
 
 - the desired course grade;
 - threshold of success [^ThresholdOfSuccess] - a minimal set of SMART goals that should all be achieved to consider the project a success.
