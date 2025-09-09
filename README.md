@@ -6,19 +6,19 @@ This repository provides a guide for managing the development of a software proj
 ## TL;DR
 
 - Focus on delivering a product that has quality sufficient for [stakeholders](#stakeholders).
-- Negotiate with stakeholders the most important [quality attributes](#quality-attributes) and record testable [quality attribute scenarios](#quality-attribute-scenarios).
-- Use architecture, processes, tools, and tests that help you achieve the desired quality.
-- Make justified decisions about various aspects of your project and record them.
+- Negotiate with stakeholders the most important [quality attributes](#quality-attributes) and record testable [quality attribute requirements](#quality-attribute-scenarios-qa-scenarios).
+- Use [architecture](#architecture), processes, and tools that help you satisfy the quality attribute requirements.
+- Make decisions about various aspects of your project and record them together with their justification.
 - Regularly:
   - gather and address stakeholders' [feedback](#feedback-loop) on your project.
-  - groom your Product Backlog based on the feedback.
+  - refine your [Product Backlog](#product-backlog) based on the feedback.
   - manage stakeholders' expectations based on the scope (remaining work), human resources, and schedule.
 
 ## TL;DR extended
 
 - Identify stakeholders (usually course instructors and customer).
 - Capture their high-level functional and non-functional requirements, business goals, constraints.
-- Derive architecturally significant requirements (ASRs) in the [Quality Attribute Scenario](#quality-attribute-scenarios) format.
+- Derive architecturally significant requirements (ASRs) in the [Quality Attribute Scenario](#quality-attribute-scenarios-qa-scenarios) format.
 - Design a high-level architecture that satisfies the ASRs.
 - For each ASR, explain how exactly you're going to test it (you may need to detail the architecture for this task).
 - Based on the architecture, split the work into epics, backlog items, and tasks.
@@ -106,7 +106,7 @@ This repository provides a guide for managing the development of a software proj
 - Identify free riders who consistently do some or all of these:
   - miss team meetings;
   - don't complete their tasks timely so that tasks have to be reassigned;
-  - produce poor quality work despite clear acceptance criteria.
+  - produce poor quality work despite clear [acceptance criteria](#acceptance-criteria).
 - Ask course instructors to help [deal with free riders](#deal-with-free-riders).
 
 <!-- TOC ignore:true -->
@@ -242,7 +242,7 @@ This repository provides a guide for managing the development of a software proj
       - [The Test Cycle PDSA](#the-test-cycle-pdsa)
     - [Alternative approaches](#alternative-approaches)
   - [Quality attributes](#quality-attributes)
-    - [Quality attribute scenarios](#quality-attribute-scenarios)
+    - [Quality attribute scenarios](#quality-attribute-scenarios-qa-scenarios)
   - [Quality assurance](#quality-assurance)
     - [Formal methods](#formal-methods)
     - [Testing](#testing)
