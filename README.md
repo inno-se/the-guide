@@ -1734,6 +1734,43 @@ A QA scenario has six parts [[^QasOfSoftwareArchitecture], p. 28] [[^BckCh19], S
 
 One scenario can be used to create many concrete test cases [[^SoftwareQualityVerificationAndValidation], p. 19].
 
+## Quality assurance
+
+See:
+
+- The course *Software Quality and Testing* [^SoftwareQualityAndTesting]
+
+### When is software ready for release?
+
+Software is ready for release when you can argue that it shows sufficient quality [[^SoftwareQualityVerificationAndValidation], p. 38].
+
+- Requires choosing [quality attributes](#quality-attributes).
+  - Requires specifying measurements and thresholds.
+  - May require different measurements and thresholds for different functionality and execution scenarios.
+- Assessed through [Verification and Validation](#verification-and-validation).
+
+### Verification and validation
+
+Activities that must be performed to consider the software “done.”
+
+- Verification: Proving that software conforms to its functional and non-functional requirements.
+- Validation: Proving that software meets customer’s true requirements, needs, and expectations.
+
+### Formal methods
+
+> The absence of bugs has been mechanically verified, hence there is no bug tracker. [^IronLambda]
+
+See:
+
+- *Awesome Formal Verification* [^AwesomeFormalVerification]
+- *Formal Methods* [[^Swebok], Sec. 4.2]
+
+### Testing
+
+See:
+
+- *Software Testing* [[^Swebok], Ch. 05]
+
 
 ## Development tools
 
