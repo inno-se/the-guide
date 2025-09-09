@@ -551,9 +551,16 @@ Most points in this guide apply to all courses.
 
 You should agree with your teammates on the threshold of success - a minimal set of SMART goals that should all be achieved to consider the project a success [^ThresholdOfSuccess]. The goals should include the desired course grade.
 
-- the desired course grade;
-- threshold of success [^ThresholdOfSuccess] - a minimal set of SMART goals that should all be achieved to consider the project a success.
+## Self-study
 
+The course doesn't teach most technical skills that are necessary to complete the project because:
+
+- there are not enough resources to do so;
+- the course is about software engineering, not specific frameworks.
+
+You should create a study plan for your domain and obtain necessary skills.
+
+You can use an LLM-based service such as NotebookLM, Google AI Studio, ChatGPT, etc.
 
 ## Expected learning outcomes
 
