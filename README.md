@@ -2980,14 +2980,12 @@ Paywalled books and articles are usually available in shadow libraries such as:
 [^Milestones]: What are project milestones: benefits and examples <https://www.atlassian.com/blog/project-management/project-milestones>
 [^MilestonesVsSprints]: Sprint vs milestone vs release <https://pm.stackexchange.com/questions/22510/sprint-vs-milestone-vs-release>
 [^Bck]: Software Architecture in Practice, 4th Edition by L. Bass, P. Clements, and R. Kazman. ([File](./assets/SoftwareArchitectureInPracticeEdition4.pdf))
-[^QASofSoftwareArchitecture]: Quality attributes of software architectures <https://www.cs.unibo.it/cianca/wwwpages/as/5.pdf#page=26>
-[^QualityScenarios]: Lecture on Quality Scenarios <https://greg4cr.github.io/courses/spring21dit635/Lectures/Spring21-Lecture3-QualityScenarios.pdf>
-[^Swebok]: SWEBOK v4: Guide to the Software Engineering Body of Knowledge v4.0a <https://ieeecs-media.computer.org/media/education/swebok/swebok-v4.pdf> ([file](./assets/SwebokGuideEditionV4.0a.pdf))
-[^UtilityTreeTabular]: Tabular form is recommended at <https://docs.arc42.org/tips/10-2/>
+[^QasOfSoftwareArchitecture]: Quality attributes of software architectures <https://www.cs.unibo.it/cianca/wwwpages/as/5.pdf#page=26> ([File](./assets/QualityAttributesOfSoftwareArchitectures.pdf))
+[^Swebok]: SWEBOK v4: Guide to the Software Engineering Body of Knowledge v4.0a <https://ieeecs-media.computer.org/media/education/swebok/swebok-v4.pdf> ([File](./assets/SwebokGuideEditionV4.0a.pdf))
 [^Iso25010]: The ISO/IEC 25010 quality model <https://iso25000.com/index.php/en/iso-25000-standards/iso-25010>
 [^Q42]: The arc42 quality model <https://quality.arc42.org/>
 <!-- TODO rename to Sap -->
-[^BckCh19]: ***Software Architecture in Practice*** [^Bck], Chapter 19 ([file](./assets/BckCh19.pdf))
+[^BckCh19]: ***Software Architecture in Practice*** [^Bck], Chapter 19 ([File](./assets/BckCh19.pdf))
 [^ProjectCharter]: How To Write A Good Project Charter: Templates and Examples <https://planyway.com/blog/project-charter-elements>
 [^ProjectManagementGuide]: <https://planyway.com/blog/project-management-guide>
 [^TheMomTest]: Summary of the book ***The Mom Test*** <https://durmonski.com/book-summaries/the-mom-test/>
@@ -2995,13 +2993,12 @@ Paywalled books and articles are usually available in shadow libraries such as:
 [^AdrTemplates]: Architecture decision record (ADR) examples for software planning, IT leadership, and template documentation <https://github.com/joelparkerhenderson/architecture-decision-record>
 [^AdrOrg]: Architectural Decision Records <https://adr.github.io/>
 [^RequirementsAgile]: Agile approach and PEGS <https://requirements.university/faq.html#agile>
-[^HandbookRequirements]:  Handbook of Requirements and Business Analysis <https://link.springer.com/book/10.1007/978-3-031-06739-6>
+[^HandbookRequirements]:  Handbook of Requirements and Business Analysis <https://link.springer.com/book/10.1007/978-3-031-06739-6> ([File](./assets/HandbookOfRequirementsAndBusinessAnalysis.pdf))
 [^UserStoriesWiki]: User Story on Wikipedia <https://en.wikipedia.org/wiki/User_story>
 [^GivenWhenThen]: Given-When-Then format for acceptance criteria <https://en.wikipedia.org/wiki/Given-When-Then>
 [^SETeamProjectProblems]: Software engineering team project courses with industrial customers: Students’ insights on challenges and lessons learned <https://www.sciencedirect.com/science/article/pii/S0164121225001098>
 [^MidSprintReview]: <https://www.scrum.org/resources/blog/whats-wrong-mid-sprint-check-or-mid-sprint-review>
 [^SoftwareQualityModels]: Software Quality Models: A Systematic Mapping Study <https://ieeexplore.ieee.org/document/8812848>
-[^ApmGlossary]: APM glossary of project management terms <https://www.apm.org.uk/resources/glossary>
 [^ThePdsaCycle]: The PDSA Cycle <https://deming.org/explore/pdsa/>
 [^CirclingBack]: Circling Back <https://deming.org/wp-content/uploads/2020/06/circling-back.pdf>
 [^TheoryWiki]: Scientific theory <https://en.wikipedia.org/wiki/Scientific_theory>
@@ -3040,7 +3037,6 @@ Paywalled books and articles are usually available in shadow libraries such as:
 [^SomeoneAnswers]: What should I do when someone answers my question? <https://stackoverflow.com/mahelp/someone-answers>
 [^GroupWork]: Group work <https://my.uq.edu.au/information-and-services/student-support/study-skills-and-learning-advice/study-skills-and-learning-advice-overview/group-work>
 [^TipsToStructureAStrongGroupProject]: Tips to Structure a Strong Group Project <https://www.apu.apus.edu/area-of-study/business-and-management/resources/how-do-you-survive-a-group-project/>
-[^ArchitectingBoK]: An Architecting Book of Knowledge (BoK) to Improve Architectural Decision-Making <https://www.researchgate.net/profile/Alejandro-Salado/publication/394253598_An_Architecting_Book_of_Knowledge_BoK_to_Improve_Architectural_Decision-Making/links/688f3c047b62e240dd32c5c0/An-Architecting-Book-of-Knowledge-BoK-to-Improve-Architectural-Decision-Making.pdf>
 [^ApaCitationStyle]: APA 7th Edition citation style <https://pitt.libguides.com/citationhelp/apa7>
 [^AspectRatio16to9]: 16:9 aspect ratio <https://en.wikipedia.org/wiki/16:9_aspect_ratio>
 [^IeeeCitationStyle]: IEEE citation style <https://pitt.libguides.com/citationhelp/ieee>
