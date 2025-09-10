@@ -6,7 +6,7 @@ This repository provides a guide for managing the development of a software proj
 ## TL;DR
 
 - Focus on delivering a product that has quality sufficient for [stakeholders](#stakeholders).
-- Negotiate with stakeholders the most important [quality attributes](#quality-attributes) and record testable [quality attribute requirements](#quality-attribute-scenarios-qa-scenarios).
+- Negotiate with stakeholders the most important [quality attributes](#quality-attributes) and record testable [quality requirements](#quality-requirements).
 - Use [architecture](#architecture), processes, and tools that help you satisfy the quality attribute requirements.
 - Make decisions about various aspects of your project and record them together with their justification.
 - Regularly:
@@ -1322,7 +1322,7 @@ Third, you should run tests that you defined for QA scenarios. If they fail, the
 ***Architecturally Significant Requirements*** (ASRs) are any requirements that may affect the architecture of a software system [^BckCh19] [^Swebok] [^AdrOrg] [^AdrTemplates]. They are derived from:
 
 - Functional requirements;
-- Quality attribute requirements (aka nonfunctional requirements);
+- [Quality requirements](#quality-requirements);
 - Business goals;
 - Constraints (what you can't change and can only mitigate);
 
@@ -1683,13 +1683,16 @@ Various quality attributes are defined in [quality models](#quality-models).
 
 ### Quality attributes and architecture
 
-A system’s ability to meet its desired (or required) quality attributes is substantially determined by its [architecture](#architecture). [[^Bck], Sec. 2.1, p. 26]
+A system’s ability to meet its desired (or [required](#quality-requirements)) quality attributes is substantially determined by its [architecture](#architecture). [[^Bck], Sec. 2.1, p. 26]
 
 It is possible to make quality predictions about a system based solely on an evaluation of its architecture. [[^Bck], Sec. 2.3, p. 28]
 
+### Quality requirements
+
+
 ### Quality models
 
-A ***quality model*** is a defined set of characteristics and of relationships between them, which provides a framework for specifying quality requirements and evaluating quality [^SoftwareQualityModels].
+A ***quality model*** is a defined set of characteristics and of relationships between them, which provides a framework for specifying [quality requirements](#quality-requirements) and evaluating quality [^SoftwareQualityModels].
 
 There are various quality models [^SoftwareQualityModels]. Examples:
 
@@ -1699,9 +1702,9 @@ There are various quality models [^SoftwareQualityModels]. Examples:
 
 ### Quality attribute scenarios (QA scenarios)
 
-QA scenarios are a way to write unambiguous testable QA requirements [[^BckCh19], Sec. 3.3, p. 42].
+QA scenarios are a way to write unambiguous testable [quality requirements](#quality-requirements) [[^BckCh19], Sec. 3.3, p. 42].
 
-The more difficult and important the QA requirement, the more likely it is to significantly affect the architecture, and hence to be an [ASR](#architecturally-significant-requirements-asrs). [[^BckCh19], Sec. 3.3, p. 277]
+The more difficult and important the quality requirement, the more likely it is to significantly affect the architecture, and hence to be an [ASR](#architecturally-significant-requirements-asrs). [[^BckCh19], Sec. 3.3, p. 277]
 
 A QA scenario has six parts [[^QasOfSoftwareArchitecture], p. 28] [[^BckCh19], Sec. 3.3, p. 42]:
 
@@ -1712,7 +1715,7 @@ A QA scenario has six parts [[^QasOfSoftwareArchitecture], p. 28] [[^BckCh19], S
 | Environment        | A system’s condition when a stimulus occurs                                                             |
 | Response           | The activity undertaken at the arrival of the stimulus                                                  |
 | Artifact           | Some artifact that is stimulated; may be the whole system or part of it                                 |
-| Response measure   | The response to the stimulus should be measurable someway so that the quality requirement can be tested |
+| Response measure   | The response to the stimulus should be measurable someway so that the [quality requirement](#quality-requirements) can be tested |
 
 ![QA scenario parts](./assets/QaScenarioParts.png)
 
