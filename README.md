@@ -960,7 +960,7 @@ These practice areas list those practices that each team should fulfill, but not
 
 ## Software development life cycle (SDLC)
 
-The life cycle for any software system contains a number of concrete stages relevant to stakeholders [[^Swebok], Sec. 2.6]. These concrete stages fit into the following general stages (not necessarily sequential):
+The life cycle for any software system contains a number of concrete stages relevant to stakeholders [[^Swebok], Sec. 2.6, p. 10-8]. These concrete stages fit into the following general stages (not necessarily sequential):
 
 - **Concept**: At this stage, stakeholders' needs are identified, concepts will be explored, and solutions will be proposed.
 - **Development**: At this stage, requirements representing the users' needs will be refined, solutions will be created, systems built, and all undergo the needed [verification and validation processes](#verification-and-validation).
@@ -1234,7 +1234,7 @@ You may want to automate the publishing process via [GitHub Actions](https://doc
 ### Extend the knowledge base
 
 - Skim the ***SWEBOK*** [^Swebok] - a comprehensive guide for "generally accepted knowledge" in software engineering.
-- Come up with good questions about a particular topic, e.g., Software Requirements (Chapter 1 of [^Swebok]).
+- Come up with good questions about a particular topic, e.g., Software Requirements (see [[^Swebok], Ch. 1, p. 1-1]).
 - Load relevant parts of the knowledge base to a chat with an LLM.
 - Ask the LLM to come up with more questions and prompts for a chat on that topic.
 - Discuss the topic.
@@ -1874,7 +1874,7 @@ Ideally, you should later automate these tests and run them in CI.
 See:
 
 - *Awesome Formal Verification* [^AwesomeFormalVerification]
-- *Formal Methods* [[^Swebok], Sec. 4.2]
+- *Formal Methods* [[^Swebok], Sec. 4.2, p. 11-8]
 
 ### Testing
 
