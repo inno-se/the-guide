@@ -1253,6 +1253,71 @@ A ***Project Charter*** [^ProjectCharter] is a document that captures:
 - ***Timeline***: Provides a high-level timeline or milestones for the project.
 - ***Risk Management***: Identifies potential risks and strategies for mitigating them.
 
+## Requirements
+
+Requirements are the set of properties that, if not satisfied by your system, will cause the system to be a failure. [[^BckCh19], p. 277]
+
+In Agile development, requirements are typically captured as [user stories](#user-stories) [^RequirementsAgile] [^UserStoriesWiki].
+
+There are more formal and math-based approaches to writing requirements  [[^Swebok], Sec. 4, p. 1-10] [[^HandbookRequirements], Ch. 5]. However, they're less lightweight.
+
+### Requirements engineering (RE)
+
+Requirements engineering is systematic handling of requirements. [[^Swebok], Ch. 01, p. 1-2]
+
+See:
+
+- <https://en.wikipedia.org/wiki/Requirements_engineering>
+- <https://en.wikipedia.org/wiki/Software_architecture#Requirements_engineering>
+### User stories
+
+Each user story must have [acceptance criteria](#acceptance-criteria).
+A user story is complete when all [acceptance criteria](#acceptance-criteria) are met.
+
+[Acceptance criteria](#acceptance-criteria) are typically written in the GIVEN - WHEN - THEN format [^GivenWhenThen].
+
+User stories should be written in [GitHub issues](#issue-form-templates).
+In this case, user stories can be neatly referenced or connected to other issues to form the [work item hierarchy](#work-item-hierarchy).
+
+### Requirements elicitation
+
+There are multiple ***requirements elicitation*** techniques [[^Swebok], Sec. 2, p. 1-6].
+
+For students from the [target audience](#target-audience), the primary way to gather requirements is to meet with their customer.
+Other product users may not be available.
+
+#### Meeting format
+
+- Agree in advance on the meeting time and duration.
+- Ask stakeholders in advance about their preferred way of communication.
+- If you plan to record the meeting, ask stakeholders for their permission to record.
+
+#### Interview script
+
+- Prepare questions that explore in depth:
+  - project goals;
+  - how the customer/user operates in the ***problem space***;
+  - facts and assumptions about users (e.g., how many users are expected);
+  - [constraints](#constraint);
+  - the desired [quality attributes](#quality-attributes).
+- Improve the questions using the 3 rules from The Mom Test book [^TheMomTest]
+  - Talk about their life instead of your idea.
+  - Ask about specifics in the past instead of generics or opinions about the future.
+  - Talk less and listen more.
+- Create a script and go through it during the interview.
+
+#### Conduct an interview
+
+Ask questions from the script.
+
+### Requirements analysis
+
+Extract requirements from the recording and notes (e.g., using an LLM):
+
+- functional requirements as [user stories](#user-stories).
+- QA requirements as [QA scenarios](#quality-attribute-scenarios-qa-scenarios)
+
+
 ## Architecture
 
 > [!Note]
