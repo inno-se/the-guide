@@ -1326,6 +1326,9 @@ Examples of documented architectural drivers: [^LlmAssistedAdd]
 
 You cannot hope to design a successful architecture if you do not know the ASRs. [[^BckCh19], p. 277]
 
+Always keep a channel open to the key stakeholders who determine the [ASRs](#architecturally-significant-requirements-asrs) so you can keep up with changing requirements. [[^BckCh19], Sec. 19.5, p. 286]
+
+
 ### Quality attribute workshop (QAW)
 
 [Stakeholders](#stakeholders) often don’t know what their [QA requirements](#quality-requirements) actually are. [[^BckCh19], Sec. 19.2, p. 280]
@@ -1356,9 +1359,10 @@ Examples:
 
 You should start designing the architecture early in the project after gathering initial [ASRs](#architecturally-significant-requirements-asrs) [[^Bck], p. 371], [^InitialArchitectureModeling].
 
-You should decide what's the acceptable level of detail for the architecture at the moment (see [JBGE](#just-barely-good-enough-jbge)). Note that it may be costly to significantly modify the architecture later in the project [[^Bck], p. 32].
 
-You should review and update the architecture throughout the project to account for [ASRs](#architecturally-significant-requirements-asrs) that are high-priority at the corresponding moment.
+You should decide what's the acceptable level of detail for the architecture at the moment (see [JBGE](#just-barely-good-enough-jbge)).
+
+Note that it may be costly to significantly modify the architecture later in the project [[^Bck], p. 32].
 
 ![When to design architecture](./assets/WhenToDesignArchitecture.png)
 
