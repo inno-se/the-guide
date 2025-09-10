@@ -1708,10 +1708,27 @@ Various quality attributes are defined in [quality models](#quality-models).
 
 A system’s ability to meet its desired (or [required](#quality-requirements)) quality attributes is substantially determined by its [architecture](#architecture). [[^Bck], Sec. 2.1, p. 26]
 
+If we know that certain kinds of architectural decisions lead to certain quality attributes in a system, then we can make those decisions and rightly expect to be rewarded with the associated quality attributes. [[^Bck], Sec. 2.3, p. 28]
+
 It is possible to make quality predictions about a system based solely on an evaluation of its architecture. [[^Bck], Sec. 2.3, p. 28]
 
 ### Quality requirements
 
+Also known as:
+
+- quality attribute requirements
+- QA requirements
+- nonfunctional requirements
+
+Software quality requirements can be treated as constraints on functional requirements. [[^Swebok], Ch. 12, p. 12-2]
+
+The more difficult and important the quality requirement, the more likely it is to significantly affect the [architecture](#architecture), and hence to be an [ASR](#architecturally-significant-requirements-asrs). [[^BckCh19], Sec. 3.3, p. 277]
+
+Thresholds for acceptable quality [measurements](#measurement) should be set for each software quality requirement based on stakeholder needs and expectations. [[^Swebok], Sec. 2.6, p. 1-1]
+
+Quality requirements should be expressed as [QA scenarios](#quality-attribute-scenarios-qa-scenarios).
+
+Quality requirements should be prioritized in a [utility tree](#utility-tree).
 
 ### Quality models
 
@@ -1727,24 +1744,28 @@ There are various quality models [^SoftwareQualityModels]. Examples:
 
 QA scenarios are a way to write unambiguous testable [quality requirements](#quality-requirements) [[^BckCh19], Sec. 3.3, p. 42].
 
-The more difficult and important the quality requirement, the more likely it is to significantly affect the architecture, and hence to be an [ASR](#architecturally-significant-requirements-asrs). [[^BckCh19], Sec. 3.3, p. 277]
+Business goals are exemplified by QA scenarios. [[^BckCh19], Sec. 3.3, p. 42]
 
 A QA scenario has six parts [[^QasOfSoftwareArchitecture], p. 28] [[^BckCh19], Sec. 3.3, p. 42]:
 
-| Part               | Short description                                                                                       |
-| ------------------ | ------------------------------------------------------------------------------------------------------- |
-| Source of stimulus | An entity that generates the stimulus (human, external system, sensor, etc.)                            |
-| Stimulus           | A condition (event) to be considered when it arrives at a system                                        |
-| Environment        | A system’s condition when a stimulus occurs                                                             |
-| Response           | The activity undertaken at the arrival of the stimulus                                                  |
-| Artifact           | Some artifact that is stimulated; may be the whole system or part of it                                 |
-| Response measure   | The response to the stimulus should be measurable someway so that the [quality requirement](#quality-requirements) can be tested |
+| Part               | Short description                                                                                                                                |
+| ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Source of stimulus | An entity that generates the stimulus (human, external system, sensor, etc.)                                                                     |
+| Stimulus           | A condition (event) to be considered when it arrives at a system                                                                                 |
+| Environment        | A system’s condition when a stimulus occurs                                                                                                      |
+| Response           | The activity undertaken at the arrival of the stimulus                                                                                           |
+| Artifact           | Some artifact that is stimulated; may be the whole system or part of it                                                                          |
+| Response measure   | The response to the stimulus should be [measurable](#measurement) someway so that the [quality requirement](#quality-requirements) can be tested |
 
 ![QA scenario parts](./assets/QaScenarioParts.png)
 
 ![QA scenario example (Availability)](./assets/QaScenarioExample.png)
 
-One scenario can be used to create many concrete test cases [[^SoftwareQualityVerificationAndValidation], p. 19].
+Examples:
+
+- [Hotel pricing system](https://github.com/otrebmuh/HotelPricingSystem/blob/433e061f712a8748fdf04a6f767752e12be2f4b9/Requirements/ArchitecturalDrivers.md#quality-attribute-scenarios)
+- [Event ticket booking system](https://github.com/otrebmuh/EventTicketSystem/blob/2a928d226d43704457ad5be46b1e6b80f5bca8cb/Requirements/QualityAttributeScenarios.md)
+
 
 ## Quality assurance
 
