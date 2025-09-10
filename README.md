@@ -3063,3 +3063,10 @@ Paywalled books and articles are usually available in shadow libraries such as:
 [^DeepCharacteristicsOfGoodBacklog]: DEEP: The 4 Characteristics of a Good Product Backlog <https://www.easyagile.com/blog/product-backlog>
 [^CriticalPathOnAgileProjects]: The Critical Path on Agile Projects <https://www.mountaingoatsoftware.com/blog/the-critical-path-on-agile-projects>
 [^PredictingCompletionInAgileProjects]: Predicting Completion in Agile Projects <https://www.projectmanagement.com/blog-post/74923/predicting-completion-in-agile-projects>
+[^QualityRequirementExamplesArc42]: Examples of Quality Requirements <https://quality.arc42.org/requirements/>
+[^SoftwareQualityVerificationAndValidation]: Lecture 1: Software Quality, Verification, and Validation <https://greg4cr.github.io/courses/spring25dit636/Lectures/Spring25-Lecture1-Intro.pdf#page=38>
+[^SoftwareQualityAndTesting]: DIT 636/DAT560 - Software Quality and Testing <https://greg4cr.github.io/courses/spring25dit636/index.html> New course versions might be available at <https://greg4cr.github.io/>
+[^IronLambda]: Iron Lambda <https://github.com/discus-lang/iron/tree/75c007375eb62e1c0be4b8b8eb17a0fe66880039>
+[^AwesomeFormalVerification]: Awesome Formal Verification <https://github.com/ElNiak/awesome-formal-verification>
+[^WhatIsSoftwareTestingIbm]: What is software testing?  <https://www.ibm.com/think/topics/software-testing>
+[^SoftwareTestingWiki]: Software testing <https://en.wikipedia.org/wiki/Software_testing>
