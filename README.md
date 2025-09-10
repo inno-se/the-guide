@@ -1255,18 +1255,29 @@ A ***Project Charter*** [^ProjectCharter] is a document that captures:
 
 ## Architecture
 
+> [!Note]
+> In this guide, *architecture* (not preceded by *software*) and *software architecture* are used interchangeably.
+
+### What is the architecture?
+
 The *software architecture* of a system is the set of structures needed to reason about the system. These structures comprise software elements, relations among them, and properties of both. [[^Bck], p. 2]
 
 A structure is architectural if it supports reasoning about the system and the system’s [quality attributes](#quality-attributes). The reasoning should be about attributes of the system that are important to some stakeholder(s). [[^Bck], p. 3]
 
-Architecture provides a common language in which different concerns can be expressed, negotiated, and resolved at a level that is intellectually manageable even for large, complex systems. [[^Bck], p. 29]
+The basic principle of *software architecture* is every software system is constructed to satisfy an organization’s business goals, and that the architecture of a system is a bridge between those (often abstract) business goals and the final (concrete) resulting system. [[^Bck], p. 1]
 
-Software architecture is important for a wide variety of technical and nontechnical reasons. Here are the main resons why architecture matters [[^Bck], p. 36]:
+### Why is architecture important?
 
-1. An architecture will inhibit or enable a system’s driving [quality attributes](#quality-attributes).
+Software architecture is important for a wide variety of technical and nontechnical reasons. Here are the main resons why architecture matters: [[^Bck], p. 36]
+
+1. An architecture will inhibit or enable a system’s driving quality attributes.
 1. The decisions made in an architecture allow you to reason about and manage change as the system evolves.
 1. The analysis of an architecture enables early prediction of a system’s qualities.
 1. A documented architecture enhances communication among stakeholders.
+
+    Architecture represents a common abstraction of a system that most, if not all, of the system’s stakeholders can use as a basis for creating mutual understanding, negotiating, forming consensus, and communicating with each other. [[^Bck], p. 28]
+
+    Architecture provides a common language in which different concerns can be expressed, negotiated, and resolved at a level that is intellectually manageable even for large, complex systems. [[^Bck], p. 29]
 1. The architecture is a carrier of the earliest, and hence most-fundamental, hardest-to-change design decisions.
 1. An architecture defines a set of constraints on subsequent implementation.
 1. The architecture dictates the structure of an organization, or vice versa.
@@ -1289,34 +1300,21 @@ Software architecture is important for a wide variety of technical and nontechni
     Reduce the number of choices of elements and try to use proven solutions to reduce the risk of not being able to produce an appropriate architecture. [[^Bck], p. 35]
 1. An architecture can be the foundation for training of a new team member.
 
-### When to design the architecture?
+### Architectural drivers
 
-You should start designing the architecture early in the project after gathering initial [architecturally significant requirements](#architecturally-significant-requirements-asrs) [[^Bck], p. 371], [^InitialArchitectureModeling].
+Architectural drivers comprise: [[^Bck], p. 289]
 
-You should decide what's the acceptable level of detail for the architecture at the moment (see [JBGE](#just-barely-good-enough-jbge)). Note that it may be costly to significantly modify the architecture later in the project [[^Bck], p. 32].
+- design purpose (why you design) [[^Bck], p. 289]
+- primary functionality
+- [architecturally significant requirements](#architecturally-significant-requirements-asrs)
+- constraints (technical, business)
+- architectural concerns
 
-You should review and update the architecture throughout the project to account for [ASRs](#architecturally-significant-requirements-asrs) that are high-priority at the corresponding moment.
+Examples of documented architectural drivers: [^LlmAssistedAdd]
 
-![When to design architecture](./assets/WhenToDesignArchitecture.png)
+- [Hotel pricing system](https://github.com/otrebmuh/HotelPricingSystem/blob/433e061f712a8748fdf04a6f767752e12be2f4b9/Requirements/ArchitecturalDrivers.md)
+- [Event ticket booking system](https://github.com/otrebmuh/EventTicketSystem/blob/2a928d226d43704457ad5be46b1e6b80f5bca8cb/Design/Architecture.md#3-architectural-drivers)
 
-### Derive architectural decisions using an LLM
-
-See the preprint *An LLM-assisted approach to designing software architectures using ADD* [^LlmAssistedAdd].
-
-Example of architectural drivers documentation:
-
-- [Hotel Pricing system](https://github.com/otrebmuh/HotelPricingSystem/blob/main/Requirements/ArchitecturalDrivers.md)
-
-### Why document architecture?
-
-<!-- TODO refine -->
-So, you've designed an architecture. How do you ensure developers implement it?
-
-First, you should document the architecture before development starts. Document what's necessary for the first couple of increments and what you don't want to forget. The architecture documentation should be JBGE and capture architectural design decisions and reasons behind these decisions. Reasons will help answer questions "Why do we do it like this?".
-
-Second, you should regularly inspect whether developers' code matches your architecture.
-
-Third, you should run tests that you defined for QA scenarios. If they fail, there might be flaws in the implementation.
 ### Architecturally Significant Requirements (ASRs)
 
 ***Architecturally Significant Requirements*** (ASRs) are any requirements that may affect the architecture of a software system [^BckCh19] [^Swebok] [^AdrOrg] [^AdrTemplates]. They are derived from:
@@ -1324,48 +1322,69 @@ Third, you should run tests that you defined for QA scenarios. If they fail, the
 - Functional requirements;
 - [Quality requirements](#quality-requirements);
 - Business goals;
-- Constraints (what you can't change and can only mitigate);
+- [Constraints](#constraint).
 
-ASRs must be prioritized and accounted for when designing the system architecture. The architecture must be designed to be modifiable at the start of the project. The architecture may change during the project as you discover new requirements.
+You cannot hope to design a successful architecture if you do not know the ASRs. [[^BckCh19], p. 277]
 
-If your architecture doesn't allow satisfying the most significant ASRs, stakeholders for whom these ASRs are important will probably consider your project a failure.
+### Quality attribute workshop (QAW)
 
-Thus, you should take your ASRs seriously.
+[Stakeholders](#stakeholders) often don’t know what their [QA requirements](#quality-requirements) actually are. [[^BckCh19], Sec. 19.2, p. 280]
 
-- Read [this chapter](./assets/BckCh19.pdf) from [^Bck] about ***Architecturally Significant Requirements*** to study the ***Utility Tree*** concept and learn to elicit relevant ASRs as testable scenarios using the advice for the ***Quality Attribute Workshop***.
-- Identify stakeholders in your project.
-- Identify functional requirements, business goals, and constraints.
-- Identify relevant quality attributes using an appropriate ***quality model***.
-  - A ***quality model*** is a defined set of characteristics and of relationships between them, which provides a framework for specifying quality requirements and evaluating quality [^SoftwareQualityModels].
-  - There are various quality models [^SoftwareQualityModels]. Examples:
-    <!-- TODO group "commonly used" or "recommended" -->
-    - The ***ISO 25010*** quality model [^Iso25010] provides generic definitions of quality attributes (aka ***quality characteristics*** and ***quality sub-characteristics***).
-    - The ***Q42*** quality model [^Q42] shows a wider range of quality attributes (aka *qualities*) and quality requirement [examples](https://quality.arc42.org/requirements/), many of which are in the ASR scenario format.
-- Create a Utility Tree and add it to your knowledge base.
-  - Write ASR scenarios in the quality attribute scenario format (source - stimulus - artifact - environment - response - response measure) [^BckCh19] [^QASofSoftwareArchitecture] [^QualityScenarios].
-  - For each ASR, measure its:
-    - business value - how important the ASR is for the business;
-    - technical risk - how hard it'll be to achieve that ASR.
-  - You may use the `H` (High) - `M` (Medium) - `L` (Low) scale for these metrics.
-    - The most significant ASRs (with `H` business value and `H` technical risk) must be addressed first. When there are many such ASRs, it's necessary to negotiate simplifying the system to make it achievable.
-  - ASR scenarios should be linkable or at least have unique identifiers so that these scenarios can be referenced elsewhere.
-  - Tabular form is recommended [^UtilityTreeTabular] [^BckCh19].
-    <!-- TODO separate columns for business value and technical risk? -->
-    <!-- TODO script to collect all ASRs from issues into a single table -->
-  - Here's an example of a Utility Tree in the tabular form (p. 285 of the book [^Bck]).
-    - "Quality Attribute" denotes quality sub-characteristics [^Iso25010] or qualities [^Q42];
-    - ASR Scenarios:
-      - contain (business value, technical risk) tuples;
-      - partially follow the quality attribute scenario format.
+Interviewing the relevant stakeholders is the surest way to learn what they know and need. [[^BckCh19], Sec. 19.2, p. 280]
 
-    ![Utility Tree](./assets/BckUtilityTree.png)
-- Merge similar scenarios.
-- Validate your ASR scenarios with stakeholders. In other words, make sure these scenarios are aligned with the project goals from stakeholders' point of view.
+During QAW, facilitators identify and clarify [architectural drivers](#architectural-drivers) with stakeholders and the architect and then help stakeholders generate, prioritize, and refine [QA scenarios](#quality-attribute-scenarios-qa-scenarios) based on these drivers [[^BckCh19], Sec. 19.2, pp. 279-281]
 
-### Design architecture
+### Utility tree
 
-<!-- TODO write here -->
-![Design Concepts](./assets/BckDesignConcepts.png)
+The utility tree concept is explained in detail in [[^BckCh19], Sec. 19.4, p. 284].
+
+A utility tree is a top-down representation of what you, as an architect, believe to be the QA-related ASRs ([quality requirements](#quality-requirements)) that are critical to the success of the system. [[^BckCh19], p. 284]
+
+Examples:
+
+- [Hotel pricing system](https://github.com/otrebmuh/HotelPricingSystem/blob/433e061f712a8748fdf04a6f767752e12be2f4b9/Requirements/ArchitecturalDrivers.md#priorities)
+- [Event ticket booking system](https://github.com/otrebmuh/EventTicketSystem/blob/2a928d226d43704457ad5be46b1e6b80f5bca8cb/Requirements/Priorities.md#quality-attribute-scenario-priorities)
+-  
+  ![Utility Tree](./assets/BckUtilityTree.png)
+  
+  Source: [[^BckCh19], Table 19.1, p. 285]
+
+### Architecture design
+
+![Design Concepts](./assets/DesignActivityOverviewBck.png)
+#### When to design the architecture?
+
+You should start designing the architecture early in the project after gathering initial [ASRs](#architecturally-significant-requirements-asrs) [[^Bck], p. 371], [^InitialArchitectureModeling].
+
+You should decide what's the acceptable level of detail for the architecture at the moment (see [JBGE](#just-barely-good-enough-jbge)). Note that it may be costly to significantly modify the architecture later in the project [[^Bck], p. 32].
+
+You should review and update the architecture throughout the project to account for [ASRs](#architecturally-significant-requirements-asrs) that are high-priority at the corresponding moment.
+
+![When to design architecture](./assets/WhenToDesignArchitecture.png)
+
+### Architectural decision (AD)
+
+An *architectural decision* is a justified design choice that addresses an [ASR](#architecturally-significant-requirements-asrs).
+
+Such a decition can be captured by an [ADR](#architectural-decision-records-adrs).
+
+### Architectural decision records (ADRs)
+
+An architectural decision record (ADR) is a document that captures an important [architectural decision](#architectural-decision-ad) made along with its context and consequences.
+
+- [Architecture Decision Records](https://github.com/joelparkerhenderson/architecture-decision-record)
+- [Architectural Decision Records](https://adr.github.io/)
+- ***The Architecture of Open Source Applications*** book [^AosaBook]
+
+### Derive architectural decisions using an LLM
+
+See:
+
+- *An LLM-assisted approach to designing software architectures using ADD* [^LlmAssistedAdd].
+
+### Why document architecture?
+
+### How to document architecture?
 
 ## Work breakdown structure (WBS)
 
