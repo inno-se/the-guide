@@ -3055,7 +3055,7 @@ Paywalled books and articles are usually available in shadow libraries such as:
 [^EffectivePresentationSlides]: Ten simple rules for effective presentation slides <https://pmc.ncbi.nlm.nih.gov/articles/PMC8638955/>
 [^HandlingAudienceQuestions]: Handling Audience Questions <https://sheridancollege.libguides.com/psb-presentation-skills-module/delivering-your-presentation/handling-audience-questions>
 [^SoftwareEngineeringPractitionersApproach]: Pressman. R. Software Engineering: A Practitioner's Approach, Edition 7. McGraw-Hill ([File](./assets/SoftwareEngineeringPractitionersApproach.pdf))
-[^LlmAssistedAdd]: An LLM-assisted approach to designing software architectures using ADD <https://www.arxiv.org/abs/2506.22688>
+[^LlmAssistedAdd]: An LLM-assisted approach to designing software architectures using ADD ([File](./assets/LlmAssisted.pdf)) <https://www.arxiv.org/abs/2506.22688>
 [^EtiquetteTipsForUsingChatAtWork]: 8 Etiquette Tips for Using Chat at Work <https://taskworld.com/blog/8-etiquette-tips-for-using-chat-at-work/>
 [^The14CommandmentsOfTextingEtiquette]: The 14 Commandments of Texting Etiquette <https://www.userlike.com/en/blog/texting-etiquette>
 [^HowToHelpStudentsResolveTeamConflict]: How to help students resolve team conflict <https://www.curaeducation.com/best-practice/how-to-help-students-resolve-team-conflict>
@@ -3081,3 +3081,4 @@ Paywalled books and articles are usually available in shadow libraries such as:
 [^AwesomeFormalVerification]: Awesome Formal Verification <https://github.com/ElNiak/awesome-formal-verification>
 [^WhatIsSoftwareTestingIbm]: What is software testing?  <https://www.ibm.com/think/topics/software-testing>
 [^SoftwareTestingWiki]: Software testing <https://en.wikipedia.org/wiki/Software_testing>
+[^DesigningSoftwareArchitectures]: Designing Software Architectures: A Practical Approach, 2nd Edition, by Humberto Cervantes and Rick Kazman ([File](./assets/DesigningSoftwareArchitecturesAPracticalApproachEdition2.pdf)) <https://www.sei.cmu.edu/library/designing-software-architectures-a-practical-approach/>
