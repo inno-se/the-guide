@@ -1141,7 +1141,7 @@ The presentation [rehearsal](#rehearsal) and the [talk](#talk) should also be ni
 1. Update all links (e.g., in `Project details` in your projects) to this `README` to point to your version.
 1. Adjust entry criteria specified in Kanban boards (see [Kanban boards](#kanban-boards)).
 
-## Prepare the knowledge base
+## Knowledge base
 
 Having a well-structured knowledge base for your project will help you share the information about the project with stakeholders and LLMs.
 
@@ -1240,7 +1240,7 @@ You may want to automate the publishing process via [GitHub Actions](https://doc
 - Discuss the topic.
 - Add new relevant verified no-fluff information to your knowledge base.
 
-## Add a Project Charter
+## Project Charter
 
 <!-- TODO anything else? -->
 
