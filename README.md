@@ -1451,7 +1451,7 @@ See:
 
 - *An LLM-assisted approach to designing software architectures using ADD* [^LlmAssistedAdd].
   - Future work: provide the Tactics catalog;
-  - See [[^Bck], Sec. 3.5] and *Tactics for <..>* chapters in [^Bck].
+  - The catalog is described in [[^Bck], Sec. 3.5] and *Tactics for <..>* chapters in [^Bck].
 - *Attribute-driven design* (*ADD*) [[^DesigningSoftwareArchitectures], Sec. 4.2] [[^Bck], Sec. 20.1]
 
 ![Approach elements](./assets/LlmAssistedAddApproachElements.drawio.svg)
