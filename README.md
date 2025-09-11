@@ -1439,11 +1439,11 @@ Such a decition can be captured by an [ADR](#architectural-decision-records-adrs
 
 ### Architectural decision records (ADRs)
 
-An architectural decision record (ADR) is a document that captures an important [architectural decision](#architectural-decision-ad) made along with its context and consequences.
+An *architectural decision record* (ADR) is a document that captures an important [architectural decision](#architectural-decision-ad) made along with its context and consequences. [^AdrTemplates]
 
-- [Architecture Decision Records](https://github.com/joelparkerhenderson/architecture-decision-record)
-- [Architectural Decision Records](https://adr.github.io/)
-- ***The Architecture of Open Source Applications*** book [^AosaBook]
+- Architecture Decision Records [^AdrTemplates]
+- Architectural Decision Records [^AdrOrg]
+- The book *The Architecture of Open Source Applications* [^AosaBook]
 
 ### Derive architectural decisions using an LLM
 
