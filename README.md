@@ -572,16 +572,16 @@ During the course, you should learn to:
 
 ## Surviving a group project
 
+- Follow tips for group projects: [^GroupProjectEtiquette] [^TipsToStructureAStrongGroupProject] [^GroupWork].
+- Follow basic workplace etiquette rules: [^GuideToChatEtiquetteInWorkplace] [^EtiquetteTipsForUsingChatAtWork] [^The14CommandmentsOfTextingEtiquette].
+- Skim [potential challenges and lessons learned](#potential-challenges-and-lessons-learned).
+- [Deal with free riders](#deal-with-free-riders) with help of course instructors.
 - Have stable and friendly communication inside the team:
   - Meet regularly. Find time for meetings using [Timeful](https://timeful.app/) and/or other services.
   - Respond to messages promptly (in 24 hours at most) [^GroupProjectEtiquette].
   - Bring snacks for your team members when you meet offline [^GroupProjectEtiquette].
 - Communicate clearly each sprint how much effort you're going to put into the project. You probably have other courses and life.
 - If you get stuck with a task, try to get unstuck by clarifying task requirements and talking to LLMs and team members. Tell what you did and where you got stuck and ask them for help.
-- Follow tips for group projects: [^GroupProjectEtiquette] [^TipsToStructureAStrongGroupProject] [^GroupWork].
-- Follow basic workplace etiquette rules: [^GuideToChatEtiquetteInWorkplace] [^EtiquetteTipsForUsingChatAtWork] [^The14CommandmentsOfTextingEtiquette].
-- Skim [potential challenges and lessons learned](#potential-challenges-and-lessons-learned).
-- [Deal with free riders](#deal-with-free-riders) with help of course instructors.
 - If you feel something goes wrong, write down your observations and discuss the problem with an LLM.
 
   If you need input from other team members to resolve the problem, discuss the problem during a [Retrospective](#retrospective).
