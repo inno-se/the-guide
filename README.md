@@ -981,6 +981,13 @@ The life cycle for any software system contains a number of concrete stages rele
 - **Support**: At this stage, developers provide the required actions to achieve a satisfactory operation.
 - **Retirement**: At this stage, the team follows established procedures to dispose of the system.
 
+## Software process framework
+
+A generic process framework for software engineering defines five framework activities — communication, planning, modeling, construction, and deployment. In addition, a set of umbrella activities — project tracking and control, risk management, quality assurance, configuration management, technical reviews, and others — are applied throughout the process. [[^SoftwareEngineeringPractitionersApproach], p. 31]
+
+![Software process framework](./assets/SoftwareProcessFramework.png)
+
+Source: [[^SoftwareEngineeringPractitionersApproach], Fig. 2.1, p. 32]
 
 ## Telegram
 
