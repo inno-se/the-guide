@@ -401,6 +401,14 @@ Conditions for team or stakeholder acceptance, ensuring that the work meets the 
 
 Something that you accept as true without question or proof [[Cambridge Dictionary](https://dictionary.cambridge.org/dictionary/english/assumption)].
 
+## constraint
+
+*noun*
+
+Something that controls what you do by keeping you within particular limits. [[Cambridge Dictionary](https://dictionary.cambridge.org/dictionary/english/constraint)]
+
+A limiting factor that affects the execution of a project, program, portfolio, or process. [[^Pmbok], p. 237]
+
 ## Definition of Done (DoD)
 
 *noun*
@@ -420,6 +428,10 @@ Something that is known to have happened or to exist, especially something for w
 A JBGE artifact is an artifact that at the moment has sufficient quality for a target audience. To make JBGE artifacts, you should know the audience of these artifacts and what quality of these artifacts it expects. As time goes, you may need to change artifacts to keep them JBGE. [^JustBarelyGoodEnough]
 
 See also [TAGRI](#they-aint-gonna-read-it-tagri).
+
+## measurement
+
+Measurement is the quantification [^QuantificationWiki] of attributes of an object or event, which can be used to compare with other objects or events. [^MeasurementWiki]
 
 ## the Pyramid Principle
 
