@@ -572,7 +572,7 @@ During the course, you should learn to:
 
 ## Surviving a group project
 
-- Follow tips for group projects: [^GroupProjectEtiquette] [^TipsToStructureAStrongGroupProject] [^GroupWork].
+- Follow tips for group projects: [^HowToBounceBackFromBadGroupProject] [^TipsToStructureAStrongGroupProject] [^GroupWork].
 - Follow basic workplace etiquette rules: [^GuideToChatEtiquetteInWorkplace] [^EtiquetteTipsForUsingChatAtWork] [^The14CommandmentsOfTextingEtiquette].
 - Skim [potential challenges and lessons learned](#potential-challenges-and-lessons-learned).
 - [Deal with free riders](#deal-with-free-riders) with help of course instructors.
@@ -3082,3 +3082,4 @@ Paywalled books and articles are usually available in shadow libraries such as:
 [^WhatIsSoftwareTestingIbm]: What is software testing?  <https://www.ibm.com/think/topics/software-testing>
 [^SoftwareTestingWiki]: Software testing <https://en.wikipedia.org/wiki/Software_testing>
 [^DesigningSoftwareArchitectures]: Designing Software Architectures: A Practical Approach, 2nd Edition, by Humberto Cervantes and Rick Kazman ([File](./assets/DesigningSoftwareArchitecturesAPracticalApproachEdition2.pdf)) <https://www.sei.cmu.edu/library/designing-software-architectures-a-practical-approach/>
+[^HowToBounceBackFromBadGroupProject]: How to Bounce Back From a Bad Group Project <https://www.ourcollegepath.com/2025/07/how-to-bounce-back-from-bad-group.html>
