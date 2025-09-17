@@ -638,13 +638,18 @@ During the course, you should learn to:
     - the sufficient amount of work that they should perform;
     - the amount of guidance that you'll provide to these people so that they become productive enough contributors;
   - otherwise, agree with them that:
-    - they're not going to get any task;
+    - they won't be a part of the team till the end of the course:
+      - they're not going to get any task;
+      - they won't appear at any team events;
+      - they'll be kicked from the project Telegram group;
     - you'll report no contribution from them until the end of the course;
     - you'll report to the course instructors that they want to fail the course.
 
-- Record your agreement in a format that won't let these people accuse you of making them fail the course.
+- Record your agreements in a format that won't let these people accuse you of making them fail the course by not assigning them tasks.
 
   For example, write their new roles and responsibilities in the [Project Charter](#project-charter).
+  
+- Communicate your agreements to the team.
 
 ## Feedback loop
 
