@@ -2053,6 +2053,7 @@ When you enter a directory (e.g., via a terminal), `direnv` runs the `.envrc` fi
 - [Nix docs](https://nix.dev/index.html) - official documentation.
 - [awesome-nix](https://github.com/nix-community/awesome-nix) - A curated list of the best resources in the Nix community.
 - [Windows Subsystem for Linux (WSL)](https://nixos.wiki/wiki/Nix_Installation_Guide#Windows_Subsystem_for_Linux_.28WSL.29)
+- [Home Manager](https://nix-community.github.io/home-manager/index.xhtml#ch-introduction) - Home Manager is a Nix-powered tool for reproducible management of the contents of users’ home directories.
 
 #### NixOS
 
