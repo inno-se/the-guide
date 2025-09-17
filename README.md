@@ -2050,8 +2050,7 @@ When you enter a directory (e.g., via a terminal), `direnv` runs the `.envrc` fi
 #### Resources
 
 - [NixOS.org](https://nixos.org/) - official NixOS Foundation site.
-- [Nix docs](<https://nix>
-.dev/index.html) - official documentation.
+- [Nix docs](https://nix.dev/index.html) - official documentation.
 - [awesome-nix](https://github.com/nix-community/awesome-nix) - A curated list of the best resources in the Nix community.
 - [Windows Subsystem for Linux (WSL)](https://nixos.wiki/wiki/Nix_Installation_Guide#Windows_Subsystem_for_Linux_.28WSL.29)
 
