@@ -1891,7 +1891,7 @@ Software is ready for release when you can argue that it shows sufficient qualit
 
 ### Verification and validation
 
-Activities that must be performed to consider the software “done.”
+Activities that must be performed to consider the software “done.” [[^SoftwareQualityVerificationAndValidation], p. 39]
 
 - *Verification*: Proving that software conforms to its functional and non-functional requirements.
 - *Validation*: Proving that software meets customer’s true requirements, needs, and expectations.
