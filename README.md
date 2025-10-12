@@ -517,6 +517,20 @@ The basic idea is that very little of the documentation which gets created durin
 
 See also [JBGE](#just-barely-good-enough-jbge).
 
+## verification and validation (V&V)
+
+Verification and validation processes are used to determine whether the development products of a given activity (artifacts) conform to that activity’s requirements (verification) and whether the product satisfies its intended use and user needs (validation). [[^Swebok], p. 12-16]
+
+### Verification
+
+Verification is internal: it ascertains that an artifact has, by itself, been built properly. A program, for example, should not produce arithmetic or memory overflows (which are undesirable — in fact, catastrophic — regardless of the purpose of the program). Documentation should be clear. Any failed test case should be retained in a non-regression test suite. [[^HandbookRequirements], p. 20]
+
+### Validation
+
+Validation is external: it assesses that the artifact satisfies its purpose. The results produced by a program should be the correct ones. Documentation should accurately describe how the system functions. Tests should cover essential functions. [[^HandbookRequirements], p. 20]
+
+See also [Verification and validation of software](#verification-and-validation-of-software).
+
 ## Other terms
 
 - [[Agile Glossary](https://agilealliance.org/agile101/agile-glossary/)]
@@ -980,7 +994,7 @@ These practice areas list those practices that each team should fulfill, but not
 The life cycle for any software system contains a number of concrete stages relevant to stakeholders [[^Swebok], Sec. 2.6, p. 10-8]. These concrete stages fit into the following general stages (not necessarily sequential):
 
 - **Concept**: At this stage, stakeholders' needs are identified, concepts will be explored, and solutions will be proposed.
-- **Development**: At this stage, requirements representing the users' needs will be refined, solutions will be created, systems built, and all undergo the needed [verification and validation processes](#verification-and-validation).
+- **Development**: At this stage, requirements representing the users' needs will be refined, solutions will be created, systems built, and all undergo the needed [verification and validation](#verification-and-validation-vv) processes.
 - **Production**: This stage will have a different scope depending on the characteristics of the software system under focus. Generally speaking, it will include the production and testing of the system.
 - **Utilization**: At this stage, the system operates to satisfy users' needs.
 - **Support**: At this stage, developers provide the required actions to achieve a satisfactory operation.
@@ -1887,9 +1901,9 @@ Software is ready for release when you can argue that it shows sufficient qualit
 - Requires choosing [quality attributes](#quality-attributes).
   - Requires specifying [measurements](#measurement) and thresholds.
   - May require different measurements and thresholds for different functionality and execution scenarios.
-- Assessed through [verification and validation](#verification-and-validation).
+- Assessed through [verification and validation](#verification-and-validation-vv).
 
-### Verification and validation
+### Verification and validation of software
 
 Activities that must be performed to consider the software “done.” [[^SoftwareQualityVerificationAndValidation], p. 39]
 
