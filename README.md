@@ -427,6 +427,8 @@ Something that is known to have happened or to exist, especially something for w
 
 A JBGE artifact is an artifact that at the moment has sufficient quality for a target audience. To make JBGE artifacts, you should know the audience of these artifacts and what quality of these artifacts it expects. As time goes, you may need to change artifacts to keep them JBGE. [^JustBarelyGoodEnough]
 
+---
+
 See also [TAGRI](#they-aint-gonna-read-it-tagri).
 
 ## measurement
@@ -460,6 +462,8 @@ Relative estimating is used to create estimates that are derived from performing
 *noun*
 
 A Git repository [[What are code repositories?](https://github.com/resources/articles/software-development/what-are-code-repositories)].
+
+---
 
 See also [[About repositories](https://docs.github.com/en/repositories/creating-and-managing-repositories/about-repositories)].
 
@@ -515,6 +519,8 @@ Teaching assistant.
 
 The basic idea is that very little of the documentation which gets created during software development actually gets read by the actual target audience. Recognizing this, you should model/document with a purpose and create agile documentation which reflects the true needs of the audience for that documentation. [^Tagri]
 
+---
+
 See also [JBGE](#just-barely-good-enough-jbge).
 
 ## verification and validation (V&V)
@@ -528,6 +534,8 @@ Verification is internal: it ascertains that an artifact has, by itself, been bu
 ### Validation
 
 Validation is external: it assesses that the artifact satisfies its purpose. The results produced by a program should be the correct ones. Documentation should accurately describe how the system functions. Tests should cover essential functions. [[^HandbookRequirements], p. 20]
+
+---
 
 See also [Verification and validation of software](#verification-and-validation-of-software).
 
@@ -668,6 +676,8 @@ During the course, you should learn to:
 ## Feedback loop
 
 A feedback loop helps you continually improve [^ContinualImprovementProcess] an artifact or process to achieve specific goals based on evaluation of (changes to) your artifact or process using specific metrics (connected to the goals).
+
+---
 
 See also [the GQM method](#the-gqm-approach), [the PDSA cycle](#the-pdsa-cycle).
 
