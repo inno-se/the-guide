@@ -1407,7 +1407,12 @@ Extract requirements from the recording and notes (e.g., using an LLM):
 ## Architecture
 
 > [!Note]
-> In this guide, *architecture* (not preceded by *software*) and *software architecture* are used interchangeably.
+> In this guide, *architecture* (not preceded by the word *software*) and *software architecture* are used interchangeably.
+
+See:
+
+- *Software Architecture in Practice* [^Bck]
+- *The Architecture of Open Source Applications* [^AosaBook]
 
 ### What is the architecture?
 
