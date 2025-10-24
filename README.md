@@ -1063,6 +1063,39 @@ Suggested topics:
 - `Assignments` - for discussing assignments, presentations, etc.
 - `General` - for all other discussions.
 
+## Assignments
+
+### Tasks
+
+These are the main types of tasks:
+
+- a task specified in the assignment;
+- a task to prepare:
+  - a deliverable specified in the assignment;
+  - a presentation;
+  - a demo;
+  - an assignment submission.
+- a task to carry out an activity on which other tasks may depend;
+
+### Planning
+
+- Discuss the assignment during Sprint Planning.
+- Make a Google Doc with a copy of the assignment.
+- Discuss the order in which tasks should be completed.
+- For each task, record assignee(s) and a deadline.
+  
+  There are several places where you can record this information:
+  - in a comment near the task in the Google Doc;
+  - in a GitHub issue;
+  - in a row for that task in a Google Sheet.
+
+- Agree on a deadline for completing all tasks so that you have at least one day of buffer time before the submission deadline.
+
+  For example, if you need to submit an assignment by 23:59 on Sunday, you can agree to complete all tasks by Saturday afternoon.
+  
+  If some tasks aren't completed timely, you'll hopefully have enough time to finish them.
+  
+
 ## Presentation
 
 ### Design decisions
