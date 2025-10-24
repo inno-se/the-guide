@@ -13,6 +13,9 @@ This repository provides a guide for managing the development of a software proj
   - gather and address stakeholders' [feedback](#feedback-loop) on your project.
   - refine your [Product Backlog](#product-backlog) based on the feedback.
   - manage stakeholders' expectations based on the scope (remaining work), human resources, and schedule.
+- Build a team. If you can't, ask course instructors for help.
+- [Deal with free riders](#deal-with-free-riders)
+- Ask course instructors to fix your team when it becomes dysfunctional.
 
 ## TL;DR extended
 
