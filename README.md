@@ -1356,12 +1356,14 @@ See:
 ### User stories
 
 Each user story must have [acceptance criteria](#acceptance-criteria).
-A user story is complete when all [acceptance criteria](#acceptance-criteria) are met.
+A user story is complete when all acceptance criteria are met.
 
-[Acceptance criteria](#acceptance-criteria) are typically written in the GIVEN - WHEN - THEN format [^GivenWhenThen].
+Acceptance criteria are typically written in the GIVEN - WHEN - THEN format [^GivenWhenThen].
 
 User stories should be written in [GitHub issues](#issue-form-templates).
 In this case, user stories can be neatly referenced or connected to other issues to form the [work item hierarchy](#work-item-hierarchy).
+
+You can develop a tool that will collect user stories from issues.
 
 ### Requirements elicitation
 
