@@ -1539,6 +1539,7 @@ See:
   - Future work: provide the Tactics catalog;
   - The catalog is described in [[^Bck], Sec. 3.5] and *Tactics for <..>* chapters in [^Bck].
 - *Attribute-driven design* (*ADD*) [[^DesigningSoftwareArchitectures], Sec. 4.2] [[^Bck], Sec. 20.1]
+- *An Architecting Book of Knowledge (BoK) to Improve Architectural Decision-Making* [^AnArchitectingBok]
 
 ![Approach elements](./assets/LlmAssistedAddApproachElements.drawio.svg)
 
@@ -3169,3 +3170,4 @@ Paywalled books and articles are usually available in shadow libraries such as:
 [^SoftwareTestingWiki]: Software testing <https://en.wikipedia.org/wiki/Software_testing>
 [^DesigningSoftwareArchitectures]: Designing Software Architectures: A Practical Approach, 2nd Edition, by Humberto Cervantes and Rick Kazman ([File](./assets/DesigningSoftwareArchitecturesAPracticalApproachEdition2.pdf)) <https://www.sei.cmu.edu/library/designing-software-architectures-a-practical-approach/>
 [^HowToBounceBackFromBadGroupProject]: How to Bounce Back From a Bad Group Project <https://www.ourcollegepath.com/2025/07/how-to-bounce-back-from-bad-group.html>
+[^AnArchitectingBok]: Hunt et al., An Architecting Book of Knowledge (BoK) to Improve Architectural Decision-Making, INCOSE, 2025 ([File](./assets/AnArchitectingBok.pdf)) <https://www.researchgate.net/profile/Alejandro-Salado/publication/394253598_An_Architecting_Book_of_Knowledge_BoK_to_Improve_Architectural_Decision-Making/links/688f3c047b62e240dd32c5c0/An-Architecting-Book-of-Knowledge-BoK-to-Improve-Architectural-Decision-Making.pdf>
