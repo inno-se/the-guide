@@ -7,7 +7,7 @@ This repository provides a guide for managing the development of a software proj
 
 - Focus on delivering a product that has quality sufficient for [stakeholders](#stakeholders).
 - Negotiate with stakeholders the most important [quality attributes](#quality-attributes) and record testable [quality requirements](#quality-requirements).
-- Use [architecture](#architecture), processes, and tools that help you satisfy the quality attribute requirements.
+- Use [architecture](#architecture), processes, and tools that help you satisfy the [quality requirements](#quality-requirements).
 - Make decisions about various aspects of your project and record them together with their justification.
 - Regularly:
   - gather and address stakeholders' [feedback](#feedback-loop) on your project.
@@ -193,13 +193,14 @@ This repository provides a guide for managing the development of a software proj
     - [Missing deadline](#missing-deadline)
   - [Planning problems](#planning-problems)
   - [Presentation](#presentation)
-    - [Presentation slides](#presentation-slides)
+    - [Design decisions](#design-decisions)
+    - [Presentation as code](#presentation-as-code)
+    - [Nice presentation](#nice-presentation)
       - [Structure](#structure)
       - [Content](#content)
       - [Appearance](#appearance)
-      - [Templates](#templates)
-    - [Presentation preparation](#presentation-preparation)
-    - [Presentation talk](#presentation-talk)
+      - [Rehearsal](#rehearsal)
+      - [Talk](#talk)
   - [Project management](#project-management)
   - [Set up repositories](#set-up-repositories)
   - [Prepare the knowledge base](#prepare-the-knowledge-base)
@@ -223,9 +224,9 @@ This repository provides a guide for managing the development of a software proj
     - [Why document architecture?](#why-document-architecture)
     - [How to document architecture?](#how-to-document-architecture)
     - [Architecturally Significant Requirements ASRs](#architecturally-significant-requirements-asrs)
-    - [Design architecture](#design-architecture)
-      - [Architectural decision](#architectural-decision)
-      - [Architectural decision records ADRs](#architectural-decision-records-adrs)
+    - [Design architecture](#architecture-design)
+      - [Architectural decision](#architectural-decision-ad)
+      - [Architectural decision records ADRs](#architectural-decision-record-adr)
     - [Describe tests for ASR scenarios](#describe-tests-for-asr-scenarios)
     - [Build a prototype](#build-a-prototype)
   - [Work breakdown structure WBS](#work-breakdown-structure-wbs)
@@ -1045,7 +1046,7 @@ Suggested topics:
 - `Important` - for important information such as:
   - team member names;
   - Telegram and GitHub usernames;
-  - roles (see [Roles](#roles));
+  - roles (see [Roles](#core-roles));
   - rights and responsibilities of the project manager (can also be documented in the [Project Charter](#project-charter));
   - links to the:
     - repository;
@@ -1223,7 +1224,7 @@ The presentation [rehearsal](#rehearsal) and the [talk](#talk) should also be ni
       - `labels:` - to automatically create issues with your labels.
 1. Copy this `README` (that you read now) somewhere into your repo and modify it as necessary.
 1. Update all links (e.g., in `Project details` in your projects) to this `README` to point to your version.
-1. Adjust entry criteria specified in Kanban boards (see [Kanban boards](#kanban-boards)).
+1. Adjust entry criteria specified in Scrum boards (see [Scrum boards](#scrum-boards)).
 
 ## Knowledge base
 
@@ -1524,13 +1525,15 @@ Note that it may be costly to significantly modify the architecture later in the
 
 ### Architectural decision (AD)
 
-An *architectural decision* is a justified design choice that addresses an [ASR](#architecturally-significant-requirements-asrs).
+An *architectural decision* is a justified design choice that addresses an [ASR](#architecturally-significant-requirements-asrs) [^AdrOrg].
 
-Such a decition can be captured by an [ADR](#architectural-decision-records-adrs).
+Such a decision can be captured by an [ADR](#architectural-decision-record-adr) [^AdrOrg].
 
-### Architectural decision records (ADRs)
+### Architectural decision record (ADR)
 
-An *architectural decision record* (ADR) is a document that captures an important [architectural decision](#architectural-decision-ad) made along with its context and consequences. [^AdrTemplates]
+An *architectural decision record* is a document that captures an important [architectural decision](#architectural-decision-ad) made along with its context and consequences. [^AdrTemplates]
+
+See:
 
 - Architecture Decision Records [^AdrTemplates]
 - Architectural Decision Records [^AdrOrg]
@@ -2376,7 +2379,7 @@ Table: *Agile Principles and Architecture-centric View*
 | --------------------------------------------------------------------------------------------------------------------------------------------- | ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | The best architectures, requirements, and designs emerge from self-organizing teams.                                                          | No!    | No, they don’t. The best architectures are consciously designed by skilled, talented, trained, and experienced architects, as we describe in Chapter 20                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | The most efficient and effective method of conveying information to and within a development team is face-to-face conversation.               | No!    | This is nonsense for nontrivial systems. Humans invented writing because our brains can’t remember everything we need to remember. Interfaces, protocols, architectural structures, and more need to be written down, and the inefficiencies and ineffectiveness of repeated instruction and resulting errors from misunderstanding belie this principle. According to this argument, nobody should produce user manuals, but should just publish the developers’ phone numbers with an open invitation to call them anytime. This is also nonsense for any system that has a maintenance phase (that’s pretty much every system) in which the original team is nowhere to be found. With whom are you going to have that face- to-face conversation to learn important details? See Chapter 22 for our guidance in this matter. |
-| Business people and developers must work together daily throughout the project.                                                               | Mostly | Business goals lead to quality attribute requirements, which the architecture’s primary duty is to fulfill, as we discussed in Chapter 19.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| Business people and developers must work together daily throughout the project.                                                               | Mostly | Business goals lead to [quality attribute requirements](#quality-requirements), which the architecture’s primary duty is to fulfill, as we discussed in Chapter 19.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | Build projects around motivated individuals. Give them the environment and support they need, and trust them to get the job done.             | Mostly | While we agree in principle, many developers are inexperienced. So make sure to include a skilled, experienced, and motivated architect to help guide these individuals.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | Working software is the primary measure of progress.                                                                                          | Mostly | Yes, as long as “primary” is not taken to mean “only,” and as long as this principle is not used as an excuse to eliminate all work except coding.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | Simplicity — the art of maximizing the amount of work not done — is essential.                                                                | Mostly | Yes, of course, as long as it is understood that the work we are not doing can actually be jettisoned safely without detriment to the system being delivered.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
@@ -2480,7 +2483,7 @@ Note that the Scrum Master role is vastly different from the role played by the 
 
 #### Scrum Team
 
-**Scrum Team** is a group or team of people who are responsible for understanding the business requirements specified by the Product Owner, estimating User Stories, and final creation of the project deliverables.
+**Scrum Team** is a group or team of people who are responsible for understanding the business requirements specified by the Product Owner, estimating [User Stories](#user-stories), and final creation of the project deliverables.
 
 
 ### Non-core roles
@@ -2512,7 +2515,7 @@ It is usually best for team members to face problems directly with a cooperative
 
 #### Team lead
 
-At the start of the project, [architectural](#architectural-decision) and other technical decisions need to be made.
+At the start of the project, [architectural](#architectural-decision-ad) and other technical decisions need to be made.
 
 Meanwhile, the team may be in the [Forming](#tuckman-model) or [Storming](#tuckman-model) phase when disagreements occur relatively often. What if some of the [Scrum Core Team](#core-roles) members can't reach a consensus on a decision, even with the help of a Scrum Master?
 
@@ -2545,7 +2548,7 @@ Use this [template](https://docs.google.com/spreadsheets/d/13gyIubyAh7xs3t6kEXFN
 
 ## Work item hierarchy
 
-We use the following hierarchy of work items that are represented via issues of different types and pull requests [^WorkItemHierarchy].
+We use the following hierarchy of work items that are represented via [issues](#issues) of different types and [pull requests](#pull-requests) [^WorkItemHierarchy].
 
 ```mermaid
 graph LR
@@ -2737,7 +2740,9 @@ We defined two [milestones](https://github.com/inno-swp-2025/the-guide/milestone
 
 You can [copy](https://docs.github.com/en/issues/planning-and-tracking-with-projects/creating-projects/copying-an-existing-project) our projects and use them as templates.
 
-We [provide](https://github.com/orgs/inno-swp-2025/projects) projects for:
+Our projects are based on the [Work item hierarchy](#work-item-hierarchy).
+
+We provide projects ([link](https://github.com/orgs/inno-swp-2025/projects)) for:
 
 - [Roadmap Items](#project-roadmap)
 - [Product Backlog Items](#project-product-backlog)
@@ -2747,7 +2752,7 @@ We [provide](https://github.com/orgs/inno-swp-2025/projects) projects for:
 
 [Link](https://github.com/orgs/inno-swp-2025/projects/5)
 
-This project allows for planning and tracking the progress of type `Epic` issues.
+This project allows for planning and tracking the progress of [type `Epic`](#epic) issues.
 
 ### Limitations
 
@@ -2839,7 +2844,7 @@ An issue can be closed when it reaches the `Done` column.
 
 [Link](https://github.com/orgs/inno-swp-2025/projects/1)
 
-This project allows for estimation, planning, and tracking the progress of type `Backlog` issues.
+This project allows for estimation, planning, and tracking the progress of [type `Backlog`](#backlog) issues.
 
 Additionally, it visualizes connections between type `Backlog` issues and their parent type `Epic` issues.
 
@@ -2851,7 +2856,7 @@ Additionally, it visualizes connections between type `Backlog` issues and their 
 
 #### Custom fields (additional)
 
-- `Story Points` of type `Number` - estimate of a `Backlog` issue in Story Points.
+- `Story Points` of type `Number` - estimate of a `Backlog` issue in [Story Points](#story-points).
 - `Sprint` of type `Iteration` - a sprint that the issue belongs to.
 - `Priority` of type `Single select` - priority of an issue (see [Issue priority](#issue-priority)).
 
@@ -2935,7 +2940,7 @@ Shows planned schedule of working on type `Backlog` issues.
 
 [Link](https://github.com/orgs/inno-swp-2025/projects/2)
 
-This project allows for estimation, planning, and tracking the progress of type `Task` issues.
+This project allows for estimation, planning, and tracking the progress of [type `Task`](#task) issues.
 
 Additionally, it visualizes connections between type `Task` issues and their parent type `Backlog` issues.
 
