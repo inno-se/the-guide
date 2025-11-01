@@ -1216,12 +1216,8 @@ The presentation [rehearsal](#rehearsal) and the [talk](#talk) should also be ni
 1. Consider switching to a [monorepo](https://graphite.dev/guides/polyrepo-to-monorepo-migrations-guide).
 1. Create issue types similar to ours (see [Issue types](#issue-types)).
 1. Create issue labels similar to ours (see [Issue labels](#issue-labels)).
-1. Copy our projects (see [Projects](#projects)).
-1. Import the [.github](https://github.com/inno-swp-2025/.github) repo into your organization.
-1. Update templates in the `.github` repo.
-    - In [issue form templates](#issue-form-templates), update:
-      - `projects:` - to automatically add issues to your projects;
-      - `labels:` - to automatically create issues with your labels.
+1. Copy our [projects](#projects) (see [Copy projects](#copy-projects)).
+1. Copy our [templates](#templates) (see [Copy templates](#copy-templates)).
 1. Copy this `README` (that you read now) somewhere into your repo and modify it as necessary.
 1. Update all links (e.g., in `Project details` in your projects) to this `README` to point to your version.
 1. Adjust entry criteria specified in Scrum boards (see [Scrum boards](#scrum-boards)).
@@ -2702,6 +2698,14 @@ Our files include [issue form templates](#issue-form-templates) and [pull reques
 
 These templates can be used for creating new issues and pull requests in all organization repositories.
 
+### Copy templates
+
+1. Import the [.github](https://github.com/inno-swp-2025/.github) repo into your organization.
+1. Update templates in the `.github` repo.
+    - In [issue form templates](#issue-form-templates), update:
+      - `projects:` - to automatically add issues to your projects;
+      - `labels:` - to automatically create issues with your labels.
+
 ### Issue form templates
 
 The following templates are available:
@@ -2740,8 +2744,6 @@ We defined two [milestones](https://github.com/inno-swp-2025/the-guide/milestone
 
 [GitHub Projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects) are a tool for project management on GitHub.
 
-You can [copy](https://docs.github.com/en/issues/planning-and-tracking-with-projects/creating-projects/copying-an-existing-project) our projects and use them as templates.
-
 Our projects are based on the [Work item hierarchy](#work-item-hierarchy).
 
 We provide projects ([link](https://github.com/orgs/inno-swp-2025/projects)) for:
@@ -2749,6 +2751,10 @@ We provide projects ([link](https://github.com/orgs/inno-swp-2025/projects)) for
 - [Roadmap Items](#project-roadmap)
 - [Product Backlog Items](#project-product-backlog)
 - [Tasks](#project-tasks)
+
+### Copy projects
+
+[Copy](https://docs.github.com/en/issues/planning-and-tracking-with-projects/creating-projects/copying-an-existing-project) our projects and use them as templates to create projects in your organization.
 
 ## Project `Roadmap`
 
