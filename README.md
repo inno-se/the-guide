@@ -2548,7 +2548,9 @@ Use this [template](https://docs.google.com/spreadsheets/d/13gyIubyAh7xs3t6kEXFN
 
 ## Work item hierarchy
 
-We use the following hierarchy of work items that are represented via [issues](#issues) of different types and [pull requests](#pull-requests) [^WorkItemHierarchy].
+We use the folowing hierarchy of work items that are represented via [issues](#issues) and [pull requests](#pull-requests) [^WorkItemHierarchy].
+
+![Hierarchy](./assets/images/WorkItemHierarchy.drawio.png)
 
 ```mermaid
 graph LR
