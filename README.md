@@ -1211,6 +1211,10 @@ The presentation [rehearsal](#rehearsal) and the [talk](#talk) should also be ni
 
 - You demonstrated the final slide when you finished presenting.
 
+# Setup
+
+## Set up repositories
+
 1. [Create](https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/creating-a-new-organization-from-scratch) a GitHub organization.
 1. [Import](https://docs.github.com/en/migrations/importing-source-code/using-github-importer/importing-a-repository-with-github-importer) or [transfer](https://docs.github.com/en/repositories/creating-and-managing-repositories/transferring-a-repository) your repositories into your organization.
 1. Consider switching to a [monorepo](https://graphite.dev/guides/polyrepo-to-monorepo-migrations-guide).
