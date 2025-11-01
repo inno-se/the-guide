@@ -112,14 +112,9 @@ This repository provides a guide for managing the development of a software proj
   - produce poor quality work despite clear [acceptance criteria](#acceptance-criteria).
 - Ask course instructors to help [deal with free riders](#deal-with-free-riders).
 
-<!-- TOC ignore:true -->
+
+
 ## Table of contents
-
-<!-- TODO re-generate with huntertran.auto-markdown-toc -->
-
-<details><summary>Click to view</summary>
-
-<!-- TOC -->
 
 - [The Guide](#the-guide)
   - [TL;DR](#tldr)
@@ -405,9 +400,6 @@ This repository provides a guide for managing the development of a software proj
     - [Firefox](#firefox)
     - [Chrome](#chrome)
   - [References](#references)
-
-<!-- /TOC -->
-</details>
 
 # Glossary
 
