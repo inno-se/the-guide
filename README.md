@@ -151,6 +151,7 @@ This repository provides a guide for managing the development of a software proj
   - [Grading](#grading)
   - [Surviving a group project](#surviving-a-group-project)
   - [Deal with free riders](#deal-with-free-riders)
+- [Theory](#theory)
   - [Feedback loop](#feedback-loop)
     - [Use case](#use-case)
     - [Phases](#phases)
@@ -229,8 +230,7 @@ This repository provides a guide for managing the development of a software proj
     - [Why document architecture?](#why-document-architecture)
     - [How to document architecture?](#how-to-document-architecture)
   - [Work breakdown structure (WBS)](#work-breakdown-structure-wbs)
-    - [Theory](#theory)
-    - [Summary](#summary)
+    - [WBS Summary](#wbs-summary)
     - [Types of Decomposition](#types-of-decomposition)
     - [Styles](#styles)
     - [Project WBS](#project-wbs)
@@ -684,6 +684,7 @@ During the course, you should learn to:
   For example, write their new roles and responsibilities in the [Project Charter](#project-charter).
   
 - Communicate your agreements to the team.
+# Theory
 
 ## Feedback loop
 
@@ -1598,13 +1599,7 @@ and test plans and procedures etc. [[^Bck], p. 32]
 
 The WBS content depends on the project [life cycle](#software-development-life-cycle-sdlc) and the [software process framework](#software-process-framework) that dictates project activities [[^PracticeStandardForWbs], Sec 2.2, p. 14]
 
-### Theory
-
-See:
-
-- Practice Standard for Work Breakdown Structures, 3rd Edition. [^PracticeStandardForWbs]
-
-### Summary
+### WBS Summary
 
 In summary, the WBS: [[^PracticeStandardForWbs], Sec 2.7, p. 51]
 
