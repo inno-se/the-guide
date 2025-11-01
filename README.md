@@ -1948,7 +1948,7 @@ A QA scenario has six parts [[^QasOfSoftwareArchitecture], p. 28] [[^BckCh19], S
 
 ![QA scenario example (Availability)](./assets/QaScenarioExample.png)
 
-Examples:
+Examples from [^LlmAssistedAdd]:
 
 - [Hotel pricing system](https://github.com/otrebmuh/HotelPricingSystem/blob/433e061f712a8748fdf04a6f767752e12be2f4b9/Requirements/ArchitecturalDrivers.md#quality-attribute-scenarios)
 - [Event ticket booking system](https://github.com/otrebmuh/EventTicketSystem/blob/2a928d226d43704457ad5be46b1e6b80f5bca8cb/Requirements/QualityAttributeScenarios.md)
