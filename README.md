@@ -1220,7 +1220,7 @@ The presentation [rehearsal](#rehearsal) and the [talk](#talk) should also be ni
 1. Copy our [templates](#templates) (see [Copy templates](#copy-templates)).
 1. Copy this `README` (that you read now) somewhere into your repo and modify it as necessary.
 1. Update all links (e.g., in `Project details` in your projects) to this `README` to point to your version.
-1. Adjust entry criteria specified in Scrum boards (see [Scrum boards](#scrum-boards)).
+1. Update the [entry criteria](#entry-criteria) specified in Scrum boards in your projects.
 
 ## Knowledge base
 
@@ -2756,6 +2756,12 @@ We provide projects ([link](https://github.com/orgs/inno-swp-2025/projects)) for
 
 [Copy](https://docs.github.com/en/issues/planning-and-tracking-with-projects/creating-projects/copying-an-existing-project) our projects and use them as templates to create projects in your organization.
 
+### Entry criteria
+
+Columns of Scrum boards (views with layout `Board`) have entry criteria.
+
+Entry criteria for a column specify conditions that must all be satisfied before an issue can be moved to that column.
+
 ## Project `Roadmap`
 
 [Link](https://github.com/orgs/inno-swp-2025/projects/5)
@@ -2794,8 +2800,8 @@ Shows planned schedule of working on type `Epic` issues.
 
 ### View `Kanban`
 
-- Provides `Entry Criteria` in Kanban board column descriptions.
-- Shows status of type Epic issues.
+- Provides [entry criteria](#entry-criteria) in Scrum board column descriptions.
+- Shows status of type `Epic` issues.
 
 #### View options
 
@@ -2810,7 +2816,8 @@ Shows planned schedule of working on type `Epic` issues.
 
 #### Columns
 
-There are entry criteria for each column.
+There are [entry criteria](#entry-criteria) for each column.
+
 An issue can be closed when it reaches the `Done` column.
 
 ##### To Do
@@ -2870,7 +2877,7 @@ Additionally, it visualizes connections between type `Backlog` issues and their 
 
 ### View `Kanban`
 
-- Provides `Entry Criteria` in Kanban board column descriptions.
+- Provides [entry criteria](#entry-criteria) in Kanban board column descriptions.
 - Shows total `Story Points` per sprint.
 
 #### View options
@@ -2887,7 +2894,8 @@ Additionally, it visualizes connections between type `Backlog` issues and their 
   
 #### Columns
 
-There are entry criteria for each column.
+There are [entry criteria](#entry-criteria) for each column.
+
 An issue can be closed when it reaches the `Done` column.
 
 ##### To Do
@@ -2968,7 +2976,7 @@ Additionally, it visualizes connections between type `Task` issues and their par
 
 ### View `Kanban`
 
-- Provides `Entry Criteria` in Kanban board column descriptions.
+- Provides [entry criteria](#entry-criteria) in Kanban board column descriptions.
 - Shows total `Ideal Hours` per sprint.
 
 #### Settings
@@ -2985,7 +2993,8 @@ Additionally, it visualizes connections between type `Task` issues and their par
 
 #### Columns
 
-There are entry criteria for each column.
+There are [entry criteria](#entry-criteria) for each column.
+
 An issue can be closed when it reaches the `Done` column.
 
 ##### To Do
