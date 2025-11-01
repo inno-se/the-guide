@@ -2559,50 +2559,6 @@ We use the folowing hierarchy of work items that are represented via [issues](#i
 
 ![Hierarchy](./assets/images/WorkItemHierarchy.drawio.png)
 
-```mermaid
-graph LR
-    %% --- Style Definitions ---
-    
-    classDef styleEpicType fill:#211a18,stroke:#db6d28,color:#db6d28,font-size:15pt
-    classDef styleBacklogType fill:#242138,stroke:#ab7df8,color:#ab7df8,font-size:15pt
-    classDef styleTaskType fill:#272114,stroke:#c08d20,color:#c08d20,font-size:15pt
-    classDef stylePullRequestLabel fill:#238636,stroke:#238636,color:#cccccc,font-size:15pt
-
-    %% --- Main Hierarchy ---
-
-    subgraph Issues ["`**Work items**`"]
-        direction LR
-        
-        subgraph RoadmapItems ["`**Roadmap Items**`"]
-            subgraph EpicIssueType ["`**Issue type**`"]
-                EpicTypeLabel([Epic]):::styleEpicType
-            end
-        end
-
-        subgraph ProductBacklogItems ["`**Product Backlog Items**`"]
-            subgraph BacklogIssueType ["`**Issue type**`"]
-                BacklogType([Backlog]):::styleBacklogType
-            end
-        end
-
-        subgraph Tasks ["`**Tasks**`"]
-            subgraph TaskIssueType ["`**Issue type**`"]
-                TaskType([Task]):::styleTaskType
-            end
-        end
-
-        subgraph PullRequests ["`**Pull Requests**`"]
-            PullRequestLabel([fa:fa-code-pull-request Pull Request]):::stylePullRequestLabel
-        end
-
-        RoadmapItems -. "`**break down into**`" .-> ProductBacklogItems
-        ProductBacklogItems -. "`**break down into**`" .-> Tasks
-
-        Tasks -. "`**are completed by**`" .-> PullRequests
-        
-    end
-```
-
 ## Issues
 
 ### Sample issues
