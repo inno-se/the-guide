@@ -2602,7 +2602,7 @@ graph LR
 
 We pretend to develop a TikTok-like application.
 
-We created several [issues](https://github.com/inno-swp-2025/the-guide/issues) in the [inno-swp-2025/the-guide](https://github.com/inno-swp-2025/the-guide) repo.
+We created several [issues](https://github.com/inno-swp-2025/the-guide/issues) in the [inno-swp-2025/the-guide](https://github.com/inno-swp-2025/the-guide) repo using [issue form templates](#issue-form-templates).
 
 We assigned them types and connected them according to the [work item hierarchy](#work-item-hierarchy) to represent a [WBS](#wbs-and-issue-hierarchy).
 
@@ -2698,7 +2698,7 @@ The `PR: *` labels are automatically assigned to pull requests when you create p
 
 We store [default community health files](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file) in the [inno-swp-2025/.github](https://github.com/inno-swp-2025/.github) repo.
 
-Our files include issue form templates and pull request templates (see [docs](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/syntax-for-issue-forms)).
+Our files include [issue form templates](#issue-form-templates) and [pull request templates](#pull-request-templates) (see [docs](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/syntax-for-issue-forms)).
 
 These templates can be used for creating new issues and pull requests in all organization repositories.
 
