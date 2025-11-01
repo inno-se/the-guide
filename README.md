@@ -261,7 +261,7 @@ This repository provides a guide for managing the development of a software proj
     - [Quality requirements](#quality-requirements)
     - [Quality models](#quality-models)
     - [Quality attribute scenario (QAS)](#quality-attribute-scenario-qas)
-    - [Quality attribute scenario tests (QASTs)](#quality-attribute-scenario-tests-qasts)
+    - [Quality attribute scenario test (QAST)](#quality-attribute-scenario-test-qast)
   - [Quality assurance](#quality-assurance)
     - [When is software ready for release?](#when-is-software-ready-for-release)
     - [Verification and validation of software](#verification-and-validation-of-software)
@@ -1953,6 +1953,11 @@ Examples:
 - [Hotel pricing system](https://github.com/otrebmuh/HotelPricingSystem/blob/433e061f712a8748fdf04a6f767752e12be2f4b9/Requirements/ArchitecturalDrivers.md#quality-attribute-scenarios)
 - [Event ticket booking system](https://github.com/otrebmuh/EventTicketSystem/blob/2a928d226d43704457ad5be46b1e6b80f5bca8cb/Requirements/QualityAttributeScenarios.md)
 
+### Quality attribute scenario test (QAST)
+
+A QAST for a QAS is a realistic test that proves that the QAS is testable.
+
+Describe one or more [[^SoftwareQualityVerificationAndValidation], p. 19] QASTs for each QAS.
 
 ## Quality assurance
 
