@@ -21,7 +21,7 @@ This repository provides a guide for managing the development of a software proj
 
 - Identify stakeholders (usually course instructors and customer).
 - Capture their high-level functional and non-functional requirements, business goals, constraints.
-- Derive architecturally significant requirements (ASRs) in the [Quality Attribute Scenario](#quality-attribute-scenarios-qa-scenarios) format.
+- Derive architecturally significant requirements (ASRs) in the [Quality Attribute Scenario](#quality-attribute-scenario-qas) format.
 - Design a high-level architecture that satisfies the ASRs.
 - For each ASR, explain how exactly you're going to test it (you may need to detail the architecture for this task).
 - Based on the architecture, split the work into epics, backlog items, and tasks.
@@ -1410,8 +1410,7 @@ Ask questions from the script.
 Extract requirements from the recording and notes (e.g., using an LLM):
 
 - functional requirements as [user stories](#user-stories).
-- QA requirements as [QA scenarios](#quality-attribute-scenarios-qa-scenarios)
-
+- [quality requirements](#quality-requirements) as [QA scenarios](#quality-attribute-scenario-qas)
 
 ## Architecture
 
@@ -1500,7 +1499,7 @@ Always keep a channel open to the key stakeholders who determine the [ASRs](#arc
 
 Interviewing the relevant stakeholders is the surest way to learn what they know and need. [[^BckCh19], Sec. 19.2, p. 280]
 
-During QAW, facilitators identify and clarify [architectural drivers](#architectural-drivers) with stakeholders and the architect and then help stakeholders generate, prioritize, and refine [QA scenarios](#quality-attribute-scenarios-qa-scenarios) based on these drivers [[^BckCh19], Sec. 19.2, pp. 279-281]
+During QAW, facilitators identify and clarify [architectural drivers](#architectural-drivers) with stakeholders and the architect and then help stakeholders generate, prioritize, and refine [QA scenarios](#quality-attribute-scenario-qas) based on these drivers [[^BckCh19], Sec. 19.2, pp. 279-281]
 
 ### Utility tree
 
@@ -1914,7 +1913,7 @@ The more difficult and important the quality requirement, the more likely it is 
 
 Thresholds for acceptable quality [measurements](#measurement) should be set for each software quality requirement based on stakeholder needs and expectations. [[^Swebok], Sec. 2.6, p. 1-1]
 
-Quality requirements should be expressed as [QA scenarios](#quality-attribute-scenarios-qa-scenarios).
+Quality requirements should be expressed as [QA scenarios](#quality-attribute-scenario-qas).
 
 Quality requirements should be prioritized in a [utility tree](#utility-tree).
 
@@ -1926,9 +1925,9 @@ There are various quality models [^SoftwareQualityModels]. Examples:
 
 <!-- TODO group "commonly used" or "recommended" -->
 - The ***ISO 25010*** quality model [^Iso25010] provides generic definitions of quality attributes (aka ***quality characteristics*** and ***quality sub-characteristics***).
-- The ***Q42*** quality model [^Q42] shows a wider range of quality attributes (aka ***qualities***) and quality requirement examples [^QualityRequirementExamplesArc42], many of which are in the [quality attribute scenario](#quality-attribute-scenarios-qa-scenarios) format.
+- The ***Q42*** quality model [^Q42] shows a wider range of quality attributes (aka ***qualities***) and quality requirement examples [^QualityRequirementExamplesArc42], many of which are in the [quality attribute scenario](#quality-attribute-scenario-qas) format.
 
-### Quality attribute scenarios (QA scenarios)
+### Quality attribute scenario (QAS)
 
 QA scenarios are a way to write unambiguous testable [quality requirements](#quality-requirements) [[^BckCh19], Sec. 3.3, p. 42].
 
