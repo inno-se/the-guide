@@ -359,7 +359,7 @@ This repository provides a guide for managing the development of a software proj
     - [Limitations](#limitations)
     - [Project settings](#project-settings)
       - [Custom fields (additional)](#custom-fields-additional)
-    - [View `Timeline`](#view-timeline)
+    - [View `Gantt`](#view-gantt)
       - [View options](#view-options)
     - [View `Board`](#view-board)
       - [View options](#view-options-1)
@@ -379,7 +379,7 @@ This repository provides a guide for managing the development of a software proj
         - [In Progress](#in-progress-1)
         - [Deploying to Production](#deploying-to-production)
         - [Done](#done-1)
-    - [View `Timeline`](#view-timeline-1)
+    - [View `Gantt`](#view-gantt-1)
       - [View options](#view-options-3)
   - [Project `Tasks`](#project-tasks)
     - [Limitations](#limitations-2)
@@ -395,7 +395,7 @@ This repository provides a guide for managing the development of a software proj
         - [Done](#done-2)
     - [View `With Parents`](#view-with-parents)
       - [Settings](#settings-1)
-    - [View `Timeline`](#view-timeline-2)
+    - [View `Gantt`](#view-gantt-2)
       - [Settings](#settings-2)
   - [Shadow libraries](#shadow-libraries)
   - [Local library](#local-library)
@@ -2775,7 +2775,7 @@ This project allows for planning and tracking the progress of [type `Epic`](#epi
 - `Finish` of type `Date` - (planned) date of finishing the work on an issue.
 - `Priority` of type `Single select` - priority of an issue (see [Issue priority](#issue-priority)).
 
-### View `Timeline`
+### View `Gantt`
 
 Shows planned schedule of working on type `Epic` issues.
 
@@ -2930,7 +2930,7 @@ An issue can be closed when it reaches the `Done` column.
 * All acceptance criteria specified in the issue were met in the production environment.
 ```
 
-### View `Timeline`
+### View `Gantt`
 
 Shows planned schedule of working on type `Backlog` issues.
 
@@ -3060,7 +3060,7 @@ B) If no PR was required to complete the issue: All acceptance criteria specifie
   - Fields sum: `Count`, `Ideal Hours`.
   - Slice by: `Parent issue`.
 
-### View `Timeline`
+### View `Gantt`
 
 - Shows type `Task` issues distributed by sprints on a timeline.
 - `Date fields` are set to `Sprint start` and `Sprint end`.
