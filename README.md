@@ -128,6 +128,7 @@ This repository provides a guide for managing the development of a software proj
   - [fact](#fact)
   - [just barely good enough (JBGE)](#just-barely-good-enough-jbge)
   - [measurement](#measurement)
+  - [pull request (PR)](#pull-request-pr)
   - [the Pyramid Principle](#the-pyramid-principle)
   - [record](#record)
   - [relative estimating](#relative-estimating)
@@ -446,6 +447,12 @@ See also [TAGRI](#they-aint-gonna-read-it-tagri).
 ## measurement
 
 Measurement is the quantification [^QuantificationWiki] of attributes of an object or event, which can be used to compare with other objects or events. [^MeasurementWiki]
+
+## pull request (PR)
+
+*noun*
+
+A pull request is a proposal to merge a set of changes from one branch into another. [^AboutPR]
 
 ## the Pyramid Principle
 
