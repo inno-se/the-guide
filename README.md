@@ -375,7 +375,7 @@ This repository provides a guide for managing the development of a software proj
       - [Columns](#columns-1)
         - [To Do](#to-do-1)
         - [In Progress](#in-progress-1)
-        - [Ready To Deploy](#ready-to-deploy)
+        - [Deploying to Production](#deploying-to-production)
         - [Done](#done-1)
     - [View `Timeline`](#view-timeline-1)
       - [View options](#view-options-3)
@@ -2892,7 +2892,7 @@ An issue can be closed when it reaches the `Done` column.
 * The issue was added to the current sprint.
 ```
 
-##### Ready To Deploy
+##### Deploying to Production
 
 ```text
 [Entry Criteria]
