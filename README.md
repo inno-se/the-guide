@@ -2992,32 +2992,34 @@ An issue can be closed when it reaches the `Done` column.
 * If necessary, a branch for the issue was created via the "create a branch" button on the issue page.
 ```
 
-##### Ready For Review
+##### In Review
 
 ```text
 [Entry Criteria]
-* A pull request for the issue was created using a relevant template.
-* Implementation in the pull request was completed.
-* The "main" branch was merged into the pull request branch.
-* CI pipeline with automated tests succeeded on the pull request branch.
-* All sections in the pull request description were updated to match implementation.
-* A review of the pull request was requested.
+* A PR for the issue was created using a relevant template.
+* Implementation in the PR was completed.
+* The "main" branch was merged into the PR branch.
+* CI pipeline with automated tests succeeded on the PR branch.
+* All sections in the PR description were updated to match implementation.
+* A review of the PR was requested.
 ```
 
 ##### Ready to Merge
 
 ```text
 [Entry Criteria]
-* All acceptance criteria specified in the issue were met on the pull request branch.
-* The pull request was approved.
+* All acceptance criteria specified in the issue were met on the PR branch.
+* The PR was approved.
 ```
 
 ##### Done
 
 ```text
 [Entry Criteria]
-* The pull request was merged into the main branch.
-* If no pull request was required to complete the issue: All acceptance criteria specified in the issue were met.
+A) If there was a PR:
+* All acceptance criteria specified in the issue were met on the PR branch.
+* The PR was approved and merged into the main branch.
+B) If no PR was required to complete the issue: All acceptance criteria specified in the issue were met.
 ```
 
 ### View `With Parents`
