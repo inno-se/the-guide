@@ -24,7 +24,7 @@ This repository provides a guide for managing the development of a software proj
 - Derive architecturally significant requirements (ASRs) in the [Quality Attribute Scenario](#quality-attribute-scenario-qas) format.
 - Design a high-level architecture that satisfies the ASRs.
 - For each ASR, explain how exactly you're going to test it (you may need to detail the architecture for this task).
-- Based on the architecture, split the work into epics, backlog items, and tasks.
+- Based on the architecture, split the work into epics, product backlog items, and tasks.
 - Plan the work for several sprints using a [Scrum board](#scrum-board).
 - Assign tasks and set deadlines.
 - Keep stakeholders informed about your decisions and progress.
