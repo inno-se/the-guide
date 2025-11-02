@@ -361,7 +361,7 @@ This repository provides a guide for managing the development of a software proj
       - [Custom fields (additional)](#custom-fields-additional)
     - [View `Timeline`](#view-timeline)
       - [View options](#view-options)
-    - [View `Kanban`](#view-kanban)
+    - [View `Board`](#view-board)
       - [View options](#view-options-1)
       - [Columns](#columns-1)
         - [To Do](#to-do)
@@ -372,7 +372,7 @@ This repository provides a guide for managing the development of a software proj
     - [Limitations](#limitations-1)
     - [Project settings](#project-settings-1)
       - [Custom fields (additional)](#custom-fields-additional-1)
-    - [View `Kanban`](#view-kanban-1)
+    - [View `Board`](#view-board-1)
       - [View options](#view-options-2)
       - [Columns](#columns-2)
         - [To Do](#to-do-1)
@@ -385,7 +385,7 @@ This repository provides a guide for managing the development of a software proj
     - [Limitations](#limitations-2)
     - [Project settings](#project-settings-2)
       - [Custom fields (additional)](#custom-fields-additional-2)
-    - [View `Kanban`](#view-kanban-2)
+    - [View `Board`](#view-board-2)
       - [Settings](#settings)
       - [Columns](#columns-3)
         - [To Do](#to-do-2)
@@ -2793,7 +2793,7 @@ Shows planned schedule of working on type `Epic` issues.
 - User settings:
   - [x] Show date fields.
 
-### View `Kanban`
+### View `Board`
 
 - Provides [entry criteria](#entry-criteria) in [Scrum board](#scrum-board) column descriptions.
 - Shows status of type `Epic` issues.
@@ -2870,9 +2870,9 @@ Additionally, it visualizes connections between type `Backlog` issues and their 
 - `Sprint` of type `Iteration` - a sprint that the issue belongs to.
 - `Priority` of type `Single select` - priority of an issue (see [Issue priority](#issue-priority)).
 
-### View `Kanban`
+### View `Board`
 
-- Provides [entry criteria](#entry-criteria) in Kanban board column descriptions.
+- Provides [entry criteria](#entry-criteria) in the board column descriptions.
 - Shows total `Story Points` per sprint.
 
 #### View options
@@ -2969,9 +2969,9 @@ Additionally, it visualizes connections between type `Task` issues and their par
 - `Start` of type `Date` - (planned) date of starting the work on an issue.
 - `Finish` of type `Date` - (planned) date of finishing the work on an issue.
 
-### View `Kanban`
+### View `Board`
 
-- Provides [entry criteria](#entry-criteria) in Kanban board column descriptions.
+- Provides [entry criteria](#entry-criteria) in the board column descriptions.
 - Shows total `Ideal Hours` per sprint.
 
 #### Settings
