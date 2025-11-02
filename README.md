@@ -25,7 +25,7 @@ This repository provides a guide for managing the development of a software proj
 - Design a high-level architecture that satisfies the ASRs.
 - For each ASR, explain how exactly you're going to test it (you may need to detail the architecture for this task).
 - Based on the architecture, split the work into epics, backlog items, and tasks.
-- Plan the work for several sprints using a Scrum board.
+- Plan the work for several sprints using a [Scrum board](#scrum-board).
 - Assign tasks and set deadlines.
 - Keep stakeholders informed about your decisions and progress.
 - Use architecture, processes, and tools that help you achieve that quality.
@@ -2732,11 +2732,30 @@ We provide projects ([link](https://github.com/orgs/inno-swp-2025/projects)) for
 
 [Copy](https://docs.github.com/en/issues/planning-and-tracking-with-projects/creating-projects/copying-an-existing-project) our projects and use them as templates to create projects in your organization.
 
-### Entry criteria
+### Scrum board
 
-Columns of Scrum boards (views with layout `Board`) have entry criteria.
+Scrum boards are GitHub project views with the layout `Board`.
 
-Entry criteria for a column specify conditions that must all be satisfied before an issue can be moved to that column.
+Examples:
+
+- [Product Backlog Items](https://github.com/orgs/inno-se/projects/1/views/1)
+- [Tasks](https://github.com/orgs/inno-se/projects/2/views/1)
+
+#### Columns
+
+Columns represent stages that an issue should go through.
+
+At each stage, a specific process should happen that enables moving the issue to the next column.
+
+Define your own process for each stage.
+
+#### Entry criteria
+
+Entry criteria for a column specify conditions that must all be satisfied before an issue can be moved to that column so that the associated process can start.
+
+Entry criteria for the next column are exit criteria for a process associated with the current column.
+
+The design is inspired by the ETVX process model [[^GqmGuide], Sec. 6.3, p. 59].
 
 ## Project `Roadmap`
 
@@ -2776,7 +2795,7 @@ Shows planned schedule of working on type `Epic` issues.
 
 ### View `Kanban`
 
-- Provides [entry criteria](#entry-criteria) in Scrum board column descriptions.
+- Provides [entry criteria](#entry-criteria) in [Scrum board](#scrum-board) column descriptions.
 - Shows status of type `Epic` issues.
 
 #### View options
