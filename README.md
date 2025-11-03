@@ -2409,7 +2409,7 @@ Table: *Agile Principles and Architecture-centric View*
 Legend:
 
 - *Agree?* - whether the book [^Bck] authors agree with the principle.
-- *Agile Principle* - a principle [^AgileManifestoPrinciple] behind the Agile Manifesto [^AgileManifesto].
+- *Agile Principle* - a principle [^AgileManifestoPrinciples] behind the Agile Manifesto [^AgileManifesto].
 - *Architecture-centric View* - the book [^Bck] authors' comment on the principle from the architecture-centric point of view.
 
 ## Agile Model Driven Development (AMDD)
