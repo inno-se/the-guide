@@ -2583,7 +2583,11 @@ Use this [template](https://docs.google.com/spreadsheets/d/13gyIubyAh7xs3t6kEXFN
 
 ## Work item hierarchy
 
-We use the folowing hierarchy of work items that are represented via [issues](#issues) and [pull requests](#pull-requests) [^WorkItemHierarchy].
+We use a hierarchy of work items that are represented via [issues](#issues) and [pull requests](#pull-requests).
+
+We use a hierarchy as a form of a [work breakdown structure](#work-breakdown-structure-wbs).
+
+The hierarchy was adapted from [^AzureBoardsScrumProcess].
 
 ![Hierarchy](./assets/images/WorkItemHierarchy.drawio.png)
 
@@ -3126,7 +3130,7 @@ Paywalled books and articles are usually available in shadow libraries such as:
 
 ## References
 
-[^WorkItemHierarchy]: Adapted from <https://learn.microsoft.com/en-us/azure/devops/boards/backlogs/define-features-epics?view=azure-devops&tabs=scrum-process#portfolio-backlogs>
+[^AzureBoards]: Portfolio backlogs - Scrum process <https://learn.microsoft.com/en-us/azure/devops/boards/backlogs/define-features-epics?view=azure-devops&tabs=scrum-process#portfolio-backlogs>
 [^Milestones]: What are project milestones: benefits and examples <https://www.atlassian.com/blog/project-management/project-milestones>
 [^MilestonesVsSprints]: Sprint vs milestone vs release <https://pm.stackexchange.com/questions/22510/sprint-vs-milestone-vs-release>
 [^Bck]: Software Architecture in Practice, 4th Edition by L. Bass, P. Clements, and R. Kazman. ([File](./assets/pdfs/SoftwareArchitectureInPracticeEdition4.pdf))
