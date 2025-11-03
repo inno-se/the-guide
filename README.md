@@ -1588,6 +1588,23 @@ Finally, remember as you are documenting that your design may eventually be anal
 
 ### How to document architecture?
 
+See:
+
+- Scope of software architectures [^ArchitectureScope]
+- [^Bck], Chapter 22 - Documenting an Architecture
+- *Initial Architecture Modeling* [^InitialArchitectureModeling]
+- [Tools for visualizing architecture](#tools-for-visualizing-architecture)
+- [Architectural decisions](#architectural-decision-ad)
+
+Examples:
+
+- [Hotel Pricing System](https://github.com/otrebmuh/HotelPricingSystem/blob/433e061f712a8748fdf04a6f767752e12be2f4b9/Design/Architecture.md)
+- [Event Ticket Booking System](https://github.com/otrebmuh/EventTicketSystem/blob/2a928d226d43704457ad5be46b1e6b80f5bca8cb/Design/Architecture.md#3-architectural-drivers)
+
+A software system architecture is a set of architectural design decisions [^ArchitecturalDecision] about how the system should work.
+These decisions should make the system to have specific properties (e.g., security) required by stakeholders.
+One of the most important things about a decision is the reason why that decision was made.
+
 ## Work breakdown structure (WBS)
 
 The WBS is a hierarchical decomposition of the total scope of work to be carried out by the project team to accomplish the project objectives and create the required deliverables [[^Pmbok], Sec. 2.6.2.2, p. 84].
