@@ -2434,10 +2434,10 @@ Scrum works not because it has three [roles](#core-roles), five [events](#events
 
 ### Scrum theory
 
-- [Scrum in a Nutshell](https://youtu.be/502ILHjX9EE) (~15 minutes);
-- [What is Professional Scrum](https://youtu.be/BYlv7eP9zgg) (~7 minutes);
-- *The 2020 Scrum Guide* [^ScrumGuide];
-- *Using Agile in Project Management* [^UsingAgileInProjectManagement];
+- *The 2020 Scrum Guide* [^ScrumGuide]
+- [Scrum in a Nutshell](https://youtu.be/502ILHjX9EE) (~15 minutes)
+- [What is Professional Scrum](https://youtu.be/BYlv7eP9zgg) (~7 minutes)
+- *Using Agile in Project Management* [^UsingAgileInProjectManagement]
 - *SBOK® (Scrum Body of Knowledge) Guide* [^SbokGuide];
 
 ### Process
