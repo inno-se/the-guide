@@ -3111,13 +3111,13 @@ Paywalled books and articles are usually available in shadow libraries such as:
 [^WorkItemHierarchy]: Adapted from <https://learn.microsoft.com/en-us/azure/devops/boards/backlogs/define-features-epics?view=azure-devops&tabs=scrum-process#portfolio-backlogs>
 [^Milestones]: What are project milestones: benefits and examples <https://www.atlassian.com/blog/project-management/project-milestones>
 [^MilestonesVsSprints]: Sprint vs milestone vs release <https://pm.stackexchange.com/questions/22510/sprint-vs-milestone-vs-release>
-[^Bck]: Software Architecture in Practice, 4th Edition by L. Bass, P. Clements, and R. Kazman. ([File](./assets/SoftwareArchitectureInPracticeEdition4.pdf))
-[^QasOfSoftwareArchitecture]: Quality attributes of software architectures <https://www.cs.unibo.it/cianca/wwwpages/as/5.pdf#page=26> ([File](./assets/QualityAttributesOfSoftwareArchitectures.pdf))
+[^Bck]: Software Architecture in Practice, 4th Edition by L. Bass, P. Clements, and R. Kazman. ([File](./assets/pdfs/SoftwareArchitectureInPracticeEdition4.pdf))
+[^QasOfSoftwareArchitecture]: Quality attributes of software architectures <https://www.cs.unibo.it/cianca/wwwpages/as/5.pdf#page=26> ([File](./assets/pdfs/QualityAttributesOfSoftwareArchitectures.pdf))
 [^Swebok]: SWEBOK v4: Guide to the Software Engineering Body of Knowledge v4.0a <https://ieeecs-media.computer.org/media/education/swebok/swebok-v4.pdf> ([File](./assets/SwebokGuideEditionV4.0a.pdf))
 [^Iso25010]: The ISO/IEC 25010 quality model <https://iso25000.com/index.php/en/iso-25000-standards/iso-25010>
 [^Q42]: The arc42 quality model <https://quality.arc42.org/>
 <!-- TODO rename to Sap -->
-[^BckCh19]: ***Software Architecture in Practice*** [^Bck], Chapter 19 ([File](./assets/BckCh19.pdf))
+[^BckCh19]: ***Software Architecture in Practice*** [^Bck], Chapter 19 ([File](./assets/pdfs/BckCh19.pdf))
 [^ProjectCharter]: How To Write A Good Project Charter: Templates and Examples <https://planyway.com/blog/project-charter-elements>
 [^ProjectManagementGuide]: <https://planyway.com/blog/project-management-guide>
 [^TheMomTest]: Summary of the book ***The Mom Test*** <https://durmonski.com/book-summaries/the-mom-test/>
@@ -3125,7 +3125,7 @@ Paywalled books and articles are usually available in shadow libraries such as:
 [^AdrTemplates]: Architecture decision record (ADR) examples for software planning, IT leadership, and template documentation <https://github.com/joelparkerhenderson/architecture-decision-record>
 [^AdrOrg]: Architectural Decision Records <https://adr.github.io/>
 [^RequirementsAgile]: Agile approach and PEGS <https://requirements.university/faq.html#agile>
-[^HandbookRequirements]:  Handbook of Requirements and Business Analysis <https://link.springer.com/book/10.1007/978-3-031-06739-6> ([File](./assets/HandbookOfRequirementsAndBusinessAnalysis.pdf))
+[^HandbookRequirements]:  Handbook of Requirements and Business Analysis <https://link.springer.com/book/10.1007/978-3-031-06739-6> ([File](./assets/pdfs/HandbookOfRequirementsAndBusinessAnalysis.pdf))
 [^UserStoriesWiki]: User Story on Wikipedia <https://en.wikipedia.org/wiki/User_story>
 [^GivenWhenThen]: Given-When-Then format for acceptance criteria <https://en.wikipedia.org/wiki/Given-When-Then>
 [^SETeamProjectProblems]: Software engineering team project courses with industrial customers: Students’ insights on challenges and lessons learned <https://www.sciencedirect.com/science/article/pii/S0164121225001098>
@@ -3134,7 +3134,7 @@ Paywalled books and articles are usually available in shadow libraries such as:
 [^ThePdsaCycle]: The PDSA Cycle <https://deming.org/explore/pdsa/>
 [^CirclingBack]: Circling Back <https://deming.org/wp-content/uploads/2020/06/circling-back.pdf>
 [^TheoryWiki]: Scientific theory <https://en.wikipedia.org/wiki/Scientific_theory>
-[^TheImprovementGuide]: Langley GL, Moen R, Nolan KM, Nolan TW, Norman CL, Provost LP. The Improvement Guide: A Practical Approach to Enhancing Organizational Performance (2nd Edition). San Francisco: Jossey-Bass Publishers; 2009. ([File](./assets/TheImprovementGuideEdition2.pdf))
+[^TheImprovementGuide]: Langley GL, Moen R, Nolan KM, Nolan TW, Norman CL, Provost LP. The Improvement Guide: A Practical Approach to Enhancing Organizational Performance (2nd Edition). San Francisco: Jossey-Bass Publishers; 2009. ([File](./assets/pdfs/TheImprovementGuideEdition2.pdf))
 [^DesignExperimentWiki]: Design of experiments <https://en.wikipedia.org/wiki/Design_of_experiments>
 [^ExperimentTypesWiki]: Experiment types <https://en.wikipedia.org/wiki/Experiment#Types>
 [^TheoryAsModelWiki]: Theories as models <https://en.wikipedia.org/wiki/Scientific_theory#Theories_as_models>
@@ -3147,7 +3147,7 @@ Paywalled books and articles are usually available in shadow libraries such as:
 [^MeasurementWiki]: Measurement <https://en.wikipedia.org/wiki/Measurement>
 [^PdcaVsPdsa]: Plan Do Check Act (PDCA) vs. Plan Do Study Act (PDSA): What’s the Difference? <https://qualityandinnovation.com/2011/08/26/pdca-vs-pdsa-whats-the-difference/>
 [^TheoryOfKnowledgePdsa]: Theory of Knowledge/PDSA <https://www.youtube.com/watch?v=dgazCOz_IIY>
-[^SbokGuide]: SBOK® Guide ([File](./assets/SbokGuideEdition5.pdf)) <https://www.scrumstudy.com/sbokguide/download-free-buy-sbok>
+[^SbokGuide]: SBOK® Guide ([File](./assets/pdfs/SbokGuideEdition5.pdf)) <https://www.scrumstudy.com/sbokguide/download-free-buy-sbok>
 [^WhatIsScrum]: What is Scrum? <https://www.scrum.org/learning-series/what-is-scrum/what-is-scrum>
 [^UsingAgileInProjectManagement]: Using Agile in Project Management <https://www.scrum.org/resources/blog/using-agile-project-management>
 [^TheThreePillarsOfEmpiricismScrum]: The Three Pillars of Empiricism (Scrum) <https://www.scrum.org/resources/blog/three-pillars-empiricism-scrum>
@@ -3175,20 +3175,21 @@ Paywalled books and articles are usually available in shadow libraries such as:
 [^HowToWriteKeyTakeawaySlides]: How to Write Key Takeaway Slides <https://slideworks.io/resources/how-to-write-key-takeaway-slides-with-examples-and-free-template>
 [^EffectivePresentationSlides]: Ten simple rules for effective presentation slides <https://pmc.ncbi.nlm.nih.gov/articles/PMC8638955/>
 [^HandlingAudienceQuestions]: Handling Audience Questions <https://sheridancollege.libguides.com/psb-presentation-skills-module/delivering-your-presentation/handling-audience-questions>
-[^SoftwareEngineeringPractitionersApproach]: Pressman. R. Software Engineering: A Practitioner's Approach, Edition 7. McGraw-Hill ([File](./assets/SoftwareEngineeringPractitionersApproach.pdf))
-[^LlmAssistedAdd]: An LLM-assisted approach to designing software architectures using ADD ([File](./assets/LlmAssisted.pdf)) <https://www.arxiv.org/abs/2506.22688>
+[^SoftwareEngineeringPractitionersApproach]: Pressman. R. Software Engineering: A Practitioner's Approach, Edition 7. McGraw-Hill ([File](./assets/pdfs/SoftwareEngineeringPractitionersApproach.pdf))
+[^LlmAssistedAdd]: An LLM-assisted approach to designing software architectures using ADD ([File](./assets/pdfs/LlmAssisted.pdf)) <https://www.arxiv.org/abs/2506.22688>
 [^EtiquetteTipsForUsingChatAtWork]: 8 Etiquette Tips for Using Chat at Work <https://taskworld.com/blog/8-etiquette-tips-for-using-chat-at-work/>
 [^The14CommandmentsOfTextingEtiquette]: The 14 Commandments of Texting Etiquette <https://www.userlike.com/en/blog/texting-etiquette>
 [^HowToHelpStudentsResolveTeamConflict]: How to help students resolve team conflict <https://www.curaeducation.com/best-practice/how-to-help-students-resolve-team-conflict>
 [^ThresholdOfSuccess]:  Threshold of Success <https://www.neverletdown.net/2010/01/threshold-of-success.html>
 [^SmartCriteriaWiki]: SMART criteria <https://en.wikipedia.org/wiki/SMART_criteria>
 [^HowToUseAcceptanceCriteria]: How to Use Acceptance Criteria? <https://www.scrum.org/resources/blog/how-use-acceptance-criteria>
-[^Pmbok]: Project Management Institute. (2021). A guide to the Project Management Body of Knowledge (PMBOK guide) (7th ed.). Project Management Institute. ([File](./assets/PmbokGuideEdition7.pdf))
+<!-- TODO rename to PmbokGuide -->
+[^Pmbok]: Project Management Institute. (2021). A guide to the Project Management Body of Knowledge (PMBOK guide) (7th ed.). Project Management Institute. ([File](./assets/pdfs/PmbokGuideEdition7.pdf))
 [^WhySomeStudentsStruggleWithGroupWork]: Why Some Students Struggle with Group Work <https://www.facultyfocus.com/articles/course-design-ideas/why-some-students-struggle-with-group-work/>
 [^WhyHaveTeamLead]: Why should you have a Team Lead in a Scrum team? <https://nicolae-andronic.medium.com/why-should-you-have-a-team-lead-in-a-scrum-team-36e88e26a4c2>
 [^TuckmanModelForAgileTeams]: Forming, Storming, Norming and Performing for Agile teams <https://www.scrum.org/resources/blog/forming-storming-norming-and-performing-agile-teams>
 [^InitialArchitectureModeling]: Agile Architecture Envisioning: An Agile Core Practice <https://agilemodeling.com/essays/initialArchitectureModeling.htm>
-[^PracticeStandardForWbs]: Practice Standard for Work Breakdown Structures, 3rd Edition. ([File](./assets/PracticeStandardForWbs.pdf))
+[^PracticeStandardForWbs]: Practice Standard for Work Breakdown Structures, 3rd Edition. ([File](./assets/pdfs/PracticeStandardForWbs.pdf))
 [^ProjectNetworkWiki]: Project network <https://en.wikipedia.org/wiki/Project_network>
 [^AgileImprovementsToCpm]: Agile Improvements to Critical Path Method <https://calhoun.nps.edu/server/api/core/bitstreams/ece19976-6629-4745-94a1-3fc98c5924c6/content>
 [^WhatIsNetworkDiagramWrike]: What Is a Network Diagram in Project Management? <https://www.wrike.com/project-management-guide/faq/what-is-a-network-diagram-in-project-management/>
@@ -3202,9 +3203,9 @@ Paywalled books and articles are usually available in shadow libraries such as:
 [^AwesomeFormalVerification]: Awesome Formal Verification <https://github.com/ElNiak/awesome-formal-verification>
 [^WhatIsSoftwareTestingIbm]: What is software testing?  <https://www.ibm.com/think/topics/software-testing>
 [^SoftwareTestingWiki]: Software testing <https://en.wikipedia.org/wiki/Software_testing>
-[^DesigningSoftwareArchitectures]: Designing Software Architectures: A Practical Approach, 2nd Edition, by Humberto Cervantes and Rick Kazman ([File](./assets/DesigningSoftwareArchitecturesAPracticalApproachEdition2.pdf)) <https://www.sei.cmu.edu/library/designing-software-architectures-a-practical-approach/>
+[^DesigningSoftwareArchitectures]: Designing Software Architectures: A Practical Approach, 2nd Edition, by Humberto Cervantes and Rick Kazman ([File](./assets/pdfs/DesigningSoftwareArchitecturesAPracticalApproachEdition2.pdf)) <https://www.sei.cmu.edu/library/designing-software-architectures-a-practical-approach/>
 [^HowToBounceBackFromBadGroupProject]: How to Bounce Back From a Bad Group Project <https://www.ourcollegepath.com/2025/07/how-to-bounce-back-from-bad-group.html>
-[^AnArchitectingBok]: Hunt et al., An Architecting Book of Knowledge (BoK) to Improve Architectural Decision-Making, INCOSE, 2025 ([File](./assets/AnArchitectingBok.pdf)) <https://www.researchgate.net/profile/Alejandro-Salado/publication/394253598_An_Architecting_Book_of_Knowledge_BoK_to_Improve_Architectural_Decision-Making/links/688f3c047b62e240dd32c5c0/An-Architecting-Book-of-Knowledge-BoK-to-Improve-Architectural-Decision-Making.pdf>
+[^AnArchitectingBok]: Hunt et al., An Architecting Book of Knowledge (BoK) to Improve Architectural Decision-Making, INCOSE, 2025 ([File](./assets/pdfs/AnArchitectingBok.pdf)) <https://www.researchgate.net/profile/Alejandro-Salado/publication/394253598_An_Architecting_Book_of_Knowledge_BoK_to_Improve_Architectural_Decision-Making/links/688f3c047b62e240dd32c5c0/An-Architecting-Book-of-Knowledge-BoK-to-Improve-Architectural-Decision-Making.pdf>
 [^AboutPR]: About pull requests <https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests>
-[^GqmGuide]: R. van Solingen, E. Berghout, and E. Berghout, The goal/question/metric method: a practical guide for quality improvement of software development. London: The McGraw-Hill Companies, 1999. ([File](./assets/GqmGuide.pdf)) <https://www.researchgate.net/publication/243765439_The_GoalQuestionMetric_Method_A_Practical_Guide_for_Quality_Improvement_of_Software_Development>
-[^PMToolbox]: C. Snyder Dionisio and R. J. Martinelli, Project Management ToolBox: Tools and Techniques for the Practicing Project Manager, 3rd ed. Wiley, 2025. doi: 10.1002/9781394222094. ([File](./assets/PMToolbox.pdf))
+[^GqmGuide]: R. van Solingen, E. Berghout, and E. Berghout, The goal/question/metric method: a practical guide for quality improvement of software development. London: The McGraw-Hill Companies, 1999. ([File](./assets/pdfs/GqmGuide.pdf)) <https://www.researchgate.net/publication/243765439_The_GoalQuestionMetric_Method_A_Practical_Guide_for_Quality_Improvement_of_Software_Development>
+[^PMToolbox]: C. Snyder Dionisio and R. J. Martinelli, Project Management ToolBox: Tools and Techniques for the Practicing Project Manager, 3rd ed. Wiley, 2025. doi: 10.1002/9781394222094. ([File](./assets/pdfs/PMToolbox.pdf))
