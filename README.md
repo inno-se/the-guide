@@ -2438,6 +2438,7 @@ Scrum works not because it has three [roles](#core-roles), five [events](#events
 - [Scrum in a Nutshell](https://youtu.be/502ILHjX9EE) (~15 minutes)
 - [What is Professional Scrum](https://youtu.be/BYlv7eP9zgg) (~7 minutes)
 - *Using Agile in Project Management* [^UsingAgileInProjectManagement]
+- *Project Management Toolbox, Chapter 13 - Agile Project Execution* [^PMToolbox]
 - *SBOK® (Scrum Body of Knowledge) Guide* [^SbokGuide];
 
 ### Process
@@ -3206,3 +3207,4 @@ Paywalled books and articles are usually available in shadow libraries such as:
 [^AnArchitectingBok]: Hunt et al., An Architecting Book of Knowledge (BoK) to Improve Architectural Decision-Making, INCOSE, 2025 ([File](./assets/AnArchitectingBok.pdf)) <https://www.researchgate.net/profile/Alejandro-Salado/publication/394253598_An_Architecting_Book_of_Knowledge_BoK_to_Improve_Architectural_Decision-Making/links/688f3c047b62e240dd32c5c0/An-Architecting-Book-of-Knowledge-BoK-to-Improve-Architectural-Decision-Making.pdf>
 [^AboutPR]: About pull requests <https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests>
 [^GqmGuide]: R. van Solingen, E. Berghout, and E. Berghout, The goal/question/metric method: a practical guide for quality improvement of software development. London: The McGraw-Hill Companies, 1999. ([File](./assets/GqmGuide.pdf)) <https://www.researchgate.net/publication/243765439_The_GoalQuestionMetric_Method_A_Practical_Guide_for_Quality_Improvement_of_Software_Development>
+[^PMToolbox]: C. Snyder Dionisio and R. J. Martinelli, Project Management ToolBox: Tools and Techniques for the Practicing Project Manager, 3rd ed. Wiley, 2025. doi: 10.1002/9781394222094. ([File](./assets/PMToolbox.pdf))
