@@ -3159,7 +3159,7 @@ Paywalled books and articles are usually available in shadow libraries such as:
 
 ## References
 
-[^AzureBoards]: Portfolio backlogs - Scrum process <https://learn.microsoft.com/en-us/azure/devops/boards/backlogs/define-features-epics?view=azure-devops&tabs=scrum-process#portfolio-backlogs>
+[^AzureBoardsScrumProcess]: Portfolio backlogs - Scrum process <https://learn.microsoft.com/en-us/azure/devops/boards/backlogs/define-features-epics?view=azure-devops&tabs=scrum-process#portfolio-backlogs>
 [^Milestones]: What are project milestones: benefits and examples <https://www.atlassian.com/blog/project-management/project-milestones>
 [^MilestonesVsSprints]: Sprint vs milestone vs release <https://pm.stackexchange.com/questions/22510/sprint-vs-milestone-vs-release>
 [^Bck]: Software Architecture in Practice, 4th Edition by L. Bass, P. Clements, and R. Kazman. ([File](./assets/pdfs/SoftwareArchitectureInPracticeEdition4.pdf))
