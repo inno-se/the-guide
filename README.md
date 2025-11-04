@@ -223,6 +223,7 @@ This repository provides a guide for managing the development of a software proj
     - [Architecturally Significant Requirements (ASRs)](#architecturally-significant-requirements-asrs)
     - [Quality attribute workshop (QAW)](#quality-attribute-workshop-qaw)
     - [Utility tree](#utility-tree)
+    - [Priority matrix](#priority-matrix)
     - [Architecture design](#architecture-design)
       - [When to design the architecture?](#when-to-design-the-architecture)
     - [Architectural decision (AD)](#architectural-decision-ad)
@@ -1526,6 +1527,25 @@ Examples:
   
   Source: [[^BckCh19], Table 19.1, p. 285]
 
+### Priority matrix
+
+See [[^DesigningSoftwareArchitectures], Sec. 2.4.2, p. 52].
+
+Example:
+
+| Business Importance → <br> Technical Risk ↓ | `L` | `M`     | `H`     |
+| ------------------------------------------- | --- | ------- | ------- |
+| **`L`**                                     | 001 | 405     | 226,037 |
+| **`M`**                                     |     | 723,894 | 103     |
+| **`H`**                                     | 983 |         | 092     |
+
+Key:
+
+- Columns - Business Importance
+- Rows - Technical Risk (how hard it’ll be to satisfy this requirement from a technical point of view)
+- `L` - low, `M` - medium, `H` - high
+- Elements - identifiers of [QA requirements](#quality-requirements)
+
 ### Architecture design
 
 ![Design Concepts](./assets/DesignActivityOverviewBck.png)
@@ -1937,7 +1957,7 @@ Thresholds for acceptable quality [measurements](#measurement) should be set for
 
 Quality requirements should be expressed as [QA scenarios](#quality-attribute-scenario-qas).
 
-Quality requirements should be prioritized in a [utility tree](#utility-tree).
+Quality requirements should be prioritized in a [utility tree](#utility-tree) or a [priority matrix](#priority-matrix).
 
 ### Quality models
 
