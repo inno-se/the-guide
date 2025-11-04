@@ -1970,7 +1970,7 @@ Quality requirements must be prioritized in a [priority matrix](#priority-matrix
 
 ### Quality models
 
-A ***quality model*** is a defined set of characteristics and of relationships between them, which provides a framework for specifying [quality requirements](#quality-requirements) and evaluating quality [^SoftwareQualityModels].
+A *quality model* is a defined set of characteristics and sub-characteristics that are quantified by quality measures that can be used to define [quality requirements](#quality-requirements) and evaluate the quality properties of target entities [^IsoQualityModel].
 
 There are various quality models [^SoftwareQualityModels]. Examples:
 
