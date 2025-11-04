@@ -1506,6 +1506,8 @@ Always keep a channel open to the key stakeholders who determine the [ASRs](#arc
 
 ### Quality attribute workshop (QAW)
 
+This approach can be used when stakeholders are readily available[[^DesigningSoftwareArchitectures], Sec. 2.4.2, p. 47].
+
 [Stakeholders](#stakeholders) often don’t know what their [QA requirements](#quality-requirements) actually are. [[^BckCh19], Sec. 19.2, p. 280]
 
 Interviewing the relevant stakeholders is the surest way to learn what they know and need. [[^BckCh19], Sec. 19.2, p. 280]
@@ -1513,6 +1515,8 @@ Interviewing the relevant stakeholders is the surest way to learn what they know
 During QAW, facilitators identify and clarify [architectural drivers](#architectural-drivers) with stakeholders and the architect and then help stakeholders generate, prioritize, and refine [QA scenarios](#quality-attribute-scenario-qas) based on these drivers [[^BckCh19], Sec. 19.2, pp. 279-281]
 
 ### Utility tree
+
+This approach can be used when stakeholders aren't readily available [[^DesigningSoftwareArchitectures], Sec. 2.4.2, p. 50].
 
 The utility tree concept is explained in detail in [[^BckCh19], Sec. 19.4, p. 284].
 
@@ -1526,6 +1530,8 @@ Examples:
   ![Utility Tree](./assets/BckUtilityTree.png)
   
   Source: [[^BckCh19], Table 19.1, p. 285]
+
+Priorities can be written compactly in a [priority matrix](#priority-matrix).
 
 ### Priority matrix
 
@@ -1957,9 +1963,11 @@ The more difficult and important the quality requirement, the more likely it is 
 
 Thresholds for acceptable quality [measurements](#measurement) should be set for each software quality requirement based on stakeholder needs and expectations. [[^Swebok], Sec. 2.6, p. 1-1]
 
-Quality requirements should be expressed as [QA scenarios](#quality-attribute-scenario-qas) [[^Bck], Sec. 3.3, p. 42].
+Quality requirements should be expressed as [QA scenarios](#quality-attribute-scenario-qas) [[^Bck], Sec. 3.3, p. 42] [[^DesigningSoftwareArchitectures], Sec. 2.4.2, p. 44].
 
-Quality requirements should be prioritized in a [utility tree](#utility-tree) or a [priority matrix](#priority-matrix).
+Quality requirements can be elicited using the [utility tree](#utility-tree) approach or the [Quality Attribute Workshop](#quality-attribute-workshop-qaw) approach.
+
+Quality requirements must be prioritized in a [priority matrix](#priority-matrix).
 
 ### Quality models
 
