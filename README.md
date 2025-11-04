@@ -1611,7 +1611,7 @@ From [[^Bck], Sec. 20.5, p. 303]:
 
 The three purposes of documentation are analysis, construction, and education. At the moment you are designing, you should choose a documentation purpose and then document to fulfill that purpose, based on your risk mitigation concerns.
 
-For example, if you have a critical QA scenario that your architecture design needs to meet, and if you will need to prove the proposed design satisfies this criterion in an analysis, then you must take care to document the information that is relevant for the analysis to be satisfactory.
+For example, if you have a critical [QA scenario](#quality-attribute-scenario-qas) that your architecture design needs to meet, and if you will need to prove the proposed design satisfies this criterion in an analysis, then you must take care to document the information that is relevant for the analysis to be satisfactory.
 
 Likewise, if you anticipate having to train new team members, then you should sketch a C&C view of the system, showing how it operates and how the elements interact at runtime, and perhaps a module view of the system, showing at least the major layers or subsystems.
 
