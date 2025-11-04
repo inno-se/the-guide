@@ -1550,7 +1550,7 @@ Key:
 - Rows - Business Importance;
 - Columns - Technical Risk (how hard it’ll be to satisfy this requirement from a technical point of view);
 - `L` - low, `M` - medium, `H` - high;
-- Elements - identifiers of [quality requirements](#quality-requirements).
+- Elements - identifiers of [quality requirements](#quality-requirements); can be hyperlinks to corresponding scenario sections.
 
 ### Architecture design
 
