@@ -217,7 +217,7 @@ This repository provides a guide for managing the development of a software proj
       - [Conduct an interview](#conduct-an-interview)
     - [Requirements analysis](#requirements-analysis)
   - [Architecture](#architecture)
-    - [What is the architecture?](#what-is-the-architecture)
+    - [What is an architecture?](#what-is-an-architecture)
     - [Why is architecture important?](#why-is-architecture-important)
     - [Architectural drivers](#architectural-drivers)
     - [Architecturally Significant Requirements (ASRs)](#architecturally-significant-requirements-asrs)
@@ -1423,13 +1423,14 @@ See:
 - *Software Architecture in Practice* [^Bck]
 - *The Architecture of Open Source Applications* [^AosaBook]
 
-### What is the architecture?
+### What is an architecture?
 
-The *software architecture* of a system is the set of structures needed to reason about the system. These structures comprise software elements, relations among them, and properties of both. [[^Bck], p. 2]
+The software architecture of a system is the set of structures needed to reason about the system. These structures comprise software elements, relations among them, and properties of both. [[^Bck], p. 2]
 
 A structure is architectural if it supports reasoning about the system and the system’s [quality attributes](#quality-attributes). The reasoning should be about attributes of the system that are important to some stakeholder(s). [[^Bck], p. 3]
 
-The basic principle of *software architecture* is every software system is constructed to satisfy an organization’s business goals, and that the architecture of a system is a bridge between those (often abstract) business goals and the final (concrete) resulting system. [[^Bck], p. 1]
+The basic principle of software architecture is every software system is constructed to satisfy an organization’s business goals, and that the architecture of a system is a bridge between those (often abstract) business goals and the final (concrete) resulting system. [[^Bck], p. 1]
+
 
 ### Why is architecture important?
 
