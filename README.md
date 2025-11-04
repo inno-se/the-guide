@@ -1487,8 +1487,8 @@ Architectural drivers comprise: [[^Bck], p. 289]
 
 Examples of documented architectural drivers: [^LlmAssistedAdd]
 
-- [Hotel pricing system](https://github.com/otrebmuh/HotelPricingSystem/blob/433e061f712a8748fdf04a6f767752e12be2f4b9/Requirements/ArchitecturalDrivers.md)
-- [Event ticket booking system](https://github.com/otrebmuh/EventTicketSystem/blob/2a928d226d43704457ad5be46b1e6b80f5bca8cb/Design/Architecture.md#3-architectural-drivers)
+- [Hotel Pricing System](https://github.com/otrebmuh/HotelPricingSystem/blob/433e061f712a8748fdf04a6f767752e12be2f4b9/Requirements/ArchitecturalDrivers.md)
+- [Event Ticket Booking System](https://github.com/otrebmuh/EventTicketSystem/blob/2a928d226d43704457ad5be46b1e6b80f5bca8cb/Design/Architecture.md#3-architectural-drivers)
 
 ### Architecturally Significant Requirements (ASRs)
 
