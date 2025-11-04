@@ -1,4 +1,3 @@
-<!-- TOC ignore:true -->
 # The Guide
 
 This repository provides a guide for managing the development of a software project as a team using modern software engineering knowledge and tools.
