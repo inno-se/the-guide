@@ -1630,7 +1630,7 @@ See:
 Examples:
 
 - [Hotel Pricing System](https://github.com/otrebmuh/HotelPricingSystem/blob/433e061f712a8748fdf04a6f767752e12be2f4b9/Design/Architecture.md)
-- [Event Ticket Booking System](https://github.com/otrebmuh/EventTicketSystem/blob/2a928d226d43704457ad5be46b1e6b80f5bca8cb/Design/Architecture.md#3-architectural-drivers)
+- [Event Ticket Booking System](https://github.com/otrebmuh/EventTicketSystem/blob/2a928d226d43704457ad5be46b1e6b80f5bca8cb/Design/Architecture.md)
 
 A software system architecture is a set of architectural design decisions [^ArchitecturalDecision] about how the system should work.
 These decisions should make the system to have specific properties (e.g., security) required by stakeholders.
