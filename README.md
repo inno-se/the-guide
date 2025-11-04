@@ -1547,10 +1547,10 @@ Example:
 
 Key:
 
-- Rows - Business Importance
-- Columns - Technical Risk (how hard it’ll be to satisfy this requirement from a technical point of view)
-- `L` - low, `M` - medium, `H` - high
-- Elements - identifiers of [quality requirements](#quality-requirements)
+- Rows - Business Importance;
+- Columns - Technical Risk (how hard it’ll be to satisfy this requirement from a technical point of view);
+- `L` - low, `M` - medium, `H` - high;
+- Elements - identifiers of [quality requirements](#quality-requirements).
 
 ### Architecture design
 
