@@ -1520,12 +1520,12 @@ A utility tree is a top-down representation of what you, as an architect, believ
 
 Examples:
 
-- [Hotel pricing system](https://github.com/otrebmuh/HotelPricingSystem/blob/433e061f712a8748fdf04a6f767752e12be2f4b9/Requirements/ArchitecturalDrivers.md#priorities)
-- [Event ticket booking system](https://github.com/otrebmuh/EventTicketSystem/blob/2a928d226d43704457ad5be46b1e6b80f5bca8cb/Requirements/Priorities.md#quality-attribute-scenario-priorities)
-- In a tabular form:
-  ![Utility Tree](./assets/images/BckUtilityTree.png)
-  
-  Source: [[^BckCh19], Table 19.1, p. 285]
+- as a Markdown file:
+  - [Event ticket booking system](https://github.com/otrebmuh/EventTicketSystem/blob/2a928d226d43704457ad5be46b1e6b80f5bca8cb/Requirements/QualityAttributeScenarios.md)
+- as a table:
+  - [Hotel pricing system](https://github.com/otrebmuh/HotelPricingSystem/blob/433e061f712a8748fdf04a6f767752e12be2f4b9/Requirements/ArchitecturalDrivers.md#quality-attribute-scenarios)
+  - a System in the Healthcare Space [[^BckCh19], Table 19.1, p. 285]:
+    ![Utility Tree](./assets/images/BckUtilityTree.png)
 
 Priorities can be written compactly in a [priority matrix](#priority-matrix).
 
@@ -1552,6 +1552,7 @@ Key:
 
 ### Architecture design
 
+
 ![Design Concepts](./assets/images/DesignActivityOverviewBck.png)
 
 ### When to design the architecture?
@@ -1560,6 +1561,7 @@ You should start designing the architecture early in the project after gathering
 
 Do not start design without a [prioritized](#priority-matrix) list of measurable [quality requirements](#quality-requirements) [[^DesigningSoftwareArchitectures], Sec. 2.4.2, p. 47].
 
+Once the architecture has been agreed upon, it becomes very costly — for managerial and business reasons — to significantly modify it. This is one argument (among many) for analyzing the software architecture for a large system before settling on a specific choice. [[^Bck], p. 32]
 
 You should decide what's the acceptable level of detail for the architecture at the moment (see [JBGE](#just-barely-good-enough-jbge)).
 
