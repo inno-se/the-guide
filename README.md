@@ -1529,22 +1529,24 @@ Examples:
 
 ### Priority matrix
 
-See [[^DesigningSoftwareArchitectures], Sec. 2.4.2, p. 52].
+See [[^DesigningSoftwareArchitectures], Sec. 2.4.2, pp. 52-53].
+
+A priority matrix is a way to prioritize quality requirements across two dimensions - business importance and technical risk. Architects should  address (`H`, `H`), then (`H`, `M`) or (`M`, `H`) requirements, then other requirements if time and budget permit.
 
 Example:
 
-| Business Importance → <br> Technical Risk ↓ | `L` | `M`     | `H`     |
-| ------------------------------------------- | --- | ------- | ------- |
-| **`L`**                                     | 001 | 405     | 226,037 |
-| **`M`**                                     |     | 723,894 | 103     |
-| **`H`**                                     | 983 |         | 092     |
+| Technical Risk → <br> Business Importance ↓ | `L` | `M`     | `H`         |
+| ------------------------------------------- | --- | ------- | ----------- |
+| **`L`**                                     | 001 | 405     | 226,037     |
+| **`M`**                                     |     | 723,894 | 103         |
+| **`H`**                                     | 983 |         | 092,239,712 |
 
 Key:
 
-- Columns - Business Importance
-- Rows - Technical Risk (how hard it’ll be to satisfy this requirement from a technical point of view)
+- Rows - Business Importance
+- Columns - Technical Risk (how hard it’ll be to satisfy this requirement from a technical point of view)
 - `L` - low, `M` - medium, `H` - high
-- Elements - identifiers of [QA requirements](#quality-requirements)
+- Elements - identifiers of [quality requirements](#quality-requirements)
 
 ### Architecture design
 
