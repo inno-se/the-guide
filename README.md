@@ -1027,7 +1027,7 @@ The life cycle for any software system contains a number of concrete stages rele
 
 A generic process framework for software engineering defines five framework activities — communication, planning, modeling, construction, and deployment. In addition, a set of umbrella activities — project tracking and control, risk management, quality assurance, configuration management, technical reviews, and others — are applied throughout the process. [[^SoftwareEngineeringPractitionersApproach], p. 31]
 
-![Software process framework](./assets/SoftwareProcessFramework.png)
+![Software process framework](./assets/images/SoftwareProcessFramework.png)
 
 Source: [[^SoftwareEngineeringPractitionersApproach], Fig. 2.1, p. 32]
 
@@ -1523,7 +1523,7 @@ Examples:
 - [Hotel pricing system](https://github.com/otrebmuh/HotelPricingSystem/blob/433e061f712a8748fdf04a6f767752e12be2f4b9/Requirements/ArchitecturalDrivers.md#priorities)
 - [Event ticket booking system](https://github.com/otrebmuh/EventTicketSystem/blob/2a928d226d43704457ad5be46b1e6b80f5bca8cb/Requirements/Priorities.md#quality-attribute-scenario-priorities)
 - In a tabular form:
-  ![Utility Tree](./assets/BckUtilityTree.png)
+  ![Utility Tree](./assets/images/BckUtilityTree.png)
   
   Source: [[^BckCh19], Table 19.1, p. 285]
 
@@ -1552,7 +1552,8 @@ Key:
 
 ### Architecture design
 
-![Design Concepts](./assets/DesignActivityOverviewBck.png)
+![Design Concepts](./assets/images/DesignActivityOverviewBck.png)
+
 ### When to design the architecture?
 
 You should start designing the architecture early in the project after gathering initial [ASRs](#architecturally-significant-requirements-asrs) [[^Bck], Sec. 24.3, p. 370], [^InitialArchitectureModeling].
@@ -1564,7 +1565,7 @@ You should decide what's the acceptable level of detail for the architecture at 
 
 Note that it may be costly to significantly modify the architecture later in the project [[^Bck], p. 32].
 
-![When to design architecture](./assets/WhenToDesignArchitecture.png)
+![When to design architecture](./assets/images/WhenToDesignArchitecture.png)
 
 ### Architectural decision (AD)
 
@@ -1674,7 +1675,7 @@ In summary, the WBS: [[^PracticeStandardForWbs], Sec 2.7, p. 51]
 
 ### Types of Decomposition
 
-![Types of Decomposition](./assets/WbsTypesOfDecomposition.png)
+![Types of Decomposition](./assets/images/WbsTypesOfDecomposition.png)
 
 Source: [[^PracticeStandardForWbs], Table 2-1, p. 30]
 
@@ -1690,7 +1691,7 @@ The most common WBS representations of styles are [[^PracticeStandardForWbs], Se
 
 Product-oriented Project WBS using Hierarchical Structure Style:
 
-![Project WBS](./assets/ProjectWbs.png)
+![Project WBS](./assets/images/ProjectWbs.png)
 
 Source: [[^PracticeStandardForWbs], Fig. 5-1, p. 97]
 
@@ -1706,11 +1707,11 @@ The [Project Charter](#project-charter) is the starting point for the WBS. The h
 
 The agile life cycle WBS is typically a blend of product-, phase-, and action-oriented WBS elements. The differentiating characteristic is that each branch of the hierarchy often represents a mini life cycle, yielding a discrete, evolving product as an output. The expected duration is typically fixed, spanning a relatively short period of time. [[^PracticeStandardForWbs], Sec 5.2.6, p. 94]
 
-![Agile WBS as a diagram](./assets/AgileWbsDiagram.png)
+![Agile WBS as a diagram](./assets/images/AgileWbsDiagram.png)
 
 Source: [[^PracticeStandardForWbs], Fig. 4-4, p. 83]
 
-![Agile WBS as a list](./assets/AgileWbsList.png)
+![Agile WBS as a list](./assets/images/AgileWbsList.png)
 
 Source: [[^PracticeStandardForWbs], Table 5-6, p. 94]
 
@@ -1745,7 +1746,7 @@ The network diagram is a sequential arrangement of the work defined by the [WBS]
 
 A network diagram is a directed acyclic graph where nodes contain tasks and edges denote relations between tasks [^ProjectNetworkWiki] [^AgileImprovementsToCpm] [[^SoftwareEngineeringPractitionersApproach], Sec. 27.4, p. 731]. An edge from `A` to `B` can be labeled to represent a specific relation:
 
-![Network diagram](./assets/NetworkDiagramWrike.png)
+![Network diagram](./assets/images/NetworkDiagramWrike.png)
 
 Source: [^WhatIsNetworkDiagramWrike]
 
@@ -1864,7 +1865,7 @@ Follow the cycle steps if you have an idea on how to change a process in your pr
 
 ### The PDSA cycle and the Model for Improvement
 
-![PDSA](./assets/PdsaCycleAndModelForImprovement.png)
+![PDSA](./assets/images/PdsaCycleAndModelForImprovement.png)
 Sources: [^CirclingBack] [^TheImprovementGuide]
 
 ### Steps
@@ -1994,9 +1995,9 @@ A QA scenario has six parts [[^QasOfSoftwareArchitecture], p. 28] [[^BckCh19], S
 | Artifact           | Some artifact that is stimulated; may be the whole system or part of it                                                                          |
 | Response measure   | The response to the stimulus should be [measurable](#measurement) someway so that the [quality requirement](#quality-requirements) can be tested |
 
-![QA scenario parts](./assets/QaScenarioParts.png)
+![QA scenario parts](./assets/images/QaScenarioParts.png)
 
-![QA scenario example (Availability)](./assets/QaScenarioExample.png)
+![QA scenario example (Availability)](./assets/images/QaScenarioExample.png)
 
 Examples from [^LlmAssistedAdd]:
 
@@ -2462,7 +2463,7 @@ Legend:
 
 It's a flavor of Agile with own core principles [^AgileModelingCorePractices].
 
-![Core practices](./assets/AgileModelingCorePractices.png)
+![Core practices](./assets/images/AgileModelingCorePractices.png)
 
 Source: [^AgileModelingCorePractices]
 
@@ -2489,7 +2490,7 @@ Scrum works not because it has three [roles](#core-roles), five [events](#events
 
 ### Process
 
-![What is Scrum?](./assets/WhatIsScrum.png)
+![What is Scrum?](./assets/images/WhatIsScrum.png)
 
 <!-- 
 This image was chosen because:
@@ -2564,7 +2565,7 @@ The Tuckman model describes phases that groups of individuals go through when th
 1. *Norming* - teams become more comfortable with each other and more familiar with their processes.  
 1. *Performing* - teams really begin to work together well, achieving an ever increasing level of peak performance.
 
-![Tuckman model and Scrum](./assets/ScrumTuckman.png)
+![Tuckman model and Scrum](./assets/images/ScrumTuckman.png)
 
 Source: [^TuckmanModelForAgileTeams]
 
