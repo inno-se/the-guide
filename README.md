@@ -1432,6 +1432,8 @@ A structure is architectural if it supports reasoning about the system and the s
 
 The basic principle of software architecture is every software system is constructed to satisfy an organization’s business goals, and that the architecture of a system is a bridge between those (often abstract) business goals and the final (concrete) resulting system. [[^Bck], p. 1]
 
+The architecture can exist separately from the [representation](#how-to-document-architecture) of that architecture (diagrams, textual descriptions). [[^Bck], p. 3]
+
 ### Who is an architect?
 
 Architects are the people responsible for establishing, analyzing, and enforcing the [architectural decisions](#architectural-decision-ad) and tradeoffs. [[^Bck], p. 32]
