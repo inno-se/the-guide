@@ -218,6 +218,7 @@ This repository provides a guide for managing the development of a software proj
     - [Requirements analysis](#requirements-analysis)
   - [Architecture](#architecture)
     - [What is an architecture?](#what-is-an-architecture)
+    - [Who is an architect?](#who-is-an-architect)
     - [Why is architecture important?](#why-is-architecture-important)
     - [Architectural drivers](#architectural-drivers)
     - [Architecturally Significant Requirements (ASRs)](#architecturally-significant-requirements-asrs)
@@ -1431,6 +1432,9 @@ A structure is architectural if it supports reasoning about the system and the s
 
 The basic principle of software architecture is every software system is constructed to satisfy an organization’s business goals, and that the architecture of a system is a bridge between those (often abstract) business goals and the final (concrete) resulting system. [[^Bck], p. 1]
 
+### Who is an architect?
+
+Architects are the people responsible for establishing, analyzing, and enforcing the [architectural decisions](#architectural-decision-ad) and tradeoffs. [[^Bck], p. 32]
 
 ### Why is architecture important?
 
