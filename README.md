@@ -1593,11 +1593,11 @@ See:
 - *Attribute-driven design* (*ADD*) [[^DesigningSoftwareArchitectures], Sec. 4.2] [[^Bck], Sec. 20.1]
 - *An Architecting Book of Knowledge (BoK) to Improve Architectural Decision-Making* [^AnArchitectingBok]
 
-![Approach elements](./assets/LlmAssistedAddApproachElements.drawio.svg)
+![Approach elements](./assets/images/LlmAssistedAddApproachElements.drawio.svg)
 
 Source: Adapted from [[^LlmAssistedAdd], Fig. 2, p. 5]
 
-![Design process](./assets/LlmAssistedAddDesignProcess.drawio.svg)
+![Design process](./assets/images/LlmAssistedAddDesignProcess.drawio.svg)
 
 Source: Adapted from [[^LlmAssistedAdd], Fig. 6, p. 9]
 
