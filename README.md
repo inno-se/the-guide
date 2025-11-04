@@ -1515,13 +1515,13 @@ During QAW, facilitators identify and clarify [architectural drivers](#architect
 
 The utility tree concept is explained in detail in [[^BckCh19], Sec. 19.4, p. 284].
 
-A utility tree is a top-down representation of what you, as an architect, believe to be the QA-related ASRs ([quality requirements](#quality-requirements)) that are critical to the success of the system. [[^BckCh19], p. 284]
+A utility tree is a top-down representation of what you, as an architect, believe to be the QA-related ASRs ([quality requirements](#quality-requirements)) that are critical to the success of the system [[^BckCh19], p. 284].
 
 Examples:
 
 - [Hotel pricing system](https://github.com/otrebmuh/HotelPricingSystem/blob/433e061f712a8748fdf04a6f767752e12be2f4b9/Requirements/ArchitecturalDrivers.md#priorities)
 - [Event ticket booking system](https://github.com/otrebmuh/EventTicketSystem/blob/2a928d226d43704457ad5be46b1e6b80f5bca8cb/Requirements/Priorities.md#quality-attribute-scenario-priorities)
--  
+- In a tabular form:
   ![Utility Tree](./assets/BckUtilityTree.png)
   
   Source: [[^BckCh19], Table 19.1, p. 285]
