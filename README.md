@@ -1955,7 +1955,7 @@ The more difficult and important the quality requirement, the more likely it is 
 
 Thresholds for acceptable quality [measurements](#measurement) should be set for each software quality requirement based on stakeholder needs and expectations. [[^Swebok], Sec. 2.6, p. 1-1]
 
-Quality requirements should be expressed as [QA scenarios](#quality-attribute-scenario-qas).
+Quality requirements should be expressed as [QA scenarios](#quality-attribute-scenario-qas) [[^Bck], Sec. 3.3, p. 42].
 
 Quality requirements should be prioritized in a [utility tree](#utility-tree) or a [priority matrix](#priority-matrix).
 
