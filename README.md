@@ -225,7 +225,7 @@ This repository provides a guide for managing the development of a software proj
     - [Utility tree](#utility-tree)
     - [Priority matrix](#priority-matrix)
     - [Architecture design](#architecture-design)
-      - [When to design the architecture?](#when-to-design-the-architecture)
+    - [When to design the architecture?](#when-to-design-the-architecture)
     - [Architectural decision (AD)](#architectural-decision-ad)
     - [Architectural decision record (ADR)](#architectural-decision-record-adr)
     - [Derive architectural decisions using an LLM](#derive-architectural-decisions-using-an-llm)
@@ -1557,9 +1557,11 @@ Key:
 ### Architecture design
 
 ![Design Concepts](./assets/DesignActivityOverviewBck.png)
-#### When to design the architecture?
+### When to design the architecture?
 
-You should start designing the architecture early in the project after gathering initial [ASRs](#architecturally-significant-requirements-asrs) [[^Bck], p. 371], [^InitialArchitectureModeling].
+You should start designing the architecture early in the project after gathering initial [ASRs](#architecturally-significant-requirements-asrs) [[^Bck], Sec. 24.3, p. 370], [^InitialArchitectureModeling].
+
+Do not start design without a [prioritized](#priority-matrix) list of measurable [quality requirements](#quality-requirements) [[^DesigningSoftwareArchitectures], Sec. 2.4.2, p. 47].
 
 
 You should decide what's the acceptable level of detail for the architecture at the moment (see [JBGE](#just-barely-good-enough-jbge)).
