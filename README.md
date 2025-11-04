@@ -1535,7 +1535,9 @@ Priorities can be written compactly in a [priority matrix](#priority-matrix).
 
 See [[^DesigningSoftwareArchitectures], Sec. 2.4.2, pp. 52-53].
 
-A priority matrix is a way to prioritize quality requirements across two dimensions - business importance and technical risk. Architects should  address (`H`, `H`), then (`H`, `M`) or (`M`, `H`) requirements, then other requirements if time and budget permit.
+A priority matrix is a way to prioritize [quality requirements](#quality-requirements) across two dimensions - *business importance* and *technical risk*. Technical risk means how hard it’ll be to satisfy this requirement from a technical point of view [[^Bck], Sec. 19.4, p. 285].
+
+Architects should address (`H`, `H`), then (`H`, `M`) or (`M`, `H`) requirements, then other requirements if time and budget permit.
 
 Example:
 
@@ -1548,12 +1550,11 @@ Example:
 Key:
 
 - Rows - Business Importance;
-- Columns - Technical Risk (how hard it’ll be to satisfy this requirement from a technical point of view);
+- Columns - Technical Risk;
 - `L` - low, `M` - medium, `H` - high;
 - Elements - identifiers of [quality requirements](#quality-requirements); can be hyperlinks to corresponding scenario sections.
 
 ### Architecture design
-
 
 ![Design Concepts](./assets/images/DesignActivityOverviewBck.png)
 
