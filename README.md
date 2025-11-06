@@ -2629,15 +2629,15 @@ The hierarchy was adapted from [^AzureBoardsScrumProcess].
 
 We pretend to develop a TikTok-like application.
 
-We created several [issues](https://github.com/inno-swp-2025/the-guide/issues) in the [inno-swp-2025/the-guide](https://github.com/inno-swp-2025/the-guide) repo using [issue form templates](#issue-form-templates).
+We created several [issues](https://github.com/inno-se/the-guide/issues) in the [inno-se/the-guide](https://github.com/inno-se/the-guide) repo using [issue form templates](#issue-form-templates).
 
 We assigned them types and connected them according to the [work item hierarchy](#work-item-hierarchy) to represent a [WBS](#wbs-and-issue-hierarchy).
 
 We used the following GitHub Projects (See [Projects](#projects)) to provide additional information about these issues:
 
-- [Roadmap Items](https://github.com/orgs/inno-swp-2025/projects/5/views/4);
-- [Product Backlog Items](https://github.com/orgs/inno-swp-2025/projects/1);
-- [Tasks](https://github.com/orgs/inno-swp-2025/projects/2).
+- [Roadmap Items](https://github.com/orgs/inno-se/projects/5/views/4);
+- [Product Backlog Items](https://github.com/orgs/inno-se/projects/1);
+- [Tasks](https://github.com/orgs/inno-se/projects/2).
 
 ### Issue types
 
@@ -2678,7 +2678,7 @@ Therefore:
 
 ### Issue labels
 
-Issues have meaningful [labels](https://github.com/inno-swp-2025/the-guide/labels).
+Issues have meaningful [labels](https://github.com/inno-se/the-guide/labels).
 
 If you plan to have several repositories in your organization, you can [create default issue labels](https://docs.github.com/en/organizations/managing-organization-settings/managing-default-labels-for-repositories-in-your-organization).
 
@@ -2723,7 +2723,7 @@ The `PR: *` labels are automatically assigned to pull requests when you create p
 
 ## Templates
 
-We store [default community health files](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file) in the [inno-swp-2025/.github](https://github.com/inno-swp-2025/.github) repo.
+We store [default community health files](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file) in the [inno-se/.github](https://github.com/inno-se/.github) repo.
 
 Our files include [issue form templates](#issue-form-templates) and [pull request templates](#pull-request-templates) (see [docs](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/syntax-for-issue-forms)).
 
@@ -2731,7 +2731,7 @@ These templates can be used for creating new issues and pull requests in all org
 
 ### Copy templates
 
-1. Import the [.github](https://github.com/inno-swp-2025/.github) repo into your organization.
+1. Import the [.github](https://github.com/inno-se/.github) repo into your organization.
 1. Update templates in the `.github` repo.
     - In [issue form templates](#issue-form-templates), update:
       - `projects:` - to automatically add issues to your projects;
@@ -2742,26 +2742,26 @@ These templates can be used for creating new issues and pull requests in all org
 The following templates are available:
 
 - For type `Epic` issues:
-  - [User Story](https://github.com/inno-swp-2025/.github/blob/main/.github/ISSUE_TEMPLATE/epic-user-story.yml)
-  - [Bug Report](https://github.com/inno-swp-2025/.github/blob/main/.github/ISSUE_TEMPLATE/epic-bug-report.yml)
-  - [Enabler](https://github.com/inno-swp-2025/.github/blob/main/.github/ISSUE_TEMPLATE/epic-enabler.yml)
-  - [Investigation](https://github.com/inno-swp-2025/.github/blob/main/.github/ISSUE_TEMPLATE/epic-investigation.yml)
-  - [Tech Debt](https://github.com/inno-swp-2025/.github/blob/main/.github/ISSUE_TEMPLATE/epic-tech-debt.yml)
+  - [User Story](https://github.com/inno-se/.github/blob/main/.github/ISSUE_TEMPLATE/epic-user-story.yml)
+  - [Bug Report](https://github.com/inno-se/.github/blob/main/.github/ISSUE_TEMPLATE/epic-bug-report.yml)
+  - [Enabler](https://github.com/inno-se/.github/blob/main/.github/ISSUE_TEMPLATE/epic-enabler.yml)
+  - [Investigation](https://github.com/inno-se/.github/blob/main/.github/ISSUE_TEMPLATE/epic-investigation.yml)
+  - [Tech Debt](https://github.com/inno-se/.github/blob/main/.github/ISSUE_TEMPLATE/epic-tech-debt.yml)
 - For type `Backlog` issues:
-  - [User Story](https://github.com/inno-swp-2025/.github/blob/main/.github/ISSUE_TEMPLATE/backlog-user-story.yml)
-  - [Bug Report](https://github.com/inno-swp-2025/.github/blob/main/.github/ISSUE_TEMPLATE/backlog-bug-report.yml)
-  - [Enabler](https://github.com/inno-swp-2025/.github/blob/main/.github/ISSUE_TEMPLATE/backlog-enabler.yml)
-  - [Investigation](https://github.com/inno-swp-2025/.github/blob/main/.github/ISSUE_TEMPLATE/backlog-investigation.yml)
-  - [Tech Debt](https://github.com/inno-swp-2025/.github/blob/main/.github/ISSUE_TEMPLATE/backlog-tech-debt.yml)
+  - [User Story](https://github.com/inno-se/.github/blob/main/.github/ISSUE_TEMPLATE/backlog-user-story.yml)
+  - [Bug Report](https://github.com/inno-se/.github/blob/main/.github/ISSUE_TEMPLATE/backlog-bug-report.yml)
+  - [Enabler](https://github.com/inno-se/.github/blob/main/.github/ISSUE_TEMPLATE/backlog-enabler.yml)
+  - [Investigation](https://github.com/inno-se/.github/blob/main/.github/ISSUE_TEMPLATE/backlog-investigation.yml)
+  - [Tech Debt](https://github.com/inno-se/.github/blob/main/.github/ISSUE_TEMPLATE/backlog-tech-debt.yml)
 - For type `Task` issues:
-  - [Task](https://github.com/inno-swp-2025/.github/blob/main/.github/ISSUE_TEMPLATE/task.yml)
+  - [Task](https://github.com/inno-se/.github/blob/main/.github/ISSUE_TEMPLATE/task.yml)
 
 ### Pull request templates
 
 The following templates are available:
 
-- [For type `Task` issues](https://github.com/inno-swp-2025/.github/blob/main/.github/PULL_REQUEST_TEMPLATE/task.md)
-- [For last-minute changes](https://github.com/inno-swp-2025/.github/blob/main/.github/PULL_REQUEST_TEMPLATE/last-minute-changes.md) that don't resolve any particular type `Task` issue.
+- [For type `Task` issues](https://github.com/inno-se/.github/blob/main/.github/PULL_REQUEST_TEMPLATE/task.md)
+- [For last-minute changes](https://github.com/inno-se/.github/blob/main/.github/PULL_REQUEST_TEMPLATE/last-minute-changes.md) that don't resolve any particular type `Task` issue.
 
 ## Milestones
 
@@ -2769,7 +2769,7 @@ Milestones are specific, key points within a project that mark progress and comp
 
 Milestones are not sprints [^MilestonesVsSprints].
 
-We defined two [milestones](https://github.com/inno-swp-2025/the-guide/milestones) and provided their goals in descriptions.
+We defined two [milestones](https://github.com/inno-se/the-guide/milestones) and provided their goals in descriptions.
 
 ## Projects
 
@@ -2777,7 +2777,7 @@ We defined two [milestones](https://github.com/inno-swp-2025/the-guide/milestone
 
 Our projects are based on the [Work item hierarchy](#work-item-hierarchy).
 
-We provide projects ([link](https://github.com/orgs/inno-swp-2025/projects)) for:
+We provide projects ([link](https://github.com/inno-se/the-guide/projects?query=is%3Aopen)) for:
 
 - [Roadmap Items](#project-roadmap)
 - [Product Backlog Items](#project-product-backlog)
@@ -2814,7 +2814,7 @@ The design is inspired by the ETVX process model [[^GqmGuide], Sec. 6.3, p. 59].
 
 ## Project `Roadmap`
 
-[Link](https://github.com/orgs/inno-swp-2025/projects/5)
+[Link](https://github.com/orgs/inno-se/projects/5)
 
 This project allows for planning and tracking the progress of [type `Epic`](#epic) issues.
 
@@ -2907,7 +2907,7 @@ An issue can be closed when it reaches the `Done` column.
 
 ## Project `Product Backlog`
 
-[Link](https://github.com/orgs/inno-swp-2025/projects/1)
+[Link](https://github.com/orgs/inno-se/projects/1)
 
 This project allows for estimation, planning, and tracking the progress of [type `Backlog`](#backlog) issues.
 
@@ -3004,7 +3004,7 @@ Shows planned schedule of working on type `Backlog` issues.
 
 ## Project `Tasks`
 
-[Link](https://github.com/orgs/inno-swp-2025/projects/2)
+[Link](https://github.com/orgs/inno-se/projects/2)
 
 This project allows for estimation, planning, and tracking the progress of [type `Task`](#task) issues.
 
