@@ -449,6 +449,8 @@ See also [TAGRI](#they-aint-gonna-read-it-tagri).
 
 ## measurement
 
+*noun*
+
 Measurement is the quantification [^QuantificationWiki] of attributes of an object or event, which can be used to compare with other objects or events. [^MeasurementWiki]
 
 ## pull request (PR)
