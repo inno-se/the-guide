@@ -2526,7 +2526,7 @@ Adapted from [^ScrumPdca]:
 
 ### DEEP Product Backlog
 
-The Product Backlog should be DEEP [^DeepCharacteristicsOfGoodBacklog] [^AgilePMWithScrum]:
+The Product Backlog should be DEEP [^DeepCharacteristicsOfGoodBacklog] [[^AgilePMWithScrum], Ch. 3]:
 
 - **D**etailed appropriately - The closer an item is to being completed, the more detail it should have.
 - **E**stimated - Thorough estimation should be focused on high-priority items that will be tackled soon. When you are further down the priority list, your estimation will be more of a guess since you don’t have all of the information yet.
