@@ -323,6 +323,7 @@ This repository provides a guide for managing the development of a software proj
     - [Process](#process)
     - [Relation to PDSA](#relation-to-pdsa)
     - [Product backlog](#product-backlog)
+    - [DEEP Product Backlog](#deep-product-backlog)
     - [Product backlog grooming](#product-backlog-grooming)
     - [Core roles](#core-roles)
       - [Product Owner (PO)](#product-owner-po)
