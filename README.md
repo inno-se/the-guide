@@ -3241,7 +3241,7 @@ Paywalled books and articles are usually available in shadow libraries such as:
 [^UserStoriesWiki]: User Story on Wikipedia <https://en.wikipedia.org/wiki/User_story>
 [^GivenWhenThen]: Given-When-Then format for acceptance criteria <https://en.wikipedia.org/wiki/Given-When-Then>
 [^SETeamProjectProblems]: Software engineering team project courses with industrial customers: Students’ insights on challenges and lessons learned <https://www.sciencedirect.com/science/article/pii/S0164121225001098>
-[^MidSprintReview]: <https://www.scrum.org/resources/blog/whats-wrong-mid-sprint-check-or-mid-sprint-review>
+[^MidSprintReview]:  What's wrong with a Mid Sprint Check-in or Mid Sprint Review? <https://www.scrum.org/resources/blog/whats-wrong-mid-sprint-check-or-mid-sprint-review>
 [^SoftwareQualityModels]: Software Quality Models: A Systematic Mapping Study <https://ieeexplore.ieee.org/document/8812848>
 [^ThePdsaCycle]: The PDSA Cycle <https://deming.org/explore/pdsa/>
 [^CirclingBack]: Circling Back <https://deming.org/wp-content/uploads/2020/06/circling-back.pdf>
