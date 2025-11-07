@@ -23,7 +23,7 @@ This repository provides a guide for managing the development of a software proj
 - Derive architecturally significant requirements (ASRs) in the [Quality Attribute Scenario](#quality-attribute-scenario-qas) format.
 - Design a high-level architecture that satisfies the ASRs.
 - For each ASR, explain how exactly you're going to test it (you may need to detail the architecture for this task).
-- Based on the architecture, split the work into epics, product backlog items, and tasks.
+- Based on the architecture, split the work into epics, Product Backlog items, and tasks.
 - Plan the work for several sprints using a [Scrum board](#scrum-board).
 - Assign tasks and set deadlines.
 - Keep stakeholders informed about your decisions and progress.
@@ -31,7 +31,7 @@ This repository provides a guide for managing the development of a software proj
 - Use git for code and documentation versioning from the first day of the project;
 - Use GitHub for collaboratively working on the code;
 - Use GitHub issue form templates and pull request (PR) templates for consistent quality of issue and PR descriptions;
-- Use a hierarchy of issues, e.g.: epics (don't fit into a single sprint) -> high-level Product Backlog Items (user stories, bug reports, etc. that fit into a sprint) -> tasks.
+- Use a hierarchy of issues, e.g.: epics (don't fit into a single sprint) -> high-level Product Backlog items (user stories, bug reports, etc. that fit into a sprint) -> tasks.
 - Mention issues addressed by a PR in the PR description.
 - Use GitHub Projects for:
   - planning work;
@@ -1777,7 +1777,7 @@ Limitations [[^AgileImprovementsToCpm], p. 220]:
 
 ### CPM and Scrum
 
-In Scrum, your product backlog should be DEEP (see [Product backlog](#product-backlog)).
+In Scrum, your [Product Backlog](#product-backlog) should be [DEEP](#deep-product-backlog).
 
 The closer an item is to being completed, the more detail it should have [^DeepCharacteristicsOfGoodBacklog].
 
@@ -1787,7 +1787,7 @@ The CPM should be applied to items whose durations can be accurately estimated (
 
 The CPM can be applied at the sprint level. At the sprint level, the estimated duration can be inferred from the story point estimates for each task. [[^AgileImprovementsToCpm], Sec. Agile Approach for CPM, p.223]
 
-At the end of a Sprint Planning, you can take 5 minutes and think about inter-dependencies between product backlog items for the next 1-3 sprints to not be surprised by a long critical path [^CriticalPathOnAgileProjects].
+At the end of a Sprint Planning, you can take 5 minutes and think about inter-dependencies between Product Backlog items for the next 1-3 sprints to not be surprised by a long critical path [^CriticalPathOnAgileProjects].
 
 ### CPM alternatives
 
@@ -1799,7 +1799,7 @@ The Work Performance Management (WPM) approach [^PredictingCompletionInAgileProj
 
 1. Load necessary context into a chat with an LLM.
 1. Load relevant [issue form templates](#issue-form-templates).
-1. Extract epics and Product Backlog Items. Sample prompt:
+1. Extract epics and Product Backlog items. Sample prompt:
 
     ```text
     Extract all requirements, features, technical details, investigations from the context.
@@ -1810,7 +1810,7 @@ The Work Performance Management (WPM) approach [^PredictingCompletionInAgileProj
     - A PBI is a unit of work that is small enough to be completed by the team within a single sprint.
     - A Task is a specific action required to complete a PBI.
         
-    Write text for Epics and related Product Backlog Items (PBIs).
+    Write text for Epics and related Product Backlog items (PBIs).
     For both Epics and PBIs, write an index and type before the title.
     Don't generate Tasks for now.
     
@@ -2524,7 +2524,7 @@ Adapted from [^ScrumPdca]:
 
 ### Product backlog
 
-In Scrum, the Product Owner refines the product backlog to make it DEEP [^DeepCharacteristicsOfGoodBacklog]:
+The Product Backlog should be DEEP [^DeepCharacteristicsOfGoodBacklog] [^AgilePMWithScrum]:
 
 - **D**etailed appropriately - The closer an item is to being completed, the more detail it should have.
 - **E**stimated - Thorough estimation should be focused on high-priority items that will be tackled soon. When you are further down the priority list, your estimation will be more of a guess since you don’t have all of the information yet.
@@ -2637,8 +2637,8 @@ We assigned them types and connected them according to the [work item hierarchy]
 
 We used the following GitHub Projects (See [Projects](#projects)) to provide additional information about these issues:
 
-- [Roadmap Items](https://github.com/orgs/inno-se/projects/5/views/4);
-- [Product Backlog Items](https://github.com/orgs/inno-se/projects/1);
+- [Roadmap items](https://github.com/orgs/inno-se/projects/5/views/4);
+- [Product Backlog items](https://github.com/orgs/inno-se/projects/1);
 - [Tasks](https://github.com/orgs/inno-se/projects/2).
 
 ### Issue types
@@ -2649,7 +2649,7 @@ The types are [`Epic`](#epic), [`Backlog`](#backlog), [`Task`](#task).
 
 #### `Epic`
 
-An Epic is a container for a major initiative that is too large and complex to be completed in a single sprint. It groups together related Product Backlog Items to achieve a larger goal. This initiative can be a customer-facing feature, a large-scale bug fix, a technical debt reduction plan, or a significant architectural improvement.
+An Epic is a container for a major initiative that is too large and complex to be completed in a single sprint. It groups together related Product Backlog items to achieve a larger goal. This initiative can be a customer-facing feature, a large-scale bug fix, a technical debt reduction plan, or a significant architectural improvement.
 
 #### `Backlog`
 
@@ -2781,8 +2781,8 @@ Our projects are based on the [Work item hierarchy](#work-item-hierarchy).
 
 We provide projects ([link](https://github.com/inno-se/the-guide/projects?query=is%3Aopen)) for:
 
-- [Roadmap Items](#project-roadmap)
-- [Product Backlog Items](#project-product-backlog)
+- [Roadmap items](#project-roadmap)
+- [Product Backlog items](#project-product-backlog)
 - [Tasks](#project-tasks)
 
 ### Copy projects
@@ -2797,8 +2797,8 @@ A scrum board has a number of [columns](#columns) that help track progress on [i
 
 Examples:
 
-- [Roadmap Items](https://github.com/orgs/inno-se/projects/5/views/4)
-- [Product Backlog Items](https://github.com/orgs/inno-se/projects/1/views/1)
+- [Roadmap items](https://github.com/orgs/inno-se/projects/5/views/4)
+- [Product Backlog items](https://github.com/orgs/inno-se/projects/1/views/1)
 - [Tasks](https://github.com/orgs/inno-se/projects/2/views/1)
 
 The last two examples are inspired by Scrumboards [[^SbokGuide], Sec. 10.1.1.3, Fig. 10-5, p. 245]
