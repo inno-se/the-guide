@@ -725,7 +725,7 @@ Good preparation helps you get the most out of the feedback session.
     - **Why it helps:** This focuses the conversation and respects the other person's time. It also prevents discussion about parts of the project you are not ready to show.
 
 2. **Show your work and give context**
-    - **What to do:** Present the thing you want feedback on, for example, a user story, a design, some code, or a live demo. Briefly explain the background. For a customer, you could remind them of the sprint goal. For a TA, you could state the requirements of the lab task.
+    - **What to do:** Present the thing you want feedback on, for example, a user story, a design, some code, or a live demo. Briefly explain the background. For a customer, you could remind them of the [Sprint Goal](#sprint-goal). For a TA, you could state the requirements of the lab task.
     - **Why it helps:** To give good feedback, people need to see what you are talking about. The context helps them use the right criteria to evaluate your work.
 
 3. **Show what you did with previous feedback**
