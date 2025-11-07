@@ -2553,14 +2553,14 @@ The [Product Backlog](#product-backlog) should be DEEP [^DeepCharacteristicsOfGo
 
 From [[^AgilePMWithScrum], Ch. 3]:
 
-Grooming the product backlog is an ongoing process that comprises the activities listed below:
+Grooming the [Product Backlog](#product-backlog) is an ongoing process that comprises the activities listed below:
 
 - New items are discovered and described, and existing ones are changed or removed as appropriate.
-- The product backlog is prioritized. The most important items are now found at the top.
+- The Product Backlog is prioritized. The most important items are now found at the top.
 - The high-priority items are prepared for the upcoming sprint planning meeting; they are decomposed and refined.
-- The team sizes product backlog items. Adding new items to the product backlog, changing existing ones, and correcting estimates make sizing necessary.
+- The team sizes Product Backlog items. Adding new items to the Product Backlog, changing existing ones, and correcting estimates make sizing necessary.
 
-Although the [Product Owner](#product-owner-po) is responsible for making sure that the product backlog is in good shape, grooming is a collaborative process.
+Although the [Product Owner](#product-owner-po) is responsible for making sure that the Product Backlog is in good shape, grooming is a collaborative process.
 
 ### Core roles
 
