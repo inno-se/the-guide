@@ -2850,7 +2850,7 @@ Examples:
 - [Product Backlog items](https://github.com/orgs/inno-se/projects/1/views/1)
 - [Tasks](https://github.com/orgs/inno-se/projects/2/views/1)
 
-The last two examples are inspired by Scrumboards [[^SbokGuide], Sec. 10.1.1.3, Fig. 10-5, p. 245]
+The last two examples are inspired by Scrumboard [[^SbokGuide], Sec. 10.1.1.3, Fig. 10-5, p. 245]
 
 ![Scrumboard](./assets/images/Scrumboard.png)
 
