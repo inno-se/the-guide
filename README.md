@@ -2791,12 +2791,19 @@ We provide projects ([link](https://github.com/inno-se/the-guide/projects?query=
 
 ### Scrum board
 
-Scrum boards are GitHub project views with the layout `Board`.
+A scrum board is a GitHub project view with the layout `Board`.
+
+A scrum board has a number of [columns](#columns) that help track progress on [issues](#issues).
 
 Examples:
 
+- [Roadmap Items](https://github.com/orgs/inno-se/projects/5/views/4)
 - [Product Backlog Items](https://github.com/orgs/inno-se/projects/1/views/1)
 - [Tasks](https://github.com/orgs/inno-se/projects/2/views/1)
+
+The last two examples are inspired by Scrumboards [[^SbokGuide], Sec. 10.1.1.3, Fig. 10-5, p. 245]
+
+![Scrumboard](./assets/images/Scrumboard.png)
 
 #### Columns
 
