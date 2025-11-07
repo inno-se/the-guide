@@ -1777,7 +1777,7 @@ Limitations [[^AgileImprovementsToCpm], p. 220]:
 
 ### CPM and Scrum
 
-In Scrum, your product backlog is DEEP (see [Product backlog](#product-backlog)).
+In Scrum, your product backlog should be DEEP (see [Product backlog](#product-backlog)).
 
 The closer an item is to being completed, the more detail it should have [^DeepCharacteristicsOfGoodBacklog].
 
