@@ -429,7 +429,7 @@ A limiting factor that affects the execution of a project, program, portfolio, o
 
 *noun*
 
-A formal description of the state of the Increment when it meets the quality measures required for the product. The moment a Product Backlog Item meets the Definition of Done, an Increment is born. The Definition of Done creates transparency by providing everyone a shared understanding of what work was completed as part of the Increment. If a Product Backlog Item does not meet the Definition of Done, it cannot be released or even presented at the Sprint Review [^GlossaryOfScrumTerms].
+A formal description of the state of the Increment when it meets the quality measures required for the product. The moment a Product Backlog item meets the Definition of Done, an Increment is born. The Definition of Done creates transparency by providing everyone a shared understanding of what work was completed as part of the Increment. If a Product Backlog item does not meet the Definition of Done, it cannot be released or even presented at the Sprint Review [^GlossaryOfScrumTerms].
 
 ## fact
 
@@ -1805,7 +1805,7 @@ The Work Performance Management (WPM) approach [^PredictingCompletionInAgileProj
     Extract all requirements, features, technical details, investigations from the context.
     
     I use the following structure of issues:
-    Epic -> Product Backlog Item (PBI) -> Task
+    Epic -> Product Backlog item (PBI) -> Task
     - An Epic is a container for a major initiative that is too large and complex to be completed in a single sprint.
     - A PBI is a unit of work that is small enough to be completed by the team within a single sprint.
     - A Task is a specific action required to complete a PBI.
@@ -1825,7 +1825,7 @@ The Work Performance Management (WPM) approach [^PredictingCompletionInAgileProj
 1. (Optional) Ask LLM to generate:
     - A new use case diagram using PlantUML.
     - Project architecture using mermaid (see [Architecture Diagrams Documentation](https://mermaid.js.org/syntax/architecture.html)).
-    - Tasks for each Product Backlog Item. Each task must have a brief description, a checklist of sub-tasks, and a checklist of corresponding task [acceptance criteria](#acceptance-criteria).
+    - Tasks for each Product Backlog item. Each task must have a brief description, a checklist of sub-tasks, and a checklist of corresponding task [acceptance criteria](#acceptance-criteria).
 1. (Optional) Save the chat into a Markdown doc in the repo so that you can use it in subsequent chats.
 
 1. In the chat with all materials and analysis, ask the LLM to plan the work as a [Gantt chart](https://mermaid.js.org/syntax/gantt.html) and open the obtained diagram in the [editor](https://mermaid.live/edit). Sample prompt:
@@ -2665,13 +2665,13 @@ An Epic is a container for a major initiative that is too large and complex to b
 
 #### `Backlog`
 
-A Product Backlog Item (PBI) is a unit of work that is small enough to be completed by the team within a single sprint. It represents a concrete step toward completing an Epic. A PBI must deliver a demonstrable increment of value, though that value may be for the end-user (a feature), for the system (stability/performance), or for the development team (enabling future work).
+A Product Backlog item (PBI) is a unit of work that is small enough to be completed by the team within a single sprint. It represents a concrete step toward completing an Epic. A PBI must deliver a demonstrable increment of value, though that value may be for the end-user (a feature), for the system (stability/performance), or for the development team (enabling future work).
 
 Parent issue type: `Epic`.
 
 #### `Task`
 
-A Task is a specific action required to complete a Product Backlog Item (PBI). It breaks down a PBI into the smallest, most granular steps needed for implementation or completion.
+A Task is a specific action required to complete a Product Backlog item (PBI). It breaks down a PBI into the smallest, most granular steps needed for implementation or completion.
 
 Parent issue type: `Backlog`.
 
