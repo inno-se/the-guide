@@ -2543,18 +2543,28 @@ The Product Backlog should be DEEP [^DeepCharacteristicsOfGoodBacklog] [^AgilePM
 
 #### Product Owner (PO)
 
-PO is the person responsible for maximizing business value for the project. He or she is responsible for articulating customer requirements and maintaining business justification for the project. The Product Owner represents the *Voice of the Customer*.
+PO is the person responsible for maximizing business value for the project. He or she is responsible for articulating customer requirements and maintaining business justification for the project. The Product Owner represents the *Voice of the Customer*. [[^SbokGuide], Sec. 3.2.1, p. 54].
+
+The Product Owner is accountable for maximizing the value of the product resulting from the work of the Scrum Team. How this is done may vary widely across organizations, Scrum Teams, and individuals. Product Owner is accountable for the [Product Backlog](#product-backlog) management [^ScrumGuide].
+
+See their responsiblities: [[^SbokGuide], Sec. 3.3, p. 57].
 
 #### Scrum Master (SM)
 
-SM is a facilitator who ensures that the Scrum Team is provided with an environment conducive to completing the product’s development successfully. The Scrum Master guides, facilitates, and teaches Scrum practices to everyone involved in the project; clears impediments for the team; and ensures that Scrum processes are being followed.
+The Scrum Master is accountable for establishing Scrum as defined in the Scrum Guide. They do this by helping everyone understand Scrum theory and practice, both within the Scrum Team and the organization. [^ScrumGuide]
 
-Note that the Scrum Master role is vastly different from the role played by the Project Manager in a traditional Waterfall model of project management, in which the Project Manager works as a manager or leader for the project. The Scrum Master only works as a facilitator and he or she is at the same hierarchical level as anyone else in the Scrum Team — any person from the Scrum Team who learns how to facilitate Scrum projects can become the Scrum Master for a project or for a Sprint.
+SM is a facilitator who ensures that the Scrum Team is provided with an environment conducive to completing the product’s development successfully. The Scrum Master guides, facilitates, and teaches Scrum practices to everyone involved in the project; clears impediments for the team; and ensures that Scrum processes are being followed. [[^SbokGuide], Sec. 3.2.1, p. 54]
+
+Note that the Scrum Master role is vastly different from the role played by the Project Manager in a traditional Waterfall model of project management, in which the Project Manager works as a manager or leader for the project. The Scrum Master only works as a facilitator and he or she is at the same hierarchical level as anyone else in the Scrum Team — any person from the Scrum Team who learns how to facilitate Scrum projects can become the Scrum Master for a project or for a Sprint. [[^SbokGuide], Sec. 3.2.1, p. 54]
+
+See their responsiblities: [[^SbokGuide], Sec. 3.4, p. 59].
 
 
-#### Scrum Team
+#### Developers
 
-**Scrum Team** is a group or team of people who are responsible for understanding the business requirements specified by the Product Owner, estimating [User Stories](#user-stories), and final creation of the project deliverables.
+**Developers** is a group or team of people who are responsible for understanding the business requirements specified by the Product Owner, estimating [User Stories](#user-stories), and final creation of the project deliverables. [[^SbokGuide], Sec. 3.2.1, p. 54]
+
+See their responsibilities: [[^SbokGuide], Sec. 3.5, p. 60].
 
 
 ### Non-core roles
