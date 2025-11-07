@@ -2524,6 +2524,8 @@ Adapted from [^ScrumPdca]:
 
 ### Product backlog
 
+### DEEP Product Backlog
+
 The Product Backlog should be DEEP [^DeepCharacteristicsOfGoodBacklog] [^AgilePMWithScrum]:
 
 - **D**etailed appropriately - The closer an item is to being completed, the more detail it should have.
