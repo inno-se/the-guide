@@ -335,6 +335,7 @@ This repository provides a guide for managing the development of a software proj
       - [Team lead](#team-lead)
     - [Events](#events)
     - [Artifacts and commitments](#artifacts-and-commitments)
+    - [Sprint Goal](#sprint-goal)
     - [Sprint tracking sheet](#sprint-tracking-sheet)
   - [Work item hierarchy](#work-item-hierarchy)
   - [Issues](#issues)
@@ -2658,6 +2659,40 @@ Each artifact contains a *commitment* to ensure it provides information that enh
 
 These commitments exist to reinforce empiricism and the Scrum values for the Scrum Team and their stakeholders.
 
+### Sprint Goal
+
+From [^ScrumGuide]:
+
+A Sprint Goal communicates why the Sprint is valuable to [stakeholders](#stakeholders). The Sprint Goal must be finalized prior to the end of Sprint Planning.
+
+The Sprint Goal also creates coherence and focus, encouraging the [Scrum Team](#core-roles) to work together rather than on separate initiatives.
+
+The purpose of the Daily Scrum is to inspect progress toward the Sprint Goal and adapt the Sprint Backlog as necessary, adjusting the upcoming planned work.
+
+A Sprint could be cancelled if the Sprint Goal becomes obsolete. Only the [Product Owner](#product-owner-po) has the authority to cancel the Sprint.
+
+A template for a Sprint Goal [^SprintGoalTemplate]:
+
+```md
+Our focus is on <Outcome>.
+We believe it delivers <Impact> to <Customer>.
+This will be confirmed when <Event happens>.
+```
+
+Examples:
+
+```md
+Our focus is on enabling playback of uploaded videos.
+We believe it delivers a first interactive experience to test users.
+This will be confirmed when a user can tap a video and it plays smoothly in the app.
+```
+
+```md
+Our focus is on implementing user sign-up and login.
+We believe it delivers secure and personalized access to new users.
+This will be confirmed when a user can register, log in, and stay authenticated.
+```
+
 ### Sprint tracking sheet
 
 Record certain information about sprint activities to be able to improve and see progress.
@@ -3325,3 +3360,4 @@ Paywalled books and articles are usually available in shadow libraries such as:
 [^PMToolbox]: C. Snyder Dionisio and R. J. Martinelli, Project Management ToolBox: Tools and Techniques for the Practicing Project Manager, 3rd ed. Wiley, 2025. doi: 10.1002/9781394222094. ([File](./assets/pdfs/PMToolbox.pdf))
 [^IsoQualityModel]: “ISO/IEC 25002:2024,” ISO. Accessed: Nov. 04, 2025. ([File](./assets/pdfs/Iso25002:2024.pdf)) Available: <https://www.iso.org/standard/78175.html>
 [^AgilePMWithScrum]: R. Pichler, Agile Product Management with Scrum: Creating Products that Customers Love. [Online]. ([File](./assets/epub/AgilePMWithScrum.epub)) Available: <https://www.oreilly.com/library/view/agile-product-management/9780321684165/>
+[^SprintGoalTemplate]: Sprint Goal Template <https://www.scrum.org/resources/blog/sprint-goal-template>
