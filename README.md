@@ -322,9 +322,9 @@ This repository provides a guide for managing the development of a software proj
     - [Scrum theory](#scrum-theory)
     - [Process](#process)
     - [Relation to PDSA](#relation-to-pdsa)
-    - [Product backlog](#product-backlog)
+    - [Product Backlog](#product-backlog)
     - [DEEP Product Backlog](#deep-product-backlog)
-    - [Product backlog grooming](#product-backlog-grooming)
+    - [Product Backlog grooming](#product-backlog-grooming)
     - [Core roles](#core-roles)
       - [Product Owner (PO)](#product-owner-po)
       - [Scrum Master (SM)](#scrum-master-sm)
@@ -2524,7 +2524,7 @@ Adapted from [^ScrumPdca]:
 - *Study* is the Sprint Review and Sprint Retrospective
 - *Act* is the feedback result of the Sprint Review and Sprint Retrospective, which is reflected in the specific requirements and process improvement activities.
 
-### Product backlog
+### Product Backlog
 
 From [^SbokGuide]:
 
@@ -2549,7 +2549,7 @@ The [Product Backlog](#product-backlog) should be DEEP [^DeepCharacteristicsOfGo
 - **E**mergent - Allow your backlog to evolve, adding, removing, and refining items as needed.
 - **P**rioritized - Items at the top are a higher priority, and items toward the bottom are a lower priority. When deciding which items should be prioritized, consider the value each item will provide.
 
-### Product backlog grooming
+### Product Backlog grooming
 
 From [[^AgilePMWithScrum], Ch. 3]:
 
