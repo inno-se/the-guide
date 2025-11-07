@@ -323,6 +323,7 @@ This repository provides a guide for managing the development of a software proj
     - [Process](#process)
     - [Relation to PDSA](#relation-to-pdsa)
     - [Product backlog](#product-backlog)
+    - [Product backlog grooming](#product-backlog-grooming)
     - [Core roles](#core-roles)
       - [Product Owner (PO)](#product-owner-po)
       - [Scrum Master (SM)](#scrum-master-sm)
@@ -2546,6 +2547,19 @@ The Product Backlog should be DEEP [^DeepCharacteristicsOfGoodBacklog] [[^AgileP
 - **E**stimated - Thorough estimation should be focused on high-priority items that will be tackled soon. When you are further down the priority list, your estimation will be more of a guess since you don’t have all of the information yet.
 - **E**mergent - Allow your backlog to evolve, adding, removing, and refining items as needed.
 - **P**rioritized - Items at the top are a higher priority, and items toward the bottom are a lower priority. When deciding which items should be prioritized, consider the value each item will provide.
+
+### Product backlog grooming
+
+From [[^AgilePMWithScrum], Ch. 3]:
+
+Grooming the product backlog is an ongoing process that comprises the activities listed below:
+
+- New items are discovered and described, and existing ones are changed or removed as appropriate.
+- The product backlog is prioritized. The most important items are now found at the top.
+- The high-priority items are prepared for the upcoming sprint planning meeting; they are decomposed and refined.
+- The team sizes product backlog items. Adding new items to the product backlog, changing existing ones, and correcting estimates make sizing necessary.
+
+Although the [Product Owner](#product-owner-po) is responsible for making sure that the product backlog is in good shape, grooming is a collaborative process.
 
 ### Core roles
 
