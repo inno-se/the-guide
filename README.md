@@ -2524,6 +2524,20 @@ Adapted from [^ScrumPdca]:
 
 ### Product backlog
 
+From [^SbokGuide]:
+
+The Prioritized Product Backlog is a single requirements document that defines the project scope by providing a prioritized list of features of the product or service to be delivered by the project.
+
+The required features are described in the form of User Stories. User Stories are specific requirements outlined by relevant business stakeholders as they pertain to the proposed product or service.
+
+Each User Story will have associated User Story Acceptance Criteria (also referred to as “[Acceptance Criteria](#acceptance-criteria)", which are the objective components by which a User Story’s functionality is judged. Acceptance Criteria are developed by the Product Owner according to his or her expert understanding of the customer’s requirements.
+
+The Product Owner then communicates the User Stories in the Prioritized Product Backlog to the Developers, and their agreement is sought. Acceptance Criteria should explicitly outline the conditions that User Stories must satisfy. Clearly defined Acceptance Criteria are crucial for timely and effective delivery of the functionality defined in the User Stories, which determines the success of the project.
+
+At the end of each Sprint, the Product Owner uses these criteria to verify the completed deliverables; and can either accept or reject individual deliverables and their associated User Stories. If deliverables are accepted by the Product Owner, then the User Story is considered Done. A clear definition of Done is critical because it helps clarify requirements and allows the team to adhere to quality norms. It also helps the team think from the user’s perspective when working with User Stories.
+
+User Stories corresponding to rejected deliverables are added back to the Prioritized Product Backlog to be considered for completion in future Sprints. The rejection of a few individual deliverables and their corresponding User Stories is not a rejection of the final product or product increment. The product or product increment could potentially be shippable even if a few User Stories are rejected.
+
 ### DEEP Product Backlog
 
 The Product Backlog should be DEEP [^DeepCharacteristicsOfGoodBacklog] [[^AgilePMWithScrum], Ch. 3]:
