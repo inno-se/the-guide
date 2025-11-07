@@ -327,7 +327,7 @@ This repository provides a guide for managing the development of a software proj
     - [Core roles](#core-roles)
       - [Product Owner (PO)](#product-owner-po)
       - [Scrum Master (SM)](#scrum-master-sm)
-      - [Scrum Team](#scrum-team)
+      - [Development Team](#development-team)
     - [Non-core roles](#non-core-roles)
     - [Tuckman model](#tuckman-model)
     - [Conflict resolution](#conflict-resolution)
@@ -2563,41 +2563,50 @@ Although the [Product Owner](#product-owner-po) is responsible for making sure t
 
 ### Core roles
 
-**Scrum Core Team** [^SbokGuide] consists of:
+From [^SbokGuide]:
+
+A **Scrum Team** consists of:
 
 - [Product Owner](#product-owner-po)
 - [Scrum Master](#scrum-master-sm)
-- [Scrum Team](#scrum-team)
+- [Development Team](#development-team)
+
+It is important to note that, of these three roles, no role has authority over the others. [[^SbokGuide], Sec. 3.2.1, p. 54]
+
+> [!NOTE]
+> When quoting [^SbokGuide], we use "*Development Team*" instead of "*Scrum Team*".
+>
+> We use "*Scrum Team*" [^ScrumGuide] and "*Scrum Core Team*" [^SbokGuide] interchangeably.
 
 #### Product Owner (PO)
 
 PO is the person responsible for maximizing business value for the project. He or she is responsible for articulating customer requirements and maintaining business justification for the project. The Product Owner represents the *Voice of the Customer*. [[^SbokGuide], Sec. 3.2.1, p. 54].
 
-The Product Owner is accountable for maximizing the value of the product resulting from the work of the Scrum Team. How this is done may vary widely across organizations, Scrum Teams, and individuals. Product Owner is accountable for the [Product Backlog](#product-backlog) management [^ScrumGuide].
+The Product Owner is accountable for maximizing the value of the product resulting from the work of the [Scrum Team](#core-roles). How this is done may vary widely across organizations, Scrum Teams, and individuals. Product Owner is accountable for the [Product Backlog](#product-backlog) management [^ScrumGuide].
 
-See their responsiblities: [[^SbokGuide], Sec. 3.3, p. 57].
+See Product Owner responsiblities: [[^SbokGuide], Sec. 3.3, p. 57].
 
 #### Scrum Master (SM)
 
 The Scrum Master is accountable for establishing Scrum as defined in the Scrum Guide. They do this by helping everyone understand Scrum theory and practice, both within the Scrum Team and the organization. [^ScrumGuide]
 
-SM is a facilitator who ensures that the Scrum Team is provided with an environment conducive to completing the product’s development successfully. The Scrum Master guides, facilitates, and teaches Scrum practices to everyone involved in the project; clears impediments for the team; and ensures that Scrum processes are being followed. [[^SbokGuide], Sec. 3.2.1, p. 54]
+The Scrum Master is a facilitator who ensures that the [Development Team](#development-team) is provided with an environment conducive to completing the product’s development successfully. The Scrum Master guides, facilitates, and teaches Scrum practices to everyone involved in the project; clears impediments for the team; and ensures that Scrum processes are being followed. [[^SbokGuide], Sec. 3.2.1, p. 54]
 
-Note that the Scrum Master role is vastly different from the role played by the Project Manager in a traditional Waterfall model of project management, in which the Project Manager works as a manager or leader for the project. The Scrum Master only works as a facilitator and he or she is at the same hierarchical level as anyone else in the Scrum Team — any person from the Scrum Team who learns how to facilitate Scrum projects can become the Scrum Master for a project or for a Sprint. [[^SbokGuide], Sec. 3.2.1, p. 54]
+Note that the Scrum Master role is vastly different from the role played by the Project Manager in a traditional Waterfall model of project management, in which the Project Manager works as a manager or leader for the project. The Scrum Master only works as a facilitator and he or she is at the same hierarchical level as anyone else in the [Development Team](#development-team) — any person from the [Development Team](#development-team) who learns how to facilitate Scrum projects can become the Scrum Master for a project or for a Sprint. [[^SbokGuide], Sec. 3.2.1, p. 54]
 
-See their responsiblities: [[^SbokGuide], Sec. 3.4, p. 59].
+See Scrum Master responsiblities: [[^SbokGuide], Sec. 3.4, p. 59].
 
 
-#### Developers
+#### Development Team
 
-**Developers** is a group or team of people who are responsible for understanding the business requirements specified by the Product Owner, estimating [User Stories](#user-stories), and final creation of the project deliverables. [[^SbokGuide], Sec. 3.2.1, p. 54]
+**Development Team** is a team of people who are responsible for understanding the business requirements specified by the [Product Owner](#product-owner-po), estimating [User Stories](#user-stories), and final creation of the project deliverables. [[^SbokGuide], Sec. 3.2.1, p. 54]
 
-See their responsibilities: [[^SbokGuide], Sec. 3.5, p. 60].
+See Development Team responsibilities: [[^SbokGuide], Sec. 3.5, p. 60].
 
 
 ### Non-core roles
 
-- **Business Stakeholder(s)**, which is a collective term that includes customers, users, and sponsors who frequently interface with the Scrum Core Team and also influence the project throughout the project’s development. Most importantly, it is for the business stakeholders that the project produces collaborative benefits [^SbokGuide].
+- **Business Stakeholder(s)**, which is a collective term that includes customers, users, and sponsors who frequently interface with the [Scrum Core Team](#core-roles) and also influence the project throughout the project’s development. Most importantly, it is for the business stakeholders that the project produces collaborative benefits [^SbokGuide].
 
 - **Course Stakeholders** - course instructors (primary instructor, TAs, mentors).
 
@@ -2628,7 +2637,7 @@ At the start of the project, [architectural](#architectural-decision-ad) and oth
 
 Meanwhile, the team may be in the [Forming](#tuckman-model) or [Storming](#tuckman-model) phase when disagreements occur relatively often. What if some of the [Scrum Core Team](#core-roles) members can't reach a consensus on a decision, even with the help of a Scrum Master?
 
-Scrum Core Team members don't have any power over each other [[^SbokGuide], Sec. 3.2.1].
+[Scrum Core Team](#core-roles) members don't have any power over each other [[^SbokGuide], Sec. 3.2.1].
 
 A possible solution is to assign someone the role of a formal team lead who will break the tie in such a case and explain their decision to others [^WhyHaveTeamLead].
 
