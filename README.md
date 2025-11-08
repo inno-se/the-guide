@@ -325,7 +325,7 @@ This repository provides a guide for managing the development of a software proj
     - [Product Backlog](#product-backlog)
     - [DEEP Product Backlog](#deep-product-backlog)
     - [Product Backlog grooming](#product-backlog-grooming)
-    - [Core roles](#core-roles)
+    - [Scrum Team](#scrum-team)
       - [Product Owner (PO)](#product-owner-po)
       - [Scrum Master (SM)](#scrum-master-sm)
       - [Development Team](#development-team)
@@ -512,7 +512,7 @@ Acronym components [^SmartCriteriaWiki]:
 
 *noun*
 
-All individuals and groups affected by the Scrum project, both within and outside the organization (e.g., all [core](#core-roles) and [non-core](#non-core-roles) roles, vendors, internal groups, experts, and so on) [^SbokGuide].
+All individuals and groups affected by the Scrum project, both within and outside the organization (e.g., all [core](#scrum-team) and [non-core](#non-core-roles) roles, vendors, internal groups, experts, and so on) [^SbokGuide].
 
 In your course, stakeholders are usually:
 
@@ -1060,7 +1060,7 @@ Suggested topics:
 - `Important` - for important information such as:
   - team member names;
   - Telegram and GitHub usernames;
-  - roles (see [Roles](#core-roles));
+  - roles (see [Scrum Team](#scrum-team));
   - rights and responsibilities of the project manager (can also be documented in the [Project Charter](#project-charter));
   - links to the:
     - repository;
@@ -2485,7 +2485,7 @@ Scrum is an empirical process, where decisions are based on observation, experie
 
 From [^TheThreePillarsOfEmpiricismScrum]:
 
-Scrum works not because it has three [roles](#core-roles), five [events](#events), and three [artifacts](#artifacts-and-commitments) but because it adheres to the underlying [Agile](#agile) principles of iterative, value-based incremental delivery by frequently gathering customer feedback and embracing change. This results in faster time to market, better delivery predictability, increased customer responsiveness, ability to change direction by managing changing priorities, enhanced software quality, and improved risk management.
+Scrum works not because it has three [roles](#scrum-team), five [events](#events), and three [artifacts](#artifacts-and-commitments) but because it adheres to the underlying [Agile](#agile) principles of iterative, value-based incremental delivery by frequently gathering customer feedback and embracing change. This results in faster time to market, better delivery predictability, increased customer responsiveness, ability to change direction by managing changing priorities, enhanced software quality, and improved risk management.
 
 ### Scrum theory
 
@@ -2563,7 +2563,7 @@ Grooming the [Product Backlog](#product-backlog) is an ongoing process that comp
 
 Although the [Product Owner](#product-owner-po) is responsible for making sure that the Product Backlog is in good shape, grooming is a collaborative process.
 
-### Core roles
+### Scrum Team
 
 From [^SbokGuide]:
 
@@ -2584,7 +2584,7 @@ It is important to note that, of these three roles, no role has authority over t
 
 PO is the person responsible for maximizing business value for the project. He or she is responsible for articulating customer requirements and maintaining business justification for the project. The Product Owner represents the *Voice of the Customer*. [[^SbokGuide], Sec. 3.2.1, p. 54].
 
-The Product Owner is accountable for maximizing the value of the product resulting from the work of the [Scrum Team](#core-roles). How this is done may vary widely across organizations, Scrum Teams, and individuals. Product Owner is accountable for the [Product Backlog](#product-backlog) management [^ScrumGuide].
+The Product Owner is accountable for maximizing the value of the product resulting from the work of the [Scrum Team](#scrum-team). How this is done may vary widely across organizations, Scrum Teams, and individuals. Product Owner is accountable for the [Product Backlog](#product-backlog) management [^ScrumGuide].
 
 See Product Owner responsiblities: [[^SbokGuide], Sec. 3.3, p. 57].
 
@@ -2608,7 +2608,7 @@ See Development Team responsibilities: [[^SbokGuide], Sec. 3.5, p. 60].
 
 ### Non-core roles
 
-- **Business Stakeholder(s)**, which is a collective term that includes customers, users, and sponsors who frequently interface with the [Scrum Core Team](#core-roles) and also influence the project throughout the project’s development. Most importantly, it is for the business stakeholders that the project produces collaborative benefits [^SbokGuide].
+- **Business Stakeholder(s)**, which is a collective term that includes customers, users, and sponsors who frequently interface with the [Scrum Team](#scrum-team) and also influence the project throughout the project’s development. Most importantly, it is for the business stakeholders that the project produces collaborative benefits [^SbokGuide].
 
 - **Course Stakeholders** - course instructors (primary instructor, TAs, mentors).
 
@@ -2637,9 +2637,9 @@ It is usually best for team members to face problems directly with a cooperative
 
 At the start of the project, [architectural](#architectural-decision-ad) and other technical decisions need to be made.
 
-Meanwhile, the team may be in the [Forming](#tuckman-model) or [Storming](#tuckman-model) phase when disagreements occur relatively often. What if some of the [Scrum Core Team](#core-roles) members can't reach a consensus on a decision, even with the help of a Scrum Master?
+Meanwhile, the team may be in the [Forming](#tuckman-model) or [Storming](#tuckman-model) phase when disagreements occur relatively often. What if some of the [Scrum Team](#scrum-team) members can't reach a consensus on a decision, even with the help of a Scrum Master?
 
-[Scrum Core Team](#core-roles) members don't have any power over each other [[^SbokGuide], Sec. 3.2.1].
+[Scrum Team](#scrum-team) members don't have any power over each other [[^SbokGuide], Sec. 3.2.1].
 
 A possible solution is to assign someone the role of a formal team lead who will break the tie in such a case and explain their decision to others [^WhyHaveTeamLead].
 
@@ -2665,7 +2665,7 @@ From [^ScrumGuide]:
 
 A Sprint Goal communicates why the Sprint is valuable to [stakeholders](#stakeholders). The Sprint Goal must be finalized prior to the end of Sprint Planning.
 
-The Sprint Goal also creates coherence and focus, encouraging the [Scrum Team](#core-roles) to work together rather than on separate initiatives.
+The Sprint Goal also creates coherence and focus, encouraging the [Scrum Team](#scrum-team) to work together rather than on separate initiatives.
 
 The purpose of the Daily Scrum is to inspect progress toward the Sprint Goal and adapt the Sprint Backlog as necessary, adjusting the upcoming planned work.
 
