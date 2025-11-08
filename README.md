@@ -2885,17 +2885,17 @@ We provide projects ([link](https://github.com/inno-se/the-guide/projects?query=
 
 ### Scrum Table
 
+We define a Scrum Table as a GitHub project view with the layout `Table`.
+
 A Scrum Table helps track [status](#issue-status), priority, parent issues, estimates, and other information about [issues](#issues).
 
-We implemented Scrum Tables using GitHub project views with the layout `Table`.
+These are our Scrum Tables:
 
-Examples:
+- <a href="#roadmap-table">Roadmap</a>
+- <a href="#product-backlog-table">Product Backlog</a>
+- <a href="#tasks-table">Tasks</a>
 
-- [Roadmap items](https://github.com/orgs/inno-se/projects/5/views/5)
-- [Product Backlog items](https://github.com/orgs/inno-se/projects/1/views/7)
-- [Tasks](https://github.com/orgs/inno-se/projects/2)
-
-The last two examples are inspired by Scrumboard [[^SbokGuide], Sec. 10.1.1.3, Fig. 10-5, p. 245]
+The last two Scrum Tables are inspired by Scrumboard [[^SbokGuide], Sec. 10.1.1.3, Fig. 10-5, p. 245]
 
 ![Scrumboard](./assets/images/Scrumboard.png)
 
@@ -2993,6 +2993,8 @@ This project allows for planning and tracking the progress of [type `Epic`](#epi
 * A production version with changes introduced for this issue was deployed.
 * All acceptance criteria specified in the issue were met on that version.
 ```
+
+<a id="roadmap-table">
 
 ### View `Table`
 
@@ -3119,6 +3121,8 @@ A) If there were changes:
 B) Otherwise:
 * All acceptance criteria specified in the issue were met.
 ```
+
+<a id="product-backlog-table">
 
 ### View `Table`
 
@@ -3252,6 +3256,8 @@ A) If there was a PR to complete this issue:
 B) Otherwise:
 * All acceptance criteria specified in the issue were met.
 ```
+
+<a id="tasks-table">
 
 ### View `Table`
 
