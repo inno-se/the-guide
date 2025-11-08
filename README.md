@@ -362,6 +362,7 @@ This repository provides a guide for managing the development of a software proj
   - [Project `Roadmap`](#project-roadmap)
     - [Limitations](#limitations)
     - [Project settings](#project-settings)
+      - [Default repository](#default-repository)
       - [Custom fields (additional)](#custom-fields-additional)
     - [View `Gantt`](#view-gantt)
       - [View options](#view-options)
@@ -375,6 +376,7 @@ This repository provides a guide for managing the development of a software proj
   - [Project `Product Backlog`](#project-product-backlog)
     - [Limitations](#limitations-1)
     - [Project settings](#project-settings-1)
+      - [Default repository](#default-repository-1)
       - [Custom fields (additional)](#custom-fields-additional-1)
     - [View `Board`](#view-board-1)
       - [View options](#view-options-2)
@@ -388,6 +390,7 @@ This repository provides a guide for managing the development of a software proj
   - [Project `Tasks`](#project-tasks)
     - [Limitations](#limitations-2)
     - [Project settings](#project-settings-2)
+      - [Default repository](#default-repository-2)
       - [Custom fields (additional)](#custom-fields-additional-2)
     - [View `Board`](#view-board-2)
       - [Settings](#settings)
@@ -2916,6 +2919,10 @@ This project allows for planning and tracking the progress of [type `Epic`](#epi
 
 ### Project settings
 
+#### Default repository
+
+`inno-se/the-guide`
+
 #### Custom fields (additional)
 
 - `Start` of type `Date` - (planned) date of starting the work on an issue.
@@ -3010,6 +3017,10 @@ Additionally, it visualizes connections between type `Backlog` issues and their 
 - The `Sprint` field of a type `Backlog` issue and its type `Task` sub-issue must be (manually) synchronized.
 
 ### Project settings
+
+#### Default repository
+
+`inno-se/the-guide`
 
 #### Custom fields (additional)
 
@@ -3107,6 +3118,10 @@ Additionally, it visualizes connections between type `Task` issues and their par
 - The `Sprint` field of a type `Task` issue and its parent type `Backlog` issue must be (manually) synchronized.
 
 ### Project settings
+
+#### Default repository
+
+`inno-se/the-guide`
 
 #### Custom fields (additional)
 
