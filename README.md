@@ -379,13 +379,14 @@ This repository provides a guide for managing the development of a software proj
     - [Project settings](#project-settings-1)
       - [Default repository](#default-repository-1)
       - [Custom fields (additional)](#custom-fields-additional-1)
+    - [`Product Backlog` issue status](#product-backlog-issue-status)
+      - [To Do](#to-do-1)
+      - [In Progress](#in-progress-1)
+      - [Deploying to Production](#deploying-to-production)
+      - [Done](#done-1)
     - [View `Board`](#view-board-1)
       - [View options](#view-options-2)
-      - [Columns](#columns-2)
-        - [To Do](#to-do-1)
-        - [In Progress](#in-progress-1)
-        - [Deploying to Production](#deploying-to-production)
-        - [Done](#done-1)
+      - [Columns](#columns-1)
     - [View `Gantt`](#view-gantt-1)
       - [View options](#view-options-3)
   - [Project `Tasks`](#project-tasks)
@@ -3046,6 +3047,45 @@ Additionally, it visualizes connections between type `Backlog` issues and their 
 - `Sprint` of type `Iteration` - a sprint that the issue belongs to.
 - `Priority` of type `Single select` - a priority of the issue (see [Issue priority](#issue-priority)).
 
+### `Product Backlog` issue status
+
+#### To Do
+
+```text
+[Entry Criteria]
+* The issue conforms to a relevant type "Backlog" issue form template.
+* The issue has type "Backlog" and relevant labels.
+* The issue has type "Task" issues as sub-issues.
+* The issue and its sub-issues belong to the same milestone.
+* The issue is a sub-issue of a type "Backlog" issue.
+```
+
+#### In Progress
+
+```text
+[Entry Criteria]
+* The issue description contains all necessary details.
+* The issue has "Story Points" and the current "Sprint".
+* Sub-issues of the issue have the current "Sprint" in the "Tasks" project.
+```
+
+#### Shipping
+
+```text
+[Entry Criteria]
+* All sub-issues of the issue were completed.
+* All changes introduced to complete the issue were deployed to the staging environment.
+* All acceptance criteria specified in the issue were met in the staging environment.
+```
+
+#### Done
+
+```text
+[Entry Criteria]
+* All changes introduced to complete the issue were deployed to the production environment.
+* All acceptance criteria specified in the issue were met in the production environment.
+```
+
 ### View `Board`
 
 [Link](https://github.com/orgs/inno-se/projects/1/views/1)
@@ -3067,44 +3107,7 @@ Additionally, it visualizes connections between type `Backlog` issues and their 
   
 #### Columns
 
-There are [entry criteria](#entry-criteria) for each column.
-
-##### To Do
-
-```text
-[Entry Criteria]
-* The issue was updated (e.g., via an LLM) to conform a relevant issue form template.
-* Relevant labels were assigned to the issue.
-* Type "Task" issues were added as sub-issues of the issue.
-* The issue field "Story Points" was filled in.
-* The issue was added to a sprint.
-* Sub-issues of the issue were added to a matching sprint in the "Tasks" project.
-```
-
-##### In Progress
-
-```text
-[Entry Criteria]
-* The issue description was revised to provide missing details.
-* The issue was added to the current sprint.
-```
-
-##### Deploying to Production
-
-```text
-[Entry Criteria]
-* All sub-issues of the issue were completed.
-* All changes introduced to complete the issue were deployed to the staging environment.
-* All acceptance criteria specified in the issue were met in the staging environment.
-```
-
-##### Done
-
-```text
-[Entry Criteria]
-* All changes introduced to complete the issue were deployed to the production environment.
-* All acceptance criteria specified in the issue were met in the production environment.
-```
+Column descriptions specify [entry criteria](#entry-criteria) for each [issue status](#product-backlog-issue-status).
 
 ### View `Gantt`
 
