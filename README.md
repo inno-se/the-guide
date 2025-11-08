@@ -2582,7 +2582,7 @@ It is important to note that, of these three roles, no role has authority over t
 
 PO is the person responsible for maximizing business value for the project. He or she is responsible for articulating customer requirements and maintaining business justification for the project. The Product Owner represents the *Voice of the Customer*. [[^SbokGuide], Sec. 3.2.1, p. 54].
 
-The Product Owner is accountable for maximizing the value of the product resulting from the work of the [Scrum Team](#scrum-team). How this is done may vary widely across organizations, Scrum Teams, and individuals. Product Owner is accountable for the [Product Backlog](#product-backlog) management [^ScrumGuide].
+The Product Owner is accountable for maximizing the value of the product resulting from the work of the [Scrum Team](#scrum-team). How this is done may vary widely across organizations, Scrum Teams, and individuals. Product Owner is accountable for the [Product Backlog](#product-backlog) management. [^ScrumGuide]
 
 See Product Owner responsiblities: [[^SbokGuide], Sec. 3.3, p. 57].
 
