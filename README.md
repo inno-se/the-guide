@@ -359,7 +359,7 @@ This repository provides a guide for managing the development of a software proj
     - [Scrum Table](#scrum-table)
     - [Scrum Board](#scrum-board)
     - [Issue Status](#issue-status)
-      - [Entry criteria](#entry-criteria)
+    - [Entry criteria](#entry-criteria)
   - [Project `Roadmap`](#project-roadmap)
     - [Limitations](#limitations)
     - [Project settings](#project-settings)
@@ -2913,13 +2913,13 @@ An issue status corresponds to a process that the issue should go through to get
 
 There are [entry criteria](#entry-criteria) for each status.
 
-#### Entry criteria
+### Entry criteria
 
-Entry criteria for a column specify conditions that must all be satisfied before an issue can be moved to that column so that the associated process can start.
+Entry criteria for a given [issue status](#issue-status) specify conditions that must all be satisfied before the current issue status can be changed to the given status.
 
-Entry criteria for the next column are exit criteria for a process associated with the current column.
+Entry criteria for the next status are exit criteria for a process associated with the current status.
 
-The design is inspired by the ETVX process model [[^GqmGuide], Sec. 6.3, p. 59].
+This design is inspired by the ETVX process model [[^GqmGuide], Sec. 6.3, p. 59].
 
 ## Project `Roadmap`
 
