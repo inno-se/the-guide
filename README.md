@@ -401,7 +401,7 @@ This repository provides a guide for managing the development of a software proj
     - [View `Board`](#view-board-2)
       - [Settings](#settings)
       - [Columns](#columns-2)
-    - [View `With Parents`](#view-with-parents)
+    - [View `Table`](#view-table)
       - [Settings](#settings-1)
     - [View `Gantt`](#view-gantt-2)
       - [Settings](#settings-2)
@@ -3214,7 +3214,7 @@ Column descriptions specify [entry criteria](#entry-criteria) for each [issue st
 
 An issue can be closed when it reaches the `Done` column.
 
-### View `With Parents`
+### View `Table`
 
 - For each type `Backlog` issue, this view shows which sprint its type `Task` sub-issues were assigned to.
 - Shows total `Ideal Hours` for a `Sprint`.
