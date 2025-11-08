@@ -2565,7 +2565,10 @@ Although the [Product Owner](#product-owner-po) is responsible for making sure t
 
 ### Scrum Team
 
-From [^SbokGuide]:
+> [!NOTE]
+> When quoting [^SbokGuide], we use "*Development Team*" instead of "*Scrum Team*".
+>
+> We use "*Scrum Team*" [^ScrumGuide] and "*Scrum Core Team*" [^SbokGuide] interchangeably.
 
 A **Scrum Team** consists of:
 
@@ -2574,11 +2577,6 @@ A **Scrum Team** consists of:
 - [Development Team](#development-team)
 
 It is important to note that, of these three roles, no role has authority over the others. [[^SbokGuide], Sec. 3.2.1, p. 54]
-
-> [!NOTE]
-> When quoting [^SbokGuide], we use "*Development Team*" instead of "*Scrum Team*".
->
-> We use "*Scrum Team*" [^ScrumGuide] and "*Scrum Core Team*" [^SbokGuide] interchangeably.
 
 #### Product Owner (PO)
 
