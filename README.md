@@ -2972,7 +2972,7 @@ Shows planned schedule of working on type `Epic` issues.
 
 [Link](https://github.com/orgs/inno-se/projects/5/views/4)
 
-- Provides [entry criteria](#entry-criteria) in [Scrum Board](#scrum-board) column descriptions.
+- Provides [entry criteria](#entry-criteria) for [issue statuses](#roadmap-issue-status) in the [Scrum Board](#scrum-board) column descriptions.
 - Shows status of type `Epic` issues.
 
 #### View options
@@ -3133,7 +3133,7 @@ Shows planned schedule of working on type `Backlog` issues.
 
 [Link](https://github.com/orgs/inno-se/projects/1/views/1)
 
-- Provides [entry criteria](#entry-criteria) in the [Scrum Board](#scrum-board) column descriptions.
+- Provides [entry criteria](#entry-criteria) for [issue statuses](#product-backlog-issue-status) in the [Scrum Board](#scrum-board) column descriptions.
 - Shows total `Story Points` per [Sprint](#sprint).
 
 #### View options
@@ -3269,7 +3269,7 @@ B) Otherwise:
 
 [Link](https://github.com/orgs/inno-se/projects/2/views/1)
 
-- Provides [entry criteria](#entry-criteria) for [statuses](#tasks-status) in the [Scrum Board](#scrum-board) column descriptions.
+- Provides [entry criteria](#entry-criteria) for [issue statuses](#tasks-status) in the [Scrum Board](#scrum-board) column descriptions.
 - Shows total `Ideal Hours` per sprint.
 
 #### Settings
