@@ -384,11 +384,11 @@ This repository provides a guide for managing the development of a software proj
       - [In Progress](#in-progress-1)
       - [Shipping](#shipping)
       - [Done](#done-1)
-    - [View `Board`](#view-board-1)
-      - [View options](#view-options-2)
-      - [Columns](#columns-1)
     - [View `Gantt`](#view-gantt-1)
+      - [View options](#view-options-2)
+    - [View `Board`](#view-board-1)
       - [View options](#view-options-3)
+      - [Columns](#columns-1)
   - [Project `Tasks`](#project-tasks)
     - [Limitations](#limitations-2)
     - [Project settings](#project-settings-2)
@@ -3089,6 +3089,25 @@ B) Otherwise:
 * All acceptance criteria specified in the issue were met.
 ```
 
+### View `Gantt`
+
+[Link](https://github.com/orgs/inno-se/projects/1/views/4)
+
+Shows planned schedule of working on type `Backlog` issues.
+
+#### View options
+
+- Layout: `Roadmap`.
+
+- Configuration:
+  - Group by: `Sprint`.
+  - Markers: `Sprint and Milestone`.
+  - Sort by: `Sprint` (ascending), `Priority` (ascending).
+  - Dates: `Sprint`.
+  - Zoom level: `Month`.
+  - Field sum: `Count`, `Story Points`.
+  - Slice by: `Parent issue`.
+
 ### View `Board`
 
 [Link](https://github.com/orgs/inno-se/projects/1/views/1)
@@ -3111,25 +3130,6 @@ B) Otherwise:
 #### Columns
 
 Column descriptions specify [entry criteria](#entry-criteria) for each [issue status](#product-backlog-issue-status).
-
-### View `Gantt`
-
-[Link](https://github.com/orgs/inno-se/projects/1/views/4)
-
-Shows planned schedule of working on type `Backlog` issues.
-
-#### View options
-
-- Layout: `Roadmap`.
-
-- Configuration:
-  - Group by: `Sprint`.
-  - Markers: `Sprint and Milestone`.
-  - Sort by: `Sprint` (ascending), `Priority` (ascending).
-  - Dates: `Sprint`.
-  - Zoom level: `Month`.
-  - Field sum: `Count`, `Story Points`.
-  - Slice by: `Parent issue`.
 
 ## Project `Tasks`
 
