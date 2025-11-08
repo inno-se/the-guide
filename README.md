@@ -356,7 +356,7 @@ This repository provides a guide for managing the development of a software proj
   - [Milestones](#milestones)
   - [Projects](#projects)
     - [Copy projects](#copy-projects)
-    - [Scrum board](#scrum-board)
+    - [Scrum Table](#scrum-table)
       - [Columns](#columns)
       - [Entry criteria](#entry-criteria)
   - [Project `Roadmap`](#project-roadmap)
@@ -2876,17 +2876,17 @@ We provide projects ([link](https://github.com/inno-se/the-guide/projects?query=
 
 [Copy](https://docs.github.com/en/issues/planning-and-tracking-with-projects/creating-projects/copying-an-existing-project) our projects and use them as templates to create projects in your organization.
 
-### Scrum board
+### Scrum Table
 
-A scrum board is a GitHub project view with the layout `Board`.
+A Scrum Table helps track [status](#status), priority, parent issues, estimates, and other information about [issues](#issues).
 
-A scrum board has a number of [columns](#columns) that help track progress on [issues](#issues).
+We implemented Scrum Tables using GitHub project views with the layout `Table`.
 
 Examples:
 
-- [Roadmap items](https://github.com/orgs/inno-se/projects/5/views/4)
-- [Product Backlog items](https://github.com/orgs/inno-se/projects/1/views/1)
-- [Tasks](https://github.com/orgs/inno-se/projects/2/views/1)
+- [Roadmap items](https://github.com/orgs/inno-se/projects/5/views/5)
+- [Product Backlog items](https://github.com/orgs/inno-se/projects/1/views/7)
+- [Tasks](https://github.com/orgs/inno-se/projects/2)
 
 The last two examples are inspired by Scrumboard [[^SbokGuide], Sec. 10.1.1.3, Fig. 10-5, p. 245]
 
