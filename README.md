@@ -357,7 +357,7 @@ This repository provides a guide for managing the development of a software proj
   - [Projects](#projects)
     - [Copy projects](#copy-projects)
     - [Scrum Table](#scrum-table)
-      - [Columns](#columns)
+    - [Scrum Board](#scrum-board)
       - [Entry criteria](#entry-criteria)
   - [Project `Roadmap`](#project-roadmap)
     - [Limitations](#limitations)
@@ -2892,13 +2892,19 @@ The last two examples are inspired by Scrumboard [[^SbokGuide], Sec. 10.1.1.3, F
 
 ![Scrumboard](./assets/images/Scrumboard.png)
 
-#### Columns
+A less compact view is a Scrum Board.
 
-Columns represent stages that an issue should go through.
+### Scrum Board
 
-At each stage, a specific process should happen that enables moving the issue to the next column.
+In a Scrum Board, each column corresponds to an [issue status](#issue-status).
 
-Define your own process for each stage.
+Aggregate functions are calculated for each column.
+
+Examples:
+
+- [Roadmap items](https://github.com/orgs/inno-se/projects/5/views/4)
+- [Product Backlog items](https://github.com/orgs/inno-se/projects/1/views/1)
+- [Tasks](https://github.com/orgs/inno-se/projects/2/views/1)
 
 #### Entry criteria
 
@@ -2950,7 +2956,7 @@ Shows planned schedule of working on type `Epic` issues.
 
 ### View `Board`
 
-- Provides [entry criteria](#entry-criteria) in [Scrum board](#scrum-board) column descriptions.
+- Provides [entry criteria](#entry-criteria) in [Scrum Board](#scrum-board) column descriptions.
 - Shows status of type `Epic` issues.
 
 #### View options
