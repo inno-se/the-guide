@@ -3172,41 +3172,31 @@ An issue can be closed when it reaches the `Done` column.
 
 ```text
 [Entry Criteria]
-* The issue was updated (e.g., via an LLM) to conform to the type "Task" issue form template.
-* The type "Task" was assigned to the issue.
-* Relevant labels were assigned to the issue.
-* The issue was made a sub-issue of a type "Backlog" issue.
+* The issue conforms to the type "Task" issue form template.
+* The issue has type "Task" and relevant labels.
+* The issue belongs to a milestone.
+* The issue is a sub-issue of a type "Backlog" issue.
 ```
 
 ##### In Progress
 
 ```text
 [Entry Criteria]
-* The issue description was revised to provide missing details.
-* The issue field "Ideal Hours" was filled in.
-* The issue was added to the current sprint.
-* The issue was assigned.
-* If necessary, a branch for the issue was created via the "create a branch" button on the issue page.
+* The issue description contains all necessary details.
+* The issue has "Ideal Hours" and the current "Sprint".
+* The issue has a branch created via the "create a branch" button on the issue page.
 ```
 
 ##### In Review
 
 ```text
 [Entry Criteria]
-* A PR for the issue was created using a relevant template.
+* The issue has a linked PR created using a relevant template.
 * Implementation in the PR was completed.
 * The "main" branch was merged into the PR branch.
 * CI pipeline with automated tests succeeded on the PR branch.
-* All sections in the PR description were updated to match implementation.
+* The PR description matches implementation.
 * A review of the PR was requested.
-```
-
-##### Ready to Merge
-
-```text
-[Entry Criteria]
-* All acceptance criteria specified in the issue were met on the PR branch.
-* The PR was approved.
 ```
 
 ##### Done
@@ -3216,7 +3206,8 @@ An issue can be closed when it reaches the `Done` column.
 A) If there was a PR:
 * All acceptance criteria specified in the issue were met on the PR branch.
 * The PR was approved and merged into the main branch.
-B) If no PR was required to complete the issue: All acceptance criteria specified in the issue were met.
+B) If no PR was required to complete the issue:
+* All acceptance criteria specified in the issue were met.
 ```
 
 ### View `With Parents`
