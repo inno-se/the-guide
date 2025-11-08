@@ -365,15 +365,16 @@ This repository provides a guide for managing the development of a software proj
     - [Project settings](#project-settings)
       - [Default repository](#default-repository)
       - [Custom fields (additional)](#custom-fields-additional)
+    - [`Roadmap` issue status](#roadmap-issue-status)
+      - [To Do](#to-do)
+      - [In Progress](#in-progress)
+      - [In Review](#in-review)
+      - [Done](#done)
     - [View `Gantt`](#view-gantt)
       - [View options](#view-options)
     - [View `Board`](#view-board)
       - [View options](#view-options-1)
-      - [Columns](#columns-1)
-        - [To Do](#to-do)
-        - [In Progress](#in-progress)
-        - [In Review](#in-review)
-        - [Done](#done)
+      - [Columns](#columns)
   - [Project `Product Backlog`](#project-product-backlog)
     - [Limitations](#limitations-1)
     - [Project settings](#project-settings-1)
@@ -2948,6 +2949,43 @@ This project allows for planning and tracking the progress of [type `Epic`](#epi
 - `Finish` of type `Date` - (planned) date of finishing the work on an issue.
 - `Priority` of type `Single select` - priority of an issue (see [Issue priority](#issue-priority)).
 
+### `Roadmap` issue status
+
+#### To Do
+
+```text
+[Entry Criteria]
+* The issue field "Priority" was filled in.
+* The issue fields "Start" and "Finish" were filled in.
+* The issue was added to a milestone. * Type "Backlog" issues were added as sub-issues of the issue.
+```
+
+#### In Progress
+
+```text
+[Entry Criteria]
+* A person who would monitor the issue progress was assigned to the issue.
+* Some sub-issues were completed.
+```
+
+#### In Review
+
+```text
+[Entry Criteria]
+* All sub-issues were completed.
+* All changes introduced for this issue were deployed to the staging environment.
+* A person who would verify the acceptance criteria was assigned to the issue.
+```
+
+#### Done
+
+```text
+[Entry Criteria]
+* All acceptance criteria were met on the staging version.
+* A production version with changes introduced for this issue was deployed.
+* All acceptance criteria specified in the issue were met on that version.
+```
+
 ### View `Gantt`
 
 [Link](https://github.com/orgs/inno-se/projects/5/views/1)
@@ -2989,41 +3027,6 @@ Shows planned schedule of working on type `Epic` issues.
 #### Columns
 
 There are [entry criteria](#entry-criteria) for each column.
-
-##### To Do
-
-```text
-[Entry Criteria]
-* The issue field "Priority" was filled in.
-* The issue fields "Start" and "Finish" were filled in.
-* The issue was added to a milestone. * Type "Backlog" issues were added as sub-issues of the issue.
-```
-
-##### In Progress
-
-```text
-[Entry Criteria]
-* A person who would monitor the issue progress was assigned to the issue.
-* Some sub-issues were completed.
-```
-
-##### In Review
-
-```text
-[Entry Criteria]
-* All sub-issues were completed.
-* All changes introduced for this issue were deployed to the staging environment.
-* A person who would verify the acceptance criteria was assigned to the issue.
-```
-
-##### Done
-
-```text
-[Entry Criteria]
-* All acceptance criteria were met on the staging version.
-* A production version with changes introduced for this issue was deployed.
-* All acceptance criteria specified in the issue were met on that version.
-```
 
 ## Project `Product Backlog`
 
