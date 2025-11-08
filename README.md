@@ -382,7 +382,7 @@ This repository provides a guide for managing the development of a software proj
     - [`Product Backlog` issue status](#product-backlog-issue-status)
       - [To Do](#to-do-1)
       - [In Progress](#in-progress-1)
-      - [Deploying to Production](#deploying-to-production)
+      - [Shipping](#shipping)
       - [Done](#done-1)
     - [View `Board`](#view-board-1)
       - [View options](#view-options-2)
