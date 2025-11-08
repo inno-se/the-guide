@@ -3013,9 +3013,9 @@ Additionally, it visualizes connections between type `Backlog` issues and their 
 
 #### Custom fields (additional)
 
-- `Story Points` of type `Number` - estimate of a `Backlog` issue in [Story Points](#story-points).
+- `Story Points` of type `Number` - an estimate of the issue in [Story Points](#story-points).
 - `Sprint` of type `Iteration` - a sprint that the issue belongs to.
-- `Priority` of type `Single select` - priority of an issue (see [Issue priority](#issue-priority)).
+- `Priority` of type `Single select` - a priority of the issue (see [Issue priority](#issue-priority)).
 
 ### View `Board`
 
@@ -3112,9 +3112,9 @@ Additionally, it visualizes connections between type `Task` issues and their par
 
 - `Ideal Hours` of type `Number` - estimated number of ideal hours required to complete the issue.
 - `Sprint` of type `Iteration` - a sprint that the issue belongs to.
-- `Priority` of type `Single select` - priority of an issue (see [Issue priority](#issue-priority)).
-- `Start` of type `Date` - (planned) date of starting the work on an issue.
-- `Finish` of type `Date` - (planned) date of finishing the work on an issue.
+- `Priority` of type `Single select` - priority of the issue (see [Issue priority](#issue-priority)).
+- `Start` of type `Date` - (planned) date of starting the work on the issue.
+- `Finish` of type `Date` - (planned) date of finishing the work on the issue.
 
 ### View `Board`
 
@@ -3192,7 +3192,7 @@ B) If no PR was required to complete the issue: All acceptance criteria specifie
 
 ### View `With Parents`
 
-- For each type `Backlog` issue, shows to which sprint its type `Task` sub-issues were assigned.
+- For each type `Backlog` issue, this view shows which sprint its type `Task` sub-issues were assigned to.
 - Shows total `Ideal Hours` for a `Sprint`.
 - Shows type `Task` issues sorted by priority within each `Sprint`.
 
