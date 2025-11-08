@@ -3113,7 +3113,7 @@ B) Otherwise:
 - Layout: `Table`.
 
 - View options:
-  - Fields: `Parent issue`, `Priority`, `Status`, `Story Points`, `Assignees`, `Sub-issues progress`, `Milestone`.
+  - Fields: `Milestone`, `Parent issue`, `Priority`, `Status`, `Story Points`, `Assignees`, `Sub-issues progress`.
   - Group by: `Sprint`.
   - Sort by: `Priority` (ascending), `Story Points` (descending).
   - Fields sum: `Count`, `Story Points`.
@@ -3246,7 +3246,7 @@ B) Otherwise:
 - Layout: `Table`.
 
 - View options:
-  - Fields: `Parent issue`, `Priority`, `Status`, `Ideal Hours`, `Assignees`, `Linked pull requests`.
+  - Fields: `Milestone`, `Parent issue`, `Priority`, `Status`, `Ideal Hours`, `Assignees`, `Linked pull requests`.
   - Group by: `Sprint`.
   - Sort by: `Priority` (ascending), `Ideal Hours` (descending).
   - Fields sum: `Count`, `Ideal Hours`.
