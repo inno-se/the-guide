@@ -2919,6 +2919,12 @@ An issue can be closed after it gets the `Done` status.
 
 There are [entry criteria](#entry-criteria) for each status.
 
+Examples:
+
+- [`Roadmap` issue status](#roadmap-issue-status)
+- [`Product Backlog` issue status](#product-backlog-issue-status)
+- [`Tasks` status](#tasks-issue-status)
+
 ### Entry criteria
 
 Entry criteria for a given [issue status](#issue-status) specify conditions that must all be satisfied before the current issue status can be changed to the given status.
