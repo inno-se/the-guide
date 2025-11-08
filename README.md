@@ -2911,6 +2911,8 @@ Examples:
 
 An issue status corresponds to a process that the issue should go through to get the next status.
 
+An issue can be closed after it gets the `Done` status.
+
 There are [entry criteria](#entry-criteria) for each status.
 
 ### Entry criteria
@@ -2984,8 +2986,6 @@ Shows planned schedule of working on type `Epic` issues.
 #### Columns
 
 There are [entry criteria](#entry-criteria) for each column.
-
-An issue can be closed when it reaches the `Done` column.
 
 ##### To Do
 
@@ -3068,8 +3068,6 @@ Additionally, it visualizes connections between type `Backlog` issues and their 
 #### Columns
 
 There are [entry criteria](#entry-criteria) for each column.
-
-An issue can be closed when it reaches the `Done` column.
 
 ##### To Do
 
@@ -3221,8 +3219,6 @@ B) If no PR was required to complete the issue:
 #### Columns
 
 Column descriptions specify [entry criteria](#entry-criteria) for each [issue status](#tasks-status).
-
-An issue can be closed when it reaches the `Done` column.
 
 ### View `Table`
 
