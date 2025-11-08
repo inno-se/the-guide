@@ -432,7 +432,7 @@ A limiting factor that affects the execution of a project, program, portfolio, o
 
 *noun*
 
-A formal description of the state of the Increment when it meets the quality measures required for the product. The moment a Product Backlog item meets the Definition of Done, an Increment is born. The Definition of Done creates transparency by providing everyone a shared understanding of what work was completed as part of the Increment. If a Product Backlog item does not meet the Definition of Done, it cannot be released or even presented at the Sprint Review [^GlossaryOfScrumTerms].
+A formal description of the state of the Increment when it meets the quality measures required for the product. The moment a [Product Backlog](#product-backlog) item meets the Definition of Done, an Increment is born. The Definition of Done creates transparency by providing everyone a shared understanding of what work was completed as part of the Increment. If a Product Backlog item does not meet the Definition of Done, it cannot be released or even presented at the Sprint Review [^GlossaryOfScrumTerms].
 
 ## fact
 
@@ -2535,7 +2535,7 @@ The required features are described in the form of User Stories. User Stories ar
 
 Each User Story will have associated User Story Acceptance Criteria (also referred to as “[Acceptance Criteria](#acceptance-criteria)", which are the objective components by which a User Story’s functionality is judged. Acceptance Criteria are developed by the Product Owner according to his or her expert understanding of the customer’s requirements.
 
-The Product Owner then communicates the User Stories in the Prioritized Product Backlog to the Developers, and their agreement is sought. Acceptance Criteria should explicitly outline the conditions that User Stories must satisfy. Clearly defined Acceptance Criteria are crucial for timely and effective delivery of the functionality defined in the User Stories, which determines the success of the project.
+The [Product Owner](#product-owner-po) then communicates the User Stories in the Prioritized Product Backlog to the [Development Team](#development-team), and their agreement is sought. Acceptance Criteria should explicitly outline the conditions that User Stories must satisfy. Clearly defined Acceptance Criteria are crucial for timely and effective delivery of the functionality defined in the User Stories, which determines the success of the project.
 
 At the end of each Sprint, the Product Owner uses these criteria to verify the completed deliverables; and can either accept or reject individual deliverables and their associated User Stories. If deliverables are accepted by the Product Owner, then the User Story is considered Done. A clear definition of Done is critical because it helps clarify requirements and allows the team to adhere to quality norms. It also helps the team think from the user’s perspective when working with User Stories.
 
@@ -2651,8 +2651,8 @@ Scrum’s artifacts represent work or value. They are designed to maximize trans
 
 Each artifact contains a *commitment* to ensure it provides information that enhances transparency and focus against which progress can be measured:
 
-- For the *Product Backlog* it is the [Product Goal](#product-goal).
-- For the *Sprint Backlog* it is the [Sprint Goal](#sprint-goal).
+- For the [Product Backlog](#product-backlog) it is the [Product Goal](#product-goal).
+- For the [Sprint Backlog](#sprint-backlog) it is the [Sprint Goal](#sprint-goal).
 - For the *Increment* it is the [Definition of Done](#definition-of-done-dod).
 
 These commitments exist to reinforce empiricism and the Scrum values for the Scrum Team and their stakeholders.
@@ -2665,7 +2665,7 @@ A Sprint Goal communicates why the Sprint is valuable to [stakeholders](#stakeho
 
 The Sprint Goal also creates coherence and focus, encouraging the [Scrum Team](#scrum-team) to work together rather than on separate initiatives.
 
-The purpose of the Daily Scrum is to inspect progress toward the Sprint Goal and adapt the Sprint Backlog as necessary, adjusting the upcoming planned work.
+The purpose of the Daily Scrum is to inspect progress toward the Sprint Goal and adapt the [Sprint Backlog](#sprint-backlog) as necessary, adjusting the upcoming planned work.
 
 A Sprint could be cancelled if the Sprint Goal becomes obsolete. Only the [Product Owner](#product-owner-po) has the authority to cancel the Sprint.
 
