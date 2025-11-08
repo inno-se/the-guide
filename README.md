@@ -384,6 +384,8 @@ This repository provides a guide for managing the development of a software proj
       - [In Progress](#in-progress-1)
       - [Shipping](#shipping)
       - [Done](#done-1)
+    - [View `Table`](#view-table)
+      - [Settings](#settings)
     - [View `Gantt`](#view-gantt-1)
       - [View options](#view-options-2)
     - [View `Board`](#view-board-1)
@@ -3088,6 +3090,25 @@ A) If there were changes:
 B) Otherwise:
 * All acceptance criteria specified in the issue were met.
 ```
+
+### View `Table`
+
+[Link](https://github.com/orgs/inno-se/projects/2/views/2)
+
+- For each type `Epic` issue, this view shows which sprint its type `Backlog` sub-issues were assigned to.
+- Shows total `Story Points` for a `Sprint`.
+- Shows type `Backlog` issues sorted by priority and `Story Points` within each `Sprint`.
+
+#### Settings
+
+- Layout: `Table`.
+
+- View options:
+  - Fields: `Parent issue`, `Priority`, `Status`, `Story Points`, `Assignees`, `Sub-issues progress`, `Milestone`.
+  - Group by: `Sprint`.
+  - Sort by: `Priority` (ascending), `Story Points` (descending).
+  - Fields sum: `Count`, `Story Points`.
+  - Slice by: `Parent issue`.
 
 ### View `Gantt`
 
