@@ -335,6 +335,8 @@ This repository provides a guide for managing the development of a software proj
       - [Team lead](#team-lead)
     - [Events](#events)
     - [Artifacts and commitments](#artifacts-and-commitments)
+    - [Sprint](#sprint)
+    - [Sprint Backlog](#sprint-backlog)
     - [Sprint Goal](#sprint-goal)
     - [Sprint tracking sheet](#sprint-tracking-sheet)
   - [Work item hierarchy](#work-item-hierarchy)
@@ -2667,6 +2669,18 @@ Each artifact contains a *commitment* to ensure it provides information that enh
 - For the *Increment* it is the [Definition of Done](#definition-of-done-dod).
 
 These commitments exist to reinforce empiricism and the Scrum values for the Scrum Team and their stakeholders.
+
+### Sprint
+
+The Sprint is a container for all other events [^ScrumGuide].
+
+A Sprint is a Time-boxed iteration of one to four weeks in duration during which the [Scrum Master](#scrum-master-sm) guides, facilitates, and shields the [Development Team](#development-team) from both internal and external impediments during the Create Deliverables process. This aids in avoiding vision creep that could affect the [Sprint Goal](#sprint-goal). During this time, the team works to convert the requirements in the Prioritized [Product Backlog](#product-backlog) into shippable product functionalities. To achieve maximum benefits from a Scrum project and to provide maximum flexibility for change, the length of a Sprint should be as short as possible. At the same time, Sprint must be long enough for the team to be able to create a working or shippable product deliverable which can be reviewed and approved by the [Product Owner](#product-owner-po). [[^SbokGuide], Sec. 2.6.1, p. 44]
+
+### Sprint Backlog
+
+The Sprint Backlog is composed of the [Sprint Goal](#sprint-goal) (why), the set of [Product Backlog](#product-backlog) items selected for the [Sprint](#sprint) (what), as well as an actionable plan for delivering the Increment (how) [^ScrumGuide].
+
+It is common practice for the Sprint Backlog User Stories (and associated tasks) to be represented on a Scrumboard or [similar task board](#scrum-table), which provides a constantly visible depiction of the current status of the User Stories in the [Product Backlog](#product-backlog) [[^SbokGuide], Sec. 9.3.3.2, p. 220].
 
 ### Sprint Goal
 
