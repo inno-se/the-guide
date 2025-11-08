@@ -3203,7 +3203,7 @@ B) If no PR was required to complete the issue:
 
 [Link](https://github.com/orgs/inno-se/projects/2/views/1)
 
-- Provides [entry criteria](#entry-criteria) for [statuses](#tasks-status) in the board column descriptions.
+- Provides [entry criteria](#entry-criteria) for [statuses](#tasks-status) in the [Scrum Board](#scrum-board) column descriptions.
 - Shows total `Ideal Hours` per sprint.
 
 #### Settings
@@ -3230,14 +3230,14 @@ An issue can be closed when it reaches the `Done` column.
 
 - For each type `Backlog` issue, this view shows which sprint its type `Task` sub-issues were assigned to.
 - Shows total `Ideal Hours` for a `Sprint`.
-- Shows type `Task` issues sorted by priority within each `Sprint`.
+- Shows type `Task` issues sorted by priority and `Ideal Hours` within each `Sprint`.
 
 #### Settings
 
 - Layout: `Table`.
 
 - View options:
-  - Fields: `Sprint`, `Priority`, `Ideal Hours`, `Status`, `Assignees`, `Parent issue`.
+  - Fields: `Parent issue`, `Priority`, `Status`, `Ideal Hours`, `Assignees`, `Linked pull requests`.
   - Group by: `Sprint`.
   - Sort by: `Priority` (ascending), `Ideal Hours` (descending).
   - Fields sum: `Count`, `Ideal Hours`.
