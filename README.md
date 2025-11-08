@@ -3254,6 +3254,8 @@ B) Otherwise:
 
 ### View `Gantt`
 
+[Link](https://github.com/orgs/inno-se/projects/2/views/3)
+
 - Shows type `Task` issues distributed by sprints on a timeline.
 - `Date fields` are set to `Sprint start` and `Sprint end`.
 - One can set the `Date fields` to `Start` and `Finish` and adjust them by clicking on the left or on the right side of an issue box on the timeline and dragging it.
