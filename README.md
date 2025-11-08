@@ -2945,6 +2945,8 @@ This project allows for planning and tracking the progress of [type `Epic`](#epi
 
 ### View `Gantt`
 
+[Link](https://github.com/orgs/inno-se/projects/5/views/1)
+
 Shows planned schedule of working on type `Epic` issues.
 
 #### View options
@@ -2962,6 +2964,8 @@ Shows planned schedule of working on type `Epic` issues.
   - [x] Show date fields.
 
 ### View `Board`
+
+[Link](https://github.com/orgs/inno-se/projects/5/views/4)
 
 - Provides [entry criteria](#entry-criteria) in [Scrum Board](#scrum-board) column descriptions.
 - Shows status of type `Epic` issues.
@@ -3044,6 +3048,8 @@ Additionally, it visualizes connections between type `Backlog` issues and their 
 
 ### View `Board`
 
+[Link](https://github.com/orgs/inno-se/projects/1/views/1)
+
 - Provides [entry criteria](#entry-criteria) in the board column descriptions.
 - Shows total `Story Points` per sprint.
 
@@ -3103,6 +3109,8 @@ An issue can be closed when it reaches the `Done` column.
 ```
 
 ### View `Gantt`
+
+[Link](https://github.com/orgs/inno-se/projects/1/views/4)
 
 Shows planned schedule of working on type `Backlog` issues.
 
@@ -3193,6 +3201,8 @@ B) If no PR was required to complete the issue:
 
 ### View `Board`
 
+[Link](https://github.com/orgs/inno-se/projects/2/views/1)
+
 - Provides [entry criteria](#entry-criteria) for [statuses](#tasks-status) in the board column descriptions.
 - Shows total `Ideal Hours` per sprint.
 
@@ -3215,6 +3225,8 @@ Column descriptions specify [entry criteria](#entry-criteria) for each [issue st
 An issue can be closed when it reaches the `Done` column.
 
 ### View `Table`
+
+[Link](https://github.com/orgs/inno-se/projects/2/views/2)
 
 - For each type `Backlog` issue, this view shows which sprint its type `Task` sub-issues were assigned to.
 - Shows total `Ideal Hours` for a `Sprint`.
