@@ -3026,7 +3026,7 @@ Shows planned schedule of working on type `Epic` issues.
 
 #### Columns
 
-There are [entry criteria](#entry-criteria) for each column.
+Column descriptions specify [entry criteria](#entry-criteria) for each [issue status](#roadmap-issue-status).
 
 ## Project `Product Backlog`
 
