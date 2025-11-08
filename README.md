@@ -2951,7 +2951,7 @@ Shows planned schedule of working on type `Epic` issues.
 - Configuration:
   - Fields: `Assignees`, `Status`, `Sub-issues progress`, `Start`, `Finish`, `Priority`.
   - Column by: `Status`.
-  - Group by: `Milestone`.
+  - Swimlanes: `Milestone`.
   - Sort by: `Priority` (ascending).
   - Field sum: `Count`
   - Slice by: `Priority`.
@@ -3029,7 +3029,7 @@ Additionally, it visualizes connections between type `Backlog` issues and their 
 - Configuration:
   - Fields: `Assignees`, `Status`, `Sprint`, `Story Points`, `Priority`, `Sub-issues progress`.
   - Column by: `Status`.
-  - Group by: `Sprint`.
+  - Swimlanes: `Sprint`.
   - Sort by: `Priority` (ascending).
   - Field sum: `Count`, `Story Points`.
   - Slice by: `Priority`.
@@ -3128,7 +3128,7 @@ Additionally, it visualizes connections between type `Task` issues and their par
 - Configuration:
   - Fields: `Assignees`, `Status`, `Sprint`, `Ideal Hours`, `Priority`, `Linked pull requests`.
   - Column by: `Status`.
-  - Group by: `Sprint`.
+  - Swimlanes: `Sprint`.
   - Sort by: `Sprint` (ascending), `Priority` (ascending).
   - Field sum: `Count`, `Ideal Hours`.
   - Slice by: `none`.
