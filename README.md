@@ -3082,8 +3082,11 @@ Additionally, it visualizes connections between type `Backlog` issues and their 
 
 ```text
 [Entry Criteria]
+A) If there were changes:
 * All changes introduced to complete the issue were deployed to the production environment.
 * All acceptance criteria specified in the issue were met in the production environment.
+B) Otherwise:
+* All acceptance criteria specified in the issue were met.
 ```
 
 ### View `Board`
@@ -3174,7 +3177,7 @@ See [Status](#issue-status).
 [Entry Criteria]
 * The issue description contains all necessary details.
 * The issue has "Ideal Hours" and the current "Sprint".
-* The issue has a branch created via the "create a branch" button on the issue page.
+* The issue has a linked branch created via the "create a branch" button on the issue page.
 ```
 
 #### In Review
@@ -3193,10 +3196,10 @@ See [Status](#issue-status).
 
 ```text
 [Entry Criteria]
-A) If there was a PR:
+A) If there was a PR to complete this issue:
 * All acceptance criteria specified in the issue were met on the PR branch.
 * The PR was approved and merged into the main branch.
-B) If no PR was required to complete the issue:
+B) Otherwise:
 * All acceptance criteria specified in the issue were met.
 ```
 
