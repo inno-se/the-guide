@@ -2493,6 +2493,7 @@ Scrum works not because it has three [roles](#scrum-team), five [events](#events
 ### Scrum theory
 
 - *The 2020 Scrum Guide* [^ScrumGuide]
+- *Scrum Guide Expansion Pack* [^ScrumGuideExpansionPack]
 - [Scrum in a Nutshell](https://youtu.be/502ILHjX9EE) (~15 minutes)
 - [What is Professional Scrum](https://youtu.be/BYlv7eP9zgg) (~7 minutes)
 - *Using Agile in Project Management* [^UsingAgileInProjectManagement]
@@ -3374,3 +3375,4 @@ Paywalled books and articles are usually available in shadow libraries such as:
 [^IsoQualityModel]: “ISO/IEC 25002:2024,” ISO. Accessed: Nov. 04, 2025. ([File](./assets/pdfs/Iso25002:2024.pdf)) Available: <https://www.iso.org/standard/78175.html>
 [^AgilePMWithScrum]: R. Pichler, Agile Product Management with Scrum: Creating Products that Customers Love. [Online]. ([File](./assets/epub/AgilePMWithScrum.epub)) Available: <https://www.oreilly.com/library/view/agile-product-management/9780321684165/>
 [^SprintGoalTemplate]: Sprint Goal Template <https://www.scrum.org/resources/blog/sprint-goal-template>
+[^ScrumGuideExpansionPack]: R. Jocham, J. Coleman, and J. Sutherland, “Scrum Guide Expansion Pack based on the original Scrum Guide by Ken Schwaber & Jeff Sutherland (40)”, ([File](./assets/pdfs/ScrumGuideExpansionPackV2025.6)), Available: <https://scrumexpansion.org/scrum-guide-expansion-pack/>
