@@ -2992,6 +2992,24 @@ This project allows for planning and tracking the progress of [type `Epic`](#epi
 * All acceptance criteria specified in the issue were met on that version.
 ```
 
+### View `Table`
+
+[Link](https://github.com/orgs/inno-se/projects/5/views/5)
+
+- Groups issues by milestones.
+- Shows `Priority`, `Status`, `Start` date, `Finish` date, and other information about issues.
+
+#### Settings
+
+- Layout: `Table`.
+
+- View options:
+  - Fields: `Priority`, `Status`, `Sub-issues progress`, `Start`, `Finish`.
+  - Group by: `Milestone`.
+  - Sort by: `Priority` (ascending).
+  - Fields sum: `Count`.
+  - Slice by: `none`.
+
 ### View `Gantt`
 
 [Link](https://github.com/orgs/inno-se/projects/5/views/1)
