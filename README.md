@@ -2985,7 +2985,8 @@ This project allows for planning and tracking the progress of [type `Epic`](#epi
 [Entry Criteria]
 * The issue field "Priority" was filled in.
 * The issue fields "Start" and "Finish" were filled in.
-* The issue was added to a milestone. * Type "Backlog" issues were added as sub-issues of the issue.
+* The issue was added to a milestone.
+* Type "Backlog" issues were added as sub-issues of the issue.
 ```
 
 #### In Progress
