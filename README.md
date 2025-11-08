@@ -2861,11 +2861,17 @@ The following templates are available:
 
 ## Milestones
 
-Milestones are specific, key points within a project that mark progress and completion of significant phases or tasks[^Milestones].
+Milestones are specific, key points within a project that mark progress and completion of significant phases or tasks [^Milestones].
 
-Milestones are not sprints [^MilestonesVsSprints].
+Milestones are not [Sprints](#sprint) [^MilestonesVsSprints].
 
-We defined two [milestones](https://github.com/inno-se/the-guide/milestones) and provided their goals in descriptions.
+On GitHub, you can use milestones to track progress on groups of issues or pull requests in a repository [^GitHubMilestones].
+
+For example, one can track [Sprint Backlog](#sprint-backlog) items and record a [Sprint Goal](#sprint-goal) in the milestone description.
+
+We defined two [milestones](https://github.com/inno-se/the-guide/milestones) and provided their goals in the milestones' descriptions.
+
+Note that the exact goal formulation depends on your use case for a milestone.
 
 ## Projects
 
@@ -3456,3 +3462,4 @@ Paywalled books and articles are usually available in shadow libraries such as:
 [^AgilePMWithScrum]: R. Pichler, Agile Product Management with Scrum: Creating Products that Customers Love. [Online]. ([File](./assets/epub/AgilePMWithScrum.epub)) Available: <https://www.oreilly.com/library/view/agile-product-management/9780321684165/>
 [^SprintGoalTemplate]: Sprint Goal Template <https://www.scrum.org/resources/blog/sprint-goal-template>
 [^ScrumGuideExpansionPack]: R. Jocham, J. Coleman, and J. Sutherland, “Scrum Guide Expansion Pack based on the original Scrum Guide by Ken Schwaber & Jeff Sutherland (40)”, ([File](./assets/pdfs/ScrumGuideExpansionPackV2025.6)), Available: <https://scrumexpansion.org/scrum-guide-expansion-pack/>
+[^GitHubMilestones]: About milestones: <https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/about-milestones>
