@@ -393,14 +393,14 @@ This repository provides a guide for managing the development of a software proj
     - [Project settings](#project-settings-2)
       - [Default repository](#default-repository-2)
       - [Custom fields (additional)](#custom-fields-additional-2)
+    - [`Tasks` status](#tasks-status)
+      - [To Do](#to-do-2)
+      - [In Progress](#in-progress-2)
+      - [In Review](#in-review-1)
+      - [Done](#done-2)
     - [View `Board`](#view-board-2)
       - [Settings](#settings)
-      - [Columns](#columns-3)
-        - [To Do](#to-do-2)
-        - [In Progress](#in-progress-2)
-        - [In Review](#in-review-1)
-        - [Ready to Merge](#ready-to-merge)
-        - [Done](#done-2)
+      - [Columns](#columns-2)
     - [View `With Parents`](#view-with-parents)
       - [Settings](#settings-1)
     - [View `Gantt`](#view-gantt-2)
@@ -3145,30 +3145,11 @@ Additionally, it visualizes connections between type `Task` issues and their par
 - `Start` of type `Date` - (planned) date of starting the work on the issue.
 - `Finish` of type `Date` - (planned) date of finishing the work on the issue.
 
-### View `Board`
+### `Tasks` status
 
-- Provides [entry criteria](#entry-criteria) in the board column descriptions.
-- Shows total `Ideal Hours` per sprint.
+See [Status](#issue-status).
 
-#### Settings
-
-- Layout: `Board`.
-
-- Configuration:
-  - Fields: `Assignees`, `Status`, `Sprint`, `Ideal Hours`, `Priority`, `Linked pull requests`.
-  - Column by: `Status`.
-  - Swimlanes: `Sprint`.
-  - Sort by: `Sprint` (ascending), `Priority` (ascending).
-  - Field sum: `Count`, `Ideal Hours`.
-  - Slice by: `none`.
-
-#### Columns
-
-There are [entry criteria](#entry-criteria) for each column.
-
-An issue can be closed when it reaches the `Done` column.
-
-##### To Do
+#### To Do
 
 ```text
 [Entry Criteria]
@@ -3178,7 +3159,7 @@ An issue can be closed when it reaches the `Done` column.
 * The issue is a sub-issue of a type "Backlog" issue.
 ```
 
-##### In Progress
+#### In Progress
 
 ```text
 [Entry Criteria]
@@ -3187,7 +3168,7 @@ An issue can be closed when it reaches the `Done` column.
 * The issue has a branch created via the "create a branch" button on the issue page.
 ```
 
-##### In Review
+#### In Review
 
 ```text
 [Entry Criteria]
@@ -3199,7 +3180,7 @@ An issue can be closed when it reaches the `Done` column.
 * A review of the PR was requested.
 ```
 
-##### Done
+#### Done
 
 ```text
 [Entry Criteria]
@@ -3209,6 +3190,29 @@ A) If there was a PR:
 B) If no PR was required to complete the issue:
 * All acceptance criteria specified in the issue were met.
 ```
+
+### View `Board`
+
+- Provides [entry criteria](#entry-criteria) for [statuses](#tasks-status) in the board column descriptions.
+- Shows total `Ideal Hours` per sprint.
+
+#### Settings
+
+- Layout: `Board`.
+
+- Configuration:
+  - Fields: `Assignees`, `Status`, `Sprint`, `Priority`, `Ideal Hours`, `Linked pull requests`.
+  - Column by: `Status`.
+  - Swimlanes: `Sprint`.
+  - Sort by: `Sprint` (ascending), `Priority` (ascending).
+  - Field sum: `Count`, `Ideal Hours`.
+  - Slice by: `none`.
+
+#### Columns
+
+Column descriptions specify [entry criteria](#entry-criteria) for each [issue status](#tasks-status).
+
+An issue can be closed when it reaches the `Done` column.
 
 ### View `With Parents`
 
