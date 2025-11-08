@@ -3104,7 +3104,7 @@ B) Otherwise:
 
 [Link](https://github.com/orgs/inno-se/projects/2/views/2)
 
-- For each type `Epic` issue, this view shows which sprint its type `Backlog` sub-issues were assigned to.
+- For each type `Backlog` issue, this view shows its parent type `Epic` issue.
 - Shows total `Story Points` for a `Sprint`.
 - Shows type `Backlog` issues sorted by priority and `Story Points` within each `Sprint`.
 
