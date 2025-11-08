@@ -3050,8 +3050,8 @@ Additionally, it visualizes connections between type `Backlog` issues and their 
 
 [Link](https://github.com/orgs/inno-se/projects/1/views/1)
 
-- Provides [entry criteria](#entry-criteria) in the board column descriptions.
-- Shows total `Story Points` per sprint.
+- Provides [entry criteria](#entry-criteria) in the [Scrum Board](#scrum-board) column descriptions.
+- Shows total `Story Points` per [Sprint](#sprint).
 
 #### View options
 
