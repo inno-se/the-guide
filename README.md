@@ -24,7 +24,7 @@ This repository provides a guide for managing the development of a software proj
 - Design a high-level architecture that satisfies the ASRs.
 - For each ASR, explain how exactly you're going to test it (you may need to detail the architecture for this task).
 - Based on the architecture, split the work into epics, Product Backlog items, and tasks.
-- Plan the work for several sprints using a [Scrum board](#scrum-board).
+- Plan the work for several sprints using a [Scrum Table](#scrum-table).
 - Assign tasks and set deadlines.
 - Keep stakeholders informed about your decisions and progress.
 - Use architecture, processes, and tools that help you achieve that quality.
