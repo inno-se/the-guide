@@ -358,6 +358,7 @@ This repository provides a guide for managing the development of a software proj
     - [Copy projects](#copy-projects)
     - [Scrum Table](#scrum-table)
     - [Scrum Board](#scrum-board)
+    - [Issue Status](#issue-status)
       - [Entry criteria](#entry-criteria)
   - [Project `Roadmap`](#project-roadmap)
     - [Limitations](#limitations)
@@ -2878,7 +2879,7 @@ We provide projects ([link](https://github.com/inno-se/the-guide/projects?query=
 
 ### Scrum Table
 
-A Scrum Table helps track [status](#status), priority, parent issues, estimates, and other information about [issues](#issues).
+A Scrum Table helps track [status](#issue-status), priority, parent issues, estimates, and other information about [issues](#issues).
 
 We implemented Scrum Tables using GitHub project views with the layout `Table`.
 
@@ -2905,6 +2906,12 @@ Examples:
 - [Roadmap items](https://github.com/orgs/inno-se/projects/5/views/4)
 - [Product Backlog items](https://github.com/orgs/inno-se/projects/1/views/1)
 - [Tasks](https://github.com/orgs/inno-se/projects/2/views/1)
+
+### Issue Status
+
+An issue status corresponds to a process that the issue should go through to get the next status.
+
+There are [entry criteria](#entry-criteria) for each status.
 
 #### Entry criteria
 
