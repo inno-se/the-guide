@@ -2590,7 +2590,7 @@ See Product Owner responsiblities: [[^SbokGuide], Sec. 3.3, p. 57].
 
 The Scrum Master is accountable for establishing Scrum as defined in the Scrum Guide. They do this by helping everyone understand Scrum theory and practice, both within the Scrum Team and the organization. [^ScrumGuide]
 
-The Scrum Master is a facilitator who ensures that the [Development Team](#development-team) is provided with an environment conducive to completing the product’s development successfully. The Scrum Master guides, facilitates, and teaches Scrum practices to everyone involved in the project; clears impediments for the team; and ensures that Scrum processes are being followed. [[^SbokGuide], Sec. 3.2.1, p. 54]
+The Scrum Master is a facilitator who ensures that the [Development Team](#development-team) is provided with an environment conducive to completing the product’s development successfully. The Scrum Master guides, facilitates, and teaches Scrum practices to everyone involved in the project; clears impediments for the [Scrum Team](#scrum-team); and ensures that Scrum processes are being followed. [[^SbokGuide], Sec. 3.2.1, p. 54]
 
 Note that the Scrum Master role is vastly different from the role played by the Project Manager in a traditional Waterfall model of project management, in which the Project Manager works as a manager or leader for the project. The Scrum Master only works as a facilitator and he or she is at the same hierarchical level as anyone else in the [Development Team](#development-team) — any person from the [Development Team](#development-team) who learns how to facilitate Scrum projects can become the Scrum Master for a project or for a Sprint. [[^SbokGuide], Sec. 3.2.1, p. 54]
 
