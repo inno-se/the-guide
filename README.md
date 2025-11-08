@@ -398,13 +398,13 @@ This repository provides a guide for managing the development of a software proj
       - [In Progress](#in-progress-2)
       - [In Review](#in-review-1)
       - [Done](#done-2)
-    - [View `Board`](#view-board-2)
-      - [Settings](#settings)
-      - [Columns](#columns-2)
     - [View `Table`](#view-table)
-      - [Settings](#settings-1)
+      - [Settings](#settings)
     - [View `Gantt`](#view-gantt-2)
+      - [Settings](#settings-1)
+    - [View `Board`](#view-board-2)
       - [Settings](#settings-2)
+      - [Columns](#columns-2)
   - [Shadow libraries](#shadow-libraries)
   - [Local library](#local-library)
   - [Browser extensions](#browser-extensions)
@@ -3197,29 +3197,6 @@ B) If no PR was required to complete the issue:
 * All acceptance criteria specified in the issue were met.
 ```
 
-### View `Board`
-
-[Link](https://github.com/orgs/inno-se/projects/2/views/1)
-
-- Provides [entry criteria](#entry-criteria) for [statuses](#tasks-status) in the [Scrum Board](#scrum-board) column descriptions.
-- Shows total `Ideal Hours` per sprint.
-
-#### Settings
-
-- Layout: `Board`.
-
-- Configuration:
-  - Fields: `Assignees`, `Status`, `Sprint`, `Priority`, `Ideal Hours`, `Linked pull requests`.
-  - Column by: `Status`.
-  - Swimlanes: `Sprint`.
-  - Sort by: `Sprint` (ascending), `Priority` (ascending).
-  - Field sum: `Count`, `Ideal Hours`.
-  - Slice by: `none`.
-
-#### Columns
-
-Column descriptions specify [entry criteria](#entry-criteria) for each [issue status](#tasks-status).
-
 ### View `Table`
 
 [Link](https://github.com/orgs/inno-se/projects/2/views/2)
@@ -3260,6 +3237,29 @@ Column descriptions specify [entry criteria](#entry-criteria) for each [issue st
 
 - User settings:
   - `Show date fields`
+
+### View `Board`
+
+[Link](https://github.com/orgs/inno-se/projects/2/views/1)
+
+- Provides [entry criteria](#entry-criteria) for [statuses](#tasks-status) in the [Scrum Board](#scrum-board) column descriptions.
+- Shows total `Ideal Hours` per sprint.
+
+#### Settings
+
+- Layout: `Board`.
+
+- Configuration:
+  - Fields: `Assignees`, `Status`, `Sprint`, `Priority`, `Ideal Hours`, `Linked pull requests`.
+  - Column by: `Status`.
+  - Swimlanes: `Sprint`.
+  - Sort by: `Sprint` (ascending), `Priority` (ascending).
+  - Field sum: `Count`, `Ideal Hours`.
+  - Slice by: `none`.
+
+#### Columns
+
+Column descriptions specify [entry criteria](#entry-criteria) for each [issue status](#tasks-status).
 
 ## Shadow libraries
 
