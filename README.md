@@ -397,7 +397,7 @@ This repository provides a guide for managing the development of a software proj
     - [Project settings](#project-settings-2)
       - [Default repository](#default-repository-2)
       - [Custom fields (additional)](#custom-fields-additional-2)
-    - [`Tasks` status](#tasks-status)
+    - [`Tasks` issue status](#tasks-issue-status)
       - [To Do](#to-do-2)
       - [In Progress](#in-progress-2)
       - [In Review](#in-review-1)
@@ -3181,7 +3181,7 @@ Additionally, it visualizes connections between type `Task` issues and their par
 - `Start` of type `Date` - (planned) date of starting the work on the issue.
 - `Finish` of type `Date` - (planned) date of finishing the work on the issue.
 
-### `Tasks` status
+### `Tasks` issue status
 
 See [Status](#issue-status).
 
@@ -3272,7 +3272,7 @@ B) Otherwise:
 
 [Link](https://github.com/orgs/inno-se/projects/2/views/1)
 
-- Provides [entry criteria](#entry-criteria) for [issue statuses](#tasks-status) in the [Scrum Board](#scrum-board) column descriptions.
+- Provides [entry criteria](#entry-criteria) for [issue statuses](#tasks-issue-status) in the [Scrum Board](#scrum-board) column descriptions.
 - Shows total `Ideal Hours` per sprint.
 
 #### Settings
@@ -3289,7 +3289,7 @@ B) Otherwise:
 
 #### Columns
 
-Column descriptions specify [entry criteria](#entry-criteria) for each [issue status](#tasks-status).
+Column descriptions specify [entry criteria](#entry-criteria) for each [issue status](#tasks-issue-status).
 
 ## Shadow libraries
 
