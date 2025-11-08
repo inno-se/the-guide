@@ -2994,7 +2994,7 @@ This project allows for planning and tracking the progress of [type `Epic`](#epi
 * All acceptance criteria specified in the issue were met on that version.
 ```
 
-<a id="roadmap-table">
+<a id="roadmap-table"></a>
 
 ### View `Table`
 
@@ -3122,7 +3122,7 @@ B) Otherwise:
 * All acceptance criteria specified in the issue were met.
 ```
 
-<a id="product-backlog-table">
+<a id="product-backlog-table"></a>
 
 ### View `Table`
 
@@ -3257,7 +3257,7 @@ B) Otherwise:
 * All acceptance criteria specified in the issue were met.
 ```
 
-<a id="tasks-table">
+<a id="tasks-table"></a>
 
 ### View `Table`
 
