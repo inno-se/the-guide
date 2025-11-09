@@ -2883,7 +2883,7 @@ Milestones are not [Sprints](#sprint) [^MilestonesVsSprints].
 
 On GitHub, you can use milestones to track progress on groups of issues or pull requests in a repository [^GitHubMilestones].
 
-For example, one can track [Sprint Backlog](#sprint-backlog) items and record a [Sprint Goal](#sprint-goal) in the milestone description.
+For example, one can add [Sprint Backlog](#sprint-backlog) items to a milestone and record a [Sprint Goal](#sprint-goal) in the milestone description.
 
 We defined two [milestones](https://github.com/inno-se/the-guide/milestones) and provided their goals in the milestones' descriptions.
 
