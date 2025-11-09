@@ -2729,7 +2729,7 @@ Create a [Sprint Backlog](#sprint-backlog) for the current [Sprint](#sprint):
 - Create a [milestone](#milestones) for the current Sprint on GitHub.
 - Define the [Sprint Goal](#sprint-goal) using the [Sprint Goal template](#sprint-goal-template).
 - Add the [Sprint Goal](#sprint-goal) to the milestone description.
-- Choose [Product Backlog](#product-backlog) items to work on in this Sprint.
+- Based on the Sprint Goal, choose [Product Backlog](#product-backlog) items to work on in this Sprint.
 - Add these items and related tasks to the milestone.
 - Go to your GitHub Project -> `Settings` -> `Custom fields` -> `Sprint`.
 - `Add iteration` for your current Sprint.
