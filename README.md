@@ -2686,7 +2686,7 @@ It is common practice for the Sprint Backlog User Stories (and associated tasks)
 
 From [^ScrumGuide]:
 
-A Sprint Goal communicates why the Sprint is valuable to [stakeholders](#stakeholders). The Sprint Goal must be finalized prior to the end of Sprint Planning.
+A Sprint Goal [communicates](#sprint-goal-template) why the Sprint is valuable to [stakeholders](#stakeholders). The Sprint Goal must be finalized prior to the end of Sprint Planning.
 
 The Sprint Goal also creates coherence and focus, encouraging the [Scrum Team](#scrum-team) to work together rather than on separate initiatives.
 
@@ -2694,11 +2694,13 @@ The purpose of the Daily Scrum is to inspect progress toward the Sprint Goal and
 
 A Sprint could be cancelled if the Sprint Goal becomes obsolete. Only the [Product Owner](#product-owner-po) has the authority to cancel the Sprint.
 
+#### Sprint Goal template
+
 A template for a Sprint Goal [^SprintGoalTemplate]:
 
 ```md
 Our focus is on <Outcome>.
-We believe it delivers <Impact> to <Customer>.
+We believe it delivers <Impact> to <Stakeholder>.
 This will be confirmed when <Event happens>.
 ```
 
