@@ -2684,6 +2684,8 @@ The Sprint Backlog is composed of the [Sprint Goal](#sprint-goal) (why), the set
 
 It is common practice for the Sprint Backlog [User Stories](#user-stories) (and associated tasks) to be represented on a [Scrumboard](#scrum-board) or [similar task board](#scrum-table), which provides a constantly visible depiction of the [current status](#issue-status) of the User Stories in the [Product Backlog](#product-backlog) [[^SbokGuide], Sec. 9.3.3.2, p. 220].
 
+See [Create a Sprint Backlog](#create-a-sprint-backlog).
+
 ### Sprint Goal
 
 From [^ScrumGuide]:
