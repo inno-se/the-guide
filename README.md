@@ -2680,7 +2680,7 @@ A Sprint is a Time-boxed iteration of one to four weeks in duration during which
 
 The Sprint Backlog is composed of the [Sprint Goal](#sprint-goal) (why), the set of [Product Backlog](#product-backlog) items selected for the [Sprint](#sprint) (what), as well as an actionable plan for delivering the Increment (how) [^ScrumGuide].
 
-It is common practice for the Sprint Backlog User Stories (and associated tasks) to be represented on a Scrumboard or [similar task board](#scrum-table), which provides a constantly visible depiction of the current status of the User Stories in the [Product Backlog](#product-backlog) [[^SbokGuide], Sec. 9.3.3.2, p. 220].
+It is common practice for the Sprint Backlog [User Stories](#user-stories) (and associated tasks) to be represented on a [Scrumboard](#scrum-board) or [similar task board](#scrum-table), which provides a constantly visible depiction of the [current status](#issue-status) of the User Stories in the [Product Backlog](#product-backlog) [[^SbokGuide], Sec. 9.3.3.2, p. 220].
 
 ### Sprint Goal
 
