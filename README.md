@@ -339,6 +339,7 @@ This repository provides a guide for managing the development of a software proj
     - [Sprint Backlog](#sprint-backlog)
     - [Sprint Goal](#sprint-goal)
       - [Sprint Goal template](#sprint-goal-template)
+    - [Create a Sprint Backlog](#create-a-sprint-backlog)
     - [Sprint tracking sheet](#sprint-tracking-sheet)
   - [Work item hierarchy](#work-item-hierarchy)
   - [Issues](#issues)
@@ -2718,6 +2719,20 @@ Our focus is on implementing user sign-up and login.
 We believe it delivers secure and personalized access to new users.
 This will be confirmed when a user can register, log in, and stay authenticated.
 ```
+
+### Create a Sprint Backlog
+
+Create a [Sprint Backlog](#sprint-backlog) for the current [Sprint](#sprint):
+
+- Create a [milestone](#milestones) for the current Sprint on GitHub.
+- Define the [Sprint Goal](#sprint-goal) using the [Sprint Goal template](#sprint-goal-template).
+- Add the [Sprint Goal](#sprint-goal) to the milestone description.
+- Choose [Product Backlog](#product-backlog) items to work on in this Sprint.
+- Add these items and related tasks to the milestone.
+- Go to your GitHub Project -> `Settings` -> `Custom fields` -> `Sprint`.
+- `Add iteration` for your current Sprint.
+- Set `Sprint` to the current Sprint in all the Sprint Backlog items.
+
 
 ### Sprint tracking sheet
 
