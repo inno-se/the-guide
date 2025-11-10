@@ -3035,9 +3035,7 @@ This project allows for planning and tracking the progress of [type `Epic`](#epi
 * All acceptance criteria specified in the issue were met on that version.
 ```
 
-<a id="roadmap-table"></a>
-
-### View `Table`
+### View `Table` <a id="roadmap-table"></a>
 
 [Link](https://github.com/orgs/inno-se/projects/5/views/5)
 
@@ -3163,9 +3161,7 @@ B) Otherwise:
 * All acceptance criteria specified in the issue were met.
 ```
 
-<a id="product-backlog-table"></a>
-
-### View `Table`
+### View `Table` <a id="product-backlog-table"></a>
 
 [Link](https://github.com/orgs/inno-se/projects/2/views/2)
 
@@ -3298,9 +3294,7 @@ B) Otherwise:
 * All acceptance criteria specified in the issue were met.
 ```
 
-<a id="tasks-table"></a>
-
-### View `Table`
+### View `Table` <a id="tasks-table"></a>
 
 [Link](https://github.com/orgs/inno-se/projects/2/views/2)
 
