@@ -2979,11 +2979,11 @@ This design is inspired by the ETVX process model [[^GqmGuide], Sec. 6.3, p. 59]
 
 [Link](https://github.com/orgs/inno-se/projects/5)
 
-This project allows for planning and tracking the progress of [type `Epic`](#epic) issues.
+This project allows for planning the execution and tracking the progress of [type `Epic`](#epic) issues.
 
 ### Limitations
 
-- The `Start` and `Finish` fields must be (manually) synchronized with start and finish dates of related type `Backlog` issues.
+- The `Start` and `Finish` fields must be (manually) synchronized with start and finish dates of related [type `Backlog`](#backlog) issues (see [Project `Product Backlog`](#project-product-backlog)).
 
 ### Project settings
 
