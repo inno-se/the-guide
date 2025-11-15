@@ -340,7 +340,6 @@ This repository provides a guide for managing the development of a software proj
     - [Sprint Goal](#sprint-goal)
       - [Sprint Goal template](#sprint-goal-template)
     - [Create a Sprint Backlog](#create-a-sprint-backlog)
-    - [Sprint tracking sheet](#sprint-tracking-sheet)
   - [Work item hierarchy](#work-item-hierarchy)
   - [Issues](#issues)
     - [Sample issues](#sample-issues)
