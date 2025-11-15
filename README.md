@@ -270,6 +270,10 @@ This repository provides a guide for managing the development of a software proj
     - [QA scenarios and tests](#qa-scenarios-and-tests)
     - [Formal methods](#formal-methods)
     - [Testing](#testing)
+  - [Automation](#automation)
+    - [Deployment](#deployment)
+    - [Continuous deployment](#continuous-deployment)
+    - [Continuous delivery](#continuous-delivery)
   - [Development tools](#development-tools)
   - [Development environment as code](#development-environment-as-code)
     - [VS Code](#vs-code)
@@ -2081,6 +2085,19 @@ See:
 
 - *Software Testing* [[^Swebok], Ch. 05]
 
+## Automation
+
+### Deployment
+
+*Deployment* is a process that starts with coding and ends with real users interacting with the system in a production environment.
+
+### Continuous deployment
+
+If this process (see [Deployment](#deployment)) is fully automated — that is, if there is no human intervention — then it is called *continuous deployment* [[^Bck], Sec. 5.1, p. 72].
+
+### Continuous delivery
+
+If the process (see [Deployment](#deployment)) is automated up to the point of placing (portions of) the system into production and human intervention is required (perhaps due to regulations or policies) for this final step, the process is called *continuous delivery* [[^Bck], Sec. 5.1, p. 72].
 
 ## Development tools
 
