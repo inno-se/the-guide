@@ -2724,6 +2724,8 @@ This will be confirmed when a user can register, log in, and stay authenticated.
 
 ### Create a Sprint Backlog
 
+[Sprint Backlog example](https://github.com/inno-se/the-guide/milestone/2).
+
 Create a [Sprint Backlog](#sprint-backlog) for the current [Sprint](#sprint):
 
 - Create a [milestone](#milestones) for the current Sprint on GitHub.
