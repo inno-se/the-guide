@@ -332,7 +332,7 @@ This repository provides a guide for managing the development of a software proj
     - [Non-core roles](#non-core-roles)
     - [Tuckman model](#tuckman-model)
     - [Conflict resolution](#conflict-resolution)
-      - [Team lead](#team-lead)
+    - [Team lead](#team-lead)
     - [Events](#events)
     - [Artifacts and commitments](#artifacts-and-commitments)
     - [Sprint](#sprint)
