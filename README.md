@@ -2646,7 +2646,7 @@ Sources of conflict evolve primarily due to schedules, priorities, resources, re
 
 It is usually best for team members to face problems directly with a cooperative attitude and an open dialogue to work through any disagreements to reach consensus (Win-Win approach) [[^SbokGuide], Sec. 3.9.3, p. 74].
 
-#### Team lead
+### Team lead
 
 At the start of the project, [architectural](#architectural-decision-ad) and other technical decisions need to be made.
 
