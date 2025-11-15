@@ -3034,7 +3034,9 @@ This project allows for planning the execution and tracking the progress of [typ
 * All acceptance criteria specified in the issue were met on that version.
 ```
 
-### View `Table` <a id="roadmap-table"></a>
+<a id="roadmap-table"></a>
+
+### View `Table`
 
 [Link](https://github.com/orgs/inno-se/projects/5/views/5)
 
@@ -3160,7 +3162,9 @@ B) Otherwise:
 * All acceptance criteria specified in the issue were met.
 ```
 
-### View `Table` <a id="product-backlog-table"></a>
+<a id="product-backlog-table"></a>
+
+### View `Table`
 
 [Link](https://github.com/orgs/inno-se/projects/2/views/2)
 
@@ -3293,7 +3297,9 @@ B) Otherwise:
 * All acceptance criteria specified in the issue were met.
 ```
 
-### View `Table` <a id="tasks-table"></a>
+<a id="tasks-table"></a>
+
+### View `Table`
 
 [Link](https://github.com/orgs/inno-se/projects/2/views/2)
 
