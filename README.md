@@ -2100,11 +2100,11 @@ Code is developed in a *development environment* for a single module where it is
 
 #### Integration environment
 
-An *integration environment* builds an executable version of your service. A continuous integration server compiles1 your new or changed code, along with the latest compatible versions of code for other portions of your service and constructs an executable image for your service.2 Tests in the integration environment include the unit tests from the various modules (now run against the built system), as well as integration tests designed specifically for the whole system. When the various tests are passed, the built service is promoted to the staging environment. [[^Bck], Sec. 5.1, p. 72]
+An *integration environment* builds an executable version of your service. A continuous integration server compiles your new or changed code, along with the latest compatible versions of code for other portions of your service and constructs an executable image for your service. Tests in the integration environment include the unit tests from the various modules (now run against the built system), as well as integration tests designed specifically for the whole system. When the various tests are passed, the built service is promoted to the staging environment. [[^Bck], Sec. 5.1, p. 72]
 
 #### Staging environment
 
-A *staging environment* tests for various qualities of the total system. These include performance testing, security testing, license conformance checks, and possibly user testing. Forembedded systems, this is where simulators of the physical environment (feeding syntheticinputs to the system) are brought to bear. An application that passes all staging environment tests — which may include field testing — is deployed to the production environment,using either a blue/green model or a rolling upgrade (see Section 5.6). In some cases, partial deployments are used for quality control or to test the market response to a proposedchange or offering. [[^Bck], Sec. 5.1, p. 72]
+A *staging environment* tests for various qualities of the total system. These include performance testing, security testing, license conformance checks, and possibly user testing. For embedded systems, this is where simulators of the physical environment (feeding synthetic inputs to the system) are brought to bear. An application that passes all staging environment tests — which may include field testing — is deployed to the production environment, using either a blue/green model or a rolling upgrade (see Section 5.6). In some cases, partial deployments are used for quality control or to test the market response to a proposedchange or offering. [[^Bck], Sec. 5.1, p. 72]
 
 #### Production environment
 
