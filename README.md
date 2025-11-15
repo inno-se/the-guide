@@ -271,6 +271,11 @@ This repository provides a guide for managing the development of a software proj
     - [Formal methods](#formal-methods)
     - [Testing](#testing)
   - [Automation](#automation)
+    - [Environments](#environments)
+      - [Development environment](#development-environment)
+      - [Integration environment](#integration-environment)
+      - [Staging environment](#staging-environment)
+      - [Production environment](#production-environment)
     - [Deployment](#deployment)
     - [Continuous deployment](#continuous-deployment)
     - [Continuous delivery](#continuous-delivery)
@@ -2087,9 +2092,27 @@ See:
 
 ## Automation
 
+### Environments
+
+#### Development environment
+
+Code is developed in a *development environment* for a single module where it is subject to standalone unit tests. Once it passes the tests, and after appropriate review, the code is committed to a version control system that triggers the build activities in the integration environment. [[^Bck], Sec. 5.1, p. 72]
+
+#### Integration environment
+
+An *integration environment* builds an executable version of your service. A continuous integration server compiles1 your new or changed code, along with the latest compatible versions of code for other portions of your service and constructs an executable image for your service.2 Tests in the integration environment include the unit tests from the various modules (now run against the built system), as well as integration tests designed specifically for the whole system. When the various tests are passed, the built service is promoted to the staging environment. [[^Bck], Sec. 5.1, p. 72]
+
+#### Staging environment
+
+A *staging environment* tests for various qualities of the total system. These include performance testing, security testing, license conformance checks, and possibly user testing. Forembedded systems, this is where simulators of the physical environment (feeding syntheticinputs to the system) are brought to bear. An application that passes all staging environment tests — which may include field testing — is deployed to the production environment,using either a blue/green model or a rolling upgrade (see Section 5.6). In some cases, partial deployments are used for quality control or to test the market response to a proposedchange or offering. [[^Bck], Sec. 5.1, p. 72]
+
+#### Production environment
+
+Once in the *production environment*, the service is monitored closely until all parties have some level of confidence in its quality. At that point, it is considered a normal part of the system and receives the same amount of attention as the other parts of the system. [[^Bck], Sec. 5.1, p. 72]
+
 ### Deployment
 
-*Deployment* is a process that starts with coding and ends with real users interacting with the system in a production environment.
+*Deployment* is a process that starts with coding and ends with real users interacting with the system in a [production environment](#production-environment).
 
 ### Continuous deployment
 
@@ -2097,7 +2120,7 @@ If this process (see [Deployment](#deployment)) is fully automated — that is, 
 
 ### Continuous delivery
 
-If the process (see [Deployment](#deployment)) is automated up to the point of placing (portions of) the system into production and human intervention is required (perhaps due to regulations or policies) for this final step, the process is called *continuous delivery* [[^Bck], Sec. 5.1, p. 72].
+If the process (see [Deployment](#deployment)) is automated up to the point of placing (portions of) the system into [production](#production-environment) and human intervention is required (perhaps due to regulations or policies) for this final step, the process is called *continuous delivery* [[^Bck], Sec. 5.1, p. 72].
 
 ## Development tools
 
