@@ -2738,11 +2738,9 @@ Create a [Sprint Backlog](#sprint-backlog) for the current [Sprint](#sprint):
 - Set `Sprint` to the current Sprint in all the Sprint Backlog items.
 
 
-### Sprint tracking sheet
 
-Record certain information about sprint activities to be able to improve and see progress.
 
-Use this [template](https://docs.google.com/spreadsheets/d/13gyIubyAh7xs3t6kEXFNoJiOxuWwGo9ck0cPleS7Ef8/edit?usp=sharing).
+
 
 
 ## Work item hierarchy
