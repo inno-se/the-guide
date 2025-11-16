@@ -2104,7 +2104,7 @@ An *integration environment* builds an executable version of your service. A con
 
 #### Staging environment
 
-A *staging environment* tests for various qualities of the total system. These include performance testing, security testing, license conformance checks, and possibly user testing. For embedded systems, this is where simulators of the physical environment (feeding synthetic inputs to the system) are brought to bear. An application that passes all staging environment tests — which may include field testing — is deployed to the production environment, using either a blue/green model or a rolling upgrade (see Section 5.6). In some cases, partial deployments are used for quality control or to test the market response to a proposedchange or offering. [[^Bck], Sec. 5.1, p. 72]
+A *staging environment* tests for various qualities of the total system. These include performance testing, security testing, license conformance checks, and possibly user testing. For embedded systems, this is where simulators of the physical environment (feeding synthetic inputs to the system) are brought to bear. An application that passes all staging environment tests — which may include field testing — is deployed to the production environment, using either a blue/green model or a rolling upgrade (see Section 5.6). In some cases, partial deployments are used for quality control or to test the market response to a proposed change or offering. [[^Bck], Sec. 5.1, p. 72]
 
 #### Production environment
 
