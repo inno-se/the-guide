@@ -538,8 +538,9 @@ All individuals and groups affected by the Scrum project, both within and outsid
 
 In your course, stakeholders are usually:
 
-- course instructors;
 - your customer;
+- course instructors;
+- your team;
 - users of your product.
 
 ## story points
